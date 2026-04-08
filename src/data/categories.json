@@ -1,0 +1,8 @@
+[
+  { "id": "fairy_tale", "slug": "kazky", "label": "Казки", "icon": "✨" },
+  { "id": "fable", "slug": "bayky", "label": "Байки", "icon": "🦊" },
+  { "id": "poetry", "slug": "poeziya", "label": "Поезія", "icon": "📜" },
+  { "id": "classic", "slug": "klasyka", "label": "Класика", "icon": "📚" },
+  { "id": "legal", "slug": "pravo", "label": "Право", "icon": "⚖️" },
+  { "id": "historical", "slug": "istoriya", "label": "Історія", "icon": "🏛️" }
+]

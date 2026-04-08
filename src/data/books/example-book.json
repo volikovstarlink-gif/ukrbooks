@@ -1,0 +1,18 @@
+{
+  "id": "kazka-pro-rukavychku",
+  "title": "Казка про рукавичку",
+  "slug": "kazka-pro-rukavychku",
+  "author": "Народна казка",
+  "genre": "fairy_tale",
+  "priority": "P0",
+  "audience": "kids",
+  "language": "uk",
+  "description": "Українська народна казка про рукавичку.",
+  "year": null,
+  "keywords": ["казка", "народна казка", "переказ"],
+  "files": {
+    "txt": "/books/kazka-pro-rukavychku.txt"
+  },
+  "cover": "/covers/placeholder.webp",
+  "featured": false
+}
