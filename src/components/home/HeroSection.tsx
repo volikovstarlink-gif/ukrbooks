@@ -49,7 +49,7 @@ export default function HeroSection({ totalBooks }: { totalBooks: number }) {
           <div className="flex items-center gap-6 mt-8 text-sm text-white/50">
             <div className="flex items-center gap-1.5">
               <Download size={14} />
-              <span>Безкоштовно</span>
+              <span>Без реєстрації</span>
             </div>
             <div className="flex items-center gap-1.5">
               <BookOpen size={14} />
