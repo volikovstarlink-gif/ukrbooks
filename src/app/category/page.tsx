@@ -3,9 +3,14 @@ import Link from 'next/link';
 import { getAllCategories, getAllBooks } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
 
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
+
 export const metadata: Metadata = {
-  title: 'Категорії книг',
-  description: 'Переглядайте книги за жанрами та категоріями.',
+  title: 'Категорії книг — жанри та теми | UkrBooks',
+  description:
+    'Вибирайте книги за жанром: українська класика, фантастика, детективи, поезія, дитячі книги та інші категорії. Завантаження EPUB та FB2.',
+  keywords: ['жанри книг', 'категорії', 'українська класика', 'фантастика', 'детективи', 'дитячі книги'],
+  alternates: { canonical: `${BASE}/category` },
 };
 
 export default function CategoriesPage() {

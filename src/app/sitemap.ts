@@ -22,9 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   return [
-    { url: BASE, lastModified: new Date(), changeFrequency: 'daily', priority: 1 },
-    { url: `${BASE}/catalog`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.9 },
+    { url: BASE,               lastModified: new Date(), changeFrequency: 'daily',  priority: 1.0 },
+    { url: `${BASE}/catalog`,  lastModified: new Date(), changeFrequency: 'daily',  priority: 0.9 },
     { url: `${BASE}/category`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/dmca`,     lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
     ...categoryUrls,
     ...bookUrls,
   ];

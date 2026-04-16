@@ -18,17 +18,34 @@ const manrope = Manrope({
   display: 'swap',
 });
 
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink'),
+  metadataBase: new URL(BASE),
   title: {
-    default: 'UkrBooks — Безкоштовна бібліотека українських книг',
+    default: 'UkrBooks — Бібліотека українських книг | EPUB та FB2',
     template: '%s | UkrBooks',
   },
-  description: 'Безкоштовна онлайн-бібліотека. Завантажуйте українські книги у форматах EPUB та FB2.',
+  description:
+    'Онлайн-бібліотека українських книг. Тисячі творів у форматах EPUB та FB2. Без реєстрації.',
+  keywords: ['українські книги', 'epub', 'fb2', 'електронна бібліотека', 'ukrbooks'],
+  authors: [{ name: 'UkrBooks', url: BASE }],
+  creator: 'UkrBooks',
+  publisher: 'UkrBooks',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+  },
   openGraph: {
     siteName: 'UkrBooks',
     locale: 'uk_UA',
     type: 'website',
+    url: BASE,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@ukrbooks',
   },
 };
 

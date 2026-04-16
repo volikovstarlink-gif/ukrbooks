@@ -2,13 +2,16 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { BookOpen, Calendar, Tag, ArrowLeft } from 'lucide-react';
+import { BookOpen, Calendar, Tag, ArrowLeft, Home, ChevronRight } from 'lucide-react';
 import { getAllBookSlugs, getBookBySlug, getRelatedBooks, getAllCategories, getDownloadUrl } from '@/lib/books';
 import { getCoverUrl } from '@/lib/utils';
+import { bookJsonLd, bookBreadcrumbJsonLd } from '@/lib/jsonld';
 import BookCard from '@/components/books/BookCard';
 import Badge from '@/components/ui/Badge';
 import DownloadSection from '@/components/download/DownloadSection';
 import type { DownloadItem } from '@/components/download/DownloadSection';
+
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -22,13 +25,38 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const book = getBookBySlug(slug);
   if (!book) return { title: 'Книгу не знайдено' };
+
+  const categories = getAllCategories();
+  const category = categories.find((c) => c.slug === book.category);
+  const formats = book.files.map(f => f.format.toUpperCase()).join(' та ');
+  const title = `${book.title} — ${book.author} | Завантажити ${formats}`;
+  const description = book.shortDescription
+    ? `${book.shortDescription} Завантажити «${book.title}» у форматі ${formats}${book.year ? `, ${book.year}` : ''}.`
+    : `Завантажити «${book.title}» — ${book.author} у форматах ${formats}. ${category?.name || ''}. Без реєстрації.`;
+
+  const coverUrl = book.coverImage !== '/covers/placeholder.jpg'
+    ? (book.coverImage.startsWith('http') ? book.coverImage : `${BASE}${book.coverImage}`)
+    : undefined;
+
   return {
-    title: `${book.title} — ${book.author}`,
-    description: book.shortDescription || `Завантажте «${book.title}» безкоштовно у форматах EPUB та FB2.`,
+    title,
+    description,
+    keywords: [
+      book.title,
+      book.author,
+      `${book.title} epub`,
+      `${book.title} fb2`,
+      `${book.author} книги`,
+      `завантажити ${book.title}`,
+      ...(book.tags || []),
+    ],
+    alternates: { canonical: `${BASE}/book/${slug}` },
     openGraph: {
-      title: book.title,
-      description: book.shortDescription || '',
-      images: book.coverImage !== '/covers/placeholder.jpg' ? [book.coverImage] : [],
+      title: `${book.title} — ${book.author}`,
+      description,
+      url: `${BASE}/book/${slug}`,
+      type: 'book',
+      ...(coverUrl ? { images: [{ url: coverUrl, alt: book.title }] } : {}),
     },
   };
 }
@@ -45,18 +73,43 @@ export default async function BookPage({ params }: Props) {
   const categories = getAllCategories();
   const category = categories.find((c) => c.slug === book.category);
 
+  const ldBook = bookJsonLd({
+    ...book,
+    categoryName: category?.name,
+    description: book.description,
+  });
+
+  const ldBreadcrumb = bookBreadcrumbJsonLd({
+    title: book.title,
+    slug: book.slug,
+    categorySlug: book.category,
+    categoryName: category?.name || 'Каталог',
+  });
+
   return (
     <div style={{ background: 'var(--color-cream)', minHeight: '100vh' }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ldBook) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ldBreadcrumb) }} />
+
       {/* Hero */}
       <div style={{ background: 'linear-gradient(135deg, var(--color-ink) 0%, var(--color-sapphire) 100%)' }}>
         <div className="container-site py-8">
-          <Link
-            href="/catalog"
-            className="inline-flex items-center gap-2 text-sm text-white/60 hover:text-white mb-6 transition-colors"
-          >
-            <ArrowLeft size={14} />
-            Назад до каталогу
-          </Link>
+          {/* Breadcrumbs */}
+          <nav aria-label="Навігація" className="flex items-center gap-1.5 text-xs text-white/50 mb-6 flex-wrap">
+            <Link href="/" className="hover:text-white transition-colors flex items-center gap-1">
+              <Home size={11} />Головна
+            </Link>
+            <ChevronRight size={11} />
+            <Link href="/catalog" className="hover:text-white transition-colors">Каталог</Link>
+            {category && (
+              <>
+                <ChevronRight size={11} />
+                <Link href={`/category/${category.slug}`} className="hover:text-white transition-colors">{category.name}</Link>
+              </>
+            )}
+            <ChevronRight size={11} />
+            <span className="text-white/80 truncate max-w-[200px]">{book.title}</span>
+          </nav>
 
           <div className="flex flex-col sm:flex-row gap-8">
             {/* Cover */}
@@ -64,7 +117,7 @@ export default async function BookPage({ params }: Props) {
               <div className="relative w-36 sm:w-44 aspect-[2/3] rounded-xl overflow-hidden shadow-2xl mx-auto sm:mx-0">
                 <Image
                   src={getCoverUrl(book.coverImage)}
-                  alt={book.title}
+                  alt={`${book.title} — обкладинка книги`}
                   fill
                   sizes="180px"
                   className="object-cover"
@@ -104,14 +157,13 @@ export default async function BookPage({ params }: Props) {
                 ))}
               </div>
 
-              {/* Download warning notice */}
+              {/* Download warning */}
               <div className="flex items-center gap-2 mb-3 px-3 py-2 rounded-lg text-xs"
                 style={{ background: 'rgba(251,191,36,0.12)', border: '1px solid rgba(251,191,36,0.3)', color: 'rgba(251,191,36,0.9)' }}>
                 <span>⚠️</span>
-                <span>Для безкоштовного завантаження потрібно переглянути <strong>2 коротких рекламних ролики</strong></span>
+                <span>Для завантаження потрібно переглянути <strong>2 коротких рекламних ролики</strong></span>
               </div>
 
-              {/* Download buttons with ad gate */}
               <DownloadSection
                 items={book.files.map((file): DownloadItem => ({
                   format: file.format,
@@ -132,10 +184,7 @@ export default async function BookPage({ params }: Props) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             {book.description ? (
-              <div
-                className="rounded-xl p-6"
-                style={{ background: '#fff', border: '1px solid var(--color-border)' }}
-              >
+              <div className="rounded-xl p-6" style={{ background: '#fff', border: '1px solid var(--color-border)' }}>
                 <h2 className="font-display text-xl font-semibold mb-4">Про книгу</h2>
                 <div
                   className="prose prose-sm max-w-none text-gray-700 leading-relaxed"
@@ -143,34 +192,23 @@ export default async function BookPage({ params }: Props) {
                 />
               </div>
             ) : (
-              <div
-                className="rounded-xl p-6 text-center text-gray-400"
-                style={{ background: '#fff', border: '1px solid var(--color-border)' }}
-              >
+              <div className="rounded-xl p-6 text-center text-gray-400" style={{ background: '#fff', border: '1px solid var(--color-border)' }}>
                 <BookOpen size={32} className="mx-auto mb-2 opacity-30" />
                 <p>Опис відсутній</p>
               </div>
             )}
           </div>
 
-          {/* Metadata sidebar */}
-          <div>
-            <div
-              className="rounded-xl p-5 space-y-3"
-              style={{ background: '#fff', border: '1px solid var(--color-border)' }}
-            >
-              <h3 className="font-semibold text-sm uppercase tracking-wider" style={{ color: 'var(--color-muted)' }}>
-                Деталі
-              </h3>
+          {/* Sidebar */}
+          <div className="space-y-4">
+            <div className="rounded-xl p-5 space-y-3" style={{ background: '#fff', border: '1px solid var(--color-border)' }}>
+              <h3 className="font-semibold text-sm uppercase tracking-wider" style={{ color: 'var(--color-muted)' }}>Деталі</h3>
               {[
                 { label: 'Автор', value: book.author },
                 { label: 'Мова', value: LANGUAGE_LABEL[book.language] || book.language },
                 { label: 'Рік', value: book.year?.toString() },
                 { label: 'Категорія', value: category?.name },
-                {
-                  label: 'Формати',
-                  value: book.files.map((f) => FORMAT_LABEL[f.format]).join(', '),
-                },
+                { label: 'Формати', value: book.files.map((f) => FORMAT_LABEL[f.format]).join(', ') },
               ]
                 .filter((r) => r.value)
                 .map(({ label, value }) => (
@@ -180,10 +218,26 @@ export default async function BookPage({ params }: Props) {
                   </div>
                 ))}
             </div>
+
+            {/* Tags */}
+            {book.tags && book.tags.length > 0 && (
+              <div className="rounded-xl p-5" style={{ background: '#fff', border: '1px solid var(--color-border)' }}>
+                <h3 className="font-semibold text-sm uppercase tracking-wider mb-3" style={{ color: 'var(--color-muted)' }}>Теги</h3>
+                <div className="flex flex-wrap gap-2">
+                  {book.tags.map(tag => (
+                    <Link key={tag} href={`/catalog?q=${encodeURIComponent(tag)}`}
+                      className="text-xs px-2 py-1 rounded-full transition-colors"
+                      style={{ background: 'var(--color-cream)', border: '1px solid var(--color-border)', color: 'var(--color-muted)' }}>
+                      {tag}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Related books */}
+        {/* Related */}
         {related.length > 0 && (
           <section className="mt-10">
             <h2 className="section-title mb-6">Схожі книги</h2>
