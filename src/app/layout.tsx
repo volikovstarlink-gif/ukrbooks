@@ -4,7 +4,6 @@ import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import BannerAd from '@/components/ads/BannerAd';
 
 const playfair = Playfair_Display({
   subsets: ['latin', 'cyrillic'],
@@ -61,7 +60,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Preconnect to critical third-party origins */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://quge5.com" />
         {/* PWA manifest + theme */}
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#1a1a2e" />
@@ -75,14 +73,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* hreflang for Ukrainian */}
         <link rel="alternate" hrefLang="uk" href={BASE} />
         <link rel="alternate" hrefLang="x-default" href={BASE} />
-        {/* Monetag Multitag — inline in <head> for crawler visibility */}
-        {/* eslint-disable-next-line @next/next/no-before-interactive-script-outside-document */}
-        <script src="https://quge5.com/88/tag.min.js" data-zone="230583" async data-cfasync="false" />
       </head>
       <body>
         <Header />
-        {/* Banner ad under header — visible on all pages */}
-        <BannerAd className="py-2" />
         <main>{children}</main>
         <Footer />
         {GA_ID && (
