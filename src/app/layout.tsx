@@ -65,9 +65,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* PWA manifest + theme */}
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#1a1a2e" />
+        <meta name="application-name" content="UkrBooks" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="UkrBooks" />
         <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+        {/* Modern SVG favicon */}
+        <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
         {/* hreflang for Ukrainian */}
         <link rel="alternate" hrefLang="uk" href={BASE} />
         <link rel="alternate" hrefLang="x-default" href={BASE} />

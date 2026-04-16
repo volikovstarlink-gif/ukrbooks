@@ -155,7 +155,9 @@ export function organizationJsonLd() {
     url: BASE,
     logo: {
       '@type': 'ImageObject',
-      url: `${BASE}/favicon.ico`,
+      url: `${BASE}/icons/icon-512.png`,
+      width: 512,
+      height: 512,
     },
     description:
       'Онлайн-бібліотека українських книг. Тисячі книг у форматах EPUB та FB2.',
