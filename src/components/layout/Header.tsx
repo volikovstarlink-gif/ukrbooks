@@ -8,6 +8,7 @@ const NAV = [
   { href: '/', label: 'Головна' },
   { href: '/catalog', label: 'Каталог' },
   { href: '/category', label: 'Категорії' },
+  { href: '/author', label: 'Автори' },
 ];
 
 export default function Header() {

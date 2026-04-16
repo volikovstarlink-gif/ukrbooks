@@ -44,6 +44,7 @@ export default function Footer() {
                 { href: '/', label: 'Головна' },
                 { href: '/catalog', label: 'Каталог книг' },
                 { href: '/category', label: 'Жанри та категорії' },
+                { href: '/author', label: 'Автори' },
               ].map(({ href, label }) => (
                 <Link key={href} href={href} className="hover:text-white transition-colors">
                   {label}
