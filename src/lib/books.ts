@@ -53,3 +53,44 @@ export const getDownloadUrl = (filename: string, fileDir: string): string => {
   const base = process.env.NEXT_PUBLIC_BOOKS_BASE_URL || '/api/download';
   return `${base}/${encodeURIComponent(fileDir)}/${encodeURIComponent(filename)}`;
 };
+
+/** Convert author name to URL-safe slug */
+export const authorToSlug = (author: string): string =>
+  author
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-zа-яёіїєґ0-9-]/gu, '')
+    .replace(/-+/g, '-')
+    .trim();
+
+export interface AuthorSummary {
+  name: string;
+  slug: string;
+  bookCount: number;
+  books: Omit<Book, 'description'>[];
+}
+
+export const getAllAuthors = cache((): AuthorSummary[] => {
+  const map = new Map<string, Omit<Book, 'description'>[]>();
+  for (const { description: _d, ...book } of index.books) {
+    const existing = map.get(book.author) ?? [];
+    existing.push(book);
+    map.set(book.author, existing);
+  }
+  return Array.from(map.entries())
+    .map(([name, books]) => ({
+      name,
+      slug: authorToSlug(name),
+      bookCount: books.length,
+      books,
+    }))
+    .sort((a, b) => b.bookCount - a.bookCount);
+});
+
+export const getAuthorBySlug = cache((slug: string): AuthorSummary | undefined =>
+  getAllAuthors().find((a) => a.slug === slug)
+);
+
+export const getAllAuthorSlugs = cache((): string[] =>
+  getAllAuthors().map((a) => a.slug)
+);

@@ -2,9 +2,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Download, X, Play, CheckCircle, Loader2 } from 'lucide-react';
 
-// Monetag OnClick (Popunder) zone — fires automatically on page click
-// The Multitag script (zone 230583) handles popunders on every click
-const POPUNDER_ZONE = process.env.NEXT_PUBLIC_MONETAG_POPUNDER_ZONE || '10886945';
+// Monetag Multitag (zone 230583) is loaded globally in layout.tsx.
+// It fires a popunder on every real user click automatically —
+// no need to inject additional scripts here.
 
 const AD_DURATION_SECONDS = 15;
 const TOTAL_ADS = 2;
@@ -59,22 +59,12 @@ export default function DownloadGate({
     return () => clearInterval(intervalRef.current!);
   }, [phase, adsWatched]);
 
-  // Inject Monetag popunder script to fire ad on next user interaction
-  const fireAd = useCallback(() => {
-    const s = document.createElement('script');
-    s.src = 'https://quge5.com/88/tag.min.js';
-    s.async = true;
-    s.setAttribute('data-zone', POPUNDER_ZONE);
-    s.setAttribute('data-cfasync', 'false');
-    document.head.appendChild(s);
-  }, []);
-
   const startAd = useCallback(() => {
     setPhase('ad');
     setCountdown(AD_DURATION_SECONDS);
     setCanProceed(false);
-    fireAd();
-  }, [fireAd]);
+    // Multitag fires popunder on this click automatically
+  }, []);
 
   const handleNextAd = useCallback(() => {
     const nextCount = adsWatched + 1;
@@ -84,9 +74,9 @@ export default function DownloadGate({
     } else {
       setCountdown(AD_DURATION_SECONDS);
       setCanProceed(false);
-      fireAd();
+      // Multitag fires popunder on this click automatically
     }
-  }, [adsWatched, fireAd]);
+  }, [adsWatched]);
 
   const triggerDownload = useCallback(() => {
     if (downloadLinkRef.current) {

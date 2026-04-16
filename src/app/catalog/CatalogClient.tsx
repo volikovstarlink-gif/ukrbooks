@@ -1,5 +1,6 @@
 'use client';
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import { Search, X, SlidersHorizontal } from 'lucide-react';
 import type { Book, Category } from '@/types/book';
 type BookSummary = Omit<Book, 'description'>;
@@ -28,13 +29,43 @@ const SORT_OPTIONS = [
 interface Props { books: BookSummary[]; categories: Category[]; }
 
 export default function CatalogClient({ books, categories }: Props) {
-  const [query, setQuery] = useState('');
-  const [category, setCategory] = useState('');
-  const [language, setLanguage] = useState('');
-  const [format, setFormat] = useState('');
-  const [sort, setSort] = useState('title');
-  const [page, setPage] = useState(1);
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  // Derive state from URL params (single source of truth)
+  const query    = searchParams.get('q') || '';
+  const category = searchParams.get('category') || '';
+  const language = searchParams.get('language') || '';
+  const format   = searchParams.get('format') || '';
+  const sort     = searchParams.get('sort') || 'title';
+  const page     = Math.max(1, Number(searchParams.get('page') || '1'));
+
   const [filtersOpen, setFiltersOpen] = useState(false);
+
+  // Helper — update one or more URL params and reset to page 1
+  const updateParams = useCallback((updates: Record<string, string>, resetPage = true) => {
+    const params = new URLSearchParams(searchParams.toString());
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value) params.set(key, value);
+      else params.delete(key);
+    });
+    if (resetPage) params.delete('page');
+    router.push(`${pathname}?${params.toString()}`, { scroll: false });
+  }, [searchParams, router, pathname]);
+
+  const setQuery    = useCallback((v: string) => updateParams({ q: v }), [updateParams]);
+  const setCategory = useCallback((v: string) => updateParams({ category: v }), [updateParams]);
+  const setLanguage = useCallback((v: string) => updateParams({ language: v }), [updateParams]);
+  const setFormat   = useCallback((v: string) => updateParams({ format: v }), [updateParams]);
+  const setSort     = useCallback((v: string) => updateParams({ sort: v === 'title' ? '' : v }), [updateParams]);
+  const setPage     = useCallback((p: number) => updateParams({ page: p > 1 ? String(p) : '' }, false), [updateParams]);
+
+  const resetFilters = useCallback(() => {
+    router.push(pathname, { scroll: false });
+  }, [router, pathname]);
+
+  const hasFilters = Boolean(query || category || language || format);
 
   const filtered = useMemo(() => {
     let result = query ? searchBooks(books, query) : [...books];
@@ -54,11 +85,8 @@ export default function CatalogClient({ books, categories }: Props) {
   }, [books, query, category, language, format, sort]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-  const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-  const resetFilters = useCallback(() => {
-    setQuery(''); setCategory(''); setLanguage(''); setFormat(''); setSort('title'); setPage(1);
-  }, []);
-  const hasFilters = Boolean(query || category || language || format);
+  const safePage = Math.min(page, Math.max(1, totalPages));
+  const paginated = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
 
   return (
     <div style={{ background: 'var(--color-cream)', minHeight: '100vh' }}>
@@ -72,9 +100,9 @@ export default function CatalogClient({ books, categories }: Props) {
         <div className="flex gap-6">
           <aside className="hidden lg:block w-56 flex-shrink-0">
             <FilterPanel categories={categories} category={category}
-              setCategory={(v) => { setCategory(v); setPage(1); }}
-              language={language} setLanguage={(v) => { setLanguage(v); setPage(1); }}
-              format={format} setFormat={(v) => { setFormat(v); setPage(1); }}
+              setCategory={setCategory}
+              language={language} setLanguage={setLanguage}
+              format={format} setFormat={setFormat}
               onReset={resetFilters} />
           </aside>
           <div className="flex-1 min-w-0">
@@ -82,17 +110,18 @@ export default function CatalogClient({ books, categories }: Props) {
               <div className="relative flex-1 min-w-[200px]">
                 <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
                 <input type="text" placeholder="Пошук за назвою, автором..."
-                  value={query} onChange={(e) => { setQuery(e.target.value); setPage(1); }}
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
                   className="w-full pl-9 pr-9 py-2.5 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400"
                   style={{ borderColor: 'var(--color-border)', background: '#fff' }} />
                 {query && (
-                  <button onClick={() => { setQuery(''); setPage(1); }}
+                  <button onClick={() => setQuery('')}
                     className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">
                     <X size={14} />
                   </button>
                 )}
               </div>
-              <select value={sort} onChange={(e) => { setSort(e.target.value); setPage(1); }}
+              <select value={sort} onChange={(e) => setSort(e.target.value)}
                 className="px-3 py-2.5 border rounded-lg text-sm bg-white focus:outline-none"
                 style={{ borderColor: 'var(--color-border)' }}>
                 {SORT_OPTIONS.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
@@ -109,19 +138,19 @@ export default function CatalogClient({ books, categories }: Props) {
               <div className="lg:hidden mb-4 p-4 rounded-lg border"
                 style={{ background: '#fff', borderColor: 'var(--color-border)' }}>
                 <FilterPanel categories={categories} category={category}
-                  setCategory={(v) => { setCategory(v); setPage(1); }}
-                  language={language} setLanguage={(v) => { setLanguage(v); setPage(1); }}
-                  format={format} setFormat={(v) => { setFormat(v); setPage(1); }}
+                  setCategory={setCategory}
+                  language={language} setLanguage={setLanguage}
+                  format={format} setFormat={setFormat}
                   onReset={resetFilters} />
               </div>
             )}
             {hasFilters && (
               <div className="flex flex-wrap gap-2 mb-4">
                 {category && <FilterChip label={categories.find(c => c.slug === category)?.name || category}
-                  onRemove={() => { setCategory(''); setPage(1); }} />}
+                  onRemove={() => setCategory('')} />}
                 {language && <FilterChip label={LANGUAGES.find(l => l.value === language)?.label || language}
-                  onRemove={() => { setLanguage(''); setPage(1); }} />}
-                {format && <FilterChip label={format.toUpperCase()} onRemove={() => { setFormat(''); setPage(1); }} />}
+                  onRemove={() => setLanguage('')} />}
+                {format && <FilterChip label={format.toUpperCase()} onRemove={() => setFormat('')} />}
                 <button onClick={resetFilters}
                   className="text-xs px-2 py-1 rounded-full text-red-600 border border-red-200 hover:bg-red-50">
                   Скинути все
@@ -136,7 +165,7 @@ export default function CatalogClient({ books, categories }: Props) {
                   {paginated.map((book) => <BookCard key={book.slug} book={book} />)}
                 </div>
                 {totalPages > 1 && (
-                  <Pagination page={page} totalPages={totalPages}
+                  <Pagination page={safePage} totalPages={totalPages}
                     onPageChange={(p) => { setPage(p); window.scrollTo({ top: 0, behavior: 'smooth' }); }} />
                 )}
               </>

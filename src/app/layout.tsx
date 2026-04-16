@@ -58,6 +58,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="uk" className={`${playfair.variable} ${manrope.variable}`}>
       <head>
+        {/* Preconnect to critical third-party origins */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://quge5.com" />
+        {/* PWA manifest + theme */}
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#1a1a2e" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+        {/* hreflang for Ukrainian */}
+        <link rel="alternate" hrefLang="uk" href={BASE} />
+        <link rel="alternate" hrefLang="x-default" href={BASE} />
         {/* Monetag Multitag — inline in <head> for crawler visibility */}
         {/* eslint-disable-next-line @next/next/no-before-interactive-script-outside-document */}
         <script src="https://quge5.com/88/tag.min.js" data-zone="230583" async data-cfasync="false" />

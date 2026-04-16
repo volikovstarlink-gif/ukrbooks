@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import { getAllBooksSummary, getAllCategories } from '@/lib/books';
 import CatalogClient from './CatalogClient';
 
@@ -12,8 +13,25 @@ export const metadata: Metadata = {
   alternates: { canonical: `${BASE}/catalog` },
 };
 
+function CatalogFallback() {
+  return (
+    <div style={{ background: 'var(--color-cream)', minHeight: '100vh' }}>
+      <div style={{ background: 'var(--color-ink)' }}>
+        <div className="container-site py-6">
+          <h1 className="font-display text-2xl font-bold text-white mb-1">Каталог книг</h1>
+          <p className="text-sm text-white/50">Завантаження...</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function CatalogPage() {
   const books = getAllBooksSummary();
   const categories = getAllCategories();
-  return <CatalogClient books={books} categories={categories} />;
+  return (
+    <Suspense fallback={<CatalogFallback />}>
+      <CatalogClient books={books} categories={categories} />
+    </Suspense>
+  );
 }

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BookOpen, Calendar, Tag, ArrowLeft, Home, ChevronRight } from 'lucide-react';
-import { getAllBookSlugs, getBookBySlug, getRelatedBooks, getAllCategories, getDownloadUrl } from '@/lib/books';
+import { getAllBookSlugs, getBookBySlug, getRelatedBooks, getAllCategories, getDownloadUrl, authorToSlug } from '@/lib/books';
 import { getCoverUrl } from '@/lib/utils';
 import { bookJsonLd, bookBreadcrumbJsonLd } from '@/lib/jsonld';
 import BookCard from '@/components/books/BookCard';
@@ -136,7 +136,10 @@ export default async function BookPage({ params }: Props) {
               <h1 className="font-display text-2xl sm:text-3xl font-bold text-white mb-2 leading-tight">
                 {book.title}
               </h1>
-              <p className="text-lg text-white/70 mb-4">{book.author}</p>
+              <Link href={`/author/${authorToSlug(book.author)}`}
+                className="text-lg text-white/70 hover:text-white transition-colors mb-4 block">
+                {book.author}
+              </Link>
 
               <div className="flex flex-wrap gap-3 mb-6">
                 {book.year && (
@@ -204,17 +207,21 @@ export default async function BookPage({ params }: Props) {
             <div className="rounded-xl p-5 space-y-3" style={{ background: '#fff', border: '1px solid var(--color-border)' }}>
               <h3 className="font-semibold text-sm uppercase tracking-wider" style={{ color: 'var(--color-muted)' }}>Деталі</h3>
               {[
-                { label: 'Автор', value: book.author },
-                { label: 'Мова', value: LANGUAGE_LABEL[book.language] || book.language },
-                { label: 'Рік', value: book.year?.toString() },
-                { label: 'Категорія', value: category?.name },
-                { label: 'Формати', value: book.files.map((f) => FORMAT_LABEL[f.format]).join(', ') },
+                { label: 'Автор', value: book.author, href: `/author/${authorToSlug(book.author)}` },
+                { label: 'Мова', value: LANGUAGE_LABEL[book.language] || book.language, href: undefined },
+                { label: 'Рік', value: book.year?.toString(), href: undefined },
+                { label: 'Категорія', value: category?.name, href: category ? `/category/${category.slug}` : undefined },
+                { label: 'Формати', value: book.files.map((f) => FORMAT_LABEL[f.format]).join(', '), href: undefined },
               ]
                 .filter((r) => r.value)
-                .map(({ label, value }) => (
+                .map(({ label, value, href }) => (
                   <div key={label} className="flex justify-between text-sm gap-2">
                     <span style={{ color: 'var(--color-muted)' }}>{label}</span>
-                    <span className="font-medium text-right">{value}</span>
+                    {href ? (
+                      <Link href={href} className="font-medium text-right hover:underline" style={{ color: 'var(--color-sapphire)' }}>{value}</Link>
+                    ) : (
+                      <span className="font-medium text-right">{value}</span>
+                    )}
                   </div>
                 ))}
             </div>
