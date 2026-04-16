@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'UkrBooks', url: BASE }],
   creator: 'UkrBooks',
   publisher: 'UkrBooks',
+  verification: {
+    google: '4ccef6440500a52a',
+  },
   robots: {
     index: true,
     follow: true,
