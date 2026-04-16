@@ -32,7 +32,7 @@ export default function HeroSection({ totalBooks }: { totalBooks: number }) {
           </h1>
 
           <p className="text-lg text-white/70 mb-8 leading-relaxed">
-            {totalBooks.toLocaleString('uk-UA')} книг у форматах EPUB та FB2 — безкоштовно і без реєстрації.
+            {totalBooks.toLocaleString('uk-UA')} книг у форматах EPUB та FB2 — без реєстрації.
           </p>
 
           <div className="flex flex-wrap gap-4">

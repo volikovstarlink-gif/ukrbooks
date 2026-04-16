@@ -15,7 +15,7 @@ export default function AboutSection() {
               Тисячі книг у зручних форматах — від класики до сучасних бестселерів.
             </p>
             <p className="text-parchment/70 text-lg leading-relaxed mb-8">
-              Завантажуйте безкоштовно, читайте на будь-якому пристрої,
+              Завантажуйте та читайте на будь-якому пристрої,
               діліться з друзями. Разом ми робимо українську книгу доступною.
             </p>
             <Link href="/catalog" className="btn-primary">
