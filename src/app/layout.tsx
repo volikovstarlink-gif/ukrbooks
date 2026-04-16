@@ -40,6 +40,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <Footer />
+        {/* Monetag Multitag */}
+        <Script
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="230583"
+          strategy="afterInteractive"
+          data-cfasync="false"
+        />
         {GA_ID && (
           <>
             <Script
