@@ -2,12 +2,10 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Download, X, Play, CheckCircle, Loader2 } from 'lucide-react';
 
-// Replace with your Monetag / Adsterra SmartLink URL after signing up
-// Monetag: https://monetag.com → Publishers → SmartLink
-// Adsterra: https://publishers.adsterra.com → Direct Link
-const AD_SMARTLINK_URL = process.env.NEXT_PUBLIC_AD_SMARTLINK_URL || '';
+// Monetag OnClick (Popunder) zone — fires automatically on page click
+// The Multitag script (zone 230583) handles popunders on every click
+const POPUNDER_ZONE = process.env.NEXT_PUBLIC_MONETAG_POPUNDER_ZONE || '10886945';
 
-// Seconds user must wait per ad (customize to match ad network requirement)
 const AD_DURATION_SECONDS = 15;
 const TOTAL_ADS = 2;
 
@@ -33,7 +31,6 @@ export default function DownloadGate({
   const [countdown, setCountdown] = useState(AD_DURATION_SECONDS);
   const [canProceed, setCanProceed] = useState(false);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
-  const adWindowRef = useRef<Window | null>(null);
   const downloadLinkRef = useRef<HTMLAnchorElement | null>(null);
 
   // Reset when modal opens
@@ -62,16 +59,22 @@ export default function DownloadGate({
     return () => clearInterval(intervalRef.current!);
   }, [phase, adsWatched]);
 
+  // Inject Monetag popunder script to fire ad on next user interaction
+  const fireAd = useCallback(() => {
+    const s = document.createElement('script');
+    s.src = 'https://quge5.com/88/tag.min.js';
+    s.async = true;
+    s.setAttribute('data-zone', POPUNDER_ZONE);
+    s.setAttribute('data-cfasync', 'false');
+    document.head.appendChild(s);
+  }, []);
+
   const startAd = useCallback(() => {
     setPhase('ad');
     setCountdown(AD_DURATION_SECONDS);
     setCanProceed(false);
-
-    // Open ad in new tab/window (works with Monetag SmartLink, Adsterra Direct Link, etc.)
-    if (AD_SMARTLINK_URL) {
-      adWindowRef.current = window.open(AD_SMARTLINK_URL, '_blank', 'noopener,noreferrer');
-    }
-  }, []);
+    fireAd();
+  }, [fireAd]);
 
   const handleNextAd = useCallback(() => {
     const nextCount = adsWatched + 1;
@@ -81,12 +84,9 @@ export default function DownloadGate({
     } else {
       setCountdown(AD_DURATION_SECONDS);
       setCanProceed(false);
-      // Open second ad
-      if (AD_SMARTLINK_URL) {
-        adWindowRef.current = window.open(AD_SMARTLINK_URL, '_blank', 'noopener,noreferrer');
-      }
+      fireAd();
     }
-  }, [adsWatched]);
+  }, [adsWatched, fireAd]);
 
   const triggerDownload = useCallback(() => {
     if (downloadLinkRef.current) {
@@ -185,7 +185,7 @@ export default function DownloadGate({
                 перегляньте {TOTAL_ADS} коротких рекламних ролика
               </p>
               <p className="text-slate-500 text-xs mb-6">
-                Реклама відкриється в новій вкладці. Повертайтесь сюди після перегляду.
+                Це займе лише 30 секунд — дякуємо за підтримку бібліотеки!
               </p>
               <button
                 onClick={startAd}
@@ -203,10 +203,10 @@ export default function DownloadGate({
             <div className="text-center">
               <div className="mb-4">
                 <p className="text-slate-300 text-sm mb-1">
-                  Ролик {adsWatched + 1} з {TOTAL_ADS}
+                  Реклама {adsWatched + 1} з {TOTAL_ADS}
                 </p>
                 <p className="text-slate-500 text-xs">
-                  Реклама відкрилась у новій вкладці. Почекайте тут.
+                  Почекайте поки відлік завершиться
                 </p>
               </div>
 

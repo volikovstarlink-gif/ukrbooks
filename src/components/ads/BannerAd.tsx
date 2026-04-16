@@ -1,44 +1,25 @@
 'use client';
 import { useEffect, useRef } from 'react';
 
-// Monetag Banner zone IDs — set via env or hardcode after creating zones in Monetag
-const BANNER_ZONE_ID = process.env.NEXT_PUBLIC_MONETAG_BANNER_ZONE || '';
+// Zone 10886947 — Vignette Banner (Monetag Strong tag)
+const BANNER_ZONE_ID = process.env.NEXT_PUBLIC_MONETAG_BANNER_ZONE || '10886947';
 
-interface BannerAdProps {
-  className?: string;
-  size?: '300x250' | '728x90';
-}
-
-export default function BannerAd({ className = '', size = '300x250' }: BannerAdProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
+export default function BannerAd({ className = '' }: { className?: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const loaded = useRef(false);
 
   useEffect(() => {
-    if (!BANNER_ZONE_ID || !containerRef.current) return;
-
-    // Clear existing content
-    containerRef.current.innerHTML = '';
+    if (loaded.current || !ref.current) return;
+    loaded.current = true;
 
     const script = document.createElement('script');
     script.src = 'https://quge5.com/88/tag.min.js';
     script.async = true;
     script.setAttribute('data-zone', BANNER_ZONE_ID);
     script.setAttribute('data-cfasync', 'false');
-    containerRef.current.appendChild(script);
+    document.head.appendChild(script);
   }, []);
 
-  if (!BANNER_ZONE_ID) return null;
-
-  const [w, h] = size.split('x').map(Number);
-
-  return (
-    <div
-      className={`flex justify-center items-center ${className}`}
-      style={{ minHeight: h, overflow: 'hidden' }}
-    >
-      <div
-        ref={containerRef}
-        style={{ width: w, minHeight: h }}
-      />
-    </div>
-  );
+  // Invisible mount point — Vignette Banner renders in fixed position automatically
+  return <div ref={ref} className={className} />;
 }

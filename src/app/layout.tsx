@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Header />
         {/* Banner ad under header — visible on all pages */}
-        <BannerAd size="728x90" className="py-2" />
+        <BannerAd className="py-2" />
         <main>{children}</main>
         <Footer />
         {GA_ID && (
