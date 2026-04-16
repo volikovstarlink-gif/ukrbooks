@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Download, BookOpen, Calendar, Tag, ArrowLeft } from 'lucide-react';
+import { BookOpen, Calendar, Tag, ArrowLeft } from 'lucide-react';
 import { getAllBookSlugs, getBookBySlug, getRelatedBooks, getAllCategories, getDownloadUrl } from '@/lib/books';
-import { getCoverUrl, formatFileSize } from '@/lib/utils';
+import { getCoverUrl } from '@/lib/utils';
 import BookCard from '@/components/books/BookCard';
 import Badge from '@/components/ui/Badge';
+import DownloadSection from '@/components/download/DownloadSection';
+import type { DownloadItem } from '@/components/download/DownloadSection';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -102,23 +104,17 @@ export default async function BookPage({ params }: Props) {
                 ))}
               </div>
 
-              {/* Download buttons */}
-              <div className="flex flex-wrap gap-3">
-                {book.files.map((file) => (
-                  <a
-                    key={file.format}
-                    href={getDownloadUrl(file.filename, file.fileDir)}
-                    download={file.filename}
-                    className="btn btn-download btn-lg"
-                  >
-                    <Download size={18} />
-                    Завантажити {FORMAT_LABEL[file.format] || file.format}
-                    <span className="text-xs opacity-70 ml-1">
-                      {formatFileSize(file.sizeMb)}
-                    </span>
-                  </a>
-                ))}
-              </div>
+              {/* Download buttons with ad gate */}
+              <DownloadSection
+                items={book.files.map((file): DownloadItem => ({
+                  format: file.format,
+                  filename: file.filename,
+                  sizeMb: file.sizeMb,
+                  downloadUrl: getDownloadUrl(file.filename, file.fileDir),
+                }))}
+                bookTitle={book.title}
+                bookAuthor={book.author}
+              />
             </div>
           </div>
         </div>
