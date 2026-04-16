@@ -104,6 +104,13 @@ export default async function BookPage({ params }: Props) {
                 ))}
               </div>
 
+              {/* Download warning notice */}
+              <div className="flex items-center gap-2 mb-3 px-3 py-2 rounded-lg text-xs"
+                style={{ background: 'rgba(251,191,36,0.12)', border: '1px solid rgba(251,191,36,0.3)', color: 'rgba(251,191,36,0.9)' }}>
+                <span>⚠️</span>
+                <span>Для безкоштовного завантаження потрібно переглянути <strong>2 коротких рекламних ролики</strong></span>
+              </div>
+
               {/* Download buttons with ad gate */}
               <DownloadSection
                 items={book.files.map((file): DownloadItem => ({

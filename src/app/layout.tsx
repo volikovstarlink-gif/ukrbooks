@@ -4,6 +4,7 @@ import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import BannerAd from '@/components/ads/BannerAd';
 
 const playfair = Playfair_Display({
   subsets: ['latin', 'cyrillic'],
@@ -43,6 +44,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <Header />
+        {/* Banner ad under header — visible on all pages */}
+        <BannerAd size="728x90" className="py-2" />
         <main>{children}</main>
         <Footer />
         {GA_ID && (
