@@ -36,17 +36,15 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="uk" className={`${playfair.variable} ${manrope.variable}`}>
+      <head>
+        {/* Monetag Multitag — inline in <head> for crawler visibility */}
+        {/* eslint-disable-next-line @next/next/no-before-interactive-script-outside-document */}
+        <script src="https://quge5.com/88/tag.min.js" data-zone="230583" async data-cfasync="false" />
+      </head>
       <body>
         <Header />
         <main>{children}</main>
         <Footer />
-        {/* Monetag Multitag */}
-        <Script
-          src="https://quge5.com/88/tag.min.js"
-          data-zone="230583"
-          strategy="afterInteractive"
-          data-cfasync="false"
-        />
         {GA_ID && (
           <>
             <Script
