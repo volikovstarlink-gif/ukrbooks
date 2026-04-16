@@ -5,7 +5,7 @@ export default function StatsBanner({ totalBooks, totalCategories = 9 }: { total
     { value: totalBooks.toLocaleString('uk-UA'), label: 'Книг' },
     { value: String(totalCategories), label: 'Категорій' },
     { value: 'EPUB · FB2', label: 'Формати' },
-    { value: '100%', label: 'Безкоштовно' },
+    { value: '100%', label: 'Без реєстрації' },
   ];
 
   return (
