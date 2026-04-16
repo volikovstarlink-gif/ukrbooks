@@ -1,0 +1,31 @@
+{
+  "id": "neprohanij-gist-29185",
+  "slug": "neprohanij-gist-29185",
+  "title": "Непроханий гість",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/neprohanij-gist-29185.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "neprohanij-gist-29185__Neprokhanyi_hist.epub",
+      "fileDir": "Н",
+      "sizeMb": 3.5
+    },
+    {
+      "format": "fb2",
+      "filename": "neprohanij-gist-29185__Neprokhanyi_hist__neprohanij-gist.fb2",
+      "fileDir": "Н",
+      "sizeMb": 5.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

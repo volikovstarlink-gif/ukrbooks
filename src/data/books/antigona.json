@@ -1,0 +1,28 @@
+{
+  "id": "antigona",
+  "slug": "antigona",
+  "title": "Антігона",
+  "author": "Софокл",
+  "authorSlug": "sofokl",
+  "description": "<p>Повний текст \"Антігона\" (автор: Софокл) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Антігона\" (автор: Софокл) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/antigona.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "antigona - Антігона.epub",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Антігона — Софокл | Завантажити EPUB",
+  "metaDescription": "Завантажте «Антігона» автора Софокл безкоштовно у форматах EPUB."
+}

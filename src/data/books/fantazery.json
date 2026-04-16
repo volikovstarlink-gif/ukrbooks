@@ -1,0 +1,25 @@
+{
+  "id": "fantazery",
+  "slug": "fantazery",
+  "title": "Fantazery",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/fantazery.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "fantazery__Fantazery.epub",
+      "fileDir": "Ф",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

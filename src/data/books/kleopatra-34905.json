@@ -1,0 +1,31 @@
+{
+  "id": "kleopatra-34905",
+  "slug": "kleopatra-34905",
+  "title": "Клеопатра",
+  "author": "Саара Ель-Аріфі",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kleopatra-34905.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kleopatra-34905__Kleopatra.epub",
+      "fileDir": "К",
+      "sizeMb": 10.3
+    },
+    {
+      "format": "fb2",
+      "filename": "kleopatra-34905__Kleopatra__kleopatra.fb2",
+      "fileDir": "К",
+      "sizeMb": 15.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

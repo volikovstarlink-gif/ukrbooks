@@ -1,0 +1,28 @@
+{
+  "id": "maskarad",
+  "slug": "maskarad",
+  "title": "Маскарад",
+  "author": "Михайло Лермонтов",
+  "authorSlug": "mykhailo-lermontov",
+  "description": "<p>Повний текст \"Маскарад\" (автор: Лермонтов Михайло Юрійович) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Маскарад\" (автор: Лермонтов Михайло Юрійович) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/maskarad.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "maskarad - Маскарад.epub",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Маскарад — Михайло Лермонтов | Завантажити EPUB",
+  "metaDescription": "Завантажте «Маскарад» автора Михайло Лермонтов безкоштовно у форматах EPUB."
+}

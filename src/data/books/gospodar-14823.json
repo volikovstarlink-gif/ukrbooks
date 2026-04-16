@@ -1,0 +1,31 @@
+{
+  "id": "gospodar-14823",
+  "slug": "gospodar-14823",
+  "title": "Господар",
+  "author": "Галина Пагутяк",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "Фантастичний роман української радянської письменниці, яка живе і працює на Львівщині, піднімає складні моральні і соціальні проблеми. Через незвичний сюжет автор показує зіткнення добра і зла, правди і кривди, любові і ненависті.",
+  "shortDescription": "Фантастичний роман української радянської письменниці, яка живе і працює на Львівщині, піднімає складні моральні і соціальні проблеми. Через незвичний сюжет автор показує зіткнення добра і зла, правди",
+  "coverImage": "/covers/gospodar-14823.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "gospodar-14823__Hospodar.epub",
+      "fileDir": "Г",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "gospodar-14823__Hospodar__gospodar.fb2",
+      "fileDir": "Г",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "znovu-vilna-35044",
+  "slug": "znovu-vilna-35044",
+  "title": "7814d51d464b4242dffa46fdd9796995",
+  "author": "User",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/znovu-vilna-35044.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "znovu-vilna-35044__Znovu_vilna.epub",
+      "fileDir": "З",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "znovu-vilna-35044__Znovu_vilna__znovu-vilna.fb2",
+      "fileDir": "З",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "golos-neba-33034",
+  "slug": "golos-neba-33034",
+  "title": "Голос Неба",
+  "author": "Станіслав Лем",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/golos-neba-33034.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "golos-neba-33034__Holos_Neba.epub",
+      "fileDir": "Г",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "golos-neba-33034__Holos_Neba__golos-neba.fb2",
+      "fileDir": "Г",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

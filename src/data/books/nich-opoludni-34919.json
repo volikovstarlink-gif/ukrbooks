@@ -1,0 +1,31 @@
+{
+  "id": "nich-opoludni-34919",
+  "slug": "nich-opoludni-34919",
+  "title": "Ніч ополудні",
+  "author": "Артур Кестлер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nich-opoludni-34919.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nich-opoludni-34919__Nich_opoludni.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "nich-opoludni-34919__Nich_opoludni__nich-opoludni.fb2",
+      "fileDir": "Н",
+      "sizeMb": 2.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "na-dorozi-7119",
+  "slug": "na-dorozi-7119",
+  "title": "НА ДОРОЗІ",
+  "author": "ДЖЕК КЕРУАК",
+  "category": "fiction",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "na-dorozi-7119__Na_dorozi.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "na-dorozi-7119__Na_dorozi__na-dorozi.fb2",
+      "fileDir": "Н",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

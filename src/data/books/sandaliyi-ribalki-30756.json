@@ -1,0 +1,31 @@
+{
+  "id": "sandaliyi-ribalki-30756",
+  "slug": "sandaliyi-ribalki-30756",
+  "title": "Сандалії рибалки",
+  "author": "Морріс Уест",
+  "category": "classic",
+  "language": "uk",
+  "year": 1963,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/sandaliyi-ribalki-30756.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sandaliyi-ribalki-30756__Sandalii_rybalky.epub",
+      "fileDir": "С",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "sandaliyi-ribalki-30756__Sandalii_rybalky__sandaliyi-ribalki.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

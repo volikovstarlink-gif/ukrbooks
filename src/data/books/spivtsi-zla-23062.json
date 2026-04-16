@@ -1,0 +1,31 @@
+{
+  "id": "spivtsi-zla-23062",
+  "slug": "spivtsi-zla-23062",
+  "title": "Співці зла",
+  "author": "Марчін Швьонтковський",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2025,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spivtsi-zla-23062.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spivtsi-zla-23062__Spivtsi_zla.epub",
+      "fileDir": "С",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "spivtsi-zla-23062__Spivtsi_zla__spivtsi-zla.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

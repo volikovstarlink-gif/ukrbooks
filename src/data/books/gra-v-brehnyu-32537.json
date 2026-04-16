@@ -1,0 +1,31 @@
+{
+  "id": "gra-v-brehnyu-32537",
+  "slug": "gra-v-brehnyu-32537",
+  "title": "Гра в брехню",
+  "author": "Анна Манжай",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/gra-v-brehnyu-32537.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "gra-v-brehnyu-32537__Hra_v_brekhniu.epub",
+      "fileDir": "Г",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "gra-v-brehnyu-32537__Hra_v_brekhniu__gra-v-brehnyu.fb2",
+      "fileDir": "Г",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

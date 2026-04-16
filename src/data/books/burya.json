@@ -1,0 +1,28 @@
+{
+  "id": "burya",
+  "slug": "burya",
+  "title": "Буря",
+  "author": "Вільям Шекспір",
+  "authorSlug": "viliam-shekspir",
+  "description": "<p>Повний текст \"Буря\" (автор: Шекспір Вільям) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Буря\" (автор: Шекспір Вільям) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/burya.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "burya - Буря.epub",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Буря — Вільям Шекспір | Завантажити EPUB",
+  "metaDescription": "Завантажте «Буря» автора Вільям Шекспір безкоштовно у форматах EPUB."
+}

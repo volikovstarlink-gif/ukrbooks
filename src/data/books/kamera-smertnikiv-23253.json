@@ -1,0 +1,31 @@
+{
+  "id": "kamera-smertnikiv-23253",
+  "slug": "kamera-smertnikiv-23253",
+  "title": "Камера смертників",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kamera-smertnikiv-23253.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kamera-smertnikiv-23253__Kamera_smertnykiv.epub",
+      "fileDir": "К",
+      "sizeMb": 1.0
+    },
+    {
+      "format": "fb2",
+      "filename": "kamera-smertnikiv-23253__Kamera_smertnykiv__kamera-smertnikiv.fb2",
+      "fileDir": "К",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

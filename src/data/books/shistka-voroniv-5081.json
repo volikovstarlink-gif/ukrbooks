@@ -1,0 +1,31 @@
+{
+  "id": "shistka-voroniv-5081",
+  "slug": "shistka-voroniv-5081",
+  "title": "Шістка воронів",
+  "author": "Лі Бардуґо",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "Шість небезпечних покидьків. Одне неможливе викрадення. Казова команда — мабуть, єдине, що залишилося між світом і його руйнацією, — якщо вони, звісно, не повбивають одне одного раніше.",
+  "shortDescription": "Шість небезпечних покидьків. Одне неможливе викрадення. Казова команда — мабуть, єдине, що залишилося між світом і його руйнацією, — якщо вони, звісно, не повбивають одне одного раніше.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shistka-voroniv-5081__Shistka_voroniv.epub",
+      "fileDir": "Ш",
+      "sizeMb": 2.3
+    },
+    {
+      "format": "fb2",
+      "filename": "shistka-voroniv-5081__Shistka_voroniv__shistka-voroniv.fb2",
+      "fileDir": "Ш",
+      "sizeMb": 3.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

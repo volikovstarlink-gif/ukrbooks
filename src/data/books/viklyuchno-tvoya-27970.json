@@ -1,0 +1,31 @@
+{
+  "id": "viklyuchno-tvoya-27970",
+  "slug": "viklyuchno-tvoya-27970",
+  "title": "Виключно твоя",
+  "author": "Олівія Т. Тернер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/viklyuchno-tvoya-27970.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "viklyuchno-tvoya-27970__Vykliuchno_tvoia.epub",
+      "fileDir": "В",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "viklyuchno-tvoya-27970__Vykliuchno_tvoia__viklyuchno-tvoya.fb2",
+      "fileDir": "В",
+      "sizeMb": 0.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

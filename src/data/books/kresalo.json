@@ -1,0 +1,28 @@
+{
+  "id": "kresalo",
+  "slug": "kresalo",
+  "title": "Kresalo",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Kresalo» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Kresalo» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/kresalo.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "kresalo__Kresalo.txt",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Kresalo — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «Kresalo» автора Невідомий автор безкоштовно у форматах TXT."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "sabotazh-32934",
+  "slug": "sabotazh-32934",
+  "title": "Саботаж",
+  "author": "Артуро Перес-Реверте",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/sabotazh-32934.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sabotazh-32934__Sabotazh.epub",
+      "fileDir": "С",
+      "sizeMb": 1.8
+    },
+    {
+      "format": "fb2",
+      "filename": "sabotazh-32934__Sabotazh__sabotazh.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

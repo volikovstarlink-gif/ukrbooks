@@ -1,0 +1,31 @@
+{
+  "id": "deviantnij-korol-21321",
+  "slug": "deviantnij-korol-21321",
+  "title": "Unknown",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/deviantnij-korol-21321.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "deviantnij-korol-21321__Deviantnyi_Korol.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "deviantnij-korol-21321__Deviantnyi_Korol__deviantnij-korol.fb2",
+      "fileDir": "Д",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

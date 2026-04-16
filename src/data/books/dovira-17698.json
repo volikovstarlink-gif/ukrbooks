@@ -1,0 +1,31 @@
+{
+  "id": "dovira-17698",
+  "slug": "dovira-17698",
+  "title": "Довіра",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dovira-17698__Dovira.epub",
+      "fileDir": "Д",
+      "sizeMb": 3.7
+    },
+    {
+      "format": "fb2",
+      "filename": "dovira-17698__Dovira__dovira.fb2",
+      "fileDir": "Д",
+      "sizeMb": 2.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

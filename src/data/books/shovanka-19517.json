@@ -1,0 +1,31 @@
+{
+  "id": "shovanka-19517",
+  "slug": "shovanka-19517",
+  "title": "Схованка",
+  "author": "Пенелопа Дуглас",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/shovanka-19517.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shovanka-19517__Skhovanka.epub",
+      "fileDir": "С",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "shovanka-19517__Skhovanka__shovanka.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

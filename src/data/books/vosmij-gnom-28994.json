@@ -1,0 +1,31 @@
+{
+  "id": "vosmij-gnom-28994",
+  "slug": "vosmij-gnom-28994",
+  "title": "Восьмий гном",
+  "author": "Томас Росс",
+  "category": "classic",
+  "language": "ru",
+  "year": 2024,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vosmij-gnom-28994.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vosmij-gnom-28994__Vosmyi_hnom.epub",
+      "fileDir": "В",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "vosmij-gnom-28994__Vosmyi_hnom__vosmij-gnom.fb2",
+      "fileDir": "В",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

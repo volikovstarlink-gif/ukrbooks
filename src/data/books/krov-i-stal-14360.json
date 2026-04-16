@@ -1,0 +1,31 @@
+{
+  "id": "krov-i-stal-14360",
+  "slug": "krov-i-stal-14360",
+  "title": "Blood & Steel: An epic romantic fantasy (The Legends of Thezmarr Book 1)",
+  "author": "Helen Scheuerer",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/krov-i-stal-14360.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "krov-i-stal-14360__Krov_i_stal.epub",
+      "fileDir": "К",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "krov-i-stal-14360__Krov_i_stal__krov-i-stal.fb2",
+      "fileDir": "К",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

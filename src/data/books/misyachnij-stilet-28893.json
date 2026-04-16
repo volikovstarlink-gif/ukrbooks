@@ -1,0 +1,31 @@
+{
+  "id": "misyachnij-stilet-28893",
+  "slug": "misyachnij-stilet-28893",
+  "title": "Місячний Стилет",
+  "author": "Рафал Дембський",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2015,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/misyachnij-stilet-28893.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "misyachnij-stilet-28893__Misiachnyi_Stylet.epub",
+      "fileDir": "М",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "misyachnij-stilet-28893__Misiachnyi_Stylet__misyachnij-stilet.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

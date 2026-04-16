@@ -1,0 +1,31 @@
+{
+  "id": "para-31434",
+  "slug": "para-31434",
+  "title": "Пара - Алі Гейзелвуд",
+  "author": "Алі Гейзелвуд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/para-31434.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "para-31434__Para.epub",
+      "fileDir": "П",
+      "sizeMb": 1.2
+    },
+    {
+      "format": "fb2",
+      "filename": "para-31434__Para__para.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

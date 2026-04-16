@@ -1,0 +1,28 @@
+{
+  "id": "buddenbroky",
+  "slug": "buddenbroky",
+  "title": "Будденброки",
+  "author": "Томас Манн",
+  "authorSlug": "tomas-mann",
+  "description": "<p>Повний текст \"Будденброки\" (автор: Манн Томас) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Будденброки\" (автор: Манн Томас) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/buddenbroky.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "buddenbroky - Будденброки.epub",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Будденброки — Томас Манн | Завантажити EPUB",
+  "metaDescription": "Завантажте «Будденброки» автора Томас Манн безкоштовно у форматах EPUB."
+}

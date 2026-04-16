@@ -1,0 +1,31 @@
+{
+  "id": "diki-ochi-31707",
+  "slug": "diki-ochi-31707",
+  "title": "Дикі очі",
+  "author": "Елсі Сілвер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/diki-ochi-31707.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "diki-ochi-31707__Dyki_ochi.epub",
+      "fileDir": "Д",
+      "sizeMb": 5.8
+    },
+    {
+      "format": "fb2",
+      "filename": "diki-ochi-31707__Dyki_ochi__diki-ochi.fb2",
+      "fileDir": "Д",
+      "sizeMb": 8.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pislya-svarki-20600",
+  "slug": "pislya-svarki-20600",
+  "title": "Після сварки",
+  "author": "Анна Тодд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pislya-svarki-20600.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pislya-svarki-20600__Pislia_svarky.epub",
+      "fileDir": "П",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "pislya-svarki-20600__Pislia_svarky__pislya-svarki.fb2",
+      "fileDir": "П",
+      "sizeMb": 3.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ya-pashtyet-i-armiya-1436",
+  "slug": "ya-pashtyet-i-armiya-1436",
+  "title": "Я, Паштєт і Армія",
+  "author": "Кузьма Скрябін",
+  "category": "classic",
+  "language": "uk",
+  "year": 2014,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ya-pashtyet-i-armiya-1436__Ya_Pashtiet_i_Armiia.epub",
+      "fileDir": "Я",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "ya-pashtyet-i-armiya-1436__Ya_Pashtiet_i_Armiia__ya-pashtyet-i-armiya.fb2",
+      "fileDir": "Я",
+      "sizeMb": 0.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

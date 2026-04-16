@@ -1,0 +1,31 @@
+{
+  "id": "opovid-sluzhnitsi-19513",
+  "slug": "opovid-sluzhnitsi-19513",
+  "title": "Opovid Sluzhnytsi",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/opovid-sluzhnitsi-19513.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "opovid-sluzhnitsi-19513__Opovid_Sluzhnytsi.epub",
+      "fileDir": "О",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "opovid-sluzhnitsi-19513__Opovid_Sluzhnytsi__opovid-sluzhnitsi.fb2",
+      "fileDir": "О",
+      "sizeMb": 1.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

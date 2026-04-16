@@ -1,0 +1,31 @@
+{
+  "id": "propashha-printsesa-33238",
+  "slug": "propashha-printsesa-33238",
+  "title": "Мона Кастен - Пропаща принцеса 1",
+  "author": "Неизвестный автор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/propashha-printsesa-33238.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "propashha-printsesa-33238__Propashcha_pryntsesa.epub",
+      "fileDir": "П",
+      "sizeMb": 2.4
+    },
+    {
+      "format": "fb2",
+      "filename": "propashha-printsesa-33238__Propashcha_pryntsesa__propashha-printsesa.fb2",
+      "fileDir": "П",
+      "sizeMb": 3.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

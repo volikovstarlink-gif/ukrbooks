@@ -1,0 +1,31 @@
+{
+  "id": "chas-zirki-25263",
+  "slug": "chas-zirki-25263",
+  "title": "Час зірки",
+  "author": "Кларісе Ліспектор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/chas-zirki-25263.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "chas-zirki-25263__Chas_zirky.epub",
+      "fileDir": "Ч",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "chas-zirki-25263__Chas_zirky__chas-zirki.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

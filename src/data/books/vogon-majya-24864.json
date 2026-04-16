@@ -1,0 +1,31 @@
+{
+  "id": "vogon-majya-24864",
+  "slug": "vogon-majya-24864",
+  "title": "Вогонь майя_01",
+  "author": "Невідомий автор",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vogon-majya-24864.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vogon-majya-24864__Vohon_maiia.epub",
+      "fileDir": "В",
+      "sizeMb": 2.3
+    },
+    {
+      "format": "fb2",
+      "filename": "vogon-majya-24864__Vohon_maiia__vogon-majya.fb2",
+      "fileDir": "В",
+      "sizeMb": 4.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

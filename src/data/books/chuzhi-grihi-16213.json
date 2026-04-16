@@ -1,0 +1,31 @@
+{
+  "id": "chuzhi-grihi-16213",
+  "slug": "chuzhi-grihi-16213",
+  "title": "Чужі гріхи",
+  "author": "Таня П’янкова",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/chuzhi-grihi-16213.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "chuzhi-grihi-16213__Chuzhi_hrikhy.epub",
+      "fileDir": "Ч",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "chuzhi-grihi-16213__Chuzhi_hrikhy__chuzhi-grihi.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

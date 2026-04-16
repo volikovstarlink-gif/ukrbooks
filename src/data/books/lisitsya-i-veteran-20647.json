@@ -1,0 +1,31 @@
+{
+  "id": "lisitsya-i-veteran-20647",
+  "slug": "lisitsya-i-veteran-20647",
+  "title": "Лисиця і Ветеран",
+  "author": "Кеті Регнері",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/lisitsya-i-veteran-20647.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "lisitsya-i-veteran-20647__Lysytsia_i_Veteran.epub",
+      "fileDir": "Л",
+      "sizeMb": 4.1
+    },
+    {
+      "format": "fb2",
+      "filename": "lisitsya-i-veteran-20647__Lysytsia_i_Veteran__lisitsya-i-veteran.fb2",
+      "fileDir": "Л",
+      "sizeMb": 7.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

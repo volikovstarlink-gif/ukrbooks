@@ -1,0 +1,31 @@
+{
+  "id": "najpersha-zhertva-30280",
+  "slug": "najpersha-zhertva-30280",
+  "title": "Роберт ШЕКЛІ",
+  "author": "Vitaliy",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/najpersha-zhertva-30280.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "najpersha-zhertva-30280__Naipersha_zhertva.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "najpersha-zhertva-30280__Naipersha_zhertva__najpersha-zhertva.fb2",
+      "fileDir": "Н",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

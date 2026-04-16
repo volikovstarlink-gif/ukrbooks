@@ -1,0 +1,28 @@
+{
+  "id": "kassandra",
+  "slug": "kassandra",
+  "title": "Кассандра",
+  "author": "Леся Українка",
+  "authorSlug": "lesia-ukrainka",
+  "description": "<p>Повний текст \"Кассандра\" (автор: Українка Леся) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Кассандра\" (автор: Українка Леся) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/kassandra.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kassandra - Кассандра.epub",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Кассандра — Леся Українка | Завантажити EPUB",
+  "metaDescription": "Завантажте «Кассандра» автора Леся Українка безкоштовно у форматах EPUB."
+}

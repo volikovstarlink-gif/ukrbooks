@@ -1,0 +1,25 @@
+{
+  "id": "neyavka-25193",
+  "slug": "neyavka-25193",
+  "title": "Neiavka",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/neyavka-25193.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "neyavka-25193__Neiavka.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

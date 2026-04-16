@@ -1,0 +1,31 @@
+{
+  "id": "misteriyi-32283",
+  "slug": "misteriyi-32283",
+  "title": "Містерії",
+  "author": "Кнут Гамсун",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/misteriyi-32283.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "misteriyi-32283__Misterii.epub",
+      "fileDir": "М",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "misteriyi-32283__Misterii__misteriyi.fb2",
+      "fileDir": "М",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

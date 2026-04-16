@@ -1,0 +1,31 @@
+{
+  "id": "odna-z-chotiroh-22807",
+  "slug": "odna-z-chotiroh-22807",
+  "title": "Одна з чотирьох",
+  "author": "Люсінда Беррі",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/odna-z-chotiroh-22807.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "odna-z-chotiroh-22807__Odna_z_chotyrokh.epub",
+      "fileDir": "О",
+      "sizeMb": 3.2
+    },
+    {
+      "format": "fb2",
+      "filename": "odna-z-chotiroh-22807__Odna_z_chotyrokh__odna-z-chotiroh.fb2",
+      "fileDir": "О",
+      "sizeMb": 5.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

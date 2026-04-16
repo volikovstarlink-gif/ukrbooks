@@ -1,0 +1,31 @@
+{
+  "id": "tochi-ta-rubaj-33679",
+  "slug": "tochi-ta-rubaj-33679",
+  "title": "Точи та рубай",
+  "author": "Тейлор Гаттон",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/tochi-ta-rubaj-33679.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "tochi-ta-rubaj-33679__Tochy_ta_Rubai.epub",
+      "fileDir": "Т",
+      "sizeMb": 2.4
+    },
+    {
+      "format": "fb2",
+      "filename": "tochi-ta-rubaj-33679__Tochy_ta_Rubai__tochi-ta-rubaj.fb2",
+      "fileDir": "Т",
+      "sizeMb": 3.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

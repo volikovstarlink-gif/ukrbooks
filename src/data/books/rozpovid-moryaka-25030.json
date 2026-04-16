@@ -1,0 +1,31 @@
+{
+  "id": "rozpovid-moryaka-25030",
+  "slug": "rozpovid-moryaka-25030",
+  "title": "Розповідь моряка",
+  "author": "Габриэль Гарсия Маркес",
+  "category": "classic",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/rozpovid-moryaka-25030.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "rozpovid-moryaka-25030__Rozpovid_moriaka.epub",
+      "fileDir": "Р",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "rozpovid-moryaka-25030__Rozpovid_moriaka__rozpovid-moryaka.fb2",
+      "fileDir": "Р",
+      "sizeMb": 0.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

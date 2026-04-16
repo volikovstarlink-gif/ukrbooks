@@ -1,0 +1,31 @@
+{
+  "id": "prismerk-25192",
+  "slug": "prismerk-25192",
+  "title": "Unknown",
+  "author": "Користувач",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/prismerk-25192.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "prismerk-25192__Prysmerk.epub",
+      "fileDir": "П",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "prismerk-25192__Prysmerk__prismerk.fb2",
+      "fileDir": "П",
+      "sizeMb": 2.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

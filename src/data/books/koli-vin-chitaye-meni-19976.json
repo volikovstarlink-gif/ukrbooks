@@ -1,0 +1,31 @@
+{
+  "id": "koli-vin-chitaye-meni-19976",
+  "slug": "koli-vin-chitaye-meni-19976",
+  "title": "Коли він читає мені - Т.Л. Сміт",
+  "author": "Т.Л. Сміт",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/koli-vin-chitaye-meni-19976.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "koli-vin-chitaye-meni-19976__Koly_vin_chytaie_meni.epub",
+      "fileDir": "К",
+      "sizeMb": 1.2
+    },
+    {
+      "format": "fb2",
+      "filename": "koli-vin-chitaye-meni-19976__Koly_vin_chytaie_meni__koli-vin-chitaye-meni.fb2",
+      "fileDir": "К",
+      "sizeMb": 3.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "lyubij-drug-8205",
+  "slug": "lyubij-drug-8205",
+  "title": "Liubyi druh",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "lyubij-drug-8205__Liubyi_druh.epub",
+      "fileDir": "Л",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

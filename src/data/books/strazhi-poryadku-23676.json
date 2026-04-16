@@ -1,0 +1,31 @@
+{
+  "id": "strazhi-poryadku-23676",
+  "slug": "strazhi-poryadku-23676",
+  "title": "Стражі порядку",
+  "author": "Кен Бруен",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/strazhi-poryadku-23676.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "strazhi-poryadku-23676__Strazhi_poriadku.epub",
+      "fileDir": "С",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "strazhi-poryadku-23676__Strazhi_poriadku__strazhi-poryadku.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

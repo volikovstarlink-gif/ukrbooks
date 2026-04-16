@@ -1,0 +1,31 @@
+{
+  "id": "243342-16675",
+  "slug": "243342-16675",
+  "title": "24:33:42",
+  "author": "Лариса Владимировна Денисенко",
+  "category": "classic",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/243342-16675.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "24-33-42-16675__243342.epub",
+      "fileDir": "0-9",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "24-33-42-16675__243342__24_33_42.fb2",
+      "fileDir": "0-9",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

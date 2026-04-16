@@ -1,0 +1,31 @@
+{
+  "id": "mriya-metelika-4098",
+  "slug": "mriya-metelika-4098",
+  "title": "Мрія метелика",
+  "author": "Лія Щеглова",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mriya-metelika-4098__Mriia_metelyka.epub",
+      "fileDir": "М",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "mriya-metelika-4098__Mriia_metelyka__mriya-metelika.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

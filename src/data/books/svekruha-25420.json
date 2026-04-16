@@ -1,0 +1,31 @@
+{
+  "id": "svekruha-25420",
+  "slug": "svekruha-25420",
+  "title": "свекруха",
+  "author": "Саллі Гепворт",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/svekruha-25420.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "svekruha-25420__Svekrukha.epub",
+      "fileDir": "С",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "svekruha-25420__Svekrukha__svekruha.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

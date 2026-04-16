@@ -1,0 +1,31 @@
+{
+  "id": "pid-kamenem-i-zhertvoyu-27712",
+  "slug": "pid-kamenem-i-zhertvoyu-27712",
+  "title": "Unknown",
+  "author": "Користувач",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pid-kamenem-i-zhertvoyu-27712.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pid-kamenem-i-zhertvoyu-27712__Pid_kamenem_i_zhertvoiu.epub",
+      "fileDir": "П",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "pid-kamenem-i-zhertvoyu-27712__Pid_kamenem_i_zhertvoiu__pid-kamenem-i-zhertvoyu.fb2",
+      "fileDir": "П",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dim-na-gori-1146",
+  "slug": "dim-na-gori-1146",
+  "title": "Дім на горі",
+  "author": "Валерій Шевчук",
+  "category": "classic",
+  "language": "uk",
+  "year": 2011,
+  "description": "Нове (повне) видання роману видатного сучасного українського письменника.",
+  "shortDescription": "Нове (повне) видання роману видатного сучасного українського письменника.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dim-na-gori-1146__Dim_na_hori.epub",
+      "fileDir": "Д",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "dim-na-gori-1146__Dim_na_hori__dim-na-gori.fb2",
+      "fileDir": "Д",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

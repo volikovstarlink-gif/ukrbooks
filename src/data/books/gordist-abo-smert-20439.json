@@ -1,0 +1,31 @@
+{
+  "id": "gordist-abo-smert-20439",
+  "slug": "gordist-abo-smert-20439",
+  "title": "Гордість або смерть",
+  "author": "КЛ Монблан",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/gordist-abo-smert-20439.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "gordist-abo-smert-20439__Hordist_abo_smert.epub",
+      "fileDir": "Г",
+      "sizeMb": 3.4
+    },
+    {
+      "format": "fb2",
+      "filename": "gordist-abo-smert-20439__Hordist_abo_smert__gordist-abo-smert.fb2",
+      "fileDir": "Г",
+      "sizeMb": 7.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

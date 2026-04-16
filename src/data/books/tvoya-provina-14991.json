@@ -1,0 +1,31 @@
+{
+  "id": "tvoya-provina-14991",
+  "slug": "tvoya-provina-14991",
+  "title": "Твоя провина",
+  "author": "Мерседес Рон",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/tvoya-provina-14991.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "tvoya-provina-14991__Tvoia_provyna.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "tvoya-provina-14991__Tvoia_provyna__tvoya-provina.fb2",
+      "fileDir": "Т",
+      "sizeMb": 2.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

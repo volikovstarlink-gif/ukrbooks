@@ -1,0 +1,31 @@
+{
+  "id": "kobzar-2000-soft-17185",
+  "slug": "kobzar-2000-soft-17185",
+  "title": "Кобзар 2000. Soft",
+  "author": "Брати Капранови",
+  "category": "classic",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kobzar-2000-soft-17185.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kobzar-2000-soft-17185__Kobzar_2000._Soft.epub",
+      "fileDir": "К",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "kobzar-2000-soft-17185__Kobzar_2000._Soft__kobzar-2000-soft.fb2",
+      "fileDir": "К",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

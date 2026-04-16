@@ -1,0 +1,31 @@
+{
+  "id": "nichnij-stalker-16224",
+  "slug": "nichnij-stalker-16224",
+  "title": "Нічний сталкер",
+  "author": "Роберт Бриндза",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nichnij-stalker-16224.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nichnij-stalker-16224__Nichnyi_Stalker.epub",
+      "fileDir": "Н",
+      "sizeMb": 6.7
+    },
+    {
+      "format": "fb2",
+      "filename": "nichnij-stalker-16224__Nichnyi_Stalker__nichnij-stalker.fb2",
+      "fileDir": "Н",
+      "sizeMb": 9.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

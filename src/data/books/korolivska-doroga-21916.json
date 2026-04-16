@@ -1,0 +1,31 @@
+{
+  "id": "korolivska-doroga-21916",
+  "slug": "korolivska-doroga-21916",
+  "title": "Королівська дорога",
+  "author": "Андре Мальро",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/korolivska-doroga-21916.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "korolivska-doroga-21916__Korolivska_doroha.epub",
+      "fileDir": "К",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "korolivska-doroga-21916__Korolivska_doroha__korolivska-doroga.fb2",
+      "fileDir": "К",
+      "sizeMb": 1.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

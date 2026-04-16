@@ -1,0 +1,31 @@
+{
+  "id": "dochka-godinnikarya-25429",
+  "slug": "dochka-godinnikarya-25429",
+  "title": "Дочка годинникаря",
+  "author": "Кейт Мортон",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dochka-godinnikarya-25429.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dochka-godinnikarya-25429__Dochka_hodynnykaria.epub",
+      "fileDir": "Д",
+      "sizeMb": 3.1
+    },
+    {
+      "format": "fb2",
+      "filename": "dochka-godinnikarya-25429__Dochka_hodynnykaria__dochka-godinnikarya.fb2",
+      "fileDir": "Д",
+      "sizeMb": 3.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

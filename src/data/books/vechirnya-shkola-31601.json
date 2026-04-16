@@ -1,0 +1,31 @@
+{
+  "id": "vechirnya-shkola-31601",
+  "slug": "vechirnya-shkola-31601",
+  "title": "Вечірня Школа",
+  "author": "Лі Чайлд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vechirnya-shkola-31601.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vechirnya-shkola-31601__Vechirnia_shkola.epub",
+      "fileDir": "В",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "vechirnya-shkola-31601__Vechirnia_shkola__vechirnya-shkola.fb2",
+      "fileDir": "В",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

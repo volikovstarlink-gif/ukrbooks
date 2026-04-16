@@ -1,0 +1,31 @@
+{
+  "id": "kvartira-nagori-25687",
+  "slug": "kvartira-nagori-25687",
+  "title": "The Apartment Upstairs",
+  "author": "Lesley Kara",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kvartira-nagori-25687.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kvartira-nagori-25687__Kvartyra_nahori.epub",
+      "fileDir": "К",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "kvartira-nagori-25687__Kvartyra_nahori__kvartira-nagori.fb2",
+      "fileDir": "К",
+      "sizeMb": 2.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

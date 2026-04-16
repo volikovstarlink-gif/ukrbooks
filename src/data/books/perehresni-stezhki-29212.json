@@ -1,0 +1,31 @@
+{
+  "id": "perehresni-stezhki-29212",
+  "slug": "perehresni-stezhki-29212",
+  "title": "Перехресні стежки",
+  "author": "Іван Франко",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/perehresni-stezhki-29212.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "perehresni-stezhki-29212__Perekhresni_stezhky.epub",
+      "fileDir": "П",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "perehresni-stezhki-29212__Perekhresni_stezhky__perehresni-stezhki.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

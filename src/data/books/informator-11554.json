@@ -1,0 +1,31 @@
+{
+  "id": "informator-11554",
+  "slug": "informator-11554",
+  "title": "Джон Ґрішем. Інформатор",
+  "author": "Джон Ґрішем",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "Судді повинні бути чесними і мудрими. Їхня непідкупність та неупередженість — основа всієї судової системи. Ми віримо, що вони діють в ім’я справедливості, захищають права всіх учасників процесу, карають тих, хто чинить зло, і стежать за належним дотриманням законів. Та що як суддя порушує закон і бере хабарі?",
+  "shortDescription": "Судді повинні бути чесними і мудрими. Їхня непідкупність та неупередженість — основа всієї судової системи. Ми віримо, що вони діють в ім’я справедливості, захищають права всіх учасників процесу, кара",
+  "coverImage": "/covers/informator-11554.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "informator-11554__Informator.epub",
+      "fileDir": "І",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "informator-11554__Informator__informator.fb2",
+      "fileDir": "І",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

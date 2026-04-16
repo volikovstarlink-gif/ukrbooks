@@ -1,0 +1,31 @@
+{
+  "id": "plastik-8806",
+  "slug": "plastik-8806",
+  "title": "Пластик",
+  "author": "Артем Чех",
+  "category": "classic",
+  "language": "uk",
+  "year": null,
+  "description": "Пластик — це матеріал, з якого зроблені декорації цієї книги. Щоправда, люди, емоції, навіть мрії — теж пластик. І головний герой, чотирнадцятирічний хлопець, який не має навіть імені, намагається пробитися крізь товщу сірого мертвого матеріалу заради… чого? Саундтреком до цієї повісті найкраще слугуватиме «Fake Plastic Trees» Radiohead.",
+  "shortDescription": "Пластик — це матеріал, з якого зроблені декорації цієї книги. Щоправда, люди, емоції, навіть мрії — теж пластик. І головний герой, чотирнадцятирічний хлопець, який не має навіть імені, намагається про",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "plastik-8806__Plastyk.epub",
+      "fileDir": "П",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "plastik-8806__Plastyk__plastik.fb2",
+      "fileDir": "П",
+      "sizeMb": 0.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "triumfalna-arka-34343",
+  "slug": "triumfalna-arka-34343",
+  "title": "Тріумфальна арка",
+  "author": "Еріх Марія Ремарк",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 1945,
+  "description": "Роман «Тріумфальна арка» , що оповідає про життя антифашистів - емігрантів.",
+  "shortDescription": "Роман «Тріумфальна арка» , що оповідає про життя антифашистів - емігрантів.",
+  "coverImage": "/covers/triumfalna-arka-34343.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "triumfalna-arka-34343__Triumfalna_arka.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "triumfalna-arka-34343__Triumfalna_arka__triumfalna-arka.fb2",
+      "fileDir": "Т",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

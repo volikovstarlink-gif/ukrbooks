@@ -1,0 +1,31 @@
+{
+  "id": "pechernij-lev-31319",
+  "slug": "pechernij-lev-31319",
+  "title": "ПО ВОГОНЬ",
+  "author": "Vitaliy",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pechernij-lev-31319.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pechernij-lev-31319__Pechernyi_lev.epub",
+      "fileDir": "П",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "pechernij-lev-31319__Pechernyi_lev__pechernij-lev.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

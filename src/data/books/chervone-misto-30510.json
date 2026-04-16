@@ -1,0 +1,31 @@
+{
+  "id": "chervone-misto-30510",
+  "slug": "chervone-misto-30510",
+  "title": "Червоне місто, Мері Ло",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/chervone-misto-30510.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "chervone-misto-30510__Chervone_misto.epub",
+      "fileDir": "Ч",
+      "sizeMb": 6.3
+    },
+    {
+      "format": "fb2",
+      "filename": "chervone-misto-30510__Chervone_misto__chervone-misto.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 13.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

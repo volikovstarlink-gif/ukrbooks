@@ -1,0 +1,31 @@
+{
+  "id": "spokusa-32644",
+  "slug": "spokusa-32644",
+  "title": "Спокуса - Пітер Джеймс",
+  "author": "Пітер Джеймс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spokusa-32644.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spokusa-32644__Spokusa.epub",
+      "fileDir": "С",
+      "sizeMb": 2.9
+    },
+    {
+      "format": "fb2",
+      "filename": "spokusa-32644__Spokusa__spokusa.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

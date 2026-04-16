@@ -1,0 +1,31 @@
+{
+  "id": "angel-bezodni-24082",
+  "slug": "angel-bezodni-24082",
+  "title": "Василь Головецький_Ангел безодні",
+  "author": "Невідомий автор",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/angel-bezodni-24082.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "angel-bezodni-24082__Anhel_bezodni.epub",
+      "fileDir": "А",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "angel-bezodni-24082__Anhel_bezodni__angel-bezodni.fb2",
+      "fileDir": "А",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

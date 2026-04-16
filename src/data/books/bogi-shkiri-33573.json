@@ -1,0 +1,31 @@
+{
+  "id": "bogi-shkiri-33573",
+  "slug": "bogi-shkiri-33573",
+  "title": "Боги шкіри",
+  "author": "Річард Монтанари",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/bogi-shkiri-33573.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "bogi-shkiri-33573__Bohy_shkiry.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "bogi-shkiri-33573__Bohy_shkiry__bogi-shkiri.fb2",
+      "fileDir": "Б",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

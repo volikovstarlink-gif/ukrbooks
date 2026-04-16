@@ -1,0 +1,31 @@
+{
+  "id": "dika-karta-31703",
+  "slug": "dika-karta-31703",
+  "title": "Дика карта",
+  "author": "Елсі Сілвер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dika-karta-31703.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dika-karta-31703__Dyka_karta.epub",
+      "fileDir": "Д",
+      "sizeMb": 2.1
+    },
+    {
+      "format": "fb2",
+      "filename": "dika-karta-31703__Dyka_karta__dika-karta.fb2",
+      "fileDir": "Д",
+      "sizeMb": 1.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

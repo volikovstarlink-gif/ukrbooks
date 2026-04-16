@@ -1,0 +1,31 @@
+{
+  "id": "haj-zhive-zlo-22256",
+  "slug": "haj-zhive-zlo-22256",
+  "title": "Хай живе зло",
+  "author": "Сара Ріс Бреннан",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "haj-zhive-zlo-22256__Khai_zhyve_zlo.epub",
+      "fileDir": "Х",
+      "sizeMb": 2.7
+    },
+    {
+      "format": "fb2",
+      "filename": "haj-zhive-zlo-22256__Khai_zhyve_zlo__haj-zhive-zlo.fb2",
+      "fileDir": "Х",
+      "sizeMb": 4.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

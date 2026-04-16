@@ -1,0 +1,28 @@
+{
+  "id": "manfred",
+  "slug": "manfred",
+  "title": "Манфред",
+  "author": "Джордж Гордон Байрон",
+  "authorSlug": "dzhordzh-hordon-bairon",
+  "description": "<p>Повний текст \"Манфред\" (автор: Байрон Джордж Гордон) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Манфред\" (автор: Байрон Джордж Гордон) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/manfred.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "manfred - Манфред.epub",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Манфред — Джордж Гордон Байрон | Завантажити EPUB",
+  "metaDescription": "Завантажте «Манфред» автора Джордж Гордон Байрон безкоштовно у форматах EPUB."
+}

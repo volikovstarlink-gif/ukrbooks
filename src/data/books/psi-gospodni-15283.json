@@ -1,0 +1,31 @@
+{
+  "id": "psi-gospodni-15283",
+  "slug": "psi-gospodni-15283",
+  "title": "Пси господні",
+  "author": "Марчін Швьонтковський",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2023,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/psi-gospodni-15283.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "psi-gospodni-15283__Psy_hospodni.epub",
+      "fileDir": "П",
+      "sizeMb": 1.4
+    },
+    {
+      "format": "fb2",
+      "filename": "psi-gospodni-15283__Psy_hospodni__psi-gospodni.fb2",
+      "fileDir": "П",
+      "sizeMb": 2.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

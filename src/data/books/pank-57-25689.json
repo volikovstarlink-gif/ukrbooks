@@ -1,0 +1,31 @@
+{
+  "id": "pank-57-25689",
+  "slug": "pank-57-25689",
+  "title": "Панк 57",
+  "author": "Пенелопа Дуглас",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pank-57-25689.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pank-57-25689__Pank_57.epub",
+      "fileDir": "П",
+      "sizeMb": 1.4
+    },
+    {
+      "format": "fb2",
+      "filename": "pank-57-25689__Pank_57__pank-57.fb2",
+      "fileDir": "П",
+      "sizeMb": 3.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

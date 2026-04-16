@@ -1,0 +1,31 @@
+{
+  "id": "atmosfera-24705",
+  "slug": "atmosfera-24705",
+  "title": "Unknown",
+  "author": "word",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/atmosfera-24705.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "atmosfera-24705__Atmosfera.epub",
+      "fileDir": "А",
+      "sizeMb": 1.5
+    },
+    {
+      "format": "fb2",
+      "filename": "atmosfera-24705__Atmosfera__atmosfera.fb2",
+      "fileDir": "А",
+      "sizeMb": 4.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

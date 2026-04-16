@@ -1,0 +1,31 @@
+{
+  "id": "milij-tvit-22367",
+  "slug": "milij-tvit-22367",
+  "title": "Война и мир в твиттере",
+  "author": "Эмма Лорд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/milij-tvit-22367.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "milij-tvit-22367__Mylyi_tvit.epub",
+      "fileDir": "М",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "milij-tvit-22367__Mylyi_tvit__milij-tvit.fb2",
+      "fileDir": "М",
+      "sizeMb": 2.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

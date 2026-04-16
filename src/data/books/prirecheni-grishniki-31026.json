@@ -1,0 +1,31 @@
+{
+  "id": "prirecheni-grishniki-31026",
+  "slug": "prirecheni-grishniki-31026",
+  "title": "Приречені грішники",
+  "author": "Сомма Скетчер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/prirecheni-grishniki-31026.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "prirecheni-grishniki-31026__Pryrecheni_hrishnyky.epub",
+      "fileDir": "П",
+      "sizeMb": 4.0
+    },
+    {
+      "format": "fb2",
+      "filename": "prirecheni-grishniki-31026__Pryrecheni_hrishnyky__prirecheni-grishniki.fb2",
+      "fileDir": "П",
+      "sizeMb": 5.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "intrizhka-30571",
+  "slug": "intrizhka-30571",
+  "title": "Інтрижка",
+  "author": "Джиана Дарлінг",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/intrizhka-30571.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "intrizhka-30571__Intryzhka.epub",
+      "fileDir": "І",
+      "sizeMb": 3.2
+    },
+    {
+      "format": "fb2",
+      "filename": "intrizhka-30571__Intryzhka__intrizhka.fb2",
+      "fileDir": "І",
+      "sizeMb": 4.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

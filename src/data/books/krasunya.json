@@ -1,0 +1,28 @@
+{
+  "id": "krasunya",
+  "slug": "krasunya",
+  "title": "Krasunia",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Krasunia» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Krasunia» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/krasunya.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "krasunya__Krasunia.txt",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Krasunia — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «Krasunia» автора Невідомий автор безкоштовно у форматах TXT."
+}

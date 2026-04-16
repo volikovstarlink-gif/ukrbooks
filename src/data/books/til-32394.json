@@ -1,0 +1,31 @@
+{
+  "id": "til-32394",
+  "slug": "til-32394",
+  "title": "Тіль",
+  "author": "Данієль Кельман",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/til-32394.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "til-32394__Til.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "til-32394__Til__til.fb2",
+      "fileDir": "Т",
+      "sizeMb": 1.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

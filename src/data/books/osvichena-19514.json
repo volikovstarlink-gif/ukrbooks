@@ -1,0 +1,31 @@
+{
+  "id": "osvichena-19514",
+  "slug": "osvichena-19514",
+  "title": "Освічена",
+  "author": "Тара Вестовер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "osvichena-19514__Osvichena.epub",
+      "fileDir": "О",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "osvichena-19514__Osvichena__osvichena.fb2",
+      "fileDir": "О",
+      "sizeMb": 2.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "vershniki-5350",
+  "slug": "vershniki-5350",
+  "title": "Вершники",
+  "author": "Юрій Яновський",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vershniki-5350__Vershnyky.epub",
+      "fileDir": "В",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "vershniki-5350__Vershnyky__vershniki.fb2",
+      "fileDir": "В",
+      "sizeMb": 0.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "vryatuj-nas-26004",
+  "slug": "vryatuj-nas-26004",
+  "title": "Врятуй нас",
+  "author": "Мона Кастен",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vryatuj-nas-26004.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vryatuj-nas-26004__Vriatui_nas.epub",
+      "fileDir": "В",
+      "sizeMb": 1.5
+    },
+    {
+      "format": "fb2",
+      "filename": "vryatuj-nas-26004__Vriatui_nas__vryatuj-nas.fb2",
+      "fileDir": "В",
+      "sizeMb": 2.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

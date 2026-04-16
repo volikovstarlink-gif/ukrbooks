@@ -1,0 +1,31 @@
+{
+  "id": "vershina-kupidona-17437",
+  "slug": "vershina-kupidona-17437",
+  "title": "Вершина Купідона",
+  "author": "Лі Жако",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vershina-kupidona-17437.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vershina-kupidona-17437__Vershyna_Kupidona.epub",
+      "fileDir": "В",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "vershina-kupidona-17437__Vershyna_Kupidona__vershina-kupidona.fb2",
+      "fileDir": "В",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

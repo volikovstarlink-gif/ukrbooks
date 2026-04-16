@@ -1,0 +1,31 @@
+{
+  "id": "ya-stezhu-za-toboyu-32221",
+  "slug": "ya-stezhu-za-toboyu-32221",
+  "title": "Я стежу за тобою",
+  "author": "Невідомий автор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ya-stezhu-za-toboyu-32221.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ya-stezhu-za-toboyu-32221__Ya_stezhu_za_toboiu.epub",
+      "fileDir": "Я",
+      "sizeMb": 1.5
+    },
+    {
+      "format": "fb2",
+      "filename": "ya-stezhu-za-toboyu-32221__Ya_stezhu_za_toboiu__ya-stezhu-za-toboyu.fb2",
+      "fileDir": "Я",
+      "sizeMb": 6.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

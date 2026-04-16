@@ -1,0 +1,31 @@
+{
+  "id": "artemis-faul-kod-vichnosti-702",
+  "slug": "artemis-faul-kod-vichnosti-702",
+  "title": "Артеміс Фаул. Код вічності",
+  "author": "Йон Колфер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "artemis-faul-kod-vichnosti-702__Artemis_Faul._Kod_vichnosti.epub",
+      "fileDir": "А",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "artemis-faul-kod-vichnosti-702__Artemis_Faul._Kod_vichnosti__artemis-faul-kod-vichnosti.fb2",
+      "fileDir": "А",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

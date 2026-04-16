@@ -1,0 +1,31 @@
+{
+  "id": "vodyanij-misyats-17629",
+  "slug": "vodyanij-misyats-17629",
+  "title": "Водяний Місяць",
+  "author": "Саманта Сотто Ямбао",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vodyanij-misyats-17629.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vodyanij-misyats-17629__Vodianyi_Misiats.epub",
+      "fileDir": "В",
+      "sizeMb": 5.0
+    },
+    {
+      "format": "fb2",
+      "filename": "vodyanij-misyats-17629__Vodianyi_Misiats__vodyanij-misyats.fb2",
+      "fileDir": "В",
+      "sizeMb": 8.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

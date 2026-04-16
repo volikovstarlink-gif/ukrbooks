@@ -1,0 +1,31 @@
+{
+  "id": "spadok-gotorna-19975",
+  "slug": "spadok-gotorna-19975",
+  "title": "Unknown",
+  "author": "Дженніфер Лінн Барнс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spadok-gotorna-19975.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spadok-gotorna-19975__Spadok_Hotorna.epub",
+      "fileDir": "С",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "spadok-gotorna-19975__Spadok_Hotorna__spadok-gotorna.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

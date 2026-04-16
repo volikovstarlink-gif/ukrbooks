@@ -1,0 +1,31 @@
+{
+  "id": "marimontski-mlini-33038",
+  "slug": "marimontski-mlini-33038",
+  "title": "Маримонтські млини",
+  "author": "Адам Подлевський",
+  "category": "history",
+  "language": "uk",
+  "year": 2022,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/marimontski-mlini-33038.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "marimontski-mlini-33038__Marymontski_mlyny.epub",
+      "fileDir": "М",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "marimontski-mlini-33038__Marymontski_mlyny__marimontski-mlini.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

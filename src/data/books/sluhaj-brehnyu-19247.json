@@ -1,0 +1,31 @@
+{
+  "id": "sluhaj-brehnyu-19247",
+  "slug": "sluhaj-brehnyu-19247",
+  "title": "Слухай брехню",
+  "author": "Емі Тінтера",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/sluhaj-brehnyu-19247.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sluhaj-brehnyu-19247__Slukhai_brekhniu.epub",
+      "fileDir": "С",
+      "sizeMb": 2.9
+    },
+    {
+      "format": "fb2",
+      "filename": "sluhaj-brehnyu-19247__Slukhai_brekhniu__sluhaj-brehnyu.fb2",
+      "fileDir": "С",
+      "sizeMb": 5.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

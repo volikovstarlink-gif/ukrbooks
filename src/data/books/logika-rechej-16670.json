@@ -1,0 +1,31 @@
+{
+  "id": "logika-rechej-16670",
+  "slug": "logika-rechej-16670",
+  "title": "Логіка речей",
+  "author": "Василь Кожелянко",
+  "category": "classic",
+  "language": "uk",
+  "year": 2007,
+  "description": "«Логіка речей» — збірка жорстких реалістичних новел про виживання в умовах сучасного «речового тоталітаризму».",
+  "shortDescription": "«Логіка речей» — збірка жорстких реалістичних новел про виживання в умовах сучасного «речового тоталітаризму».",
+  "coverImage": "/covers/logika-rechej-16670.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "logika-rechej-16670__Lohika_rechei.epub",
+      "fileDir": "Л",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "logika-rechej-16670__Lohika_rechei__logika-rechej.fb2",
+      "fileDir": "Л",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

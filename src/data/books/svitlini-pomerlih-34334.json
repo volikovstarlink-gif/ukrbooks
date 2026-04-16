@@ -1,0 +1,31 @@
+{
+  "id": "svitlini-pomerlih-34334",
+  "slug": "svitlini-pomerlih-34334",
+  "title": "Світлини померлих",
+  "author": "Дін Кунц",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/svitlini-pomerlih-34334.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "svitlini-pomerlih-34334__Svitlyny_pomerlykh.epub",
+      "fileDir": "С",
+      "sizeMb": 1.7
+    },
+    {
+      "format": "fb2",
+      "filename": "svitlini-pomerlih-34334__Svitlyny_pomerlykh__svitlini-pomerlih.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

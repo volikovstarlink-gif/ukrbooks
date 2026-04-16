@@ -1,0 +1,31 @@
+{
+  "id": "preriya-2653",
+  "slug": "preriya-2653",
+  "title": "Прерія",
+  "author": "Джеймс Фенімор Купер",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2011,
+  "description": "Завершальний роман відомої пенталогії класика американської літератури про доброчесного мисливця Натті Бампо.",
+  "shortDescription": "Завершальний роман відомої пенталогії класика американської літератури про доброчесного мисливця Натті Бампо.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "preriya-2653__Preriia.epub",
+      "fileDir": "П",
+      "sizeMb": 1.7
+    },
+    {
+      "format": "fb2",
+      "filename": "preriya-2653__Preriia__preriya.fb2",
+      "fileDir": "П",
+      "sizeMb": 2.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

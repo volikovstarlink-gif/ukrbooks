@@ -1,0 +1,31 @@
+{
+  "id": "piv-korolya-24957",
+  "slug": "piv-korolya-24957",
+  "title": "Пів короля",
+  "author": "Джо Аберкромбі",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/piv-korolya-24957.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "piv-korolya-24957__Piv_korolia.epub",
+      "fileDir": "П",
+      "sizeMb": 2.4
+    },
+    {
+      "format": "fb2",
+      "filename": "piv-korolya-24957__Piv_korolia__piv-korolya.fb2",
+      "fileDir": "П",
+      "sizeMb": 5.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

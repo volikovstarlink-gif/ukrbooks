@@ -1,0 +1,31 @@
+{
+  "id": "alisa-v-krayini-chudes-28468",
+  "slug": "alisa-v-krayini-chudes-28468",
+  "title": "Аліса в країні чудес",
+  "author": "Льюїс Керрол",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/alisa-v-krayini-chudes-28468.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "alisa-v-krayini-chudes-28468__Alisa_v_kraini_chudes.epub",
+      "fileDir": "А",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "alisa-v-krayini-chudes-28468__Alisa_v_kraini_chudes__alisa-v-krayini-chudes.fb2",
+      "fileDir": "А",
+      "sizeMb": 0.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

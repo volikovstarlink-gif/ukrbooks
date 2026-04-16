@@ -1,0 +1,31 @@
+{
+  "id": "yarmarok-suyeti-34427",
+  "slug": "yarmarok-suyeti-34427",
+  "title": "Ярмарок суєти",
+  "author": "Вільям Мейкпіс Теккерей",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/yarmarok-suyeti-34427.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "yarmarok-suyeti-34427__Yarmarok_suiety.epub",
+      "fileDir": "Я",
+      "sizeMb": 1.0
+    },
+    {
+      "format": "fb2",
+      "filename": "yarmarok-suyeti-34427__Yarmarok_suiety__yarmarok-suyeti.fb2",
+      "fileDir": "Я",
+      "sizeMb": 2.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

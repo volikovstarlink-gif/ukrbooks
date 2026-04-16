@@ -1,0 +1,31 @@
+{
+  "id": "narechena-bogomol-35277",
+  "slug": "narechena-bogomol-35277",
+  "title": "Наречена Богомол (done)",
+  "author": "Дін Кунц",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/narechena-bogomol-35277.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "narechena-bogomol-35277__Narechena_Bohomol.epub",
+      "fileDir": "Н",
+      "sizeMb": 1.8
+    },
+    {
+      "format": "fb2",
+      "filename": "narechena-bogomol-35277__Narechena_Bohomol__narechena-bogomol.fb2",
+      "fileDir": "Н",
+      "sizeMb": 2.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

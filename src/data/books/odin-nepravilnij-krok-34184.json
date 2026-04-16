@@ -1,0 +1,31 @@
+{
+  "id": "odin-nepravilnij-krok-34184",
+  "slug": "odin-nepravilnij-krok-34184",
+  "title": "Один неправильний крок",
+  "author": "Олівія Гейл",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/odin-nepravilnij-krok-34184.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "odin-nepravilnij-krok-34184__Odyn_nepravylnyi_krok.epub",
+      "fileDir": "О",
+      "sizeMb": 1.9
+    },
+    {
+      "format": "fb2",
+      "filename": "odin-nepravilnij-krok-34184__Odyn_nepravylnyi_krok__odin-nepravilnij-krok.fb2",
+      "fileDir": "О",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

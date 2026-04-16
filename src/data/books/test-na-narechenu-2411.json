@@ -1,0 +1,31 @@
+{
+  "id": "test-na-narechenu-2411",
+  "slug": "test-na-narechenu-2411",
+  "title": "Unknown",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "test-na-narechenu-2411__Test_na_narechenu.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "test-na-narechenu-2411__Test_na_narechenu__test-na-narechenu.fb2",
+      "fileDir": "Т",
+      "sizeMb": 2.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

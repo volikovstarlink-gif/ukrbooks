@@ -1,0 +1,31 @@
+{
+  "id": "liki-vid-smerti-10428",
+  "slug": "liki-vid-smerti-10428",
+  "title": "Ліки від смерті",
+  "author": "Джеймс Дешнер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "liki-vid-smerti-10428__Liky_vid_smerti.epub",
+      "fileDir": "Л",
+      "sizeMb": 1.4
+    },
+    {
+      "format": "fb2",
+      "filename": "liki-vid-smerti-10428__Liky_vid_smerti__liki-vid-smerti.fb2",
+      "fileDir": "Л",
+      "sizeMb": 2.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

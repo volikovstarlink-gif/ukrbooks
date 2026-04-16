@@ -1,0 +1,31 @@
+{
+  "id": "neprirodnij-28379",
+  "slug": "neprirodnij-28379",
+  "title": "Неприродний",
+  "author": "Міа Шерідан",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/neprirodnij-28379.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "neprirodnij-28379__Nepryrodnyi.epub",
+      "fileDir": "Н",
+      "sizeMb": 4.1
+    },
+    {
+      "format": "fb2",
+      "filename": "neprirodnij-28379__Nepryrodnyi__neprirodnij.fb2",
+      "fileDir": "Н",
+      "sizeMb": 6.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

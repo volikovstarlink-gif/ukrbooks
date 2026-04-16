@@ -1,0 +1,31 @@
+{
+  "id": "kurok-19516",
+  "slug": "kurok-19516",
+  "title": "Курок",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kurok-19516.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kurok-19516__Kurok.epub",
+      "fileDir": "К",
+      "sizeMb": 4.6
+    },
+    {
+      "format": "fb2",
+      "filename": "kurok-19516__Kurok__kurok.fb2",
+      "fileDir": "К",
+      "sizeMb": 3.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

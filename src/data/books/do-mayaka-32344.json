@@ -1,0 +1,31 @@
+{
+  "id": "do-mayaka-32344",
+  "slug": "do-mayaka-32344",
+  "title": "До маяка",
+  "author": "Вірджинія Вулф",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/do-mayaka-32344.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "do-mayaka-32344__Do_maiaka.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "do-mayaka-32344__Do_maiaka__do-mayaka.fb2",
+      "fileDir": "Д",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

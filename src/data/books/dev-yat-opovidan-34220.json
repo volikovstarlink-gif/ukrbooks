@@ -1,0 +1,31 @@
+{
+  "id": "dev-yat-opovidan-34220",
+  "slug": "dev-yat-opovidan-34220",
+  "title": "Селінджер Дж.9 оповідань",
+  "author": "Неизвестный автор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dev-yat-opovidan-34220.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dev-yat-opovidan-34220__Deviat_opovidan.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "dev-yat-opovidan-34220__Deviat_opovidan__dev-yat-opovidan.fb2",
+      "fileDir": "Д",
+      "sizeMb": 0.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

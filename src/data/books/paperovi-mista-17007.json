@@ -1,0 +1,31 @@
+{
+  "id": "paperovi-mista-17007",
+  "slug": "paperovi-mista-17007",
+  "title": "Паперові міста",
+  "author": "Джон Майкл Грін",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "Повний текст \"Паперові міста\" (автор: Грін Джон Майкл) з Бібліотеки Української Літератури УкрЛіб",
+  "shortDescription": "Повний текст \"Паперові міста\" (автор: Грін Джон Майкл) з Бібліотеки Української Літератури УкрЛіб",
+  "coverImage": "/covers/paperovi-mista-17007.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "paperovi-mista-17007__Paperovi_mista.epub",
+      "fileDir": "П",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "paperovi-mista-17007__Paperovi_mista__paperovi-mista.fb2",
+      "fileDir": "П",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

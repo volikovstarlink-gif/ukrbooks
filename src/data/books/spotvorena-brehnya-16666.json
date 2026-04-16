@@ -1,0 +1,31 @@
+{
+  "id": "spotvorena-brehnya-16666",
+  "slug": "spotvorena-brehnya-16666",
+  "title": "Спотворена брехня",
+  "author": "Ана Хуанг",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spotvorena-brehnya-16666.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spotvorena-brehnya-16666__Spotvorena_brekhnia.epub",
+      "fileDir": "С",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "spotvorena-brehnya-16666__Spotvorena_brekhnia__spotvorena-brehnya.fb2",
+      "fileDir": "С",
+      "sizeMb": 3.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

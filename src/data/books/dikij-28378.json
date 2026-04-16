@@ -1,0 +1,31 @@
+{
+  "id": "dikij-28378",
+  "slug": "dikij-28378",
+  "title": "Дикий / Небажаний",
+  "author": "Міа Шерідан",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dikij-28378.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dikij-28378__Dykyi.epub",
+      "fileDir": "Д",
+      "sizeMb": 3.4
+    },
+    {
+      "format": "fb2",
+      "filename": "dikij-28378__Dykyi__dikij.fb2",
+      "fileDir": "Д",
+      "sizeMb": 5.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "sekret-30578",
+  "slug": "sekret-30578",
+  "title": "Секрет",
+  "author": "Джиана Дарлінг",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/sekret-30578.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sekret-30578__Sekret.epub",
+      "fileDir": "С",
+      "sizeMb": 4.0
+    },
+    {
+      "format": "fb2",
+      "filename": "sekret-30578__Sekret__sekret.fb2",
+      "fileDir": "С",
+      "sizeMb": 5.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "orendar-21921",
+  "slug": "orendar-21921",
+  "title": "Орендар",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/orendar-21921.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "orendar-21921__Orendar.epub",
+      "fileDir": "О",
+      "sizeMb": 4.1
+    },
+    {
+      "format": "fb2",
+      "filename": "orendar-21921__Orendar__orendar.fb2",
+      "fileDir": "О",
+      "sizeMb": 6.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

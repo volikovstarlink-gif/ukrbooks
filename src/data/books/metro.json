@@ -1,0 +1,28 @@
+{
+  "id": "metro",
+  "slug": "metro",
+  "title": "Metro",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Metro» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Metro» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/metro.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "metro__Metro.txt",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Metro — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «Metro» автора Невідомий автор безкоштовно у форматах TXT."
+}

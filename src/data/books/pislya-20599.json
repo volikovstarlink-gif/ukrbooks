@@ -1,0 +1,31 @@
+{
+  "id": "pislya-20599",
+  "slug": "pislya-20599",
+  "title": "Після",
+  "author": "Анна Тодд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pislya-20599.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pislya-20599__Pislia.epub",
+      "fileDir": "П",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "pislya-20599__Pislia__pislya.fb2",
+      "fileDir": "П",
+      "sizeMb": 2.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

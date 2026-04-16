@@ -1,0 +1,31 @@
+{
+  "id": "shtuchnij-stan-6028",
+  "slug": "shtuchnij-stan-6028",
+  "title": "Штучний стан",
+  "author": "Марта Велс",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "Друга книга серії Murderbot Diaries (Щоденники робота-кіллера). Murderbot знайомиться з новими людьми і допомагає їм вибратися з скрутного становища.",
+  "shortDescription": "Друга книга серії Murderbot Diaries (Щоденники робота-кіллера). Murderbot знайомиться з новими людьми і допомагає їм вибратися з скрутного становища.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shtuchnij-stan-6028__Shtuchnyi_stan.epub",
+      "fileDir": "Ш",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "shtuchnij-stan-6028__Shtuchnyi_stan__shtuchnij-stan.fb2",
+      "fileDir": "Ш",
+      "sizeMb": 0.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

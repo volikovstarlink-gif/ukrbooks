@@ -1,0 +1,31 @@
+{
+  "id": "falshiva-nota-25685",
+  "slug": "falshiva-nota-25685",
+  "title": "Фальшива нота",
+  "author": "Давід Лаґеркранц",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/falshiva-nota-25685.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "falshiva-nota-25685__Falshyva_nota.epub",
+      "fileDir": "Ф",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "falshiva-nota-25685__Falshyva_nota__falshiva-nota.fb2",
+      "fileDir": "Ф",
+      "sizeMb": 1.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

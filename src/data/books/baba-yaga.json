@@ -1,0 +1,28 @@
+{
+  "id": "baba-yaga",
+  "slug": "baba-yaga",
+  "title": "Baba Yaha",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Baba Yaha» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Baba Yaha» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/baba-yaga.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "baba-yaga__Baba_Yaha.txt",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Baba Yaha — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «Baba Yaha» автора Невідомий автор безкоштовно у форматах TXT."
+}

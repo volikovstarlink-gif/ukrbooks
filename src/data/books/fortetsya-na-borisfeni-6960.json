@@ -1,0 +1,31 @@
+{
+  "id": "fortetsya-na-borisfeni-6960",
+  "slug": "fortetsya-na-borisfeni-6960",
+  "title": "Фортеця на Борисфенi",
+  "author": "Валентин Лукич Чемерис",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "Боротьба за незалежність України.",
+  "shortDescription": "Боротьба за незалежність України.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "fortetsya-na-borisfeni-6960__Fortetsia_na_Borysfeni.epub",
+      "fileDir": "Ф",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "fortetsya-na-borisfeni-6960__Fortetsia_na_Borysfeni__fortetsya-na-borisfeni.fb2",
+      "fileDir": "Ф",
+      "sizeMb": 1.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

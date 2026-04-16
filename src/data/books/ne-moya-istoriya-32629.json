@@ -1,0 +1,31 @@
+{
+  "id": "ne-moya-istoriya-32629",
+  "slug": "ne-moya-istoriya-32629",
+  "title": "Не моя історія!",
+  "author": "Невідомий автор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ne-moya-istoriya-32629.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ne-moya-istoriya-32629__Ne_moia_istoriia.epub",
+      "fileDir": "Н",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "ne-moya-istoriya-32629__Ne_moia_istoriia__ne-moya-istoriya.fb2",
+      "fileDir": "Н",
+      "sizeMb": 2.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

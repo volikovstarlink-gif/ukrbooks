@@ -1,0 +1,31 @@
+{
+  "id": "glibina-17182",
+  "slug": "glibina-17182",
+  "title": "Глибина",
+  "author": "Алі Гейзелвуд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/glibina-17182.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "glibina-17182__Hlybyna.epub",
+      "fileDir": "Г",
+      "sizeMb": 3.5
+    },
+    {
+      "format": "fb2",
+      "filename": "glibina-17182__Hlybyna__glibina.fb2",
+      "fileDir": "Г",
+      "sizeMb": 7.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

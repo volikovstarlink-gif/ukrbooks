@@ -1,0 +1,33 @@
+{
+  "id": "apokalipsys",
+  "slug": "apokalipsys",
+  "title": "Апокаліпсис",
+  "author": "Мария Матиос",
+  "authorSlug": "maryia-matyos",
+  "description": "<p>«Апокаліпсис» — книга автора Мария Матиос.</p>",
+  "shortDescription": "«Апокаліпсис» — книга автора Мария Матиос.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/apokalipsys.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "apokalipsys - Апокаліпсис.epub",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "apokalipsys - Апокаліпсис__Apokalipsis - Mariia Matios.fb2",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Апокаліпсис — Мария Матиос | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Апокаліпсис» автора Мария Матиос безкоштовно у форматах EPUB, FB2."
+}

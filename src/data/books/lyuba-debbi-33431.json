@@ -1,0 +1,31 @@
+{
+  "id": "lyuba-debbi-33431",
+  "slug": "lyuba-debbi-33431",
+  "title": "Люба Деббі",
+  "author": "Фріда Мак-Фадден",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/lyuba-debbi-33431.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "lyuba-debbi-33431__Liuba_Debbi.epub",
+      "fileDir": "Л",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "lyuba-debbi-33431__Liuba_Debbi__lyuba-debbi.fb2",
+      "fileDir": "Л",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

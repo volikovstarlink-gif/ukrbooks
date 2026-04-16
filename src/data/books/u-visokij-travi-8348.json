@@ -1,0 +1,31 @@
+{
+  "id": "u-visokij-travi-8348",
+  "slug": "u-visokij-travi-8348",
+  "title": "Стівен та\nДжозеф\nГіллстром\nКІНГИ",
+  "author": "Unknown",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "u-visokij-travi-8348__U_vysokii_travi.epub",
+      "fileDir": "У",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "u-visokij-travi-8348__U_vysokii_travi__u-visokij-travi.fb2",
+      "fileDir": "У",
+      "sizeMb": 0.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "movchi-23869",
+  "slug": "movchi-23869",
+  "title": "Мовчи",
+  "author": "Кеті Регнері",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/movchi-23869.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "movchi-23869__Movchy.epub",
+      "fileDir": "М",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "movchi-23869__Movchy__movchi.fb2",
+      "fileDir": "М",
+      "sizeMb": 3.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

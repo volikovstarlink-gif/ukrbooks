@@ -1,0 +1,31 @@
+{
+  "id": "u-sertsi-vognyu-35271",
+  "slug": "u-sertsi-vognyu-35271",
+  "title": "У серці вогню",
+  "author": "Дін Кунц",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/u-sertsi-vognyu-35271.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "u-sertsi-vognyu-35271__U_sertsi_vohniu.epub",
+      "fileDir": "У",
+      "sizeMb": 2.6
+    },
+    {
+      "format": "fb2",
+      "filename": "u-sertsi-vognyu-35271__U_sertsi_vohniu__u-sertsi-vognyu.fb2",
+      "fileDir": "У",
+      "sizeMb": 3.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

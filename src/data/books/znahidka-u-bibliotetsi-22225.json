@@ -1,0 +1,31 @@
+{
+  "id": "znahidka-u-bibliotetsi-22225",
+  "slug": "znahidka-u-bibliotetsi-22225",
+  "title": "Знахідка у бібліотеці",
+  "author": "Агата Крісті",
+  "category": "detective",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/znahidka-u-bibliotetsi-22225.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "znahidka-u-bibliotetsi-22225__Znakhidka_u_bibliotetsi.epub",
+      "fileDir": "З",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "znahidka-u-bibliotetsi-22225__Znakhidka_u_bibliotetsi__znahidka-u-bibliotetsi.fb2",
+      "fileDir": "З",
+      "sizeMb": 0.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

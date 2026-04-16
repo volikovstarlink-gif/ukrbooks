@@ -1,26 +1,171 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-ink: #0F1923;
+  --color-parchment: #F5F0E8;
+  --color-gold: #C9A84C;
+  --color-gold-light: #E8C97A;
+  --color-sapphire: #1B3A6B;
+  --color-sapphire-light: #2952A3;
+  --color-rust: #8B3A2A;
+  --color-cream: #FDFAF4;
+  --color-muted: #6B7280;
+  --color-border: #DDD5C4;
+  --color-card: #FFFFFF;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --shadow-sm: 0 1px 3px rgba(15, 25, 35, 0.08);
+  --shadow-md: 0 4px 16px rgba(15, 25, 35, 0.12);
+  --shadow-lg: 0 8px 32px rgba(15, 25, 35, 0.16);
+  --shadow-card: 0 2px 8px rgba(15, 25, 35, 0.08), 0 8px 24px rgba(15, 25, 35, 0.06);
+
+  --animate-fade-up: fade-up 0.5s ease forwards;
+  --animate-fade-in: fade-in 0.3s ease forwards;
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 }
 
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Layout ── */
+.container-site {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@media (min-width: 640px)  { .container-site { padding-inline: 1.5rem; } }
+@media (min-width: 1024px) { .container-site { padding-inline: 2rem; } }
+
+.section { padding-block: 3rem; }
+@media (min-width: 768px) { .section { padding-block: 5rem; } }
+
+/* ── Typography ── */
+.font-display { font-family: var(--font-display); }
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1.2;
+}
+.section-subtitle {
+  color: var(--color-muted);
+  font-size: 1.0625rem;
+  margin-top: 0.5rem;
+}
+
+/* ── Ukraine accent stripe ── */
+.ukraine-accent {
+  height: 4px;
+  background: linear-gradient(90deg, #005BBB 50%, #FFD500 50%);
+}
+
+/* ── Book card ── */
+.book-card {
+  background: var(--color-card);
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 150ms ease;
+  text-decoration: none;
+  border: none;
+  font-family: var(--font-body);
+}
+.btn-sm  { font-size: 0.8125rem; padding: 0.375rem 0.875rem; }
+.btn-md  { font-size: 0.9375rem; padding: 0.625rem 1.25rem; }
+.btn-lg  { font-size: 1.0625rem; padding: 0.75rem 1.75rem; }
+
+.btn-primary {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+.btn-primary:hover { background: var(--color-gold-light); }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-gold);
+  border: 1.5px solid var(--color-gold);
+}
+.btn-secondary:hover {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+
+.btn-download {
+  background: var(--color-sapphire);
+  color: #fff;
+}
+.btn-download:hover { background: var(--color-sapphire-light); }
+
+/* ── Category card ── */
+.category-card {
+  background: var(--color-card);
+  border-radius: 0.75rem;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all 200ms ease;
+  text-decoration: none;
+  color: var(--color-ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.category-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  background: var(--color-sapphire);
+  color: #fff;
+}
+
+/* ── Ornament divider ── */
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--color-gold);
+  font-size: 1.25rem;
+}
+.ornament-divider::before, .ornament-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
 }

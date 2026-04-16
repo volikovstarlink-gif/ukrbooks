@@ -1,0 +1,31 @@
+{
+  "id": "hrestonostsi-3389",
+  "slug": "hrestonostsi-3389",
+  "title": "Хрестоносці",
+  "author": "Генрик Сенкевич",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "hrestonostsi-3389__Khrestonostsi.epub",
+      "fileDir": "Х",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "hrestonostsi-3389__Khrestonostsi__hrestonostsi.fb2",
+      "fileDir": "Х",
+      "sizeMb": 2.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

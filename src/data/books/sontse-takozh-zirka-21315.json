@@ -1,0 +1,31 @@
+{
+  "id": "sontse-takozh-zirka-21315",
+  "slug": "sontse-takozh-zirka-21315",
+  "title": "Сонце також зірка",
+  "author": "Нікола Юн",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/sontse-takozh-zirka-21315.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sontse-takozh-zirka-21315__Sontse_takozh_zirka.epub",
+      "fileDir": "С",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "sontse-takozh-zirka-21315__Sontse_takozh_zirka__sontse-takozh-zirka.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "kvantovij-zlodij-30022",
+  "slug": "kvantovij-zlodij-30022",
+  "title": "ГАННУ РАЯНІЕМІ",
+  "author": "Admin",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2025,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kvantovij-zlodij-30022.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kvantovij-zlodij-30022__Kvantovyi_zlodii.epub",
+      "fileDir": "К",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "kvantovij-zlodij-30022__Kvantovyi_zlodii__kvantovij-zlodij.fb2",
+      "fileDir": "К",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

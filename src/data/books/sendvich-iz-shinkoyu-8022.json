@@ -1,0 +1,31 @@
+{
+  "id": "sendvich-iz-shinkoyu-8022",
+  "slug": "sendvich-iz-shinkoyu-8022",
+  "title": "Сендвіч із шинкою",
+  "author": "Чарльз Буковскі",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sendvich-iz-shinkoyu-8022__Sendvich_iz_shynkoiu.epub",
+      "fileDir": "С",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "sendvich-iz-shinkoyu-8022__Sendvich_iz_shynkoiu__sendvich-iz-shinkoyu.fb2",
+      "fileDir": "С",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

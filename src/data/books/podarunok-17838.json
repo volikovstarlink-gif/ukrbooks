@@ -1,0 +1,31 @@
+{
+  "id": "podarunok-17838",
+  "slug": "podarunok-17838",
+  "title": "Подарунок",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/podarunok-17838.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "podarunok-17838__Podarunok.epub",
+      "fileDir": "П",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "podarunok-17838__Podarunok__podarunok.fb2",
+      "fileDir": "П",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

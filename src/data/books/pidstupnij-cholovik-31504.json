@@ -1,0 +1,31 @@
+{
+  "id": "pidstupnij-cholovik-31504",
+  "slug": "pidstupnij-cholovik-31504",
+  "title": "Підступний чоловік",
+  "author": "Катаріна Маура",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pidstupnij-cholovik-31504.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pidstupnij-cholovik-31504__Pidstupnyi_cholovik.epub",
+      "fileDir": "П",
+      "sizeMb": 1.8
+    },
+    {
+      "format": "fb2",
+      "filename": "pidstupnij-cholovik-31504__Pidstupnyi_cholovik__pidstupnij-cholovik.fb2",
+      "fileDir": "П",
+      "sizeMb": 2.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

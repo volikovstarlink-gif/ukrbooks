@@ -1,0 +1,31 @@
+{
+  "id": "nejtralna-teritoriya-8433",
+  "slug": "nejtralna-teritoriya-8433",
+  "title": "Нейтральна територія",
+  "author": "Андрій Кокотюха",
+  "category": "fiction",
+  "language": "uk",
+  "year": 2002,
+  "description": "Містичний трилер, героям якого доводиться робити непростий вибір — змиритись з Дияволом, який збирається ожити в їх тілі, або свідомо прийняти смерть на Нейтральній території.",
+  "shortDescription": "Містичний трилер, героям якого доводиться робити непростий вибір — змиритись з Дияволом, який збирається ожити в їх тілі, або свідомо прийняти смерть на Нейтральній території.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nejtralna-teritoriya-8433__Neitralna_terytoriia.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "nejtralna-teritoriya-8433__Neitralna_terytoriia__nejtralna-teritoriya.fb2",
+      "fileDir": "Н",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

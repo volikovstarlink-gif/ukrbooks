@@ -1,0 +1,31 @@
+{
+  "id": "451-za-farenheytom-6793",
+  "slug": "451-za-farenheytom-6793",
+  "title": "451° за Фаренгейтом",
+  "author": "Рей Бредбері",
+  "category": "fiction",
+  "language": "uk",
+  "year": 2009,
+  "description": "Роман та оповідання відомого, сучасного американського письменника-фантаста пройняті любов’ю до людини, вірою в неминучу перемогу розуму над безумом, добра над злом.",
+  "shortDescription": "Роман та оповідання відомого, сучасного американського письменника-фантаста пройняті любов’ю до людини, вірою в неминучу перемогу розуму над безумом, добра над злом.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "451-za-farengejtom-6793__451_za_Farenheitom.epub",
+      "fileDir": "0-9",
+      "sizeMb": 1.3
+    },
+    {
+      "format": "fb2",
+      "filename": "451-za-farengejtom-6793__451_za_Farenheitom__451-za-farengejtom.fb2",
+      "fileDir": "0-9",
+      "sizeMb": 2.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

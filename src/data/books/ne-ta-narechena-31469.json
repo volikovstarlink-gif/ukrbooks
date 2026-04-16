@@ -1,0 +1,31 @@
+{
+  "id": "ne-ta-narechena-31469",
+  "slug": "ne-ta-narechena-31469",
+  "title": "Не та наречена",
+  "author": "Катаріна Маура",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ne-ta-narechena-31469.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ne-ta-narechena-31469__Ne_ta_narechena.epub",
+      "fileDir": "Н",
+      "sizeMb": 4.7
+    },
+    {
+      "format": "fb2",
+      "filename": "ne-ta-narechena-31469__Ne_ta_narechena__ne-ta-narechena.fb2",
+      "fileDir": "Н",
+      "sizeMb": 7.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

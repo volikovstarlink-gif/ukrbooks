@@ -1,0 +1,31 @@
+{
+  "id": "vidma-v-chasi-24818",
+  "slug": "vidma-v-chasi-24818",
+  "title": "Unknown",
+  "author": "Андрей Коломиец",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vidma-v-chasi-24818.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vidma-v-chasi-24818__Vidma_v_chasi.epub",
+      "fileDir": "В",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "vidma-v-chasi-24818__Vidma_v_chasi__vidma-v-chasi.fb2",
+      "fileDir": "В",
+      "sizeMb": 2.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

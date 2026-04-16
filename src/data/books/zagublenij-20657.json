@@ -1,0 +1,31 @@
+{
+  "id": "zagublenij-20657",
+  "slug": "zagublenij-20657",
+  "title": "Unknown",
+  "author": "Пользователь Windows",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zagublenij-20657.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zagublenij-20657__Zahublenyi.epub",
+      "fileDir": "З",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "zagublenij-20657__Zahublenyi__zagublenij.fb2",
+      "fileDir": "З",
+      "sizeMb": 2.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

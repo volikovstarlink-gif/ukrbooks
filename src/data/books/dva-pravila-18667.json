@@ -1,0 +1,31 @@
+{
+  "id": "dva-pravila-18667",
+  "slug": "dva-pravila-18667",
+  "title": "Два Правила",
+  "author": "Роксі Слоун",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dva-pravila-18667.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dva-pravila-18667__Dva_pravyla.epub",
+      "fileDir": "Д",
+      "sizeMb": 3.3
+    },
+    {
+      "format": "fb2",
+      "filename": "dva-pravila-18667__Dva_pravyla__dva-pravila.fb2",
+      "fileDir": "Д",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

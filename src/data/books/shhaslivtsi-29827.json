@@ -1,0 +1,31 @@
+{
+  "id": "shhaslivtsi-29827",
+  "slug": "shhaslivtsi-29827",
+  "title": "Марк Едвардз_Щасливці",
+  "author": "Невідомий автор",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/shhaslivtsi-29827.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shhaslivtsi-29827__Shchaslyvtsi.epub",
+      "fileDir": "Щ",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "shhaslivtsi-29827__Shchaslyvtsi__shhaslivtsi.fb2",
+      "fileDir": "Щ",
+      "sizeMb": 1.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

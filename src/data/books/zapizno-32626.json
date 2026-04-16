@@ -1,0 +1,31 @@
+{
+  "id": "zapizno-32626",
+  "slug": "zapizno-32626",
+  "title": "Запізно",
+  "author": "Unknown Author",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zapizno-32626.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zapizno-32626__Zapizno.epub",
+      "fileDir": "З",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "zapizno-32626__Zapizno__zapizno.fb2",
+      "fileDir": "З",
+      "sizeMb": 1.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

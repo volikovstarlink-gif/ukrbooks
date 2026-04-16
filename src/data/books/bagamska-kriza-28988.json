@@ -1,0 +1,31 @@
+{
+  "id": "bagamska-kriza-28988",
+  "slug": "bagamska-kriza-28988",
+  "title": "Багамська криза",
+  "author": "Десмонд Бэгли",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/bagamska-kriza-28988.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "bagamska-kriza-28988__Bahamska_kryza.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "bagamska-kriza-28988__Bahamska_kryza__bagamska-kriza.fb2",
+      "fileDir": "Б",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

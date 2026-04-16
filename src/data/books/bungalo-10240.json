@@ -1,0 +1,31 @@
+{
+  "id": "bungalo-10240",
+  "slug": "bungalo-10240",
+  "title": "Бунгало",
+  "author": "Сара Джіо",
+  "category": "romance",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/bungalo-10240.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "bungalo-10240__Bunhalo.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "bungalo-10240__Bunhalo__bungalo.fb2",
+      "fileDir": "Б",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

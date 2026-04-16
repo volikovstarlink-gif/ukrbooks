@@ -1,0 +1,31 @@
+{
+  "id": "spisok-mrij-27094",
+  "slug": "spisok-mrij-27094",
+  "title": "c648fca3c1e0076c89df6a6835566176",
+  "author": "Unknown",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spisok-mrij-27094.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spisok-mrij-27094__Spysok_mrii.epub",
+      "fileDir": "С",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "spisok-mrij-27094__Spysok_mrii__spisok-mrij.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

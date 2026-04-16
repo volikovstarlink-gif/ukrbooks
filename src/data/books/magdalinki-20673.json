@@ -1,0 +1,31 @@
+{
+  "id": "magdalinki-20673",
+  "slug": "magdalinki-20673",
+  "title": "Магдалинки",
+  "author": "Марина Гримич",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "Downloaded from z-lib.org",
+  "shortDescription": "Downloaded from z-lib.org",
+  "coverImage": "/covers/magdalinki-20673.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "magdalinki-20673__Mahdalynky.epub",
+      "fileDir": "М",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "magdalinki-20673__Mahdalynky__magdalinki.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

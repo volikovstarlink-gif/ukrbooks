@@ -1,0 +1,31 @@
+{
+  "id": "miloserdya-zmij-35273",
+  "slug": "miloserdya-zmij-35273",
+  "title": "Милосердя Змій (done)",
+  "author": "Дін Кунц",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/miloserdya-zmij-35273.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "miloserdya-zmij-35273__Myloserdia_Zmii.epub",
+      "fileDir": "М",
+      "sizeMb": 1.8
+    },
+    {
+      "format": "fb2",
+      "filename": "miloserdya-zmij-35273__Myloserdia_Zmii__miloserdya-zmij.fb2",
+      "fileDir": "М",
+      "sizeMb": 2.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

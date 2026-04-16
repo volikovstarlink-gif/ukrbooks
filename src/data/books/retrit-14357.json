@@ -1,0 +1,31 @@
+{
+  "id": "retrit-14357",
+  "slug": "retrit-14357",
+  "title": "Ретрит",
+  "author": "Сара Пірс",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/retrit-14357.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "retrit-14357__Retryt.epub",
+      "fileDir": "Р",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "retrit-14357__Retryt__retrit.fb2",
+      "fileDir": "Р",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

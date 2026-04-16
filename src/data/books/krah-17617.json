@@ -1,0 +1,31 @@
+{
+  "id": "krah-17617",
+  "slug": "krah-17617",
+  "title": "Крах",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/krah-17617.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "krah-17617__Krakh.epub",
+      "fileDir": "К",
+      "sizeMb": 5.9
+    },
+    {
+      "format": "fb2",
+      "filename": "krah-17617__Krakh__krah.fb2",
+      "fileDir": "К",
+      "sizeMb": 9.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

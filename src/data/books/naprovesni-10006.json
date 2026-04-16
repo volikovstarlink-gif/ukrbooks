@@ -1,0 +1,31 @@
+{
+  "id": "naprovesni-10006",
+  "slug": "naprovesni-10006",
+  "title": "Напровесні",
+  "author": "Сьюзен Гілл",
+  "category": "ukr-literature",
+  "language": "en",
+  "year": 2020,
+  "description": "Переклад з англійської Взято з журналу \"Всесвіт\", №11-12 за 1979 р.",
+  "shortDescription": "Переклад з англійської Взято з журналу \"Всесвіт\", №11-12 за 1979 р.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "naprovesni-10006__Naprovesni.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "naprovesni-10006__Naprovesni__naprovesni.fb2",
+      "fileDir": "Н",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

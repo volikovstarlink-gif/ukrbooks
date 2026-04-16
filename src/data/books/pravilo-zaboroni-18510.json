@@ -1,0 +1,31 @@
+{
+  "id": "pravilo-zaboroni-18510",
+  "slug": "pravilo-zaboroni-18510",
+  "title": "1. Правило Заборони - Сара Адамс",
+  "author": "Сара Адамс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pravilo-zaboroni-18510.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pravilo-zaboroni-18510__Pravylo_Zaborony.epub",
+      "fileDir": "П",
+      "sizeMb": 2.7
+    },
+    {
+      "format": "fb2",
+      "filename": "pravilo-zaboroni-18510__Pravylo_Zaborony__pravilo-zaboroni.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

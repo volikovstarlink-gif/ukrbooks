@@ -1,0 +1,31 @@
+{
+  "id": "inshij-vid-5351",
+  "slug": "inshij-vid-5351",
+  "title": "Інший вид",
+  "author": "Алла Сєрова",
+  "category": "fiction",
+  "language": "uk",
+  "year": 2010,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "inshij-vid-5351__Inshyi_vyd.epub",
+      "fileDir": "І",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "inshij-vid-5351__Inshyi_vyd__inshij-vid.fb2",
+      "fileDir": "І",
+      "sizeMb": 0.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

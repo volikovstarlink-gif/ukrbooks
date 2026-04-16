@@ -1,0 +1,31 @@
+{
+  "id": "psihika-20658",
+  "slug": "psihika-20658",
+  "title": "Психіка",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/psihika-20658.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "psihika-20658__Psykhika.epub",
+      "fileDir": "П",
+      "sizeMb": 1.2
+    },
+    {
+      "format": "fb2",
+      "filename": "psihika-20658__Psykhika__psihika.fb2",
+      "fileDir": "П",
+      "sizeMb": 2.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

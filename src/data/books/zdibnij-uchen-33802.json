@@ -1,0 +1,31 @@
+{
+  "id": "zdibnij-uchen-33802",
+  "slug": "zdibnij-uchen-33802",
+  "title": "Здібний учень",
+  "author": "Стівен Кінг",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zdibnij-uchen-33802.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zdibnij-uchen-33802__Zdibnyi_uchen.epub",
+      "fileDir": "З",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "zdibnij-uchen-33802__Zdibnyi_uchen__zdibnij-uchen.fb2",
+      "fileDir": "З",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

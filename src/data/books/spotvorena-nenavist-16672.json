@@ -1,0 +1,31 @@
+{
+  "id": "spotvorena-nenavist-16672",
+  "slug": "spotvorena-nenavist-16672",
+  "title": "Спотворена ненависть",
+  "author": "Ана Хуанг",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spotvorena-nenavist-16672.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spotvorena-nenavist-16672__Spotvorena_nenavyst.epub",
+      "fileDir": "С",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "spotvorena-nenavist-16672__Spotvorena_nenavyst__spotvorena-nenavist.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

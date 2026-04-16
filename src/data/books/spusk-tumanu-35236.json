@@ -1,0 +1,31 @@
+{
+  "id": "spusk-tumanu-35236",
+  "slug": "spusk-tumanu-35236",
+  "title": "Спуск туману",
+  "author": "Ліза Ангер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spusk-tumanu-35236.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spusk-tumanu-35236__Spusk_Tumanu.epub",
+      "fileDir": "С",
+      "sizeMb": 5.1
+    },
+    {
+      "format": "fb2",
+      "filename": "spusk-tumanu-35236__Spusk_Tumanu__spusk-tumanu.fb2",
+      "fileDir": "С",
+      "sizeMb": 7.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

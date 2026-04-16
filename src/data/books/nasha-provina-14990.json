@@ -1,0 +1,31 @@
+{
+  "id": "nasha-provina-14990",
+  "slug": "nasha-provina-14990",
+  "title": "Наша провина",
+  "author": "Мерседес Рон",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nasha-provina-14990.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nasha-provina-14990__Nasha_provyna.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "nasha-provina-14990__Nasha_provyna__nasha-provina.fb2",
+      "fileDir": "Н",
+      "sizeMb": 2.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

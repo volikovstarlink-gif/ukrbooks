@@ -1,0 +1,31 @@
+{
+  "id": "brudni-listi-32280",
+  "slug": "brudni-listi-32280",
+  "title": "Брудні листи",
+  "author": "Ві Кіланд, Пенелопа Ворд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/brudni-listi-32280.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "brudni-listi-32280__Brudni_lysty.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "brudni-listi-32280__Brudni_lysty__brudni-listi.fb2",
+      "fileDir": "Б",
+      "sizeMb": 1.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

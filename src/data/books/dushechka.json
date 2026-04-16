@@ -1,0 +1,28 @@
+{
+  "id": "dushechka",
+  "slug": "dushechka",
+  "title": "Душечка",
+  "author": "Антон Чехов",
+  "authorSlug": "anton-chekhov",
+  "description": "<p>Повний текст \"Душечка\" (автор: Чехов Антон Павлович) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Душечка\" (автор: Чехов Антон Павлович) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/dushechka.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dushechka - Душечка.epub",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Душечка — Антон Чехов | Завантажити EPUB",
+  "metaDescription": "Завантажте «Душечка» автора Антон Чехов безкоштовно у форматах EPUB."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "opir-32624",
+  "slug": "opir-32624",
+  "title": "Жага. Книга 2: Опір",
+  "author": "Трейсі Вульф",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/opir-32624.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "opir-32624__Opir.epub",
+      "fileDir": "О",
+      "sizeMb": 4.3
+    },
+    {
+      "format": "fb2",
+      "filename": "opir-32624__Opir__opir.fb2",
+      "fileDir": "О",
+      "sizeMb": 6.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

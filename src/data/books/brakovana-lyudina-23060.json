@@ -1,0 +1,31 @@
+{
+  "id": "brakovana-lyudina-23060",
+  "slug": "brakovana-lyudina-23060",
+  "title": "Бракована людина",
+  "author": "Дадзай Осаму",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "Японія, перша половина двадцятого сторіччя. Оба Йодзо, якого можна назвати alter ego самого автора книги, Дадзая Осаму, намагається знайти відповіді на питання про те, що таке «людина» і «суспільство». Це історія про втечу від соціуму, пошуки себе… і падіння. ISBN 978-617-95344-2-3 © Йожикова А. О. (Дей), переклад, 2023 ©ТОВ «БІМБА», 2023 e-book created by glassed",
+  "shortDescription": "Японія, перша половина двадцятого сторіччя. Оба Йодзо, якого можна назвати alter ego самого автора книги, Дадзая Осаму, намагається знайти відповіді на питання про те, що таке «людина» і «суспільство»",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "brakovana-lyudina-23060__Brakovana_liudyna.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "brakovana-lyudina-23060__Brakovana_liudyna__brakovana-lyudina.fb2",
+      "fileDir": "Б",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

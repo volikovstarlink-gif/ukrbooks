@@ -1,0 +1,31 @@
+{
+  "id": "sto-rokiv-samotnosti-515",
+  "slug": "sto-rokiv-samotnosti-515",
+  "title": "Сто років самотності",
+  "author": "Ґабріель Ґарсіа Маркес",
+  "category": "classic",
+  "language": "uk",
+  "year": 1967,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sto-rokiv-samotnosti-515__Sto_rokiv_samotnosti.epub",
+      "fileDir": "С",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "sto-rokiv-samotnosti-515__Sto_rokiv_samotnosti__sto-rokiv-samotnosti.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

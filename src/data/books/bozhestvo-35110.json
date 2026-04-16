@@ -1,0 +1,31 @@
+{
+  "id": "bozhestvo-35110",
+  "slug": "bozhestvo-35110",
+  "title": "Божество",
+  "author": "Дженніфер Л. Арментраут",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/bozhestvo-35110.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "bozhestvo-35110__Bozhestvo.epub",
+      "fileDir": "Б",
+      "sizeMb": 3.3
+    },
+    {
+      "format": "fb2",
+      "filename": "bozhestvo-35110__Bozhestvo__bozhestvo.fb2",
+      "fileDir": "Б",
+      "sizeMb": 2.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

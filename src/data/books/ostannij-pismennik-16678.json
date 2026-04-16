@@ -1,0 +1,31 @@
+{
+  "id": "ostannij-pismennik-16678",
+  "slug": "ostannij-pismennik-16678",
+  "title": "Останній письменник",
+  "author": "Марек Краєвський",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2024,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ostannij-pismennik-16678.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ostannij-pismennik-16678__Ostannii_pysmennyk.epub",
+      "fileDir": "О",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "ostannij-pismennik-16678__Ostannii_pysmennyk__ostannij-pismennik.fb2",
+      "fileDir": "О",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

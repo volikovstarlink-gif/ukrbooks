@@ -1,0 +1,28 @@
+{
+  "id": "medeya",
+  "slug": "medeya",
+  "title": "Медея",
+  "author": "Евріпід",
+  "authorSlug": "evripid",
+  "description": "<p>Повний текст \"Медея\" (автор: Евріпід) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Медея\" (автор: Евріпід) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/medeya.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "medeya - Медея.epub",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Медея — Евріпід | Завантажити EPUB",
+  "metaDescription": "Завантажте «Медея» автора Евріпід безкоштовно у форматах EPUB."
+}

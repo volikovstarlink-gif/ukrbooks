@@ -1,0 +1,31 @@
+{
+  "id": "kiltsya-saturna-21805",
+  "slug": "kiltsya-saturna-21805",
+  "title": "Кільця Сатурна",
+  "author": "В. Г. Зебальд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kiltsya-saturna-21805.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kiltsya-saturna-21805__Kiltsia_Saturna.epub",
+      "fileDir": "К",
+      "sizeMb": 4.1
+    },
+    {
+      "format": "fb2",
+      "filename": "kiltsya-saturna-21805__Kiltsia_Saturna__kiltsya-saturna.fb2",
+      "fileDir": "К",
+      "sizeMb": 22.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

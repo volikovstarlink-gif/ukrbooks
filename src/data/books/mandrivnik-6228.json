@@ -1,0 +1,31 @@
+{
+  "id": "mandrivnik-6228",
+  "slug": "mandrivnik-6228",
+  "title": "Мандрівник",
+  "author": "Джон Твелф Гоукс",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "Світ, який існує в тіні нашого світу. Боротьба, яку ми ніколи не побачимо. Одна жінка, яка стоїть між тими, хто збирається контролювати історію, і тими, хто ризикуватиме своїм життям заради свободи.",
+  "shortDescription": "Світ, який існує в тіні нашого світу. Боротьба, яку ми ніколи не побачимо. Одна жінка, яка стоїть між тими, хто збирається контролювати історію, і тими, хто ризикуватиме своїм життям заради свободи.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mandrivnik-6228__Mandrivnyk.epub",
+      "fileDir": "М",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "mandrivnik-6228__Mandrivnyk__mandrivnik.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

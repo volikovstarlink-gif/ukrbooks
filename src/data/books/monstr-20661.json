@@ -1,0 +1,31 @@
+{
+  "id": "monstr-20661",
+  "slug": "monstr-20661",
+  "title": "Монстр",
+  "author": "Л. Дж. Шен",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/monstr-20661.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "monstr-20661__Monstr.epub",
+      "fileDir": "М",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "monstr-20661__Monstr__monstr.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

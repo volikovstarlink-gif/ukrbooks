@@ -1,0 +1,31 @@
+{
+  "id": "maneken-na-rizdvo-30521",
+  "slug": "maneken-na-rizdvo-30521",
+  "title": "Манекен на Різдво",
+  "author": "Тімоті Яновський",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/maneken-na-rizdvo-30521.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "maneken-na-rizdvo-30521__Maneken_na_Rizdvo.epub",
+      "fileDir": "М",
+      "sizeMb": 1.5
+    },
+    {
+      "format": "fb2",
+      "filename": "maneken-na-rizdvo-30521__Maneken_na_Rizdvo__maneken-na-rizdvo.fb2",
+      "fileDir": "М",
+      "sizeMb": 2.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

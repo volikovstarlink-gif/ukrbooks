@@ -1,0 +1,28 @@
+{
+  "id": "velesova-knyga",
+  "slug": "velesova-knyga",
+  "title": "Velesova knyha",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Velesova knyha» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Velesova knyha» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/velesova-knyga.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "velesova-knyga__Velesova_knyha.txt",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Velesova knyha — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «Velesova knyha» автора Невідомий автор безкоштовно у форматах TXT."
+}

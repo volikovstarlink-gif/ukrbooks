@@ -1,0 +1,31 @@
+{
+  "id": "zgori-vniz-kniga-strahiv-1149",
+  "slug": "zgori-vniz-kniga-strahiv-1149",
+  "title": "Згори вниз. Книга страхів",
+  "author": "Таня Малярчук",
+  "category": "classic",
+  "language": "uk",
+  "year": null,
+  "description": "«Згори вниз» - це реанімація сюрреалізму в українській літературі. У книзі є сюжет, розділові знаки і навіть інструкція з виготовлення фотографій у домашніх умовах. А також: втеча, захоплення чужих помешкань і чужих таємниць, гірські ландшафти, зворушлива і неправдива історія любові, перевертні, чортівня, люди, що мовчать, і коти, що говорять. Словом, все те, що притаманне будь-якій нормальній жіночій психіці. Рекомендовано Міністерством охорони здоров’я - для тих, хто не має чого боятися.",
+  "shortDescription": "«Згори вниз» - це реанімація сюрреалізму в українській літературі. У книзі є сюжет, розділові знаки і навіть інструкція з виготовлення фотографій у домашніх умовах. А також: втеча, захоплення чужих по",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zgori-vniz-kniga-strahiv-1149__Zhory_vnyz._Knyha_strakhiv.epub",
+      "fileDir": "З",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "zgori-vniz-kniga-strahiv-1149__Zhory_vnyz._Knyha_strakhiv__zgori-vniz-kniga-strahiv.fb2",
+      "fileDir": "З",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

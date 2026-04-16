@@ -1,0 +1,31 @@
+{
+  "id": "nich-lagidna-1046",
+  "slug": "nich-lagidna-1046",
+  "title": "Ніч лагідна",
+  "author": "Фрэнсис Скотт Фицджеральд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nich-lagidna-1046__Nich_lahidna.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "nich-lagidna-1046__Nich_lahidna__nich-lagidna.fb2",
+      "fileDir": "Н",
+      "sizeMb": 1.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

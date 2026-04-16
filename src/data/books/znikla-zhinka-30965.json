@@ -1,0 +1,31 @@
+{
+  "id": "znikla-zhinka-30965",
+  "slug": "znikla-zhinka-30965",
+  "title": "Зникла жінка",
+  "author": "Мері Кубіка",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/znikla-zhinka-30965.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "znikla-zhinka-30965__Znykla_zhinka.epub",
+      "fileDir": "З",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "znikla-zhinka-30965__Znykla_zhinka__znikla-zhinka.fb2",
+      "fileDir": "З",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

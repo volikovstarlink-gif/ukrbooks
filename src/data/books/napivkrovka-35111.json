@@ -1,0 +1,31 @@
+{
+  "id": "napivkrovka-35111",
+  "slug": "napivkrovka-35111",
+  "title": "Напівкровка",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/napivkrovka-35111.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "napivkrovka-35111__Napivkrovka.epub",
+      "fileDir": "Н",
+      "sizeMb": 3.9
+    },
+    {
+      "format": "fb2",
+      "filename": "napivkrovka-35111__Napivkrovka__napivkrovka.fb2",
+      "fileDir": "Н",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

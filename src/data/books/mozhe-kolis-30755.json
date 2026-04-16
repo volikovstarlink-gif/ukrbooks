@@ -1,0 +1,31 @@
+{
+  "id": "mozhe-kolis-30755",
+  "slug": "mozhe-kolis-30755",
+  "title": "Unknown",
+  "author": "Василий Кононюк",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/mozhe-kolis-30755.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mozhe-kolis-30755__Mozhe_kolys.epub",
+      "fileDir": "М",
+      "sizeMb": 1.9
+    },
+    {
+      "format": "fb2",
+      "filename": "mozhe-kolis-30755__Mozhe_kolys__mozhe-kolis.fb2",
+      "fileDir": "М",
+      "sizeMb": 3.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

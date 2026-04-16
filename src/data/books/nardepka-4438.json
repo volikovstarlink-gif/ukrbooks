@@ -1,0 +1,31 @@
+{
+  "id": "nardepka-4438",
+  "slug": "nardepka-4438",
+  "title": "Нардепка",
+  "author": "Василь Врублевський",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nardepka-4438.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nardepka-4438__Nardepka.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "nardepka-4438__Nardepka__nardepka.fb2",
+      "fileDir": "Н",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

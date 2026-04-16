@@ -1,0 +1,31 @@
+{
+  "id": "kis-33147",
+  "slug": "kis-33147",
+  "title": "Кись",
+  "author": "Тетяна Толстая",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kis-33147.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kis-33147__Kys.epub",
+      "fileDir": "К",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "kis-33147__Kys__kis.fb2",
+      "fileDir": "К",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

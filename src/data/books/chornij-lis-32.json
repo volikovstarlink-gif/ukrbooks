@@ -1,0 +1,31 @@
+{
+  "id": "chornij-lis-32",
+  "slug": "chornij-lis-32",
+  "title": "Чорний ліс",
+  "author": "Андрій Анатолійович Кокотюха",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2015,
+  "description": "У Чорному лісі на Волині українці воюють відразу на три фронти: з німцями, росіянами та поляками. Головний герой – колишній міліціонер, зек, радянський диверсант – мусить розібратися в тому, хто друг, а хто ворог. У нього нині одна мета – зрозуміти, на чиєму боці правда, і відстоювати її зі зброєю в руках.",
+  "shortDescription": "У Чорному лісі на Волині українці воюють відразу на три фронти: з німцями, росіянами та поляками. Головний герой – колишній міліціонер, зек, радянський диверсант – мусить розібратися в тому, хто друг,",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "chornij-lis-32__Chornyi_lis.epub",
+      "fileDir": "Ч",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "chornij-lis-32__Chornyi_lis__chornij-lis.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 1.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

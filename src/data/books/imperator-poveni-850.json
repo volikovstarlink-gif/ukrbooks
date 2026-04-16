@@ -1,0 +1,31 @@
+{
+  "id": "imperator-poveni-850",
+  "slug": "imperator-poveni-850",
+  "title": "Імператор повені",
+  "author": "Володимир Єшкілєв",
+  "category": "classic",
+  "language": "uk",
+  "year": 2002,
+  "description": "Роман «Імператор повені» є однією з найперших спроб нового естетичного прочитання нашого минулого. Автор пропонує не гуманістичний, вільний від штампів народництва і буржуазного сентименталізму, погляд на історичні події XVII ст. Цей задум не заважає присутності в романі пригод у стилі «фентезі», язичницької метафізики і невблаганної самобутності українського народу.",
+  "shortDescription": "Роман «Імператор повені» є однією з найперших спроб нового естетичного прочитання нашого минулого. Автор пропонує не гуманістичний, вільний від штампів народництва і буржуазного сентименталізму, погля",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "imperator-poveni-850__Imperator_poveni.epub",
+      "fileDir": "І",
+      "sizeMb": 1.2
+    },
+    {
+      "format": "fb2",
+      "filename": "imperator-poveni-850__Imperator_poveni__imperator-poveni.fb2",
+      "fileDir": "І",
+      "sizeMb": 1.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

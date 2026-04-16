@@ -1,0 +1,31 @@
+{
+  "id": "mislivets-na-kroliv-28238",
+  "slug": "mislivets-na-kroliv-28238",
+  "title": "Myslyvets na kroliv",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/mislivets-na-kroliv-28238.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mislivets-na-kroliv-28238__Myslyvets_na_kroliv.epub",
+      "fileDir": "М",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "mislivets-na-kroliv-28238__Myslyvets_na_kroliv__mislivets-na-kroliv.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

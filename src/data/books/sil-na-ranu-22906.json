@@ -1,0 +1,31 @@
+{
+  "id": "sil-na-ranu-22906",
+  "slug": "sil-na-ranu-22906",
+  "title": "Cіль на рану",
+  "author": "Сієрра Сімоне",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/sil-na-ranu-22906.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sil-na-ranu-22906__Sil_na_ranu.epub",
+      "fileDir": "С",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "sil-na-ranu-22906__Sil_na_ranu__sil-na-ranu.fb2",
+      "fileDir": "С",
+      "sizeMb": 0.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

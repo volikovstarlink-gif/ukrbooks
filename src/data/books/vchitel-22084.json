@@ -1,0 +1,31 @@
+{
+  "id": "vchitel-22084",
+  "slug": "vchitel-22084",
+  "title": "Unknown",
+  "author": "Unknown",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vchitel-22084.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vchitel-22084__Vchytel.epub",
+      "fileDir": "В",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "vchitel-22084__Vchytel__vchitel.fb2",
+      "fileDir": "В",
+      "sizeMb": 2.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

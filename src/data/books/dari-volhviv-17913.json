@@ -1,0 +1,31 @@
+{
+  "id": "dari-volhviv-17913",
+  "slug": "dari-volhviv-17913",
+  "title": "Дари волхвів",
+  "author": "О. Генрі",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dari-volhviv-17913.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dari-volhviv-17913__Dary_volkhviv.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "dari-volhviv-17913__Dary_volkhviv__dari-volhviv.fb2",
+      "fileDir": "Д",
+      "sizeMb": 0.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

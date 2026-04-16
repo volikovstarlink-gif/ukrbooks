@@ -1,0 +1,31 @@
+{
+  "id": "vibori-24819",
+  "slug": "vibori-24819",
+  "title": "Шервін Маркман_Вибори",
+  "author": "Невідомий автор",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vibori-24819.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vibori-24819__Vybory.epub",
+      "fileDir": "В",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "vibori-24819__Vybory__vibori.fb2",
+      "fileDir": "В",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

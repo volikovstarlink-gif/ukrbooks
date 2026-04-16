@@ -1,0 +1,31 @@
+{
+  "id": "moya-provina-14992",
+  "slug": "moya-provina-14992",
+  "title": "Моя провина",
+  "author": "Мерседес Рон",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/moya-provina-14992.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "moya-provina-14992__Moia_provyna.epub",
+      "fileDir": "М",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "moya-provina-14992__Moia_provyna__moya-provina.fb2",
+      "fileDir": "М",
+      "sizeMb": 2.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

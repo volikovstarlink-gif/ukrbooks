@@ -1,0 +1,31 @@
+{
+  "id": "temnij-kohanets-13759",
+  "slug": "temnij-kohanets-13759",
+  "title": "Темний коханець",
+  "author": "Дж. Р. Уорд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/temnij-kohanets-13759.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "temnij-kohanets-13759__Temnyi_kokhanets.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "temnij-kohanets-13759__Temnyi_kokhanets__temnij-kohanets.fb2",
+      "fileDir": "Т",
+      "sizeMb": 2.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

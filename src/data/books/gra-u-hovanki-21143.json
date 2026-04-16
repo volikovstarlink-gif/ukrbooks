@@ -1,0 +1,31 @@
+{
+  "id": "gra-u-hovanki-21143",
+  "slug": "gra-u-hovanki-21143",
+  "title": "Гра у хованки",
+  "author": "Мері Бертон",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/gra-u-hovanki-21143.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "gra-u-hovanki-21143__Hra_u_khovanky.epub",
+      "fileDir": "Г",
+      "sizeMb": 2.0
+    },
+    {
+      "format": "fb2",
+      "filename": "gra-u-hovanki-21143__Hra_u_khovanky__gra-u-hovanki.fb2",
+      "fileDir": "Г",
+      "sizeMb": 4.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

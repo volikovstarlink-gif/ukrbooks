@@ -1,0 +1,31 @@
+{
+  "id": "tretya-divchina-26177",
+  "slug": "tretya-divchina-26177",
+  "title": "Tretia divchyna",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/tretya-divchina-26177.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "tretya-divchina-26177__Tretia_divchyna.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "tretya-divchina-26177__Tretia_divchyna__tretya-divchina.fb2",
+      "fileDir": "Т",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

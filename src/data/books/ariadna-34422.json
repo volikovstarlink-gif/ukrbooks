@@ -1,0 +1,31 @@
+{
+  "id": "ariadna-34422",
+  "slug": "ariadna-34422",
+  "title": "Аріадна",
+  "author": "Дженніфер Сейнт",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ariadna-34422.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ariadna-34422__Ariadna.epub",
+      "fileDir": "А",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "ariadna-34422__Ariadna__ariadna.fb2",
+      "fileDir": "А",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

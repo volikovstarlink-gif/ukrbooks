@@ -1,0 +1,31 @@
+{
+  "id": "nikoli-bilshe-25425",
+  "slug": "nikoli-bilshe-25425",
+  "title": "Ніколи більше",
+  "author": "Пенелопа Дуглас",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nikoli-bilshe-25425.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nikoli-bilshe-25425__Nikoly_bilshe.epub",
+      "fileDir": "Н",
+      "sizeMb": 1.5
+    },
+    {
+      "format": "fb2",
+      "filename": "nikoli-bilshe-25425__Nikoly_bilshe__nikoli-bilshe.fb2",
+      "fileDir": "Н",
+      "sizeMb": 1.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

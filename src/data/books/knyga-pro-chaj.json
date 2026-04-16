@@ -1,0 +1,33 @@
+{
+  "id": "knyga-pro-chaj",
+  "slug": "knyga-pro-chaj",
+  "title": "Книга про чай",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Книга про чай» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Книга про чай» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/knyga-pro-chaj.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "knyga-pro-chaj - Книга про чай.epub",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "knyga-pro-chaj - Книга про чай__Knigha pro chai - Okakura Kakuzo.fb2",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Книга про чай — Невідомий автор | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Книга про чай» автора Невідомий автор безкоштовно у форматах EPUB, FB2."
+}

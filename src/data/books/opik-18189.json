@@ -1,0 +1,31 @@
+{
+  "id": "opik-18189",
+  "slug": "opik-18189",
+  "title": "Опік",
+  "author": "Пітер Геллер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/opik-18189.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "opik-18189__Opik.epub",
+      "fileDir": "О",
+      "sizeMb": 3.2
+    },
+    {
+      "format": "fb2",
+      "filename": "opik-18189__Opik__opik.fb2",
+      "fileDir": "О",
+      "sizeMb": 6.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

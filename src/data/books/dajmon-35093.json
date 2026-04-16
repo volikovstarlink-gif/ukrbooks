@@ -1,0 +1,31 @@
+{
+  "id": "dajmon-35093",
+  "slug": "dajmon-35093",
+  "title": "Даймон",
+  "author": "Дженніфер Л. Арментраут",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dajmon-35093.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dajmon-35093__Daimon.epub",
+      "fileDir": "Д",
+      "sizeMb": 2.5
+    },
+    {
+      "format": "fb2",
+      "filename": "dajmon-35093__Daimon__dajmon.fb2",
+      "fileDir": "Д",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

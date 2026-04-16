@@ -1,0 +1,31 @@
+{
+  "id": "krov-z-krovi-26726",
+  "slug": "krov-z-krovi-26726",
+  "title": "Кров з крові",
+  "author": "Рафал Дембський",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2012,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/krov-z-krovi-26726.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "krov-z-krovi-26726__Krov_z_krovi.epub",
+      "fileDir": "К",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "krov-z-krovi-26726__Krov_z_krovi__krov-z-krovi.fb2",
+      "fileDir": "К",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

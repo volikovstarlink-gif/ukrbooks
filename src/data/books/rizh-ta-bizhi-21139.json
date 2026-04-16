@@ -1,0 +1,31 @@
+{
+  "id": "rizh-ta-bizhi-21139",
+  "slug": "rizh-ta-bizhi-21139",
+  "title": "Ріж та біжи",
+  "author": "Мері Бертон",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/rizh-ta-bizhi-21139.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "rizh-ta-bizhi-21139__Rizh_ta_bizhy.epub",
+      "fileDir": "Р",
+      "sizeMb": 2.3
+    },
+    {
+      "format": "fb2",
+      "filename": "rizh-ta-bizhi-21139__Rizh_ta_bizhy__rizh-ta-bizhi.fb2",
+      "fileDir": "Р",
+      "sizeMb": 5.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

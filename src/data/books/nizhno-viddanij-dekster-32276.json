@@ -1,0 +1,31 @@
+{
+  "id": "nizhno-viddanij-dekster-32276",
+  "slug": "nizhno-viddanij-dekster-32276",
+  "title": "Ніжно відданий Декстер",
+  "author": "Джефф Ліндсі",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nizhno-viddanij-dekster-32276.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nizhno-viddanij-dekster-32276__Nizhno_viddanyi_Dekster.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "nizhno-viddanij-dekster-32276__Nizhno_viddanyi_Dekster__nizhno-viddanij-dekster.fb2",
+      "fileDir": "Н",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

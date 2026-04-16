@@ -1,0 +1,31 @@
+{
+  "id": "turist-mimovoli-25267",
+  "slug": "turist-mimovoli-25267",
+  "title": "Турист мимоволі",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/turist-mimovoli-25267.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "turist-mimovoli-25267__Turyst_mymovoli.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "turist-mimovoli-25267__Turyst_mymovoli__turist-mimovoli.fb2",
+      "fileDir": "Т",
+      "sizeMb": 2.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

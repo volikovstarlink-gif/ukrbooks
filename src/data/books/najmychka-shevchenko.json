@@ -1,0 +1,33 @@
+{
+  "id": "najmychka-shevchenko",
+  "slug": "najmychka-shevchenko",
+  "title": "Наймичка",
+  "author": "Тарас Григорович Шевченко",
+  "authorSlug": "taras-hryhorovych-shevchenko",
+  "description": "<p>«Наймичка» — книга автора Тарас Григорович Шевченко.</p>",
+  "shortDescription": "«Наймичка» — книга автора Тарас Григорович Шевченко.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/najmychka-shevchenko.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "najmychka-shevchenko - Наймичка.epub",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "najmychka-shevchenko - Наймичка__24290161.fb2",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Наймичка — Тарас Григорович Шевченко | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Наймичка» автора Тарас Григорович Шевченко безкоштовно у форматах EPUB, FB2."
+}

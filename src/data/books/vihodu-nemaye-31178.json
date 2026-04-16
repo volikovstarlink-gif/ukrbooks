@@ -1,0 +1,31 @@
+{
+  "id": "vihodu-nemaye-31178",
+  "slug": "vihodu-nemaye-31178",
+  "title": "Vykhodu nemaie",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vihodu-nemaye-31178.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vihodu-nemaye-31178__Vykhodu_nemaie.epub",
+      "fileDir": "В",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "vihodu-nemaye-31178__Vykhodu_nemaie__vihodu-nemaye.fb2",
+      "fileDir": "В",
+      "sizeMb": 1.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

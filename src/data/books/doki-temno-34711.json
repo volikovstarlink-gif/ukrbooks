@@ -1,0 +1,31 @@
+{
+  "id": "doki-temno-34711",
+  "slug": "doki-temno-34711",
+  "title": "Доки темно",
+  "author": "Кара Хантер",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/doki-temno-34711.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "doki-temno-34711__Doky_temno.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "doki-temno-34711__Doky_temno__doki-temno.fb2",
+      "fileDir": "Д",
+      "sizeMb": 1.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "legenda-20029",
+  "slug": "legenda-20029",
+  "title": "Unknown",
+  "author": "Stephanie Garber",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/legenda-20029.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "legenda-20029__Lehenda.epub",
+      "fileDir": "Л",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "legenda-20029__Lehenda__legenda.fb2",
+      "fileDir": "Л",
+      "sizeMb": 1.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

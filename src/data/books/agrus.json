@@ -1,0 +1,28 @@
+{
+  "id": "agrus",
+  "slug": "agrus",
+  "title": "Аґрус",
+  "author": "Антон Чехов",
+  "authorSlug": "anton-chekhov",
+  "description": "<p>Повний текст \"Аґрус\" (автор: Чехов Антон Павлович) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Аґрус\" (автор: Чехов Антон Павлович) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/agrus.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "agrus - Аґрус.epub",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Аґрус — Антон Чехов | Завантажити EPUB",
+  "metaDescription": "Завантажте «Аґрус» автора Антон Чехов безкоштовно у форматах EPUB."
+}

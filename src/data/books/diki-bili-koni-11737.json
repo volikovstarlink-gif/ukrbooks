@@ -1,0 +1,31 @@
+{
+  "id": "diki-bili-koni-11737",
+  "slug": "diki-bili-koni-11737",
+  "title": "Dyki bili koni",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/diki-bili-koni-11737.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "diki-bili-koni-11737__Dyki_bili_koni.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "diki-bili-koni-11737__Dyki_bili_koni__diki-bili-koni.fb2",
+      "fileDir": "Д",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

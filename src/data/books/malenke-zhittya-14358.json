@@ -1,0 +1,31 @@
+{
+  "id": "malenke-zhittya-14358",
+  "slug": "malenke-zhittya-14358",
+  "title": "Unknown",
+  "author": "Наталя",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/malenke-zhittya-14358.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "malenke-zhittya-14358__Malenke_zhyttia.epub",
+      "fileDir": "М",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "malenke-zhittya-14358__Malenke_zhyttia__malenke-zhittya.fb2",
+      "fileDir": "М",
+      "sizeMb": 2.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ultima-20264",
+  "slug": "ultima-20264",
+  "title": "Untitled.FR11",
+  "author": "Невідомий автор",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ultima-20264__Ultyma.epub",
+      "fileDir": "У",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "ultima-20264__Ultyma__ultima.fb2",
+      "fileDir": "У",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

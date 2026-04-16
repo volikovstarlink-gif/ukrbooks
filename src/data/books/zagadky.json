@@ -1,0 +1,33 @@
+{
+  "id": "zagadky",
+  "slug": "zagadky",
+  "title": "Загадки",
+  "author": "Леонід Іванович Глібов",
+  "authorSlug": "leonid-ivanovych-hlibov",
+  "description": "<p>«Загадки» — книга автора Леонід Іванович Глібов.</p>",
+  "shortDescription": "«Загадки» — книга автора Леонід Іванович Глібов.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/zagadky.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zagadky - Загадки.epub",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "zagadky - Загадки__24289857.fb2",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Загадки — Леонід Іванович Глібов | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Загадки» автора Леонід Іванович Глібов безкоштовно у форматах EPUB, FB2."
+}

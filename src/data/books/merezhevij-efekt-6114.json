@@ -1,0 +1,31 @@
+{
+  "id": "merezhevij-efekt-6114",
+  "slug": "merezhevij-efekt-6114",
+  "title": "Мережевий ефект",
+  "author": "Марта Велс",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "По дорозі додому на експедицію з оцінювання нападають рейдери, щоб заволодіти небезпечною зброєю. Добре, що за безпеку людей відповідає людина-робот. Твір отримав премію Неб'юла за 2021 рік.",
+  "shortDescription": "По дорозі додому на експедицію з оцінювання нападають рейдери, щоб заволодіти небезпечною зброєю. Добре, що за безпеку людей відповідає людина-робот. Твір отримав премію Неб'юла за 2021 рік.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "merezhevij-efekt-6114__Merezhevyi_efekt.epub",
+      "fileDir": "М",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "merezhevij-efekt-6114__Merezhevyi_efekt__merezhevij-efekt.fb2",
+      "fileDir": "М",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

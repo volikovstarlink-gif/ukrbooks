@@ -1,0 +1,31 @@
+{
+  "id": "tin-sovi-14996",
+  "slug": "tin-sovi-14996",
+  "title": "Тінь сови",
+  "author": "Василь Шкляр",
+  "category": "classic",
+  "language": "uk",
+  "year": 2014,
+  "description": "Це історія кохання двох людей, Катерини та Степана. Кохання, яке бореться, долає труднощі, допомагає вистояти і врешті-решт перетворюється на легенду, що дає надію тим, до кого воно ще не прийшло.",
+  "shortDescription": "Це історія кохання двох людей, Катерини та Степана. Кохання, яке бореться, долає труднощі, допомагає вистояти і врешті-решт перетворюється на легенду, що дає надію тим, до кого воно ще не прийшло.",
+  "coverImage": "/covers/tin-sovi-14996.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "tin-sovi-14996__Tin_sovy.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "tin-sovi-14996__Tin_sovy__tin-sovi.fb2",
+      "fileDir": "Т",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

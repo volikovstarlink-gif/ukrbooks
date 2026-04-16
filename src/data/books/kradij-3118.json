@@ -1,0 +1,31 @@
+{
+  "id": "kradij-3118",
+  "slug": "kradij-3118",
+  "title": "Крадій",
+  "author": "Клер Норт",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "У Бангкоку 1930-их одному з гравців вищої ліги кинули виклик зіграти у схованки. Гральна дошка — весь Таїланд, а шукачеві дозволено користатися під час полювання на суперника всіма можливими способами — поліцією, урядом, чужинцями чи навіть шпигунами.",
+  "shortDescription": "У Бангкоку 1930-их одному з гравців вищої ліги кинули виклик зіграти у схованки. Гральна дошка — весь Таїланд, а шукачеві дозволено користатися під час полювання на суперника всіма можливими способами",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kradij-3118__Kradii.epub",
+      "fileDir": "К",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "kradij-3118__Kradii__kradij.fb2",
+      "fileDir": "К",
+      "sizeMb": 0.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

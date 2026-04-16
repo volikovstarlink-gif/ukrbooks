@@ -1,0 +1,31 @@
+{
+  "id": "borgi-predkiv-28025",
+  "slug": "borgi-predkiv-28025",
+  "title": "Борги предків",
+  "author": "Террі Ґудкайнд",
+  "category": "fiction",
+  "language": "uk",
+  "year": 1998,
+  "description": "Нижченаведена історія сталася задовго до подій, описаних у «Першому Правилі Чарівника».",
+  "shortDescription": "Нижченаведена історія сталася задовго до подій, описаних у «Першому Правилі Чарівника».",
+  "coverImage": "/covers/borgi-predkiv-28025.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "borgi-predkiv-28025__Borhy_predkiv.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "borgi-predkiv-28025__Borhy_predkiv__borgi-predkiv.fb2",
+      "fileDir": "Б",
+      "sizeMb": 0.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

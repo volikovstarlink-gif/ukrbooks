@@ -1,0 +1,31 @@
+{
+  "id": "v-yazen-33150",
+  "slug": "v-yazen-33150",
+  "title": "Unknown",
+  "author": "Liza",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/v-yazen-33150.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "v-yazen-33150__Viazen.epub",
+      "fileDir": "В",
+      "sizeMb": 1.6
+    },
+    {
+      "format": "fb2",
+      "filename": "v-yazen-33150__Viazen__v-yazen.fb2",
+      "fileDir": "В",
+      "sizeMb": 1.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

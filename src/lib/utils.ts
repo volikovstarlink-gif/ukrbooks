@@ -1,3 +1,50 @@
-export function cn(...classes: (string | undefined | null | false)[]): string {
-  return classes.filter(Boolean).join(' ');
+type ClassValue = string | number | boolean | undefined | null | { [key: string]: unknown } | ClassValue[];
+
+export function cn(...inputs: ClassValue[]): string {
+  return inputs
+    .flatMap((v) => {
+      if (!v) return [];
+      if (typeof v === 'string') return [v];
+      if (typeof v === 'number') return [String(v)];
+      if (Array.isArray(v)) return [cn(...v)];
+      if (typeof v === 'object' && v !== null) {
+        return Object.entries(v as Record<string, unknown>)
+          .filter(([, ok]) => Boolean(ok))
+          .map(([k]) => k);
+      }
+      return [];
+    })
+    .filter(Boolean)
+    .join(' ');
+}
+
+export function formatFileSize(sizeMb: number): string {
+  if (sizeMb < 1) return `${Math.round(sizeMb * 1024)} KB`;
+  return `${sizeMb.toFixed(1)} MB`;
+}
+
+export function truncate(text: string, maxLen: number): string {
+  if (!text || text.length <= maxLen) return text || '';
+  return text.slice(0, maxLen).trimEnd() + '…';
+}
+
+export function getCoverUrl(coverImage: string): string {
+  return coverImage || '/covers/placeholder.jpg';
+}
+
+/** Ukrainian pluralization for book counts: 1 книга, 2 книги, 5 книг */
+export function pluralizeBooks(count: number): string {
+  const n = Math.abs(count) % 100;
+  const n1 = n % 10;
+  let form: string;
+  if (n > 10 && n < 20) {
+    form = 'книг';
+  } else if (n1 === 1) {
+    form = 'книга';
+  } else if (n1 >= 2 && n1 <= 4) {
+    form = 'книги';
+  } else {
+    form = 'книг';
+  }
+  return `${count.toLocaleString('uk-UA')} ${form}`;
 }

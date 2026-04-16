@@ -1,0 +1,31 @@
+{
+  "id": "u-bij-za-volyu-6510",
+  "slug": "u-bij-za-volyu-6510",
+  "title": "U bii za voliu",
+  "author": "Unknown",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "u-bij-za-volyu-6510__U_bii_za_voliu.epub",
+      "fileDir": "У",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "u-bij-za-volyu-6510__U_bii_za_voliu__u-bij-za-volyu.fb2",
+      "fileDir": "У",
+      "sizeMb": 0.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

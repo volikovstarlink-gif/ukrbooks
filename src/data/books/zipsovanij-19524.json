@@ -1,0 +1,31 @@
+{
+  "id": "zipsovanij-19524",
+  "slug": "zipsovanij-19524",
+  "title": "Зіпсований",
+  "author": "Невідомий автор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zipsovanij-19524.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zipsovanij-19524__Zipsovanyi.epub",
+      "fileDir": "З",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "zipsovanij-19524__Zipsovanyi__zipsovanij.fb2",
+      "fileDir": "З",
+      "sizeMb": 1.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

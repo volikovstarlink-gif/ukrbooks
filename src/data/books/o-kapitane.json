@@ -1,0 +1,28 @@
+{
+  "id": "o-kapitane",
+  "slug": "o-kapitane",
+  "title": "O kapitane",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«O kapitane» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«O kapitane» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/o-kapitane.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "o-kapitane__O_kapitane.txt",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "O kapitane — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «O kapitane» автора Невідомий автор безкоштовно у форматах TXT."
+}

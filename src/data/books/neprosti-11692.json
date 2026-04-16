@@ -1,0 +1,31 @@
+{
+  "id": "neprosti-11692",
+  "slug": "neprosti-11692",
+  "title": "НепрОсті",
+  "author": "Тарас Прохасько",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/neprosti-11692.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "neprosti-11692__NeprOsti.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "neprosti-11692__NeprOsti__neprosti.fb2",
+      "fileDir": "Н",
+      "sizeMb": 2.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

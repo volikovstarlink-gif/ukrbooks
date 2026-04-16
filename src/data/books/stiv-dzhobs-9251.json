@@ -1,0 +1,31 @@
+{
+  "id": "stiv-dzhobs-9251",
+  "slug": "stiv-dzhobs-9251",
+  "title": "Стів Джобс",
+  "author": "Волтер Айзексон",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "Ексклюзивна біографія Стіва Джобса від автора біографій-бестселерів Бенджаміна Франкліна та Альберта Ейнштейна. В основу книги покладено понад сорок інтерв'ю із Джобсом, проведених протягом двох років, а також інтерв'ю з понад сотнею його родичів, друзів, ворогів, конкурентів і колег.",
+  "shortDescription": "Ексклюзивна біографія Стіва Джобса від автора біографій-бестселерів Бенджаміна Франкліна та Альберта Ейнштейна. В основу книги покладено понад сорок інтерв'ю із Джобсом, проведених протягом двох років",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "stiv-dzhobs-9251__Stiv_Dzhobs.epub",
+      "fileDir": "С",
+      "sizeMb": 2.8
+    },
+    {
+      "format": "fb2",
+      "filename": "stiv-dzhobs-9251__Stiv_Dzhobs__stiv-dzhobs.fb2",
+      "fileDir": "С",
+      "sizeMb": 5.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

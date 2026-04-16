@@ -1,0 +1,31 @@
+{
+  "id": "shampanski-listi-18546",
+  "slug": "shampanski-listi-18546",
+  "title": "Шампанські листи",
+  "author": "Кейт МакІнтош",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/shampanski-listi-18546.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shampanski-listi-18546__Shampanski_lysty.epub",
+      "fileDir": "Ш",
+      "sizeMb": 2.3
+    },
+    {
+      "format": "fb2",
+      "filename": "shampanski-listi-18546__Shampanski_lysty__shampanski-listi.fb2",
+      "fileDir": "Ш",
+      "sizeMb": 5.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

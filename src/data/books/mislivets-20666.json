@@ -1,0 +1,31 @@
+{
+  "id": "mislivets-20666",
+  "slug": "mislivets-20666",
+  "title": "Мисливець",
+  "author": "Л. Дж. Шен",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/mislivets-20666.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mislivets-20666__Myslyvets.epub",
+      "fileDir": "М",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "mislivets-20666__Myslyvets__mislivets.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

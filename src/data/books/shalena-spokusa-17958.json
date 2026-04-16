@@ -1,0 +1,31 @@
+{
+  "id": "shalena-spokusa-17958",
+  "slug": "shalena-spokusa-17958",
+  "title": "Unknown",
+  "author": "Admin",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/shalena-spokusa-17958.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shalena-spokusa-17958__Shalena_spokusa.epub",
+      "fileDir": "Ш",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "shalena-spokusa-17958__Shalena_spokusa__shalena-spokusa.fb2",
+      "fileDir": "Ш",
+      "sizeMb": 2.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

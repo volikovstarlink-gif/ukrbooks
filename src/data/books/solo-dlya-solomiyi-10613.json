@@ -1,0 +1,31 @@
+{
+  "id": "solo-dlya-solomiyi-10613",
+  "slug": "solo-dlya-solomiyi-10613",
+  "title": "Unknown",
+  "author": "Unknown",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/solo-dlya-solomiyi-10613.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "solo-dlya-solomiyi-10613__Solo_dlia_Solomii.epub",
+      "fileDir": "С",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "solo-dlya-solomiyi-10613__Solo_dlia_Solomii__solo-dlya-solomiyi.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

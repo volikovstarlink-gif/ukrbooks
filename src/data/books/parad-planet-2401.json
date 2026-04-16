@@ -1,0 +1,31 @@
+{
+  "id": "parad-planet-2401",
+  "slug": "parad-planet-2401",
+  "title": "Парад планет",
+  "author": "Євген Пилипович Гуцало",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 1984,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "parad-planet-2401__Parad_planet.epub",
+      "fileDir": "П",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "parad-planet-2401__Parad_planet__parad-planet.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

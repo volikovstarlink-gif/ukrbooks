@@ -1,0 +1,31 @@
+{
+  "id": "lyuboratski-27174",
+  "slug": "lyuboratski-27174",
+  "title": "Люборацькі",
+  "author": "Анатолій Свидницький",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/lyuboratski-27174.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "lyuboratski-27174__Liuboratski.epub",
+      "fileDir": "Л",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "lyuboratski-27174__Liuboratski__lyuboratski.fb2",
+      "fileDir": "Л",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

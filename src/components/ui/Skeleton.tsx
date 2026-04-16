@@ -1,3 +1,12 @@
-export default function Skeleton({ className }: { className?: string }) {
-  return <div className={`animate-pulse bg-gray-200 rounded ${className ?? ''}`} />;
+interface SkeletonProps {
+  className?: string;
+}
+
+export default function Skeleton({ className = '' }: SkeletonProps) {
+  return (
+    <div
+      className={`animate-pulse rounded bg-gray-200 ${className}`}
+      aria-hidden="true"
+    />
+  );
 }

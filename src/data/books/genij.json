@@ -1,0 +1,33 @@
+{
+  "id": "genij",
+  "slug": "genij",
+  "title": "Геній",
+  "author": "Мо Янь",
+  "authorSlug": "mo-yan",
+  "description": "<p>Повний текст \"Геній\" (автор: Мо Янь) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Геній\" (автор: Мо Янь) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/genij.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "genij - Геній.epub",
+      "sizeMb": 0.0
+    },
+    {
+      "format": "fb2",
+      "filename": "genij - Геній__Gienii - Mo Ian'.fb2",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Геній — Мо Янь | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Геній» автора Мо Янь безкоштовно у форматах EPUB, FB2."
+}

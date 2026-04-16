@@ -1,0 +1,31 @@
+{
+  "id": "dikij-temnij-bereg-34425",
+  "slug": "dikij-temnij-bereg-34425",
+  "title": "Дикий темний берег",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dikij-temnij-bereg-34425.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dikij-temnij-bereg-34425__Dykyi_temnyi_bereh.epub",
+      "fileDir": "Д",
+      "sizeMb": 4.1
+    },
+    {
+      "format": "fb2",
+      "filename": "dikij-temnij-bereg-34425__Dykyi_temnyi_bereh__dikij-temnij-bereg.fb2",
+      "fileDir": "Д",
+      "sizeMb": 9.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

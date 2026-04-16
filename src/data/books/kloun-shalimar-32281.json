@@ -1,0 +1,31 @@
+{
+  "id": "kloun-shalimar-32281",
+  "slug": "kloun-shalimar-32281",
+  "title": "Клоун Шалімар",
+  "author": "Салман Рушді",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kloun-shalimar-32281.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kloun-shalimar-32281__Kloun_Shalimar.epub",
+      "fileDir": "К",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "kloun-shalimar-32281__Kloun_Shalimar__kloun-shalimar.fb2",
+      "fileDir": "К",
+      "sizeMb": 3.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "chorna-rada-2061",
+  "slug": "chorna-rada-2061",
+  "title": "Чорна рада",
+  "author": "Пантелеймон Олександрович Куліш",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "chorna-rada-2061__Chorna_rada.epub",
+      "fileDir": "Ч",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "chorna-rada-2061__Chorna_rada__chorna-rada.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 0.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "beztilesna-lyudina-5472",
+  "slug": "beztilesna-lyudina-5472",
+  "title": "Безтілесна людина",
+  "author": "Джон Діксон Карр",
+  "category": "detective",
+  "language": "uk",
+  "year": 2011,
+  "description": "Оригінальна варіація визнаного майстра детективного жанру на класичну тему «вбивство у замкненій кімнаті».",
+  "shortDescription": "Оригінальна варіація визнаного майстра детективного жанру на класичну тему «вбивство у замкненій кімнаті».",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "beztilesna-lyudina-5472__Beztilesna_liudyna.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "beztilesna-lyudina-5472__Beztilesna_liudyna__beztilesna-lyudina.fb2",
+      "fileDir": "Б",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "faktor-svitu-30516",
+  "slug": "faktor-svitu-30516",
+  "title": "Фактор Світу",
+  "author": "Ігор Сілівра",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/faktor-svitu-30516.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "faktor-svitu-30516__Faktor_Svitu.epub",
+      "fileDir": "Ф",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "faktor-svitu-30516__Faktor_Svitu__faktor-svitu.fb2",
+      "fileDir": "Ф",
+      "sizeMb": 2.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "plejboj-20665",
+  "slug": "plejboj-20665",
+  "title": "Плейбой",
+  "author": "Л. Дж. Шен",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/plejboj-20665.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "plejboj-20665__Pleiboi.epub",
+      "fileDir": "П",
+      "sizeMb": 2.7
+    },
+    {
+      "format": "fb2",
+      "filename": "plejboj-20665__Pleiboi__plejboj.fb2",
+      "fileDir": "П",
+      "sizeMb": 4.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

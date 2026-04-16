@@ -1,0 +1,31 @@
+{
+  "id": "zoryanij-metelik-27957",
+  "slug": "zoryanij-metelik-27957",
+  "title": "Зоряний Метелик",
+  "author": "Бернард Вербер",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zoryanij-metelik-27957.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zoryanij-metelik-27957__Zorianyi_metelyk.epub",
+      "fileDir": "З",
+      "sizeMb": 2.4
+    },
+    {
+      "format": "fb2",
+      "filename": "zoryanij-metelik-27957__Zorianyi_metelyk__zoryanij-metelik.fb2",
+      "fileDir": "З",
+      "sizeMb": 3.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

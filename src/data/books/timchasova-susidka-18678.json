@@ -1,0 +1,31 @@
+{
+  "id": "timchasova-susidka-18678",
+  "slug": "timchasova-susidka-18678",
+  "title": "2. Тимчасова Сусідка - Сара Адамс",
+  "author": "Сара Адамс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/timchasova-susidka-18678.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "timchasova-susidka-18678__Tymchasova_susidka.epub",
+      "fileDir": "Т",
+      "sizeMb": 2.6
+    },
+    {
+      "format": "fb2",
+      "filename": "timchasova-susidka-18678__Tymchasova_susidka__timchasova-susidka.fb2",
+      "fileDir": "Т",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ostannij-svit-14980",
+  "slug": "ostannij-svit-14980",
+  "title": "Останній світ",
+  "author": "Крістоф Рансмайр",
+  "category": "classic",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ostannij-svit-14980.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ostannij-svit-14980__Ostannii_svit.epub",
+      "fileDir": "О",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "ostannij-svit-14980__Ostannii_svit__ostannij-svit.fb2",
+      "fileDir": "О",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

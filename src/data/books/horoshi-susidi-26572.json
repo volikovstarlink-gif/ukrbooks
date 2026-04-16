@@ -1,0 +1,31 @@
+{
+  "id": "horoshi-susidi-26572",
+  "slug": "horoshi-susidi-26572",
+  "title": "Хороші сусіди",
+  "author": "Чед Цункер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/horoshi-susidi-26572.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "horoshi-susidi-26572__Khoroshi_susidy.epub",
+      "fileDir": "Х",
+      "sizeMb": 3.5
+    },
+    {
+      "format": "fb2",
+      "filename": "horoshi-susidi-26572__Khoroshi_susidy__horoshi-susidi.fb2",
+      "fileDir": "Х",
+      "sizeMb": 4.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

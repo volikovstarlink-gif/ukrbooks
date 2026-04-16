@@ -1,0 +1,31 @@
+{
+  "id": "ched-po-susidstvu-20526",
+  "slug": "ched-po-susidstvu-20526",
+  "title": "Чед по сусідству",
+  "author": "Дана Лешемінант",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ched-po-susidstvu-20526__Ched_po_susidstvu.epub",
+      "fileDir": "Ч",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "ched-po-susidstvu-20526__Ched_po_susidstvu__ched-po-susidstvu.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 1.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

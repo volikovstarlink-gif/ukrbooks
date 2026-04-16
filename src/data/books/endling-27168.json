@@ -1,0 +1,31 @@
+{
+  "id": "endling-27168",
+  "slug": "endling-27168",
+  "title": "Ендлінг - Марія Рева",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/endling-27168.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "endling-27168__Endlinh.epub",
+      "fileDir": "Е",
+      "sizeMb": 3.4
+    },
+    {
+      "format": "fb2",
+      "filename": "endling-27168__Endlinh__endling.fb2",
+      "fileDir": "Е",
+      "sizeMb": 9.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

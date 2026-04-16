@@ -1,0 +1,31 @@
+{
+  "id": "bentezhna-krov-11749",
+  "slug": "bentezhna-krov-11749",
+  "title": "Бентежна кров",
+  "author": "Роберт Ґалбрейт",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "bentezhna-krov-11749__Bentezhna_krov.epub",
+      "fileDir": "Б",
+      "sizeMb": 3.2
+    },
+    {
+      "format": "fb2",
+      "filename": "bentezhna-krov-11749__Bentezhna_krov__bentezhna-krov.fb2",
+      "fileDir": "Б",
+      "sizeMb": 5.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "moya-idealna-pomilka-34183",
+  "slug": "moya-idealna-pomilka-34183",
+  "title": "Моя ідеальна помилка",
+  "author": "Олівія Гейл",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/moya-idealna-pomilka-34183.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "moya-idealna-pomilka-34183__Moia_idealna_pomylka.epub",
+      "fileDir": "М",
+      "sizeMb": 2.4
+    },
+    {
+      "format": "fb2",
+      "filename": "moya-idealna-pomilka-34183__Moia_idealna_pomylka__moya-idealna-pomilka.fb2",
+      "fileDir": "М",
+      "sizeMb": 3.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

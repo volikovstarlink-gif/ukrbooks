@@ -1,0 +1,31 @@
+{
+  "id": "final-20030",
+  "slug": "final-20030",
+  "title": "Unknown",
+  "author": "Unknown",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/final-20030.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "final-20030__Final.epub",
+      "fileDir": "Ф",
+      "sizeMb": 1.7
+    },
+    {
+      "format": "fb2",
+      "filename": "final-20030__Final__final.fb2",
+      "fileDir": "Ф",
+      "sizeMb": 4.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

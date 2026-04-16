@@ -1,0 +1,31 @@
+{
+  "id": "shlyah-mecha-21142",
+  "slug": "shlyah-mecha-21142",
+  "title": "Шлях меча",
+  "author": "Генри Лайон Олди",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "Клинок, вдумливий, як людина. Людина, небезпечна, як клинок. Вони поруч, навіть разом, проте не чують один одного. І лише пройшовши через смерті близьких і мало не загубивши себе, вони стануть друзями, майже єдиним цілим.",
+  "shortDescription": "Клинок, вдумливий, як людина. Людина, небезпечна, як клинок. Вони поруч, навіть разом, проте не чують один одного. І лише пройшовши через смерті близьких і мало не загубивши себе, вони стануть друзями",
+  "coverImage": "/covers/shlyah-mecha-21142.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shlyah-mecha-21142__Shliakh_mecha.epub",
+      "fileDir": "Ш",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "shlyah-mecha-21142__Shliakh_mecha__shlyah-mecha.fb2",
+      "fileDir": "Ш",
+      "sizeMb": 1.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

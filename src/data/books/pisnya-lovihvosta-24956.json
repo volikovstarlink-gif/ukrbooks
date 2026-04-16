@@ -1,0 +1,31 @@
+{
+  "id": "pisnya-lovihvosta-24956",
+  "slug": "pisnya-lovihvosta-24956",
+  "title": "Пісня Ловихвоста",
+  "author": "Тед Вільямс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pisnya-lovihvosta-24956.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pisnya-lovihvosta-24956__Pisnia_Lovykhvosta.epub",
+      "fileDir": "П",
+      "sizeMb": 3.2
+    },
+    {
+      "format": "fb2",
+      "filename": "pisnya-lovihvosta-24956__Pisnia_Lovykhvosta__pisnya-lovihvosta.fb2",
+      "fileDir": "П",
+      "sizeMb": 6.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

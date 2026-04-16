@@ -1,0 +1,31 @@
+{
+  "id": "mertva-tisha-26170",
+  "slug": "mertva-tisha-26170",
+  "title": "Майкл Коннелі_Мертва тиша",
+  "author": "Невідомий автор",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/mertva-tisha-26170.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mertva-tisha-26170__Mertva_tysha.epub",
+      "fileDir": "М",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "mertva-tisha-26170__Mertva_tysha__mertva-tisha.fb2",
+      "fileDir": "М",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

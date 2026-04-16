@@ -1,0 +1,28 @@
+{
+  "id": "druzhok",
+  "slug": "druzhok",
+  "title": "Druzhok",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Druzhok» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Druzhok» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/druzhok.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "druzhok__Druzhok.txt",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Druzhok — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «Druzhok» автора Невідомий автор безкоштовно у форматах TXT."
+}

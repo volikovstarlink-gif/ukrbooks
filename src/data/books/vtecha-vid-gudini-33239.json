@@ -1,0 +1,31 @@
+{
+  "id": "vtecha-vid-gudini-33239",
+  "slug": "vtecha-vid-gudini-33239",
+  "title": "Втеча від Гудіні",
+  "author": "Керрі Маніскалко",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vtecha-vid-gudini-33239.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vtecha-vid-gudini-33239__Vtecha_vid_Hudini.epub",
+      "fileDir": "В",
+      "sizeMb": 2.0
+    },
+    {
+      "format": "fb2",
+      "filename": "vtecha-vid-gudini-33239__Vtecha_vid_Hudini__vtecha-vid-gudini.fb2",
+      "fileDir": "В",
+      "sizeMb": 3.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

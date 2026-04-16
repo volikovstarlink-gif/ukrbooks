@@ -1,0 +1,31 @@
+{
+  "id": "povilne-zhittya-34218",
+  "slug": "povilne-zhittya-34218",
+  "title": "Майкл СВОНВІК",
+  "author": "Vitaliy",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/povilne-zhittya-34218.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "povilne-zhittya-34218__Povilne_zhyttia.epub",
+      "fileDir": "П",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "povilne-zhittya-34218__Povilne_zhyttia__povilne-zhittya.fb2",
+      "fileDir": "П",
+      "sizeMb": 0.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

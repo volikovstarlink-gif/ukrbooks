@@ -1,0 +1,31 @@
+{
+  "id": "ligvo-brehuniv-28645",
+  "slug": "ligvo-brehuniv-28645",
+  "title": "Лігво брехунів",
+  "author": "Джессіка С. Олсон",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ligvo-brehuniv-28645.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ligvo-brehuniv-28645__Lihvo_brekhuniv.epub",
+      "fileDir": "Л",
+      "sizeMb": 2.4
+    },
+    {
+      "format": "fb2",
+      "filename": "ligvo-brehuniv-28645__Lihvo_brekhuniv__ligvo-brehuniv.fb2",
+      "fileDir": "Л",
+      "sizeMb": 3.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "veriti-14494",
+  "slug": "veriti-14494",
+  "title": "Тайный дневник Верити",
+  "author": "Колин Гувер",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/veriti-14494.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "veriti-14494__Veriti.epub",
+      "fileDir": "В",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "veriti-14494__Veriti__veriti.fb2",
+      "fileDir": "В",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

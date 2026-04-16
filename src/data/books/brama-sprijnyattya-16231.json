@@ -1,0 +1,31 @@
+{
+  "id": "brama-sprijnyattya-16231",
+  "slug": "brama-sprijnyattya-16231",
+  "title": "Брама сприйняття",
+  "author": "Олдос Гакслі",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/brama-sprijnyattya-16231.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "brama-sprijnyattya-16231__Brama_spryiniattia.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "brama-sprijnyattya-16231__Brama_spryiniattia__brama-sprijnyattya.fb2",
+      "fileDir": "Б",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

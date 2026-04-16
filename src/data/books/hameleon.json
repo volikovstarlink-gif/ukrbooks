@@ -1,0 +1,28 @@
+{
+  "id": "hameleon",
+  "slug": "hameleon",
+  "title": "Khameleon",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Khameleon» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Khameleon» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/hameleon.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "hameleon__Khameleon.txt",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Khameleon — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «Khameleon» автора Невідомий автор безкоштовно у форматах TXT."
+}

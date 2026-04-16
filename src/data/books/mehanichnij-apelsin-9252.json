@@ -1,0 +1,31 @@
+{
+  "id": "mehanichnij-apelsin-9252",
+  "slug": "mehanichnij-apelsin-9252",
+  "title": "Механічний апельсин",
+  "author": "Ентоні Берджес",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2009,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mehanichnij-apelsin-9252__Mekhanichnyi_apelsyn.epub",
+      "fileDir": "М",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "mehanichnij-apelsin-9252__Mekhanichnyi_apelsyn__mehanichnij-apelsin.fb2",
+      "fileDir": "М",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "usi-sistemi-chervoni-2870",
+  "slug": "usi-sistemi-chervoni-2870",
+  "title": "Усі системи червоні",
+  "author": "Марта Велс",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "usi-sistemi-chervoni-2870__Usi_systemy_chervoni.epub",
+      "fileDir": "У",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "usi-sistemi-chervoni-2870__Usi_systemy_chervoni__usi-sistemi-chervoni.fb2",
+      "fileDir": "У",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

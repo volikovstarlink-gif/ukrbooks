@@ -1,0 +1,31 @@
+{
+  "id": "zalozhna-dusha-20325",
+  "slug": "zalozhna-dusha-20325",
+  "title": "Заложна душа",
+  "author": "Дмитро Білий",
+  "category": "fiction",
+  "language": "uk",
+  "year": 2002,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zalozhna-dusha-20325.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zalozhna-dusha-20325__Zalozhna_dusha.epub",
+      "fileDir": "З",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "zalozhna-dusha-20325__Zalozhna_dusha__zalozhna-dusha.fb2",
+      "fileDir": "З",
+      "sizeMb": 0.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

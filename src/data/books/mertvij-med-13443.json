@@ -1,0 +1,31 @@
+{
+  "id": "mertvij-med-13443",
+  "slug": "mertvij-med-13443",
+  "title": "Мертвий Мед",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/mertvij-med-13443.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mertvij-med-13443__Mertvyi_Med.epub",
+      "fileDir": "М",
+      "sizeMb": 1.7
+    },
+    {
+      "format": "fb2",
+      "filename": "mertvij-med-13443__Mertvyi_Med__mertvij-med.fb2",
+      "fileDir": "М",
+      "sizeMb": 4.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

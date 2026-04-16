@@ -1,0 +1,31 @@
+{
+  "id": "spivrobitnik-15920",
+  "slug": "spivrobitnik-15920",
+  "title": "Співробітник",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spivrobitnik-15920.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spivrobitnik-15920__Spivrobitnyk.epub",
+      "fileDir": "С",
+      "sizeMb": 1.8
+    },
+    {
+      "format": "fb2",
+      "filename": "spivrobitnik-15920__Spivrobitnyk__spivrobitnik.fb2",
+      "fileDir": "С",
+      "sizeMb": 4.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

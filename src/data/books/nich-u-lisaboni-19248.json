@@ -1,0 +1,31 @@
+{
+  "id": "nich-u-lisaboni-19248",
+  "slug": "nich-u-lisaboni-19248",
+  "title": "Nich u Lisaboni",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nich-u-lisaboni-19248.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nich-u-lisaboni-19248__Nich_u_Lisaboni.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "nich-u-lisaboni-19248__Nich_u_Lisaboni__nich-u-lisaboni.fb2",
+      "fileDir": "Н",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "yedina-23871",
+  "slug": "yedina-23871",
+  "title": "3. Єдина",
+  "author": "Кіра Касс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/yedina-23871.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "yedina-23871__Yedyna.epub",
+      "fileDir": "Є",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "yedina-23871__Yedyna__yedina.fb2",
+      "fileDir": "Є",
+      "sizeMb": 3.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

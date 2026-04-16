@@ -1,0 +1,31 @@
+{
+  "id": "dityachij-vizok-31702",
+  "slug": "dityachij-vizok-31702",
+  "title": "Дитячий візок",
+  "author": "Джо Гілл",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dityachij-vizok-31702.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dityachij-vizok-31702__Dytiachyi_vizok.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "dityachij-vizok-31702__Dytiachyi_vizok__dityachij-vizok.fb2",
+      "fileDir": "Д",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

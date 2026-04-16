@@ -1,0 +1,28 @@
+{
+  "id": "demon",
+  "slug": "demon",
+  "title": "Демон",
+  "author": "Михайло Лермонтов",
+  "authorSlug": "mykhailo-lermontov",
+  "description": "<p>Повний текст \"Демон\" (автор: Лермонтов Михайло Юрійович) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Демон\" (автор: Лермонтов Михайло Юрійович) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/demon.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "demon - Демон.epub",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Демон — Михайло Лермонтов | Завантажити EPUB",
+  "metaDescription": "Завантажте «Демон» автора Михайло Лермонтов безкоштовно у форматах EPUB."
+}

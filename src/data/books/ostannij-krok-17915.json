@@ -1,0 +1,31 @@
+{
+  "id": "ostannij-krok-17915",
+  "slug": "ostannij-krok-17915",
+  "title": "Останній крок",
+  "author": "Мері Бертон",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ostannij-krok-17915.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ostannij-krok-17915__Ostannii_krok.epub",
+      "fileDir": "О",
+      "sizeMb": 1.1
+    },
+    {
+      "format": "fb2",
+      "filename": "ostannij-krok-17915__Ostannii_krok__ostannij-krok.fb2",
+      "fileDir": "О",
+      "sizeMb": 2.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

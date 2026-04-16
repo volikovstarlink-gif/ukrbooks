@@ -1,0 +1,31 @@
+{
+  "id": "pani-tisha-32515",
+  "slug": "pani-tisha-32515",
+  "title": "Начерки сталі: Пані Тиша",
+  "author": "Аркадій Саульський",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pani-tisha-32515.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pani-tisha-32515__Pani_Tysha.epub",
+      "fileDir": "П",
+      "sizeMb": 1.8
+    },
+    {
+      "format": "fb2",
+      "filename": "pani-tisha-32515__Pani_Tysha__pani-tisha.fb2",
+      "fileDir": "П",
+      "sizeMb": 2.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

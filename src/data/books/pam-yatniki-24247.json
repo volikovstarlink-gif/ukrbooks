@@ -1,0 +1,31 @@
+{
+  "id": "pam-yatniki-24247",
+  "slug": "pam-yatniki-24247",
+  "title": "Unknown",
+  "author": "Пользователь Windows",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pam-yatniki-24247.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pam-yatniki-24247__Pamiatnyky.epub",
+      "fileDir": "П",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "pam-yatniki-24247__Pamiatnyky__pam-yatniki.fb2",
+      "fileDir": "П",
+      "sizeMb": 4.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

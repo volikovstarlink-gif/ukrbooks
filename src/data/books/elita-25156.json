@@ -1,0 +1,31 @@
+{
+  "id": "elita-25156",
+  "slug": "elita-25156",
+  "title": "2. Еліта",
+  "author": "Кіра Касс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/elita-25156.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "elita-25156__Elita.epub",
+      "fileDir": "Е",
+      "sizeMb": 1.2
+    },
+    {
+      "format": "fb2",
+      "filename": "elita-25156__Elita__elita.fb2",
+      "fileDir": "Е",
+      "sizeMb": 3.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

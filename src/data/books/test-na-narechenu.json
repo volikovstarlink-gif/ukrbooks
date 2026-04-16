@@ -1,0 +1,33 @@
+{
+  "id": "test-na-narechenu",
+  "slug": "test-na-narechenu",
+  "title": "Unknown",
+  "author": "Unknown",
+  "authorSlug": "unknown",
+  "description": "<p>«Unknown» — книга автора Unknown.</p>",
+  "shortDescription": "«Unknown» — книга автора Unknown.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "placeholder",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "test-na-narechenu - Тест на наречену.epub",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "test-na-narechenu - Тест на наречену__Tiest na nariechienu - Gielien Khoangh.fb2",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Unknown — Unknown | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Unknown» автора Unknown безкоштовно у форматах EPUB, FB2."
+}

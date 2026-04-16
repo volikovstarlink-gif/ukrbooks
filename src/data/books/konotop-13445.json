@@ -1,0 +1,31 @@
+{
+  "id": "konotop-13445",
+  "slug": "konotop-13445",
+  "title": "Конотоп",
+  "author": "Василь Кожелянко",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/konotop-13445.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "konotop-13445__Konotop.epub",
+      "fileDir": "К",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "konotop-13445__Konotop__konotop.fb2",
+      "fileDir": "К",
+      "sizeMb": 0.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

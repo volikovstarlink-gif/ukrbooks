@@ -1,0 +1,31 @@
+{
+  "id": "spadkoyemitsya-23378",
+  "slug": "spadkoyemitsya-23378",
+  "title": "Спадкоємиця",
+  "author": "Кейті Роберт",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spadkoyemitsya-23378__Spadkoiemytsia.epub",
+      "fileDir": "С",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "spadkoyemitsya-23378__Spadkoiemytsia__spadkoyemitsya.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

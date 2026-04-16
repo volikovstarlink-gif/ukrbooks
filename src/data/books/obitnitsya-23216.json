@@ -1,0 +1,31 @@
+{
+  "id": "obitnitsya-23216",
+  "slug": "obitnitsya-23216",
+  "title": "Обітниця",
+  "author": "Володимир Лис",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/obitnitsya-23216.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "obitnitsya-23216__Obitnytsia.epub",
+      "fileDir": "О",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "obitnitsya-23216__Obitnytsia__obitnitsya.fb2",
+      "fileDir": "О",
+      "sizeMb": 1.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

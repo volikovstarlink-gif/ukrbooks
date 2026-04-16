@@ -1,0 +1,31 @@
+{
+  "id": "zapiski-kirpatogo-mefistofelya-2291",
+  "slug": "zapiski-kirpatogo-mefistofelya-2291",
+  "title": "Записки Кирпатого Мефістофеля",
+  "author": "Володимир Кирилович Винниченко",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zapiski-kirpatogo-mefistofelya-2291__Zapysky_Kyrpatoho_Mefistofelia.epub",
+      "fileDir": "З",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "zapiski-kirpatogo-mefistofelya-2291__Zapysky_Kyrpatoho_Mefistofelia__zapiski-kirpatogo-mefistofelya.fb2",
+      "fileDir": "З",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

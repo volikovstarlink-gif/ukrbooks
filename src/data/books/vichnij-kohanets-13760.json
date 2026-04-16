@@ -1,0 +1,31 @@
+{
+  "id": "vichnij-kohanets-13760",
+  "slug": "vichnij-kohanets-13760",
+  "title": "Вічний коханець",
+  "author": "Дж.Р. Уорд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vichnij-kohanets-13760.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vichnij-kohanets-13760__Vichnyi_kokhanets.epub",
+      "fileDir": "В",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "vichnij-kohanets-13760__Vichnyi_kokhanets__vichnij-kohanets.fb2",
+      "fileDir": "В",
+      "sizeMb": 2.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

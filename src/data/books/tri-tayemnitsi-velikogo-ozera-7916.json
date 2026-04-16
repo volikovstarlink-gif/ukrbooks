@@ -1,0 +1,31 @@
+{
+  "id": "tri-tayemnitsi-velikogo-ozera-7916",
+  "slug": "tri-tayemnitsi-velikogo-ozera-7916",
+  "title": "Три таємниці Великого озера",
+  "author": "Наталя Тисовська",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "tri-tayemnitsi-velikogo-ozera-7916__Try_taiemnytsi_Velykoho_ozera.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "tri-tayemnitsi-velikogo-ozera-7916__Try_taiemnytsi_Velykoho_ozera__tri-tayemnitsi-velikogo-ozera.fb2",
+      "fileDir": "Т",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "provulok-svitlyachkiv-31992",
+  "slug": "provulok-svitlyachkiv-31992",
+  "title": "Untitled",
+  "author": "Неизвестный автор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/provulok-svitlyachkiv-31992.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "provulok-svitlyachkiv-31992__Provulok_svitliachkiv.epub",
+      "fileDir": "П",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "provulok-svitlyachkiv-31992__Provulok_svitliachkiv__provulok-svitlyachkiv.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

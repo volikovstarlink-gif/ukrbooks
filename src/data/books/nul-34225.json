@@ -1,0 +1,31 @@
+{
+  "id": "nul-34225",
+  "slug": "nul-34225",
+  "title": "Нуль",
+  "author": "Щепан Твардох",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nul-34225.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nul-34225__Nul.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "nul-34225__Nul__nul.fb2",
+      "fileDir": "Н",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

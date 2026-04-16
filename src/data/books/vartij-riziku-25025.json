@@ -1,0 +1,31 @@
+{
+  "id": "vartij-riziku-25025",
+  "slug": "vartij-riziku-25025",
+  "title": "Джессіка Джойс",
+  "author": "Вартий ризику",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vartij-riziku-25025__Vartyi_ryzyku.epub",
+      "fileDir": "В",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "vartij-riziku-25025__Vartyi_ryzyku__vartij-riziku.fb2",
+      "fileDir": "В",
+      "sizeMb": 1.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

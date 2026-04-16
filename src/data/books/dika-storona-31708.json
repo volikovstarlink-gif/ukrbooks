@@ -1,0 +1,31 @@
+{
+  "id": "dika-storona-31708",
+  "slug": "dika-storona-31708",
+  "title": "Дика сторона",
+  "author": "Елсі Сілвер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dika-storona-31708.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dika-storona-31708__Dyka_storona.epub",
+      "fileDir": "Д",
+      "sizeMb": 5.4
+    },
+    {
+      "format": "fb2",
+      "filename": "dika-storona-31708__Dyka_storona__dika-storona.fb2",
+      "fileDir": "Д",
+      "sizeMb": 7.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

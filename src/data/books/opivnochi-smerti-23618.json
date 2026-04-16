@@ -1,0 +1,31 @@
+{
+  "id": "opivnochi-smerti-23618",
+  "slug": "opivnochi-smerti-23618",
+  "title": "Unknown",
+  "author": "Нора Робертс",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/opivnochi-smerti-23618.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "opivnochi-smerti-23618__Opivnochi_Smerti.epub",
+      "fileDir": "О",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "opivnochi-smerti-23618__Opivnochi_Smerti__opivnochi-smerti.fb2",
+      "fileDir": "О",
+      "sizeMb": 1.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

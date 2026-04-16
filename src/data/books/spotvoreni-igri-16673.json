@@ -1,0 +1,31 @@
+{
+  "id": "spotvoreni-igri-16673",
+  "slug": "spotvoreni-igri-16673",
+  "title": "Спотворені ігри",
+  "author": "Ана Хуанг",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spotvoreni-igri-16673.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spotvoreni-igri-16673__Spotvoreni_ihry.epub",
+      "fileDir": "С",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "spotvoreni-igri-16673__Spotvoreni_ihry__spotvoreni-igri.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

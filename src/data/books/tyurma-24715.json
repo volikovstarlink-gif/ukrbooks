@@ -1,0 +1,31 @@
+{
+  "id": "tyurma-24715",
+  "slug": "tyurma-24715",
+  "title": "Тюрьма",
+  "author": "Жорж Сименон",
+  "category": "ukr-literature",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/tyurma-24715.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "tyurma-24715__Tiurma.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "tyurma-24715__Tiurma__tyurma.fb2",
+      "fileDir": "Т",
+      "sizeMb": 0.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

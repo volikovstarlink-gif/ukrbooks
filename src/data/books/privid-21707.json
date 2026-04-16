@@ -1,0 +1,31 @@
+{
+  "id": "privid-21707",
+  "slug": "privid-21707",
+  "title": "Привид",
+  "author": "Емілі Барр",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/privid-21707.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "privid-21707__Pryvyd.epub",
+      "fileDir": "П",
+      "sizeMb": 4.9
+    },
+    {
+      "format": "fb2",
+      "filename": "privid-21707__Pryvyd__privid.fb2",
+      "fileDir": "П",
+      "sizeMb": 10.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

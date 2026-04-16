@@ -1,0 +1,31 @@
+{
+  "id": "mono-no-avare-23252",
+  "slug": "mono-no-avare-23252",
+  "title": "Моно-но аваре",
+  "author": "Кен Лю",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/mono-no-avare-23252.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "mono-no-avare-23252__Mono-no_avare.epub",
+      "fileDir": "М",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "mono-no-avare-23252__Mono-no_avare__mono-no-avare.fb2",
+      "fileDir": "М",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

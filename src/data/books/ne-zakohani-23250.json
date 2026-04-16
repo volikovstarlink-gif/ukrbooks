@@ -1,0 +1,31 @@
+{
+  "id": "ne-zakohani-23250",
+  "slug": "ne-zakohani-23250",
+  "title": "Не закохані",
+  "author": "Алі Гейзелвуд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ne-zakohani-23250.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ne-zakohani-23250__Ne_zakokhani.epub",
+      "fileDir": "Н",
+      "sizeMb": 1.4
+    },
+    {
+      "format": "fb2",
+      "filename": "ne-zakohani-23250__Ne_zakokhani__ne-zakohani.fb2",
+      "fileDir": "Н",
+      "sizeMb": 3.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

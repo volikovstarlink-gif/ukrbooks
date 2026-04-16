@@ -1,0 +1,31 @@
+{
+  "id": "chervonij-doshh-35275",
+  "slug": "chervonij-doshh-35275",
+  "title": "Червоний Дощ (done)",
+  "author": "Дін Кунц",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/chervonij-doshh-35275.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "chervonij-doshh-35275__Chervonyi_Doshch.epub",
+      "fileDir": "Ч",
+      "sizeMb": 1.4
+    },
+    {
+      "format": "fb2",
+      "filename": "chervonij-doshh-35275__Chervonyi_Doshch__chervonij-doshh.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 2.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

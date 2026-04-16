@@ -1,0 +1,31 @@
+{
+  "id": "alhimiya-tayemnits-30947",
+  "slug": "alhimiya-tayemnits-30947",
+  "title": "Алхімія таємниць",
+  "author": "Стефані Ґарбер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/alhimiya-tayemnits-30947.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "alhimiya-tayemnits-30947__Alkhimiia_taiemnyts.epub",
+      "fileDir": "А",
+      "sizeMb": 2.2
+    },
+    {
+      "format": "fb2",
+      "filename": "alhimiya-tayemnits-30947__Alkhimiia_taiemnyts__alhimiya-tayemnits.fb2",
+      "fileDir": "А",
+      "sizeMb": 3.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

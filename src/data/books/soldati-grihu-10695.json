@@ -1,0 +1,31 @@
+{
+  "id": "soldati-grihu-10695",
+  "slug": "soldati-grihu-10695",
+  "title": "Солдати гріху",
+  "author": "Анджей Земянський",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2010,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/soldati-grihu-10695.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "soldati-grihu-10695__Soldaty_hrikhu.epub",
+      "fileDir": "С",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "soldati-grihu-10695__Soldaty_hrikhu__soldati-grihu.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

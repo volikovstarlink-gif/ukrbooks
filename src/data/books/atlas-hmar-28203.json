@@ -1,0 +1,31 @@
+{
+  "id": "atlas-hmar-28203",
+  "slug": "atlas-hmar-28203",
+  "title": "Атлас хмар",
+  "author": "Девід Мітчелл",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/atlas-hmar-28203.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "atlas-hmar-28203__Atlas_khmar.epub",
+      "fileDir": "А",
+      "sizeMb": 2.0
+    },
+    {
+      "format": "fb2",
+      "filename": "atlas-hmar-28203__Atlas_khmar__atlas-hmar.fb2",
+      "fileDir": "А",
+      "sizeMb": 3.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

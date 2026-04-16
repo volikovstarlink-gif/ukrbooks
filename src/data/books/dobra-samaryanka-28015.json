@@ -1,0 +1,31 @@
+{
+  "id": "dobra-samaryanka-28015",
+  "slug": "dobra-samaryanka-28015",
+  "title": "Джон Маррс_Добра Самарянка",
+  "author": "Невідомий автор",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dobra-samaryanka-28015.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dobra-samaryanka-28015__Dobra_Samarianka.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "dobra-samaryanka-28015__Dobra_Samarianka__dobra-samaryanka.fb2",
+      "fileDir": "Д",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

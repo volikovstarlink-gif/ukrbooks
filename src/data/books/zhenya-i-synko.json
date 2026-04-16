@@ -1,0 +1,33 @@
+{
+  "id": "zhenya-i-synko",
+  "slug": "zhenya-i-synko",
+  "title": "Женя і Синько",
+  "author": "Віктор Близнець",
+  "authorSlug": "viktor-blyznets",
+  "description": "<p>«Женя і Синько» — книга автора Віктор Близнець.</p>",
+  "shortDescription": "«Женя і Синько» — книга автора Віктор Близнець.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/zhenya-i-synko.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zhenya-i-synko - Женя і Синько.epub",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "zhenya-i-synko - Женя і Синько__Zhienia i Sin'ko - Viktor Blizniets'.fb2",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Женя і Синько — Віктор Близнець | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Женя і Синько» автора Віктор Близнець безкоштовно у форматах EPUB, FB2."
+}

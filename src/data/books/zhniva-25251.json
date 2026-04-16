@@ -1,0 +1,31 @@
+{
+  "id": "zhniva-25251",
+  "slug": "zhniva-25251",
+  "title": "Unknown",
+  "author": "word",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zhniva-25251.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zhniva-25251__Zhnyva.epub",
+      "fileDir": "Ж",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "zhniva-25251__Zhnyva__zhniva.fb2",
+      "fileDir": "Ж",
+      "sizeMb": 2.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

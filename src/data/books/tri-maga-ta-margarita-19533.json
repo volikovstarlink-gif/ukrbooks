@@ -1,0 +1,31 @@
+{
+  "id": "tri-maga-ta-margarita-19533",
+  "slug": "tri-maga-ta-margarita-19533",
+  "title": "Три мага та Маргарита",
+  "author": "Аннетт Марі",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/tri-maga-ta-margarita-19533.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "tri-maga-ta-margarita-19533__Try_maha_ta_Marharyta.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "tri-maga-ta-margarita-19533__Try_maha_ta_Marharyta__tri-maga-ta-margarita.fb2",
+      "fileDir": "Т",
+      "sizeMb": 3.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

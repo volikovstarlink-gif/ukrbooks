@@ -1,0 +1,31 @@
+{
+  "id": "privit-neznajomko-31991",
+  "slug": "privit-neznajomko-31991",
+  "title": "Привіт, незнайомко!",
+  "author": "Неизвестный автор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/privit-neznajomko-31991.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "privit-neznajomko-31991__Pryvit_neznaiomko.epub",
+      "fileDir": "П",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "privit-neznajomko-31991__Pryvit_neznaiomko__privit-neznajomko.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

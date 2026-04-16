@@ -1,0 +1,31 @@
+{
+  "id": "sudzheni-21799",
+  "slug": "sudzheni-21799",
+  "title": "Суджені. The One",
+  "author": "Невідомий",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/sudzheni-21799.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sudzheni-21799__Sudzheni.epub",
+      "fileDir": "С",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "sudzheni-21799__Sudzheni__sudzheni.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

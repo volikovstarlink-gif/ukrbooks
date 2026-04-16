@@ -1,0 +1,31 @@
+{
+  "id": "klitka-korolya-16221",
+  "slug": "klitka-korolya-16221",
+  "title": "Клітка короля",
+  "author": "Вікторія Авеярд",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "Мара Барров живе у світі, де всі знають: люди зі срібною кров’ю народжені панувати. Люди з багряною кров’ю приречені бути рабами. Мара – дівчина з багряною кров’ю самим фактом свого існування ставить під сумнів справедливість предковічного ладу й одразу стає символом боротьби за права пригноблених багряних.",
+  "shortDescription": "Мара Барров живе у світі, де всі знають: люди зі срібною кров’ю народжені панувати. Люди з багряною кров’ю приречені бути рабами. Мара – дівчина з багряною кров’ю самим фактом свого існування ставить ",
+  "coverImage": "/covers/klitka-korolya-16221.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "klitka-korolya-16221__Klitka_korolia.epub",
+      "fileDir": "К",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "klitka-korolya-16221__Klitka_korolia__klitka-korolya.fb2",
+      "fileDir": "К",
+      "sizeMb": 2.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

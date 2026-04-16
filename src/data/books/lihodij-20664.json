@@ -1,0 +1,31 @@
+{
+  "id": "lihodij-20664",
+  "slug": "lihodij-20664",
+  "title": "Лиходій",
+  "author": "Л. Дж. Шен",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/lihodij-20664.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "lihodij-20664__Lykhodii.epub",
+      "fileDir": "Л",
+      "sizeMb": 1.8
+    },
+    {
+      "format": "fb2",
+      "filename": "lihodij-20664__Lykhodii__lihodij.fb2",
+      "fileDir": "Л",
+      "sizeMb": 2.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

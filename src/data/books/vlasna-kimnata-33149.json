@@ -1,0 +1,31 @@
+{
+  "id": "vlasna-kimnata-33149",
+  "slug": "vlasna-kimnata-33149",
+  "title": "Власна кімната",
+  "author": "Вірджинія Вулф",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vlasna-kimnata-33149.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vlasna-kimnata-33149__Vlasna_kimnata.epub",
+      "fileDir": "В",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "vlasna-kimnata-33149__Vlasna_kimnata__vlasna-kimnata.fb2",
+      "fileDir": "В",
+      "sizeMb": 0.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

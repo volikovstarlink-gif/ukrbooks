@@ -1,0 +1,31 @@
+{
+  "id": "lazar-29823",
+  "slug": "lazar-29823",
+  "title": "b1fe11c6b0f24682cf0eeca9fdd84cef",
+  "author": "Unknown",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/lazar-29823.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "lazar-29823__Lazar.epub",
+      "fileDir": "Л",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "lazar-29823__Lazar__lazar.fb2",
+      "fileDir": "Л",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

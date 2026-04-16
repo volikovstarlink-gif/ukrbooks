@@ -1,16 +1,27 @@
 import Fuse from 'fuse.js';
-import { Book } from '@/types/book';
+import type { Book } from '@/types/book';
 
-let fuse: Fuse<Book> | null = null;
+type BookSummary = Omit<Book, 'description'>;
 
-export function buildSearchIndex(books: Book[]) {
-  fuse = new Fuse(books, {
-    keys: ['title', 'author', 'description', 'keywords'],
-    threshold: 0.3,
+let fuseInstance: Fuse<BookSummary> | null = null;
+
+export function initSearch(books: BookSummary[]): Fuse<BookSummary> {
+  fuseInstance = new Fuse(books, {
+    keys: [
+      { name: 'title', weight: 0.5 },
+      { name: 'author', weight: 0.35 },
+      { name: 'shortDescription', weight: 0.1 },
+      { name: 'tags', weight: 0.05 },
+    ],
+    threshold: 0.4,
+    includeScore: true,
+    minMatchCharLength: 2,
   });
+  return fuseInstance;
 }
 
-export function searchBooks(query: string): Book[] {
-  if (!fuse) return [];
+export function searchBooks(books: BookSummary[], query: string): BookSummary[] {
+  if (!query.trim()) return books;
+  const fuse = fuseInstance || initSearch(books);
   return fuse.search(query).map((r) => r.item);
 }

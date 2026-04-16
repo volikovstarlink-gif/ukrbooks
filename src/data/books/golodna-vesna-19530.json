@@ -1,0 +1,31 @@
+{
+  "id": "golodna-vesna-19530",
+  "slug": "golodna-vesna-19530",
+  "title": "Голодна весна",
+  "author": "Іван Кирій",
+  "category": "classic",
+  "language": "uk",
+  "year": null,
+  "description": "Автор книжки, відомий український письменник, у новій повісті розповідає про трагічні події 1933 року, які він хлоп'ям пережив сам, коли здійснювався геноцид проти народу України. На сторінках твору перед читачем постануть жахливі картини голоду і все, що з ним пов'язано: людоїдство, смерть, моральний занепад людини.",
+  "shortDescription": "Автор книжки, відомий український письменник, у новій повісті розповідає про трагічні події 1933 року, які він хлоп'ям пережив сам, коли здійснювався геноцид проти народу України. На сторінках твору п",
+  "coverImage": "/covers/golodna-vesna-19530.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "golodna-vesna-19530__Holodna_vesna.epub",
+      "fileDir": "Г",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "golodna-vesna-19530__Holodna_vesna__golodna-vesna.fb2",
+      "fileDir": "Г",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

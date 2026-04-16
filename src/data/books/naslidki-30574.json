@@ -1,0 +1,31 @@
+{
+  "id": "naslidki-30574",
+  "slug": "naslidki-30574",
+  "title": "Наслідки",
+  "author": "Джиана Дарлінг",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/naslidki-30574.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "naslidki-30574__Naslidky.epub",
+      "fileDir": "Н",
+      "sizeMb": 1.0
+    },
+    {
+      "format": "fb2",
+      "filename": "naslidki-30574__Naslidky__naslidki.fb2",
+      "fileDir": "Н",
+      "sizeMb": 1.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

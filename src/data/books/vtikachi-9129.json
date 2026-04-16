@@ -1,0 +1,31 @@
+{
+  "id": "vtikachi-9129",
+  "slug": "vtikachi-9129",
+  "title": "Втікачі",
+  "author": "Анатолій Власюк",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "Повний текст \"Втікачі\" (автор: Власюк Анатолій Васильович) з Бібліотеки Української Літератури УкрЛіб",
+  "shortDescription": "Повний текст \"Втікачі\" (автор: Власюк Анатолій Васильович) з Бібліотеки Української Літератури УкрЛіб",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vtikachi-9129__Vtikachi.epub",
+      "fileDir": "В",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "vtikachi-9129__Vtikachi__vtikachi.fb2",
+      "fileDir": "В",
+      "sizeMb": 1.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

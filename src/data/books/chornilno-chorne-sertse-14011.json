@@ -1,0 +1,31 @@
+{
+  "id": "chornilno-chorne-sertse-14011",
+  "slug": "chornilno-chorne-sertse-14011",
+  "title": "Чорнильно-чорне серце. Книга 6",
+  "author": "Роберт Ґалбрейт",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/chornilno-chorne-sertse-14011.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "chornilno-chorne-sertse-14011__Chornylno-chorne_sertse.epub",
+      "fileDir": "Ч",
+      "sizeMb": 1.5
+    },
+    {
+      "format": "fb2",
+      "filename": "chornilno-chorne-sertse-14011__Chornylno-chorne_sertse__chornilno-chorne-sertse.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 5.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

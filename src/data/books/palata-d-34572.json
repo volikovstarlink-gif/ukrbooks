@@ -1,0 +1,31 @@
+{
+  "id": "palata-d-34572",
+  "slug": "palata-d-34572",
+  "title": "Палата D",
+  "author": "Фріда Мак-Фадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/palata-d-34572.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "palata-d-34572__Palata_D.epub",
+      "fileDir": "П",
+      "sizeMb": 5.9
+    },
+    {
+      "format": "fb2",
+      "filename": "palata-d-34572__Palata_D__palata-d.fb2",
+      "fileDir": "П",
+      "sizeMb": 8.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "anomaliya-26517",
+  "slug": "anomaliya-26517",
+  "title": "Андрій Новік_Аномалія",
+  "author": "Невідомий автор",
+  "category": "science",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/anomaliya-26517.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "anomaliya-26517__Anomaliia.epub",
+      "fileDir": "А",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "anomaliya-26517__Anomaliia__anomaliya.fb2",
+      "fileDir": "А",
+      "sizeMb": 1.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

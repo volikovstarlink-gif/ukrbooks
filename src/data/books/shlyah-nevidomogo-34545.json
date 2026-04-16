@@ -1,0 +1,31 @@
+{
+  "id": "shlyah-nevidomogo-34545",
+  "slug": "shlyah-nevidomogo-34545",
+  "title": "Шлях невідомого",
+  "author": "Качуровський Ігор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "Повість захоплююче оповідає про життєві перипетії молодого українського інтеліґента, який у роки Другої світової війни опинився між пекельними жорнами двох демонічних диктатур, сталінської й гітлерівської.",
+  "shortDescription": "Повість захоплююче оповідає про життєві перипетії молодого українського інтеліґента, який у роки Другої світової війни опинився між пекельними жорнами двох демонічних диктатур, сталінської й гітлерівс",
+  "coverImage": "/covers/shlyah-nevidomogo-34545.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shlyah-nevidomogo-34545__Shliakh_nevidomoho.epub",
+      "fileDir": "Ш",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "shlyah-nevidomogo-34545__Shliakh_nevidomoho__shlyah-nevidomogo.fb2",
+      "fileDir": "Ш",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

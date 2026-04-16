@@ -1,9 +1,8 @@
-import { MetadataRoute } from 'next';
-
+import type { MetadataRoute } from 'next';
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 export default function robots(): MetadataRoute.Robots {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ukrbooks.com.ua';
   return {
-    rules: { userAgent: '*', allow: '/' },
-    sitemap: `${siteUrl}/sitemap.xml`,
+    rules: { userAgent: '*', allow: '/', disallow: ['/api/'] },
+    sitemap: `${BASE}/sitemap.xml`,
   };
 }

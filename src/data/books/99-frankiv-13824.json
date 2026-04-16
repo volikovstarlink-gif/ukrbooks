@@ -1,0 +1,31 @@
+{
+  "id": "99-frankiv-13824",
+  "slug": "99-frankiv-13824",
+  "title": "99 франків",
+  "author": "Бегбедер Фредерік",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/99-frankiv-13824.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "99-frankiv-13824__99_frankiv.epub",
+      "fileDir": "0-9",
+      "sizeMb": 0.2
+    },
+    {
+      "format": "fb2",
+      "filename": "99-frankiv-13824__99_frankiv__99-frankiv.fb2",
+      "fileDir": "0-9",
+      "sizeMb": 0.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

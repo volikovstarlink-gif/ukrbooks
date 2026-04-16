@@ -1,0 +1,31 @@
+{
+  "id": "kat-2-14495",
+  "slug": "kat-2-14495",
+  "title": "58d1aa057acb4c46ef1fdab8040ec0f2",
+  "author": "User",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kat-2-14495.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "kat-2-14495__Kat.epub",
+      "fileDir": "К",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "kat-2-14495__Kat__kat-2.fb2",
+      "fileDir": "К",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

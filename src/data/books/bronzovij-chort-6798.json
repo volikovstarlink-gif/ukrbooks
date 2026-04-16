@@ -1,0 +1,31 @@
+{
+  "id": "bronzovij-chort-6798",
+  "slug": "bronzovij-chort-6798",
+  "title": "Бронзовий чорт",
+  "author": "Ростистав Феодосьевич Самбук",
+  "category": "detective",
+  "language": "uk",
+  "year": null,
+  "description": "Это роман украинского советского писателя в двух частях (\"Бронзовый черт\" и \"Марафон длиной в неделю\") о попытке гитлеровской разведки организовать покушение на Верховного Главнокомандующего Красной Армии, а также о работниках контрразведки СМЕРШ, своевременно обезвредивших фашистских диверсантов.",
+  "shortDescription": "Это роман украинского советского писателя в двух частях (\"Бронзовый черт\" и \"Марафон длиной в неделю\") о попытке гитлеровской разведки организовать покушение на Верховного Главнокомандующего Красной А",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "bronzovij-chort-6798__Bronzovyi_chort.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "bronzovij-chort-6798__Bronzovyi_chort__bronzovij-chort.fb2",
+      "fileDir": "Б",
+      "sizeMb": 0.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

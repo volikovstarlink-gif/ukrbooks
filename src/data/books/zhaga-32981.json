@@ -1,0 +1,31 @@
+{
+  "id": "zhaga-32981",
+  "slug": "zhaga-32981",
+  "title": "Жага. Книга 1",
+  "author": "Трейсі Вульф",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zhaga-32981.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zhaga-32981__Zhaha.epub",
+      "fileDir": "Ж",
+      "sizeMb": 3.5
+    },
+    {
+      "format": "fb2",
+      "filename": "zhaga-32981__Zhaha__zhaga.fb2",
+      "fileDir": "Ж",
+      "sizeMb": 4.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

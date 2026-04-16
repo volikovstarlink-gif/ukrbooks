@@ -1,0 +1,31 @@
+{
+  "id": "svyatoslav-19115",
+  "slug": "svyatoslav-19115",
+  "title": "Святослав",
+  "author": "Семен Дмитриевич Скляренко",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2010,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/svyatoslav-19115.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "svyatoslav-19115__Sviatoslav.epub",
+      "fileDir": "С",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "svyatoslav-19115__Sviatoslav__svyatoslav.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

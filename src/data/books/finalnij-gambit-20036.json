@@ -1,0 +1,31 @@
+{
+  "id": "finalnij-gambit-20036",
+  "slug": "finalnij-gambit-20036",
+  "title": "Unknown",
+  "author": "Дженніфер Лінн Барнс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "finalnij-gambit-20036__Finalnyi_hambit.epub",
+      "fileDir": "Ф",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "finalnij-gambit-20036__Finalnyi_hambit__finalnij-gambit.fb2",
+      "fileDir": "Ф",
+      "sizeMb": 3.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

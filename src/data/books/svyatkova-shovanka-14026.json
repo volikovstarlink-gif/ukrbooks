@@ -1,0 +1,31 @@
+{
+  "id": "svyatkova-shovanka-14026",
+  "slug": "svyatkova-shovanka-14026",
+  "title": "Святкова Схованка",
+  "author": "Мері Кей Ендрюс",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "svyatkova-shovanka-14026__Sviatkova_Skhovanka.epub",
+      "fileDir": "С",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "svyatkova-shovanka-14026__Sviatkova_Skhovanka__svyatkova-shovanka.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

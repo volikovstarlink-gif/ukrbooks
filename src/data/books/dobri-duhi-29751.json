@@ -1,0 +1,31 @@
+{
+  "id": "dobri-duhi-29751",
+  "slug": "dobri-duhi-29751",
+  "title": "Добрі духи",
+  "author": "Б. К. Борісон",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/dobri-duhi-29751.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "dobri-duhi-29751__Dobri_Dukhy.epub",
+      "fileDir": "Д",
+      "sizeMb": 2.5
+    },
+    {
+      "format": "fb2",
+      "filename": "dobri-duhi-29751__Dobri_Dukhy__dobri-duhi.fb2",
+      "fileDir": "Д",
+      "sizeMb": 4.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "muravlyk-ferda",
+  "slug": "muravlyk-ferda",
+  "title": "Муравлик Ферда",
+  "author": "Ондржей Секора",
+  "authorSlug": "ondrzhei-sekora",
+  "description": "<p>Любі літи! Ми пропонуємо вам книжку відомого чеського письменника і художника Ондржея Секори «Муравлик Ферда». Під цією назвою об’єднано дві повісті-казки: «Спритний Муравлик» та «Муравлик на службі», що розповідають про веселі і сумні пригоди вашого улюбленого казкового героя та його друзів. Гадаємо, що вони сподобаються вам, так само як і веселі, дотепні малюнки автора.</p>",
+  "shortDescription": "Любі літи! Ми пропонуємо вам книжку відомого чеського письменника і художника Ондржея Секори «Муравлик Ферда».",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/muravlyk-ferda.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "muravlyk-ferda - Муравлик Ферда.epub",
+      "sizeMb": 7.2
+    },
+    {
+      "format": "fb2",
+      "filename": "muravlyk-ferda - Муравлик Ферда__Muravlik Fierda - Ondrzhiei Siekora.fb2",
+      "sizeMb": 16.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Муравлик Ферда — Ондржей Секора | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Муравлик Ферда» автора Ондржей Секора безкоштовно у форматах EPUB, FB2."
+}

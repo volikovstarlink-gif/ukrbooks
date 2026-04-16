@@ -1,0 +1,31 @@
+{
+  "id": "sekret-sluzhnitsi-20670",
+  "slug": "sekret-sluzhnitsi-20670",
+  "title": "Секрет покоївки",
+  "author": "Фріда МакФадден",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/sekret-sluzhnitsi-20670.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "sekret-sluzhnitsi-20670__Sekret_sluzhnytsi.epub",
+      "fileDir": "С",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "sekret-sluzhnitsi-20670__Sekret_sluzhnytsi__sekret-sluzhnitsi.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

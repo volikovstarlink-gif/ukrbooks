@@ -1,0 +1,31 @@
+{
+  "id": "solonij-potsilunok-22905",
+  "slug": "solonij-potsilunok-22905",
+  "title": "Солоний Поцілунок",
+  "author": "Сьєрра Сімоне",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/solonij-potsilunok-22905.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "solonij-potsilunok-22905__Solonyi_potsilunok.epub",
+      "fileDir": "С",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "solonij-potsilunok-22905__Solonyi_potsilunok__solonij-potsilunok.fb2",
+      "fileDir": "С",
+      "sizeMb": 3.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

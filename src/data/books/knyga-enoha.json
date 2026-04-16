@@ -1,0 +1,33 @@
+{
+  "id": "knyga-enoha",
+  "slug": "knyga-enoha",
+  "title": "Книга Еноха",
+  "author": "Unknown",
+  "authorSlug": "unknown",
+  "description": "<p>«Книга Еноха» — книга автора Unknown.</p>",
+  "shortDescription": "«Книга Еноха» — книга автора Unknown.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/knyga-enoha.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "knyga-enoha - Книга Еноха.epub",
+      "sizeMb": 0.1
+    },
+    {
+      "format": "fb2",
+      "filename": "knyga-enoha - Книга Еноха__Knigha Ienokha - Nievidomii.fb2",
+      "sizeMb": 0.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Книга Еноха — Unknown | Завантажити EPUB, FB2",
+  "metaDescription": "Завантажте «Книга Еноха» автора Unknown безкоштовно у форматах EPUB, FB2."
+}

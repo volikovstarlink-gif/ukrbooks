@@ -1,8 +1,101 @@
 [
-  { "id": "fairy_tale", "slug": "kazky", "label": "Казки", "icon": "✨" },
-  { "id": "fable", "slug": "bayky", "label": "Байки", "icon": "🦊" },
-  { "id": "poetry", "slug": "poeziya", "label": "Поезія", "icon": "📜" },
-  { "id": "classic", "slug": "klasyka", "label": "Класика", "icon": "📚" },
-  { "id": "legal", "slug": "pravo", "label": "Право", "icon": "⚖️" },
-  { "id": "historical", "slug": "istoriya", "label": "Історія", "icon": "🏛️" }
+  {
+    "slug": "ukr-literature",
+    "name": "Українська література",
+    "nameEn": "Ukrainian Literature",
+    "description": "Класичні та сучасні твори українських авторів",
+    "icon": "🌻",
+    "bookCount": 573,
+    "order": 1
+  },
+  {
+    "slug": "fiction",
+    "name": "Фантастика",
+    "nameEn": "Fiction",
+    "description": "Наукова фантастика, фентезі, альтернативна історія",
+    "icon": "🚀",
+    "bookCount": 362,
+    "order": 2
+  },
+  {
+    "slug": "detective",
+    "name": "Детективи",
+    "nameEn": "Detective",
+    "description": "Детективи, трилери, кримінальні романи",
+    "icon": "🔍",
+    "bookCount": 128,
+    "order": 3
+  },
+  {
+    "slug": "romance",
+    "name": "Романи",
+    "nameEn": "Romance",
+    "description": "Любовні романи та мелодрами",
+    "icon": "💝",
+    "bookCount": 42,
+    "order": 4
+  },
+  {
+    "slug": "classic",
+    "name": "Класика",
+    "nameEn": "Classic Literature",
+    "description": "Світова класична література",
+    "icon": "📜",
+    "bookCount": 382,
+    "order": 5
+  },
+  {
+    "slug": "business",
+    "name": "Бізнес",
+    "nameEn": "Business",
+    "description": "Бізнес-книги, підприємництво, менеджмент",
+    "icon": "💼",
+    "bookCount": 1,
+    "order": 6
+  },
+  {
+    "slug": "psychology",
+    "name": "Психологія",
+    "nameEn": "Psychology",
+    "description": "Психологія, саморозвиток, мотивація",
+    "icon": "🧠",
+    "bookCount": 0,
+    "order": 7
+  },
+  {
+    "slug": "children",
+    "name": "Дитячі книги",
+    "nameEn": "Children",
+    "description": "Книги для дітей та підлітків",
+    "icon": "🌈",
+    "bookCount": 27,
+    "order": 8
+  },
+  {
+    "slug": "science",
+    "name": "Наука",
+    "nameEn": "Science",
+    "description": "Наукові книги, популярна наука",
+    "icon": "🔬",
+    "bookCount": 44,
+    "order": 9
+  },
+  {
+    "slug": "history",
+    "name": "Історія",
+    "nameEn": "History",
+    "description": "Історичні книги та документальна проза",
+    "icon": "⚔️",
+    "bookCount": 1254,
+    "order": 10
+  },
+  {
+    "slug": "other",
+    "name": "Інше",
+    "nameEn": "Other",
+    "description": "Некатегоризовані книги",
+    "icon": "📚",
+    "bookCount": 0,
+    "order": 11
+  }
 ]

@@ -1,0 +1,31 @@
+{
+  "id": "pasazhiri-17748",
+  "slug": "pasazhiri-17748",
+  "title": "Пасажири",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pasazhiri-17748.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pasazhiri-17748__Pasazhyry.epub",
+      "fileDir": "П",
+      "sizeMb": 3.3
+    },
+    {
+      "format": "fb2",
+      "filename": "pasazhiri-17748__Pasazhyry__pasazhiri.fb2",
+      "fileDir": "П",
+      "sizeMb": 4.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

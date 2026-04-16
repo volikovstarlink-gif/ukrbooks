@@ -1,0 +1,31 @@
+{
+  "id": "skazannya-zemnomor-ya-23398",
+  "slug": "skazannya-zemnomor-ya-23398",
+  "title": "Сказання Земномор'я",
+  "author": "Урсула Ле Ґуїн",
+  "category": "fiction",
+  "language": "uk",
+  "year": 2017,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/skazannya-zemnomor-ya-23398.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "skazannya-zemnomor-ya-23398__Skazannia_Zemnomoria.epub",
+      "fileDir": "С",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "skazannya-zemnomor-ya-23398__Skazannia_Zemnomoria__skazannya-zemnomor-ya.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

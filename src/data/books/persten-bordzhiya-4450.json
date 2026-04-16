@@ -1,0 +1,31 @@
+{
+  "id": "persten-bordzhiya-4450",
+  "slug": "persten-bordzhiya-4450",
+  "title": "Перстень Борджіа",
+  "author": "Владімір Нефф",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 1975,
+  "description": "Другий роман захоплюючої, гостросюжетної трилогії відомого чеського письменника про важливі історичні події в країнах Європи в епоху середньовіччя. Місце розгортання сюжету - Рим, Стамбул, Париж. Головний герой Петр Кукань із Кукані - казково-іронічна стилізована під апостола Петра постать борця за правду і справедливість. Син празького алхіміка стикається з вельможами, але лишається самим собою.",
+  "shortDescription": "Другий роман захоплюючої, гостросюжетної трилогії відомого чеського письменника про важливі історичні події в країнах Європи в епоху середньовіччя. Місце розгортання сюжету - Рим, Стамбул, Париж. Голо",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "persten-bordzhiya-4450__Persten_Bordzhiia.epub",
+      "fileDir": "П",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "persten-bordzhiya-4450__Persten_Bordzhiia__persten-bordzhiya.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

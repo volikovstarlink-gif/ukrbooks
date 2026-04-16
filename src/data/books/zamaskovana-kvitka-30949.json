@@ -1,0 +1,31 @@
+{
+  "id": "zamaskovana-kvitka-30949",
+  "slug": "zamaskovana-kvitka-30949",
+  "title": "Замаскована квітка",
+  "author": "Ерін Халлі",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zamaskovana-kvitka-30949.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zamaskovana-kvitka-30949__Zamaskovana_kvitka.epub",
+      "fileDir": "З",
+      "sizeMb": 8.8
+    },
+    {
+      "format": "fb2",
+      "filename": "zamaskovana-kvitka-30949__Zamaskovana_kvitka__zamaskovana-kvitka.fb2",
+      "fileDir": "З",
+      "sizeMb": 12.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

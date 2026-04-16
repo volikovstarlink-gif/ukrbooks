@@ -1,0 +1,31 @@
+{
+  "id": "shhira-shahrajka-4773",
+  "slug": "shhira-shahrajka-4773",
+  "title": "Щира шахрайка",
+  "author": "Емілі Локгарт",
+  "category": "classic",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "shhira-shahrajka-4773__Shchyra_shakhraika.epub",
+      "fileDir": "Щ",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "shhira-shahrajka-4773__Shchyra_shakhraika__shhira-shahrajka.fb2",
+      "fileDir": "Щ",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

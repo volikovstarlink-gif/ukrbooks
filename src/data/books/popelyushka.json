@@ -1,0 +1,28 @@
+{
+  "id": "popelyushka",
+  "slug": "popelyushka",
+  "title": "Popeliushka",
+  "author": "Невідомий автор",
+  "authorSlug": "nevidomyi-avtor",
+  "description": "<p>«Popeliushka» — книга автора Невідомий автор.</p>",
+  "shortDescription": "«Popeliushka» — книга автора Невідомий автор.",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/popelyushka.jpg",
+  "files": [
+    {
+      "format": "txt",
+      "filename": "popelyushka__Popeliushka.txt",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Popeliushka — Невідомий автор | Завантажити TXT",
+  "metaDescription": "Завантажте «Popeliushka» автора Невідомий автор безкоштовно у форматах TXT."
+}

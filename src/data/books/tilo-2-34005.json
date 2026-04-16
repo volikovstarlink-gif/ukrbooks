@@ -1,0 +1,31 @@
+{
+  "id": "tilo-2-34005",
+  "slug": "tilo-2-34005",
+  "title": "Тіло",
+  "author": "Бетані Морроу",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/tilo-2-34005.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "tilo-2-34005__Tilo.epub",
+      "fileDir": "Т",
+      "sizeMb": 5.0
+    },
+    {
+      "format": "fb2",
+      "filename": "tilo-2-34005__Tilo__tilo-2.fb2",
+      "fileDir": "Т",
+      "sizeMb": 7.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

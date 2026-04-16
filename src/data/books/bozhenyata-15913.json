@@ -1,0 +1,31 @@
+{
+  "id": "bozhenyata-15913",
+  "slug": "bozhenyata-15913",
+  "title": "Боженята",
+  "author": "Террі Пратчетт",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 2025,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/bozhenyata-15913.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "bozhenyata-15913__Bozheniata.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "bozhenyata-15913__Bozheniata__bozhenyata.fb2",
+      "fileDir": "Б",
+      "sizeMb": 1.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "graj-za-svoyu-dolyu-27780",
+  "slug": "graj-za-svoyu-dolyu-27780",
+  "title": "Грай за свою долю",
+  "author": "Unknown",
+  "category": "history",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/graj-za-svoyu-dolyu-27780.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "graj-za-svoyu-dolyu-27780__Hrai_za_svoiu_doliu.epub",
+      "fileDir": "Г",
+      "sizeMb": 1.9
+    },
+    {
+      "format": "fb2",
+      "filename": "graj-za-svoyu-dolyu-27780__Hrai_za_svoiu_doliu__graj-za-svoyu-dolyu.fb2",
+      "fileDir": "Г",
+      "sizeMb": 3.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

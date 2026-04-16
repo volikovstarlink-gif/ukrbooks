@@ -1,0 +1,31 @@
+{
+  "id": "ptashinij-korob-32516",
+  "slug": "ptashinij-korob-32516",
+  "title": "Пташиний_короб",
+  "author": "Невідомий автор",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ptashinij-korob-32516.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ptashinij-korob-32516__Ptashynyi_korob.epub",
+      "fileDir": "П",
+      "sizeMb": 0.6
+    },
+    {
+      "format": "fb2",
+      "filename": "ptashinij-korob-32516__Ptashynyi_korob__ptashinij-korob.fb2",
+      "fileDir": "П",
+      "sizeMb": 1.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "try-tovstuny",
+  "slug": "try-tovstuny",
+  "title": "Try Tovstuny",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/try-tovstuny.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "try-tovstuny__Try_Tovstuny.epub",
+      "fileDir": "Т",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "zacharovani-muzikanti-17269",
+  "slug": "zacharovani-muzikanti-17269",
+  "title": "Зачаровані музиканти",
+  "author": "Галина Пагутяк",
+  "category": "fiction",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/zacharovani-muzikanti-17269.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "zacharovani-muzikanti-17269__Zacharovani_muzykanty.epub",
+      "fileDir": "З",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "zacharovani-muzikanti-17269__Zacharovani_muzykanty__zacharovani-muzikanti.fb2",
+      "fileDir": "З",
+      "sizeMb": 0.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "z-lyubov-yu-vid-lukova-24494",
+  "slug": "z-lyubov-yu-vid-lukova-24494",
+  "title": "З Любов'ю від Лукова",
+  "author": "Маріана Запата",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "z-lyubov-yu-vid-lukova-24494__Z_liuboviu_vid_Lukova.epub",
+      "fileDir": "З",
+      "sizeMb": 1.2
+    },
+    {
+      "format": "fb2",
+      "filename": "z-lyubov-yu-vid-lukova-24494__Z_liuboviu_vid_Lukova__z-lyubov-yu-vid-lukova.fb2",
+      "fileDir": "З",
+      "sizeMb": 5.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

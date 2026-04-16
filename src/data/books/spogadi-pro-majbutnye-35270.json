@@ -1,0 +1,31 @@
+{
+  "id": "spogadi-pro-majbutnye-35270",
+  "slug": "spogadi-pro-majbutnye-35270",
+  "title": "Спогади про майбутнє (done)",
+  "author": "Дін Кунц",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/spogadi-pro-majbutnye-35270.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "spogadi-pro-majbutnye-35270__Spohady_pro_maibutnie.epub",
+      "fileDir": "С",
+      "sizeMb": 1.7
+    },
+    {
+      "format": "fb2",
+      "filename": "spogadi-pro-majbutnye-35270__Spohady_pro_maibutnie__spogadi-pro-majbutnye.fb2",
+      "fileDir": "С",
+      "sizeMb": 2.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

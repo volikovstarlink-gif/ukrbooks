@@ -1,0 +1,31 @@
+{
+  "id": "uves-tsej-svit-34575",
+  "slug": "uves-tsej-svit-34575",
+  "title": "Увесь цей світ",
+  "author": "Нікола Юн",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/uves-tsej-svit-34575.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "uves-tsej-svit-34575__Uves_tsei_svit.epub",
+      "fileDir": "У",
+      "sizeMb": 9.8
+    },
+    {
+      "format": "fb2",
+      "filename": "uves-tsej-svit-34575__Uves_tsei_svit__uves-tsej-svit.fb2",
+      "fileDir": "У",
+      "sizeMb": 13.9
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

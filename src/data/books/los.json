@@ -1,0 +1,28 @@
+{
+  "id": "los",
+  "slug": "los",
+  "title": "Лось",
+  "author": "Євген Гуцало",
+  "authorSlug": "yevhen-hutsalo",
+  "description": "<p>Повний текст \"Лось\" (автор: Гуцало Євген Пилипович) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Лось\" (автор: Гуцало Євген Пилипович) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/los.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "los - Лось.epub",
+      "sizeMb": 0.0
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Лось — Євген Гуцало | Завантажити EPUB",
+  "metaDescription": "Завантажте «Лось» автора Євген Гуцало безкоштовно у форматах EPUB."
+}

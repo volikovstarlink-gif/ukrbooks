@@ -1,0 +1,31 @@
+{
+  "id": "anonimni-grishniki-21922",
+  "slug": "anonimni-grishniki-21922",
+  "title": "Анонімні грішники",
+  "author": "Сомма Скетчер",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "anonimni-grishniki-21922__Anonimni_hrishnyky.epub",
+      "fileDir": "А",
+      "sizeMb": 0.8
+    },
+    {
+      "format": "fb2",
+      "filename": "anonimni-grishniki-21922__Anonimni_hrishnyky__anonimni-grishniki.fb2",
+      "fileDir": "А",
+      "sizeMb": 3.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "monte-verita-8803",
+  "slug": "monte-verita-8803",
+  "title": "Монте Веріта",
+  "author": "Дафна дю Мор'є",
+  "category": "fiction",
+  "language": "uk",
+  "year": 2017,
+  "description": "Три оповідання відомої британської письменниці. «Монте Веріта», «Птахи», «Старий». Перший (неофіційний) переклад українською мовою.",
+  "shortDescription": "Три оповідання відомої британської письменниці. «Монте Веріта», «Птахи», «Старий». Перший (неофіційний) переклад українською мовою.",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "monte-verita-8803__Monte_Verita.epub",
+      "fileDir": "М",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "monte-verita-8803__Monte_Verita__monte-verita.fb2",
+      "fileDir": "М",
+      "sizeMb": 0.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

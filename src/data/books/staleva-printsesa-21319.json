@@ -1,0 +1,31 @@
+{
+  "id": "staleva-printsesa-21319",
+  "slug": "staleva-printsesa-21319",
+  "title": "Unknown",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/staleva-printsesa-21319.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "staleva-printsesa-21319__Staleva_pryntsesa.epub",
+      "fileDir": "С",
+      "sizeMb": 0.4
+    },
+    {
+      "format": "fb2",
+      "filename": "staleva-printsesa-21319__Staleva_pryntsesa__staleva-printsesa.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

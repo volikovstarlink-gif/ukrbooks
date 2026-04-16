@@ -1,0 +1,31 @@
+{
+  "id": "chervonij-lotos-32517",
+  "slug": "chervonij-lotos-32517",
+  "title": "Начерки сталі: Червоний Лотос",
+  "author": "Аркадій Саульський",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/chervonij-lotos-32517.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "chervonij-lotos-32517__Chervonyi_lotos.epub",
+      "fileDir": "Ч",
+      "sizeMb": 1.4
+    },
+    {
+      "format": "fb2",
+      "filename": "chervonij-lotos-32517__Chervonyi_lotos__chervonij-lotos.fb2",
+      "fileDir": "Ч",
+      "sizeMb": 1.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

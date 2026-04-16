@@ -1,0 +1,31 @@
+{
+  "id": "vgori-na-villi-10433",
+  "slug": "vgori-na-villi-10433",
+  "title": "ВГОРІ НА ВІЛЛІ",
+  "author": "В.СОМЕРСЕТ МОЕМ",
+  "category": "history",
+  "language": "ru",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/vgori-na-villi-10433.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "vgori-na-villi-10433__Vhori_na_villi.epub",
+      "fileDir": "В",
+      "sizeMb": 0.3
+    },
+    {
+      "format": "fb2",
+      "filename": "vgori-na-villi-10433__Vhori_na_villi__vgori-na-villi.fb2",
+      "fileDir": "В",
+      "sizeMb": 0.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

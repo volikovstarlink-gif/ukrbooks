@@ -1,0 +1,31 @@
+{
+  "id": "napishu-dlya-tebe-27066",
+  "slug": "napishu-dlya-tebe-27066",
+  "title": "Напишу для тебе",
+  "author": "Тіллі Коул",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/napishu-dlya-tebe-27066.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "napishu-dlya-tebe-27066__Napyshu_dlia_tebe.epub",
+      "fileDir": "Н",
+      "sizeMb": 2.1
+    },
+    {
+      "format": "fb2",
+      "filename": "napishu-dlya-tebe-27066__Napyshu_dlia_tebe__napishu-dlya-tebe.fb2",
+      "fileDir": "Н",
+      "sizeMb": 3.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

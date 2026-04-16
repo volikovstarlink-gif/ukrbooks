@@ -1,0 +1,31 @@
+{
+  "id": "gorobets-21334",
+  "slug": "gorobets-21334",
+  "title": "Л.Дж.Шен Горобець",
+  "author": "Unknown",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/gorobets-21334.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "gorobets-21334__Horobets.epub",
+      "fileDir": "Г",
+      "sizeMb": 0.9
+    },
+    {
+      "format": "fb2",
+      "filename": "gorobets-21334__Horobets__gorobets.fb2",
+      "fileDir": "Г",
+      "sizeMb": 1.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

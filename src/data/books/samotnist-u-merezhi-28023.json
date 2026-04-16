@@ -1,0 +1,31 @@
+{
+  "id": "samotnist-u-merezhi-28023",
+  "slug": "samotnist-u-merezhi-28023",
+  "title": "Самотність у мережі",
+  "author": "Януш Вишневський",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/samotnist-u-merezhi-28023.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "samotnist-u-merezhi-28023__Samotnist_u_merezhi.epub",
+      "fileDir": "С",
+      "sizeMb": 0.0
+    },
+    {
+      "format": "fb2",
+      "filename": "samotnist-u-merezhi-28023__Samotnist_u_merezhi__samotnist-u-merezhi.fb2",
+      "fileDir": "С",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

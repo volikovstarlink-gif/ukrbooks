@@ -1,0 +1,25 @@
+{
+  "id": "korol-dama-valet-2020",
+  "slug": "korol-dama-valet-2020",
+  "title": "Korol dama valet",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "korol-dama-valet-2020__Korol_dama_valet.epub",
+      "fileDir": "К",
+      "sizeMb": 0.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

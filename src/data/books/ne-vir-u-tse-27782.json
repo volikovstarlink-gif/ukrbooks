@@ -1,0 +1,31 @@
+{
+  "id": "ne-vir-u-tse-27782",
+  "slug": "ne-vir-u-tse-27782",
+  "title": "ne-vir-u-tse",
+  "author": "Невідомий автор",
+  "category": "ukr-literature",
+  "language": "en",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ne-vir-u-tse-27782.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "ne-vir-u-tse-27782__Ne_vir_u_tse.epub",
+      "fileDir": "Н",
+      "sizeMb": 3.9
+    },
+    {
+      "format": "fb2",
+      "filename": "ne-vir-u-tse-27782__Ne_vir_u_tse__ne-vir-u-tse.fb2",
+      "fileDir": "Н",
+      "sizeMb": 1.4
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

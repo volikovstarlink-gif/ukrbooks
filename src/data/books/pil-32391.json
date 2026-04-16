@@ -1,0 +1,31 @@
+{
+  "id": "pil-32391",
+  "slug": "pil-32391",
+  "title": "Пил",
+  "author": "Г'ю Гоуї",
+  "category": "history",
+  "language": "uk",
+  "year": null,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pil-32391.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "pil-32391__Pyl.epub",
+      "fileDir": "П",
+      "sizeMb": 3.0
+    },
+    {
+      "format": "fb2",
+      "filename": "pil-32391__Pyl__pil.fb2",
+      "fileDir": "П",
+      "sizeMb": 4.6
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2024-01-01"
+}

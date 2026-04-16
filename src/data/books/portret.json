@@ -1,0 +1,28 @@
+{
+  "id": "portret",
+  "slug": "portret",
+  "title": "Портрет",
+  "author": "Микола Гоголь",
+  "authorSlug": "mykola-hohol",
+  "description": "<p>Повний текст \"Портрет\" (автор: Гоголь Микола Васильович) з Бібліотеки Української Літератури УкрЛіб</p>",
+  "shortDescription": "Повний текст \"Портрет\" (автор: Гоголь Микола Васильович) з Бібліотеки Української Літератури УкрЛіб",
+  "category": "other",
+  "tags": [],
+  "language": "uk",
+  "year": 0,
+  "coverImage": "/covers/portret.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "portret - Портрет.epub",
+      "sizeMb": 0.1
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": false,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-09",
+  "metaTitle": "Портрет — Микола Гоголь | Завантажити EPUB",
+  "metaDescription": "Завантажте «Портрет» автора Микола Гоголь безкоштовно у форматах EPUB."
+}
