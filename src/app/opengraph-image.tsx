@@ -39,7 +39,7 @@ export default async function Image() {
           Українська електронна бібліотека
         </div>
         <div style={{ fontSize: 20, color: '#6B7280', marginTop: 16 }}>
-          FB2 · EPUB · Безкоштовно
+          FB2 · EPUB · Без реєстрації
         </div>
       </div>
     ),

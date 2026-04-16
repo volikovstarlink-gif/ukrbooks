@@ -8,15 +8,16 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/api/', '/admin/', '/admin'],
       },
-      {
-        // Block AI scrapers that don't respect copyright
-        userAgent: 'GPTBot',
-        disallow: ['/'],
-      },
-      {
-        userAgent: 'CCBot',
-        disallow: ['/'],
-      },
+      // Block AI content scrapers that don't respect copyright
+      { userAgent: 'GPTBot',              disallow: ['/'] },
+      { userAgent: 'GPTBot-User',         disallow: ['/'] },
+      { userAgent: 'CCBot',               disallow: ['/'] },
+      { userAgent: 'Google-Extended',     disallow: ['/'] },
+      { userAgent: 'PerplexityBot',       disallow: ['/'] },
+      { userAgent: 'Claude-Web',          disallow: ['/'] },
+      { userAgent: 'Amazonbot',           disallow: ['/'] },
+      { userAgent: 'Bytespider',          disallow: ['/'] },
+      { userAgent: 'cohere-ai',           disallow: ['/'] },
     ],
     sitemap: `${BASE}/sitemap.xml`,
     host: BASE,
