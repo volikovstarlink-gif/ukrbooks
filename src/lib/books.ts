@@ -3,8 +3,52 @@ import booksIndex from '@/data/books-index.json';
 import categoriesData from '@/data/categories.json';
 import type { Book, Category, BooksIndex } from '@/types/book';
 
-const index = booksIndex as BooksIndex;
+const rawIndex = booksIndex as BooksIndex;
 const categories = categoriesData as Category[];
+
+const UNKNOWN_AUTHOR = 'Невідомий автор';
+const UNKNOWN_AUTHOR_PATTERNS = new Set([
+  '',
+  'unknown',
+  'невідомий',
+  'невідомий автор',
+  'неизвестно',
+  'неизвестный',
+  'неизвестный автор',
+  'пользователь windows',
+  'calibre',
+  'adobe digital editions',
+]);
+
+/** Collapse technical/empty author values so /author doesn't list
+ *  Unknown / Пользователь Windows / blank as separate entries.
+ *  Runtime defense — generate_catalog.py applies the same rule at ingest. */
+function normalizeAuthor(raw: string): string {
+  if (!raw) return UNKNOWN_AUTHOR;
+  const cleaned = raw.trim().replace(/\s+/g, ' ');
+  if (UNKNOWN_AUTHOR_PATTERNS.has(cleaned.toLowerCase())) return UNKNOWN_AUTHOR;
+  return cleaned;
+}
+
+// Normalize once up front so every consumer (catalog, book page, author
+// listings, JSON-LD) sees the same canonical author string.
+const index: BooksIndex = {
+  ...rawIndex,
+  books: rawIndex.books.map((b) => ({ ...b, author: normalizeAuthor(b.author) })),
+};
+
+/** File name the user sees in the browser "Save as…" dialog. The
+ *  physical file on R2 may have a noisy name like
+ *  "1984-11743__1984__1984.fb2"; this sanitizes it to a readable
+ *  "1984.fb2" without touching the storage layer. */
+export function getDownloadDisplayName(title: string, format: string): string {
+  const cleaned = title
+    .replace(/[/\\:*?"<>|]+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 100);
+  return `${cleaned || 'book'}.${format}`;
+}
 
 export const getAllBooks = cache((): Book[] => index.books);
 

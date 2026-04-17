@@ -69,6 +69,33 @@ def strip_html(text: str) -> str:
     return MULTI_SPACE_RE.sub(" ", t).strip()
 
 
+UNKNOWN_AUTHOR = "Невідомий автор"
+_UNKNOWN_AUTHOR_PATTERNS = {
+    "",
+    "unknown",
+    "невідомий",
+    "невідомий автор",
+    "неизвестно",
+    "неизвестный",
+    "неизвестный автор",
+    "пользователь windows",
+    "calibre",
+    "adobe digital editions",
+}
+
+
+def normalize_author(raw: str | None) -> str:
+    """Collapse technical/empty author values to a single "Невідомий автор"
+    bucket so /author doesn't show Unknown / Пользователь Windows / blank
+    as three separate entries."""
+    if not raw:
+        return UNKNOWN_AUTHOR
+    cleaned = " ".join(raw.split()).strip()
+    if cleaned.lower() in _UNKNOWN_AUTHOR_PATTERNS:
+        return UNKNOWN_AUTHOR
+    return cleaned
+
+
 def make_author_slug(author: str) -> str:
     s = author.translate(_UK_TR)
     s = re.sub(r"[^\w\s\-]", "", s, flags=re.UNICODE)
@@ -333,7 +360,7 @@ def generate_book_json(
         }
 
     title = metadata["title"]
-    author = metadata["author"] or "Невідомий автор"
+    author = normalize_author(metadata["author"])
 
     # Clean description
     raw_desc = metadata.get("description", "")

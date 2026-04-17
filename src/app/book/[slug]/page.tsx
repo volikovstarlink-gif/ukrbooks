@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BookOpen, Calendar, Tag, ArrowLeft, Home, ChevronRight } from 'lucide-react';
-import { getAllBookSlugs, getBookBySlug, getRelatedBooks, getAllCategories, getDownloadUrl, authorToSlug } from '@/lib/books';
+import { getAllBookSlugs, getBookBySlug, getRelatedBooks, getAllCategories, getDownloadUrl, getDownloadDisplayName, authorToSlug } from '@/lib/books';
 import { getCoverUrl } from '@/lib/utils';
 import { bookJsonLd, bookBreadcrumbJsonLd } from '@/lib/jsonld';
 import BookCard from '@/components/books/BookCard';
@@ -171,7 +171,7 @@ export default async function BookPage({ params }: Props) {
               <DownloadSection
                 items={book.files.map((file): DownloadItem => ({
                   format: file.format,
-                  filename: file.filename,
+                  filename: getDownloadDisplayName(book.title, file.format),
                   sizeMb: file.sizeMb,
                   downloadUrl: getDownloadUrl(file.filename, file.fileDir),
                 }))}
