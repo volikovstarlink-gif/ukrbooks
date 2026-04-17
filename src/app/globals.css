@@ -171,18 +171,18 @@ body {
 }
 
 /* ── Monetag in-page push cleanup ──
-   Hide the "Поздравляем, мы выбрали вас!" push overlay that Monetag
-   Multitag sometimes injects at <html> or <body> level. We ONLY target
-   known Monetag ad-domain iframes here, so legitimate VAST wrapper
-   iframes from other networks (Adsterra preroll, etc.) are unaffected.
-   Popunder + Vignette creatives continue to monetize normally. */
-html > iframe[src*="monetag"],
-html > iframe[src*="quge5"],
-html > iframe[src*="jmosl"],
-html > iframe[src*="094kk"],
-html > iframe[src*="auqot"],
-html > iframe[src*="tzegilo"],
-html > iframe[src*="bobapsoabauns"],
+   The "Поздравляем, мы выбрали вас!" push overlay is injected by
+   Monetag Multitag as iframes directly under <html> (siblings of
+   <body>) with src="" (cross-origin populated via srcdoc/postMessage),
+   so attribute selectors on src don't match. Nothing legitimate on this
+   site ever puts an iframe at the <html> level — hide them all.
+   Popunder, Vignette Banner, In-Page Push creatives live inside <body>
+   (or run without an iframe at all) and are NOT affected. */
+html > iframe {
+  display: none !important;
+}
+/* Belt-and-braces for older SDK builds that inject push widgets
+   directly under <body>. */
 body > [id^="mg_"],
 body > [id^="mgd_"],
 body > [class*="mg-push"],

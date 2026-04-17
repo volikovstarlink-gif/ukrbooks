@@ -83,13 +83,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script id="sw-cleanup" strategy="afterInteractive">
           {`(function(){try{if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){r.unregister()})}).catch(function(){})}if(typeof caches!=='undefined'){caches.keys().then(function(ks){ks.forEach(function(k){caches.delete(k)})}).catch(function(){})}}catch(e){}})();`}
         </Script>
-        {/* Monetag Multitag occasionally injects an "in-page push" iframe
-            as a direct child of <html>. Remove only the known Monetag
-            ad-domain iframes at that level; do NOT sweep all iframes,
-            because legitimate VAST wrapper iframes from other ad networks
-            may also live there and we need those to play. */}
+        {/* Monetag Multitag injects its "Поздравляем, мы выбрали вас!"
+            push overlay as <iframe>s directly under <html> (siblings of
+            <body>), with src="" because content is populated cross-origin
+            via srcdoc/postMessage. Nothing legitimate on this site ever
+            puts an iframe at the <html> level — remove any that appear.
+            Popunder, Vignette Banner and In-Page Push creatives from the
+            same SDK run inside <body> (or don't use iframes at all) and
+            are NOT touched, so the rest of the monetization keeps paying. */}
         <Script id="monetag-push-remover" strategy="beforeInteractive">
-          {`(function(){try{var MONETAG_HOSTS=/(quge5|jmosl|094kk|auqot|tzegilo|bobapsoabauns|monetag|mg_push|mg-push)/i;var isMonetagIframe=function(el){if(!el||el.tagName!=='IFRAME')return false;var src=el.getAttribute('src')||'';var id=el.id||'';var cls=el.className||'';return MONETAG_HOSTS.test(src)||MONETAG_HOSTS.test(id)||MONETAG_HOSTS.test(cls);};var sweep=function(){var root=document.documentElement;if(!root)return;for(var i=root.children.length-1;i>=0;i--){var el=root.children[i];if(isMonetagIframe(el)){try{el.remove();}catch(e){}}}};sweep();var mo=new MutationObserver(function(muts){for(var j=0;j<muts.length;j++){var m=muts[j];for(var k=0;k<m.addedNodes.length;k++){var n=m.addedNodes[k];if(n&&n.parentElement===document.documentElement&&isMonetagIframe(n)){try{n.remove();}catch(e){}}}}});if(document.documentElement)mo.observe(document.documentElement,{childList:true});}catch(e){}})();`}
+          {`(function(){try{var isHtmlIframe=function(el){return el&&el.tagName==='IFRAME'&&el.parentElement===document.documentElement;};var sweep=function(){var root=document.documentElement;if(!root)return;for(var i=root.children.length-1;i>=0;i--){var el=root.children[i];if(isHtmlIframe(el)){try{el.remove();}catch(e){}}}};sweep();var mo=new MutationObserver(function(muts){for(var j=0;j<muts.length;j++){var m=muts[j];for(var k=0;k<m.addedNodes.length;k++){var n=m.addedNodes[k];if(isHtmlIframe(n)){try{n.remove();}catch(e){}}}}});if(document.documentElement)mo.observe(document.documentElement,{childList:true});setInterval(sweep,1500);}catch(e){}})();`}
         </Script>
         <Header />
         <main>{children}</main>
