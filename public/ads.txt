@@ -1,9 +1,8 @@
-# UkrBooks — authorized digital sellers (ads.txt)
+# UkrBooks — ads.txt
 # Spec: https://iabtechlab.com/ads-txt/
 #
-# Adsterra: N/A — their support confirmed ads.txt is not required for
-# their demand (they don't serve SSP resellers that verify ads.txt).
-#
-# Monetag: TODO — grab the full ads.txt block from the Monetag dashboard
-# (Sites → 3302818 → ads.txt / Verify tab) and paste below. Typically
-# ~5–10 lines starting with propellerads.com with direct + reseller rows.
+# Intentionally empty: our current ad networks do not require ads.txt.
+# - Adsterra: support confirmed ads.txt is not required for their demand.
+# - Monetag: Multitag integration; add here only if their dashboard ever
+#   surfaces a required block.
+# - No Google AdSense in use.
