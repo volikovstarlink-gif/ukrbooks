@@ -34,11 +34,13 @@ export default function CatalogClient({ books, categories }: Props) {
   const router = useRouter();
   const pathname = usePathname();
 
-  // Derive state from URL params (single source of truth)
+  // Derive state from URL params (single source of truth).
+  // URL params are normalized to lowercase so direct links like
+  // ?format=EPUB from external sites still match our lowercased data.
   const query    = searchParams.get('q') || '';
-  const category = searchParams.get('category') || '';
-  const language = searchParams.get('language') || '';
-  const format   = searchParams.get('format') || '';
+  const category = (searchParams.get('category') || '').toLowerCase();
+  const language = (searchParams.get('language') || '').toLowerCase();
+  const format   = (searchParams.get('format') || '').toLowerCase();
   const sort     = searchParams.get('sort') || 'title';
   const page     = Math.max(1, Number(searchParams.get('page') || '1'));
 
@@ -73,7 +75,10 @@ export default function CatalogClient({ books, categories }: Props) {
     if (category) result = result.filter((b) => b.category === category);
     if (language) result = result.filter((b) => b.language === language);
     if (format) result = result.filter((b) => b.files.some((f) => f.format === format));
-    if (!query) {
+    // Sort always — even with a search query the user picks an explicit
+    // order from the dropdown, and Fuse's default is by relevance which
+    // means an explicit "newest first" choice was being ignored.
+    if (sort !== 'title' || !query) {
       result.sort((a, b) => {
         if (sort === 'title') return a.title.localeCompare(b.title, 'uk');
         if (sort === 'author') return a.author.localeCompare(b.author, 'uk');
@@ -282,6 +287,8 @@ function Pagination({ page, totalPages, onPageChange }: {
           <span key={"e" + i} className="px-2 text-gray-400">…</span>
         ) : (
           <button key={p} onClick={() => onPageChange(p)}
+            aria-current={p === page ? 'page' : undefined}
+            aria-label={`Сторінка ${p}`}
             className="w-9 h-9 rounded-lg text-sm font-medium transition-colors"
             style={{
               background: p === page ? 'var(--color-sapphire)' : '#fff',
