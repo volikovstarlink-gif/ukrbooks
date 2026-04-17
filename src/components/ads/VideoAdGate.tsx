@@ -12,6 +12,7 @@ import {
   trackAdQuartile,
   trackDownloadCompleted,
 } from '@/lib/ads-analytics';
+import HouseAd from './HouseAd';
 
 const AD_POD_SIZE = 2;
 const VIGNETTE_DURATION_SEC = 15;
@@ -394,48 +395,46 @@ function Inner({
 
           {phase === 'fallback-wait' && (
             <div className="text-center">
-              <p className="text-white font-bold text-lg mb-1">
-                Оголошення {adIndex + 1} з {AD_POD_SIZE}
-              </p>
-              <p className="text-slate-400 text-sm mb-5">Зачекайте {fallbackCountdown} сек…</p>
-              <div className="relative w-32 h-32 mx-auto mb-5">
-                <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="44"
-                    fill="none"
-                    stroke="rgba(255,255,255,0.08)"
-                    strokeWidth="8"
-                  />
-                  <circle
-                    cx="50"
-                    cy="50"
-                    r="44"
-                    fill="none"
-                    stroke="#3b82f6"
-                    strokeWidth="8"
-                    strokeLinecap="round"
-                    strokeDasharray={`${2 * Math.PI * 44}`}
-                    strokeDashoffset={`${
-                      2 * Math.PI * 44 * (fallbackCountdown / VIGNETTE_DURATION_SEC)
-                    }`}
-                    style={{ transition: 'stroke-dashoffset 1s linear' }}
-                  />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-white font-bold text-4xl tabular-nums">
-                    {fallbackCountdown}
-                  </span>
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <div className="relative w-20 h-20 flex-shrink-0">
+                  <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="44"
+                      fill="none"
+                      stroke="rgba(255,255,255,0.08)"
+                      strokeWidth="8"
+                    />
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="44"
+                      fill="none"
+                      stroke="#3b82f6"
+                      strokeWidth="8"
+                      strokeLinecap="round"
+                      strokeDasharray={`${2 * Math.PI * 44}`}
+                      strokeDashoffset={`${
+                        2 * Math.PI * 44 * (fallbackCountdown / VIGNETTE_DURATION_SEC)
+                      }`}
+                      style={{ transition: 'stroke-dashoffset 1s linear' }}
+                    />
+                  </svg>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="text-white font-bold text-2xl tabular-nums">
+                      {fallbackCountdown}
+                    </span>
+                  </div>
+                </div>
+                <div className="text-left flex-1">
+                  <p className="text-white font-semibold text-sm leading-tight">
+                    Оголошення {adIndex + 1} з {AD_POD_SIZE}
+                  </p>
+                  <p className="text-slate-400 text-xs mt-0.5">Зачекайте кілька секунд</p>
                 </div>
               </div>
-              <div
-                className="w-full py-3 rounded-xl text-sm flex items-center justify-center gap-2"
-                style={{ background: 'rgba(255,255,255,0.05)', color: '#94a3b8', minHeight: 44 }}
-              >
-                <Loader2 size={14} className="animate-spin" />
-                Триває показ реклами…
-              </div>
+              <HouseAd cycleIndex={adIndex} />
             </div>
           )}
 

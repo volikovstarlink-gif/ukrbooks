@@ -56,3 +56,13 @@ export function trackBannerClick(placement: string): void {
   trackEvent('banner_click', { placement });
   sendBeacon('/api/track/ad-event', { type: 'clicks', network: normalizeNetwork(placement) });
 }
+
+export function trackHouseAdImpression(variant: string, cycleIndex: number): void {
+  trackEvent('house_ad_impression', { variant, cycle_index: cycleIndex });
+  sendBeacon('/api/track/ad-event', { type: 'impressions', network: `house_${normalizeNetwork(variant)}` });
+}
+
+export function trackHouseAdClick(variant: string, target: string): void {
+  trackEvent('house_ad_click', { variant, target });
+  sendBeacon('/api/track/ad-event', { type: 'clicks', network: `house_${normalizeNetwork(variant)}` });
+}
