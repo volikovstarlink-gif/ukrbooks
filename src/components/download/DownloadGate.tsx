@@ -1,16 +1,31 @@
 'use client';
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { Download, X, Play, CheckCircle, Loader2, ExternalLink } from 'lucide-react';
+import { Download, X, Play, CheckCircle, Loader2 } from 'lucide-react';
 
 const AD_DURATION_SECONDS = 15;
 const TOTAL_ADS = 2;
 const MONETAG_SRC = 'https://quge5.com/88/tag.min.js';
 const MONETAG_ZONE = '230583';
-// The iframe's button posts this message tag back to the parent so React can
-// confirm the user actually triggered the popunder (real user-gesture click).
-const AD_MESSAGE_SOURCE = 'ukrbooks-ad';
+const MONETAG_SCRIPT_ID = 'monetag-multitag';
 
-type Phase = 'intro' | 'ad' | 'done';
+// Phases:
+//   intro       — "Почати перегляд" button. Click = ad #1 popunder fires.
+//   ad-wait     — countdown while the ad is open in another tab.
+//   ad-click-2  — "Переглянути другу рекламу" button. Click = ad #2 popunder.
+//   downloading — programmatic <a download>.click() so no extra popunder.
+//
+// Why no sandboxed iframe: Monetag's Multitag SDK checks the hosting origin
+// against the configured zone domain; inside a sandboxed iframe with
+// `srcdoc` the origin is opaque so the SDK refuses to serve popunders.
+// Instead the SDK is loaded into the book page only when the modal mounts.
+// That keeps it off the homepage / catalog / category pages entirely, so
+// navigation no longer triggers popunders. The SDK's click listener does
+// stay attached to `document` afterwards — but (a) the modal unmounts the
+// moment the file starts downloading, (b) users almost always close the
+// tab or leave once they have their file. The trade-off is one possible
+// extra popunder on a stray post-download click vs. popunders on every
+// click sitewide (the previous behaviour).
+type Phase = 'intro' | 'ad-wait' | 'ad-click-2' | 'downloading';
 
 interface DownloadGateProps {
   downloadUrl: string;
@@ -20,69 +35,21 @@ interface DownloadGateProps {
   onClose: () => void;
 }
 
-// Self-contained HTML loaded inside a sandboxed <iframe>. The Monetag SDK is
-// scoped to this document, so its document-level click handlers cannot leak
-// onto the rest of the site. Clicking the button in here is a real user
-// gesture inside the iframe — Monetag pops the ad in a new window, and the
-// inline onclick posts a message back to the parent to advance React state.
-const buildAdFrameDoc = (zone: string, src: string) => `<!doctype html>
-<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<style>
-  html,body{margin:0;padding:0;height:100%;background:transparent;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
-  #wrap{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:8px;padding:8px;box-sizing:border-box}
-  #ad-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;height:56px;border:0;border-radius:12px;background:linear-gradient(135deg,#3b82f6 0%,#6366f1 100%);color:#fff;font-size:14px;font-weight:600;cursor:pointer;transition:opacity .15s,transform .1s}
-  #ad-btn:hover{opacity:.92}
-  #ad-btn:active{transform:scale(.98)}
-  #ad-btn[disabled]{cursor:wait;background:rgba(255,255,255,.06);color:#94a3b8}
-  #hint{font-size:11px;color:rgba(148,163,184,.85);text-align:center;line-height:1.4}
-  .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#94a3b8;margin:0 2px;animation:pulse 1.2s infinite}
-  .dot:nth-child(2){animation-delay:.2s}
-  .dot:nth-child(3){animation-delay:.4s}
-  @keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
-</style></head><body>
-<div id="wrap">
-  <button id="ad-btn" disabled>
-    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-    <span style="margin-left:6px">Завантаження реклами…</span>
-  </button>
-  <div id="hint">Натисніть кнопку, щоб переглянути рекламу від партнера.</div>
-</div>
-<script>
-  (function(){
-    var btn = document.getElementById('ad-btn');
-    var ready = false;
-    function enable(){
-      if (ready) return;
-      ready = true;
-      btn.disabled = false;
-      btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg> Переглянути рекламу';
-    }
-    var s = document.createElement('script');
-    s.src = ${JSON.stringify(src)};
-    s.async = true;
-    s.setAttribute('data-zone', ${JSON.stringify(zone)});
-    s.setAttribute('data-cfasync', 'false');
-    s.onload = enable;
-    s.onerror = function(){
-      // If ads are blocked, still let the user proceed — don't trap them.
-      ready = true;
-      btn.disabled = false;
-      btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg> Продовжити';
-      try { parent.postMessage({ source: ${JSON.stringify(AD_MESSAGE_SOURCE)}, type: 'blocked' }, '*'); } catch(e){}
-    };
-    document.head.appendChild(s);
-    // Fallback: enable after 2.5s in case onload never fires.
-    setTimeout(enable, 2500);
-    btn.addEventListener('click', function(){
-      try { parent.postMessage({ source: ${JSON.stringify(AD_MESSAGE_SOURCE)}, type: 'click' }, '*'); } catch(e){}
-    });
-  })();
-</script>
-</body></html>`;
+function loadMonetag() {
+  if (typeof document === 'undefined') return;
+  if (document.getElementById(MONETAG_SCRIPT_ID)) return;
+  const s = document.createElement('script');
+  s.id = MONETAG_SCRIPT_ID;
+  s.src = MONETAG_SRC;
+  s.async = true;
+  s.setAttribute('data-zone', MONETAG_ZONE);
+  s.setAttribute('data-cfasync', 'false');
+  document.head.appendChild(s);
+}
 
 export default function DownloadGate(props: DownloadGateProps) {
-  // Mount/unmount the inner content with isOpen so state resets naturally
-  // each time the modal is opened (avoids setState-in-effect anti-pattern).
+  // Re-mount the inner component every time the modal opens so state
+  // resets cleanly (avoids the React 19 setState-in-effect lint rule).
   if (!props.isOpen) return null;
   return <DownloadGateInner {...props} />;
 }
@@ -95,75 +62,80 @@ function DownloadGateInner({
 }: Omit<DownloadGateProps, 'isOpen'>) {
   const [phase, setPhase] = useState<Phase>('intro');
   const [adsWatched, setAdsWatched] = useState(0);
-  const [adClicked, setAdClicked] = useState(false);
   const [countdown, setCountdown] = useState(AD_DURATION_SECONDS);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const downloadLinkRef = useRef<HTMLAnchorElement | null>(null);
 
-  // Listen for the iframe button click to start the countdown
+  // Load the Monetag SDK on mount so that the very first user click —
+  // the "Почати перегляд" button below — is already hooked by Multitag
+  // and fires a popunder.
   useEffect(() => {
-    const onMessage = (e: MessageEvent) => {
-      const data = e.data as { source?: string; type?: string } | null;
-      if (!data || data.source !== AD_MESSAGE_SOURCE) return;
-      if (data.type === 'click' || data.type === 'blocked') {
-        setAdClicked(true);
-      }
-    };
-    window.addEventListener('message', onMessage);
-    return () => window.removeEventListener('message', onMessage);
+    loadMonetag();
   }, []);
 
-  // Countdown only runs once the user has clicked the iframe ad button
+  const triggerDownload = useCallback(() => {
+    const a = downloadLinkRef.current;
+    if (a) {
+      a.click();
+    } else {
+      const link = document.createElement('a');
+      link.href = downloadUrl;
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+    setTimeout(onClose, 1200);
+  }, [downloadUrl, fileName, onClose]);
+
+  // Countdown ticker: when we enter 'ad-wait' the interval drives countdown
+  // down to 0, then advances the flow from inside the callback (no
+  // cascading setState-in-effect).
   useEffect(() => {
-    if (phase !== 'ad' || !adClicked) return;
+    if (phase !== 'ad-wait') return;
     intervalRef.current = setInterval(() => {
       setCountdown((prev) => {
-        if (prev <= 1) {
-          if (intervalRef.current) clearInterval(intervalRef.current);
-          return 0;
+        if (prev > 1) return prev - 1;
+        // Countdown done — stop ticking and advance the phase.
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current);
+          intervalRef.current = null;
         }
-        return prev - 1;
+        setAdsWatched((watched) => {
+          const next = watched + 1;
+          if (next >= TOTAL_ADS) {
+            setPhase('downloading');
+            // Defer the programmatic click until after this render commits
+            // so React state reflects the downloading phase first.
+            queueMicrotask(triggerDownload);
+          } else {
+            setPhase('ad-click-2');
+          }
+          return next;
+        });
+        return 0;
       });
     }, 1000);
     return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
     };
-  }, [phase, adClicked]);
+  }, [phase, triggerDownload]);
 
-  const startAd = useCallback(() => {
-    setPhase('ad');
-    setAdsWatched(0);
-    setAdClicked(false);
+  // User clicks the intro button → popunder #1 fires via Monetag's auto
+  // hook on user-gesture clicks, then start the countdown.
+  const handleStart = useCallback(() => {
     setCountdown(AD_DURATION_SECONDS);
+    setPhase('ad-wait');
   }, []);
 
-  const handleNextAd = useCallback(() => {
-    const nextCount = adsWatched + 1;
-    setAdsWatched(nextCount);
-    if (nextCount >= TOTAL_ADS) {
-      setPhase('done');
-    } else {
-      // Re-mount the iframe to load a fresh ad and reset internal state
-      setAdClicked(false);
-      setCountdown(AD_DURATION_SECONDS);
-    }
-  }, [adsWatched]);
-
-  const triggerDownload = useCallback(() => {
-    if (downloadLinkRef.current) {
-      downloadLinkRef.current.click();
-    } else {
-      const a = document.createElement('a');
-      a.href = downloadUrl;
-      a.download = fileName;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-    }
-    onClose();
-  }, [downloadUrl, fileName, onClose]);
-
-  const canProceed = adClicked && countdown === 0;
+  // User clicks the "watch second ad" button → popunder #2 fires.
+  const handleSecondAd = useCallback(() => {
+    setCountdown(AD_DURATION_SECONDS);
+    setPhase('ad-wait');
+  }, []);
 
   return (
     <div
@@ -207,34 +179,40 @@ function DownloadGateInner({
         <div className="px-6 py-6">
           {/* Progress dots */}
           <div className="flex items-center justify-center gap-3 mb-6">
-            {Array.from({ length: TOTAL_ADS }).map((_, i) => (
-              <div key={i} className="flex items-center gap-2">
-                <div
-                  className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-300"
-                  style={{
-                    background: i < adsWatched
-                      ? 'rgba(34,197,94,0.15)'
-                      : i === adsWatched && phase === 'ad'
-                        ? 'rgba(59,130,246,0.15)'
-                        : 'rgba(255,255,255,0.05)',
-                    border: i < adsWatched
-                      ? '2px solid #22c55e'
-                      : i === adsWatched && phase === 'ad'
-                        ? '2px solid #3b82f6'
-                        : '2px solid rgba(255,255,255,0.1)',
-                    color: i < adsWatched ? '#22c55e' : i === adsWatched && phase === 'ad' ? '#3b82f6' : '#64748b',
-                  }}
-                >
-                  {i < adsWatched ? <CheckCircle size={16} /> : i + 1}
-                </div>
-                {i < TOTAL_ADS - 1 && (
+            {Array.from({ length: TOTAL_ADS }).map((_, i) => {
+              const active =
+                (i === adsWatched && (phase === 'ad-wait' || phase === 'ad-click-2')) ||
+                (i === 0 && phase === 'intro');
+              const done = i < adsWatched && phase !== 'intro';
+              return (
+                <div key={i} className="flex items-center gap-2">
                   <div
-                    className="h-0.5 w-12 transition-all duration-300"
-                    style={{ background: i < adsWatched ? '#22c55e' : 'rgba(255,255,255,0.1)' }}
-                  />
-                )}
-              </div>
-            ))}
+                    className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-300"
+                    style={{
+                      background: done
+                        ? 'rgba(34,197,94,0.15)'
+                        : active
+                          ? 'rgba(59,130,246,0.15)'
+                          : 'rgba(255,255,255,0.05)',
+                      border: done
+                        ? '2px solid #22c55e'
+                        : active
+                          ? '2px solid #3b82f6'
+                          : '2px solid rgba(255,255,255,0.1)',
+                      color: done ? '#22c55e' : active ? '#3b82f6' : '#64748b',
+                    }}
+                  >
+                    {done ? <CheckCircle size={16} /> : i + 1}
+                  </div>
+                  {i < TOTAL_ADS - 1 && (
+                    <div
+                      className="h-0.5 w-12 transition-all duration-300"
+                      style={{ background: done ? '#22c55e' : 'rgba(255,255,255,0.1)' }}
+                    />
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           {/* INTRO phase */}
@@ -250,76 +228,63 @@ function DownloadGateInner({
                 Це займе лише 30 секунд — дякуємо за підтримку бібліотеки!
               </p>
               <button
-                onClick={startAd}
+                onClick={handleStart}
                 className="w-full py-3 rounded-xl font-semibold text-white text-sm flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
                 style={{ background: 'linear-gradient(135deg, #3b82f6 0%, #6366f1 100%)' }}
               >
                 <Play size={16} fill="white" />
-                Почати перегляд
+                Почати перегляд → Ролик 1
               </button>
+              <p className="text-slate-500 text-[10px] mt-3">
+                Реклама відкриється у новій вкладці
+              </p>
             </div>
           )}
 
-          {/* AD phase */}
-          {phase === 'ad' && (
+          {/* AD WAITING phase (countdown) */}
+          {phase === 'ad-wait' && (
             <div className="text-center">
-              <div className="mb-3">
+              <div className="mb-4">
                 <p className="text-slate-300 text-sm mb-1">
                   Реклама {adsWatched + 1} з {TOTAL_ADS}
                 </p>
-                <p className="text-slate-500 text-xs flex items-center justify-center gap-1">
-                  <ExternalLink size={11} />
-                  Реклама відкриється в новій вкладці
+                <p className="text-slate-500 text-xs">
+                  Реклама відкрита у новій вкладці. Зачекайте відлік…
                 </p>
               </div>
 
-              {/* Sandboxed Monetag iframe — its click hooks live ONLY here */}
-              <div
-                className="rounded-xl overflow-hidden mb-4"
-                style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.06)' }}
-              >
-                <iframe
-                  // Re-mount per ad slot so each ad starts fresh
-                  key={`ad-${adsWatched}`}
-                  title={`Реклама ${adsWatched + 1}`}
-                  srcDoc={buildAdFrameDoc(MONETAG_ZONE, MONETAG_SRC)}
-                  sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-forms"
-                  style={{ width: '100%', height: '110px', border: 0, display: 'block', background: 'transparent' }}
-                />
+              {/* Countdown circle */}
+              <div className="relative w-24 h-24 mx-auto mb-4">
+                <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="8" />
+                  <circle
+                    cx="50" cy="50" r="44"
+                    fill="none"
+                    stroke="#3b82f6"
+                    strokeWidth="8"
+                    strokeLinecap="round"
+                    strokeDasharray={`${2 * Math.PI * 44}`}
+                    strokeDashoffset={`${2 * Math.PI * 44 * (countdown / AD_DURATION_SECONDS)}`}
+                    style={{ transition: 'stroke-dashoffset 1s linear' }}
+                  />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-white font-bold text-xl">{countdown}</span>
+                </div>
               </div>
 
-              {/* Countdown / next button */}
-              {!adClicked ? (
-                <div
-                  className="w-full py-3 rounded-xl text-sm flex items-center justify-center gap-2"
-                  style={{ background: 'rgba(255,255,255,0.04)', color: '#94a3b8' }}
-                >
-                  <Loader2 size={14} className="animate-spin" />
-                  Очікуємо перегляд реклами…
-                </div>
-              ) : canProceed ? (
-                <button
-                  onClick={handleNextAd}
-                  className="w-full py-3 rounded-xl font-semibold text-white text-sm flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
-                  style={{ background: 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)' }}
-                >
-                  <CheckCircle size={16} />
-                  {adsWatched + 1 < TOTAL_ADS ? 'Далі → Ролик 2' : 'Завершити перегляд'}
-                </button>
-              ) : (
-                <div
-                  className="w-full py-3 rounded-xl text-sm flex items-center justify-center gap-2"
-                  style={{ background: 'rgba(255,255,255,0.05)', color: '#64748b' }}
-                >
-                  <Loader2 size={14} className="animate-spin" />
-                  Зачекайте {countdown} сек…
-                </div>
-              )}
+              <div
+                className="w-full py-3 rounded-xl text-sm flex items-center justify-center gap-2"
+                style={{ background: 'rgba(255,255,255,0.05)', color: '#64748b' }}
+              >
+                <Loader2 size={14} className="animate-spin" />
+                Зачекайте {countdown} сек…
+              </div>
             </div>
           )}
 
-          {/* DONE phase */}
-          {phase === 'done' && (
+          {/* AD 2 CLICK phase (between ads) */}
+          {phase === 'ad-click-2' && (
             <div className="text-center">
               <div
                 className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
@@ -327,20 +292,46 @@ function DownloadGateInner({
               >
                 <CheckCircle size={32} className="text-green-400" />
               </div>
-              <p className="text-white font-semibold text-lg mb-1">Дякуємо!</p>
-              <p className="text-slate-400 text-sm mb-5">
-                Натисніть кнопку нижче, щоб завантажити файл
+              <p className="text-white font-semibold text-lg mb-1">Ролик 1 переглянуто!</p>
+              <p className="text-slate-400 text-sm mb-6">
+                Натисніть кнопку для перегляду другого ролика
               </p>
-              {/* Hidden link used for download */}
-              <a ref={downloadLinkRef} href={downloadUrl} download={fileName} className="hidden" />
               <button
-                onClick={triggerDownload}
+                onClick={handleSecondAd}
                 className="w-full py-3 rounded-xl font-semibold text-white text-sm flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
-                style={{ background: 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)' }}
+                style={{ background: 'linear-gradient(135deg, #3b82f6 0%, #6366f1 100%)' }}
               >
-                <Download size={16} />
-                Завантажити {format.toUpperCase()}
+                <Play size={16} fill="white" />
+                Переглянути Ролик 2
               </button>
+            </div>
+          )}
+
+          {/* DOWNLOADING phase */}
+          {phase === 'downloading' && (
+            <div className="text-center">
+              <div
+                className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+                style={{ background: 'rgba(34,197,94,0.15)', border: '2px solid #22c55e' }}
+              >
+                <Download size={32} className="text-green-400" />
+              </div>
+              <p className="text-white font-semibold text-lg mb-1">Дякуємо!</p>
+              <p className="text-slate-400 text-sm mb-2">
+                Завантаження <strong className="text-white">{format.toUpperCase()}</strong> розпочато…
+              </p>
+              <p className="text-slate-500 text-xs">
+                Якщо файл не завантажується,{' '}
+                <a
+                  ref={downloadLinkRef}
+                  href={downloadUrl}
+                  download={fileName}
+                  className="text-blue-400 underline hover:text-blue-300"
+                >
+                  натисніть тут
+                </a>
+                .
+              </p>
             </div>
           )}
         </div>
