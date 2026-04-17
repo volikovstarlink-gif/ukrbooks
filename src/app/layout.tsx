@@ -5,7 +5,6 @@ import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import StickyMobileBanner from '@/components/ads/StickyMobileBanner';
-import AdsterraPopunder from '@/components/ads/AdsterraPopunder';
 
 const playfair = Playfair_Display({
   subsets: ['latin', 'cyrillic'],
@@ -98,7 +97,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <StickyMobileBanner />
-        <AdsterraPopunder />
         {GA_ID && (
           <>
             <Script

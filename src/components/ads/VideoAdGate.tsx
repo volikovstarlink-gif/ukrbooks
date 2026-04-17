@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { CheckCircle, Download, Loader2, Play, Volume2, VolumeX, X } from 'lucide-react';
 import { loadMonetag, purgeMonetagCache } from '@/lib/monetag';
+import { loadAdsterraPopunder } from '@/lib/adsterra';
 import { fetchVastAd, getVastTagUrl, withCachebuster, type ResolvedVastAd } from '@/lib/vast';
 import {
   trackAdError,
@@ -61,6 +62,11 @@ function Inner({
   useEffect(() => {
     purgeMonetagCache();
     loadMonetag();
+    // Load Adsterra popunder lazily, only when the user opens the gate —
+    // this is the one place on the site where an extra popunder layer is
+    // expected (user already committed to downloading). Keeps catalog /
+    // book page / search navigation clicks free of a second popunder.
+    loadAdsterraPopunder();
     trackAdGateOpen(bookSlug, format);
     startTimeRef.current = Date.now();
     return () => {
