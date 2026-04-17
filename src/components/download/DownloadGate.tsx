@@ -8,6 +8,30 @@ const MONETAG_SRC = 'https://quge5.com/88/tag.min.js';
 const MONETAG_ZONE = '230583';
 const MONETAG_SCRIPT_ID = 'monetag-multitag';
 
+// Monetag SDK leaves cached push-notification creatives in these
+// localStorage keys. Hidden via globals.css, but also purged so the next
+// SDK run fetches fresh creative instead of replaying the old one.
+const MONETAG_STORAGE_PREFIXES = ['tvlngkspvrk', 'rlxfx73qhe', 'xod3bx0r4cd', 'cebknrp71zt'];
+const MONETAG_STORAGE_EXACT = ['generatedGid', 'syncId', 'syncOrigin', 'syncDate', 'cd9i3wmzpc'];
+
+function purgeMonetagCache() {
+  if (typeof localStorage === 'undefined') return;
+  try {
+    for (let i = localStorage.length - 1; i >= 0; i--) {
+      const k = localStorage.key(i);
+      if (!k) continue;
+      if (
+        MONETAG_STORAGE_PREFIXES.some((p) => k.startsWith(p)) ||
+        MONETAG_STORAGE_EXACT.includes(k)
+      ) {
+        localStorage.removeItem(k);
+      }
+    }
+  } catch {
+    // private mode / quota — ignore
+  }
+}
+
 // Phases:
 //   intro       — "Почати перегляд" button. Click = ad #1 popunder fires.
 //   ad-wait     — countdown while the ad is open in another tab.
@@ -67,9 +91,11 @@ function DownloadGateInner({
   const downloadLinkRef = useRef<HTMLAnchorElement | null>(null);
 
   // Load the Monetag SDK on mount so that the very first user click —
-  // the "Почати перегляд" button below — is already hooked by Multitag
-  // and fires a popunder.
+  // the "Почати" button below — is already hooked by Multitag and fires
+  // a popunder. Purge any stale cached push creative at the same time
+  // so the SDK does not replay an old "Поздравляем" overlay.
   useEffect(() => {
+    purgeMonetagCache();
     loadMonetag();
   }, []);
 
@@ -146,8 +172,12 @@ function DownloadGateInner({
       }}
     >
       <div
-        className="relative w-full max-w-md rounded-2xl overflow-hidden shadow-2xl"
-        style={{ background: '#1e293b', border: '1px solid rgba(255,255,255,0.1)' }}
+        className="relative w-full max-w-md md:max-w-lg rounded-2xl overflow-hidden shadow-2xl"
+        style={{
+          background: '#1e293b',
+          border: '1px solid rgba(255,255,255,0.1)',
+          isolation: 'isolate',
+        }}
       >
         {/* Header */}
         <div
@@ -218,43 +248,41 @@ function DownloadGateInner({
           {/* INTRO phase */}
           {phase === 'intro' && (
             <div className="text-center">
-              <p className="text-white font-semibold text-lg mb-2">
-                Для безкоштовного завантаження
+              <p className="text-white font-bold text-xl mb-2">
+                Зачекайте 30 секунд ❤️
               </p>
-              <p className="text-slate-400 text-sm mb-1">
-                перегляньте {TOTAL_ADS} коротких рекламних ролика
+              <p className="text-slate-300 text-base mb-1">
+                Подивіться 2 коротких оголошення
               </p>
-              <p className="text-slate-500 text-xs mb-6">
-                Це займе лише 30 секунд — дякуємо за підтримку бібліотеки!
+              <p className="text-slate-500 text-sm mb-6">
+                Потім велика зелена кнопка — і книга ваша
               </p>
               <button
                 onClick={handleStart}
-                className="w-full py-3 rounded-xl font-semibold text-white text-sm flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
-                style={{ background: 'linear-gradient(135deg, #3b82f6 0%, #6366f1 100%)' }}
+                className="w-full py-4 rounded-xl font-semibold text-white text-base flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
+                style={{
+                  background: 'linear-gradient(135deg, #3b82f6 0%, #6366f1 100%)',
+                  minHeight: 52,
+                }}
               >
-                <Play size={16} fill="white" />
-                Почати перегляд → Ролик 1
+                <Play size={18} fill="white" />
+                Почати
               </button>
-              <p className="text-slate-500 text-[10px] mt-3">
-                Реклама відкриється у новій вкладці
-              </p>
             </div>
           )}
 
           {/* AD WAITING phase (countdown) */}
           {phase === 'ad-wait' && (
             <div className="text-center">
-              <div className="mb-4">
-                <p className="text-slate-300 text-sm mb-1">
-                  Реклама {adsWatched + 1} з {TOTAL_ADS}
-                </p>
-                <p className="text-slate-500 text-xs">
-                  Реклама відкрита у новій вкладці. Зачекайте відлік…
-                </p>
-              </div>
+              <p className="text-white font-bold text-lg mb-1">
+                Оголошення {adsWatched + 1} з {TOTAL_ADS}
+              </p>
+              <p className="text-slate-400 text-sm mb-5">
+                Зачекайте {countdown} сек…
+              </p>
 
-              {/* Countdown circle */}
-              <div className="relative w-24 h-24 mx-auto mb-4">
+              {/* Countdown circle — big, easy to see */}
+              <div className="relative w-32 h-32 mx-auto mb-5">
                 <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
                   <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="8" />
                   <circle
@@ -269,16 +297,16 @@ function DownloadGateInner({
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">{countdown}</span>
+                  <span className="text-white font-bold text-4xl tabular-nums">{countdown}</span>
                 </div>
               </div>
 
               <div
-                className="w-full py-3 rounded-xl text-sm flex items-center justify-center gap-2"
-                style={{ background: 'rgba(255,255,255,0.05)', color: '#64748b' }}
+                className="w-full py-4 rounded-xl text-sm flex items-center justify-center gap-2"
+                style={{ background: 'rgba(255,255,255,0.05)', color: '#94a3b8', minHeight: 52 }}
               >
-                <Loader2 size={14} className="animate-spin" />
-                Зачекайте {countdown} сек…
+                <Loader2 size={16} className="animate-spin" />
+                Зачекайте ще {countdown} сек…
               </div>
             </div>
           )}
@@ -292,17 +320,20 @@ function DownloadGateInner({
               >
                 <CheckCircle size={32} className="text-green-400" />
               </div>
-              <p className="text-white font-semibold text-lg mb-1">Ролик 1 переглянуто!</p>
-              <p className="text-slate-400 text-sm mb-6">
-                Натисніть кнопку для перегляду другого ролика
+              <p className="text-white font-bold text-xl mb-1">Чудово! 👍</p>
+              <p className="text-slate-300 text-base mb-6">
+                Ще 1 оголошення — і книга ваша 📖
               </p>
               <button
                 onClick={handleSecondAd}
-                className="w-full py-3 rounded-xl font-semibold text-white text-sm flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
-                style={{ background: 'linear-gradient(135deg, #3b82f6 0%, #6366f1 100%)' }}
+                className="w-full py-4 rounded-xl font-semibold text-white text-base flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
+                style={{
+                  background: 'linear-gradient(135deg, #3b82f6 0%, #6366f1 100%)',
+                  minHeight: 52,
+                }}
               >
-                <Play size={16} fill="white" />
-                Переглянути Ролик 2
+                <Play size={18} fill="white" />
+                Далі →
               </button>
             </div>
           )}
@@ -316,21 +347,20 @@ function DownloadGateInner({
               >
                 <Download size={32} className="text-green-400" />
               </div>
-              <p className="text-white font-semibold text-lg mb-1">Дякуємо!</p>
-              <p className="text-slate-400 text-sm mb-2">
-                Завантаження <strong className="text-white">{format.toUpperCase()}</strong> розпочато…
+              <p className="text-white font-bold text-2xl mb-1">Готово! 🎉</p>
+              <p className="text-slate-300 text-base mb-3">
+                Завантаження <strong className="text-white">{format.toUpperCase()}</strong> розпочато
               </p>
               <p className="text-slate-500 text-xs">
-                Якщо файл не завантажується,{' '}
+                Не завантажилось?{' '}
                 <a
                   ref={downloadLinkRef}
                   href={downloadUrl}
                   download={fileName}
                   className="text-blue-400 underline hover:text-blue-300"
                 >
-                  натисніть тут
+                  Натисніть сюди
                 </a>
-                .
               </p>
             </div>
           )}
