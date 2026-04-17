@@ -75,6 +75,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="alternate" hrefLang="x-default" href={BASE} />
       </head>
       <body>
+        {/* Unregister any leftover service worker from the old Monetag push
+            integration and clear its caches. Safe: the site does not use a
+            service worker of its own. */}
+        <Script id="sw-cleanup" strategy="afterInteractive">
+          {`(function(){try{if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){r.unregister()})}).catch(function(){})}if(typeof caches!=='undefined'){caches.keys().then(function(ks){ks.forEach(function(k){caches.delete(k)})}).catch(function(){})}}catch(e){}})();`}
+        </Script>
         <Header />
         <main>{children}</main>
         <Footer />
