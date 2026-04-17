@@ -1,0 +1,14 @@
+# UkrBooks — authorized digital sellers (ads.txt)
+# Spec: https://iabtechlab.com/ads-txt/
+#
+# TODO: both Monetag and Adsterra use reseller pools — paste their
+# full ads.txt records below once you grab them from each dashboard.
+# Without these lines the ad fill-rate from SSP resellers is reduced,
+# but direct demand still works.
+
+# Monetag — copy full block from Monetag dashboard → Sites → 3302818 → ads.txt
+# (typically ~5–10 lines starting with propellerads.com / rollerads.com / etc.)
+
+# Adsterra — copy full block from Adsterra support (beta dashboard has no
+# "ads.txt records" page; DM via the Intercom widget "Share your feedback"
+# or write to publishers@adsterra.com and they send the full records).

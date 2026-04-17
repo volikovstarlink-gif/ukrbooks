@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { Download } from 'lucide-react';
-import DownloadGate from './DownloadGate';
+import VideoAdGate from '@/components/ads/VideoAdGate';
 import { formatFileSize } from '@/lib/utils';
 import { trackBookDownload } from '@/lib/analytics';
 
@@ -9,7 +9,7 @@ export interface DownloadItem {
   format: string;
   filename: string;
   sizeMb: number;
-  downloadUrl: string; // pre-computed server-side
+  downloadUrl: string;
 }
 
 const FORMAT_LABEL: Record<string, string> = { epub: 'EPUB', fb2: 'FB2', pdf: 'PDF' };
@@ -18,12 +18,14 @@ interface DownloadSectionProps {
   items: DownloadItem[];
   bookTitle: string;
   bookAuthor: string;
+  bookSlug: string;
 }
 
 export default function DownloadSection({
   items,
   bookTitle,
   bookAuthor,
+  bookSlug,
 }: DownloadSectionProps) {
   const [gateOpen, setGateOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState<DownloadItem | null>(null);
@@ -51,12 +53,13 @@ export default function DownloadSection({
       </div>
 
       {selectedItem && (
-        <DownloadGate
+        <VideoAdGate
           isOpen={gateOpen}
           onClose={() => setGateOpen(false)}
           downloadUrl={selectedItem.downloadUrl}
           fileName={selectedItem.filename}
           format={selectedItem.format}
+          bookSlug={bookSlug}
         />
       )}
     </>

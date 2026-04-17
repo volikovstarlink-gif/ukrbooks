@@ -5,6 +5,7 @@ import { Home, ChevronRight, User } from 'lucide-react';
 import { getAllAuthorSlugs, getAuthorBySlug } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
 import BookCard from '@/components/books/BookCard';
+import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -96,10 +97,20 @@ export default async function AuthorPage({ params }: Props) {
 
       <div className="container-site py-8">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-          {author.books.map((book) => (
+          {author.books.slice(0, 12).map((book) => (
             <BookCard key={book.slug} book={book as Parameters<typeof BookCard>[0]['book']} />
           ))}
         </div>
+        {author.books.length > 12 && (
+          <>
+            <AdsterraBanner size="728x90" placement="author-after-12" />
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+              {author.books.slice(12).map((book) => (
+                <BookCard key={book.slug} book={book as Parameters<typeof BookCard>[0]['book']} />
+              ))}
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

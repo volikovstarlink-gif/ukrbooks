@@ -4,6 +4,8 @@ import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import StickyMobileBanner from '@/components/ads/StickyMobileBanner';
+import AdsterraPopunder from '@/components/ads/AdsterraPopunder';
 
 const playfair = Playfair_Display({
   subsets: ['latin', 'cyrillic'],
@@ -81,17 +83,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script id="sw-cleanup" strategy="afterInteractive">
           {`(function(){try{if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){r.unregister()})}).catch(function(){})}if(typeof caches!=='undefined'){caches.keys().then(function(ks){ks.forEach(function(k){caches.delete(k)})}).catch(function(){})}}catch(e){}})();`}
         </Script>
-        {/* Monetag Multitag injects an in-page push iframe as a direct
-            child of <html> with inline !important styles that override
-            any CSS rule. Sweep them out via a MutationObserver — Monetag
-            still earns on popunder + Vignette creatives; only the
-            intrusive "Поздравляем" push overlay is removed. */}
+        {/* Monetag Multitag occasionally injects an "in-page push" iframe
+            as a direct child of <html>. Remove only the known Monetag
+            ad-domain iframes at that level; do NOT sweep all iframes,
+            because legitimate VAST wrapper iframes from other ad networks
+            may also live there and we need those to play. */}
         <Script id="monetag-push-remover" strategy="beforeInteractive">
-          {`(function(){try{var remove=function(){var root=document.documentElement;if(!root)return;var kids=root.children;for(var i=kids.length-1;i>=0;i--){var el=kids[i];if(el.tagName==='IFRAME'){try{el.remove();}catch(e){}}}};remove();var mo=new MutationObserver(function(muts){for(var j=0;j<muts.length;j++){var m=muts[j];for(var k=0;k<m.addedNodes.length;k++){var n=m.addedNodes[k];if(n&&n.tagName==='IFRAME'&&n.parentElement===document.documentElement){try{n.remove();}catch(e){}}}}});if(document.documentElement)mo.observe(document.documentElement,{childList:true});}catch(e){}})();`}
+          {`(function(){try{var MONETAG_HOSTS=/(quge5|jmosl|094kk|auqot|tzegilo|bobapsoabauns|monetag|mg_push|mg-push)/i;var isMonetagIframe=function(el){if(!el||el.tagName!=='IFRAME')return false;var src=el.getAttribute('src')||'';var id=el.id||'';var cls=el.className||'';return MONETAG_HOSTS.test(src)||MONETAG_HOSTS.test(id)||MONETAG_HOSTS.test(cls);};var sweep=function(){var root=document.documentElement;if(!root)return;for(var i=root.children.length-1;i>=0;i--){var el=root.children[i];if(isMonetagIframe(el)){try{el.remove();}catch(e){}}}};sweep();var mo=new MutationObserver(function(muts){for(var j=0;j<muts.length;j++){var m=muts[j];for(var k=0;k<m.addedNodes.length;k++){var n=m.addedNodes[k];if(n&&n.parentElement===document.documentElement&&isMonetagIframe(n)){try{n.remove();}catch(e){}}}}});if(document.documentElement)mo.observe(document.documentElement,{childList:true});}catch(e){}})();`}
         </Script>
         <Header />
         <main>{children}</main>
         <Footer />
+        <StickyMobileBanner />
+        <AdsterraPopunder />
         {GA_ID && (
           <>
             <Script

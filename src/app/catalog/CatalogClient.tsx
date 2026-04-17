@@ -7,6 +7,7 @@ type BookSummary = Omit<Book, 'description'>;
 import { searchBooks } from '@/lib/search';
 import { pluralizeBooks } from '@/lib/utils';
 import BookCard from '@/components/books/BookCard';
+import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const PAGE_SIZE = 24;
 
@@ -162,8 +163,16 @@ export default function CatalogClient({ books, categories }: Props) {
             ) : (
               <>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
-                  {paginated.map((book) => <BookCard key={book.slug} book={book} />)}
+                  {paginated.slice(0, 12).map((book) => <BookCard key={book.slug} book={book} />)}
                 </div>
+                {paginated.length > 12 && (
+                  <>
+                    <AdsterraBanner size="728x90" placement="catalog-after-12" />
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
+                      {paginated.slice(12).map((book) => <BookCard key={book.slug} book={book} />)}
+                    </div>
+                  </>
+                )}
                 {totalPages > 1 && (
                   <Pagination page={safePage} totalPages={totalPages}
                     onPageChange={(p) => { setPage(p); window.scrollTo({ top: 0, behavior: 'smooth' }); }} />

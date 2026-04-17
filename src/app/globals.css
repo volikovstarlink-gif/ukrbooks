@@ -171,17 +171,18 @@ body {
 }
 
 /* ── Monetag in-page push cleanup ──
-   Monetag Multitag injects an "in-page push" iframe directly as a child
-   of <html> (outside <body>) with position:fixed + z-index:2147483647,
-   covering the DownloadGate modal with a "Поздравляем, мы выбрали вас!"
-   overlay. No legitimate site code puts iframes at the <html> level, so
-   hide them all. Popunder + Vignette still monetize the click inside
-   the modal — only the intrusive in-page push is hidden. */
-html > iframe {
-  display: none !important;
-}
-/* Belt-and-braces: also hide any Monetag-signature body-level overlays
-   that older SDK builds may inject. */
+   Hide the "Поздравляем, мы выбрали вас!" push overlay that Monetag
+   Multitag sometimes injects at <html> or <body> level. We ONLY target
+   known Monetag ad-domain iframes here, so legitimate VAST wrapper
+   iframes from other networks (Adsterra preroll, etc.) are unaffected.
+   Popunder + Vignette creatives continue to monetize normally. */
+html > iframe[src*="monetag"],
+html > iframe[src*="quge5"],
+html > iframe[src*="jmosl"],
+html > iframe[src*="094kk"],
+html > iframe[src*="auqot"],
+html > iframe[src*="tzegilo"],
+html > iframe[src*="bobapsoabauns"],
 body > [id^="mg_"],
 body > [id^="mgd_"],
 body > [class*="mg-push"],
