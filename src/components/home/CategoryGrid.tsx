@@ -8,8 +8,10 @@ export default function CategoryGrid({ categories }: { categories: Category[] })
     <section className="section" style={{ background: 'var(--color-parchment)' }}>
       <div className="container-site">
         <div className="text-center mb-8">
-          <h2 className="section-title">Категорії книг</h2>
-          <p className="section-subtitle">Знайдіть книгу за жанром або темою</p>
+          <h2 className="section-title">Обери настрій</h2>
+          <p className="section-subtitle">
+            Від фантастики до філософії — {visible.length} напрямків, щоб швидко знайти своє
+          </p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
           {visible.map((cat) => (

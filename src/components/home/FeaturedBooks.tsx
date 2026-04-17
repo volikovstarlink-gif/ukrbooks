@@ -9,8 +9,8 @@ export default function FeaturedBooks({ books }: { books: Book[] }) {
       <div className="container-site">
         <div className="flex items-end justify-between mb-6">
           <div>
-            <h2 className="section-title">Рекомендовані книги</h2>
-            <p className="section-subtitle">Підбірка найкращих творів</p>
+            <h2 className="section-title">Почни з цих</h2>
+            <p className="section-subtitle">Редакційна добірка — класика, що не старіє, і сучасні голоси</p>
           </div>
           <Link
             href="/catalog"

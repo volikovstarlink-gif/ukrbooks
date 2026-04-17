@@ -9,8 +9,8 @@ export default function NewArrivals({ books }: { books: Book[] }) {
       <div className="container-site">
         <div className="flex items-end justify-between mb-6">
           <div>
-            <h2 className="section-title">Нові надходження</h2>
-            <p className="section-subtitle">Нещодавно додані книги</p>
+            <h2 className="section-title">Щойно на полиці</h2>
+            <p className="section-subtitle">Свіжі надходження — дивись перший</p>
           </div>
           <Link
             href="/catalog?sort=newest"

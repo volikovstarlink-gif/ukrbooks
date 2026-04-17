@@ -6,33 +6,41 @@ import StatsBanner from '@/components/home/StatsBanner';
 import FeaturedBooks from '@/components/home/FeaturedBooks';
 import CategoryGrid from '@/components/home/CategoryGrid';
 import NewArrivals from '@/components/home/NewArrivals';
+import MissionBand from '@/components/home/MissionBand';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
-export const metadata: Metadata = {
-  title: 'UkrBooks — Бібліотека українських книг | EPUB та FB2',
-  description:
-    'Онлайн-бібліотека українських книг. Тисячі творів у форматах EPUB та FB2 — класика, сучасна проза, фантастика, дитячі книги. Без реєстрації.',
-  keywords: [
-    'українські книги',
-    'epub завантажити',
-    'fb2 книги',
-    'електронні книги українською',
-    'бібліотека онлайн',
-    'ukrbooks',
-    'читати онлайн',
-    'скачати книги',
-  ],
-  alternates: { canonical: BASE },
-  openGraph: {
-    title: 'UkrBooks — Бібліотека українських книг',
-    description: 'Тисячі книг у форматах EPUB та FB2. Без реєстрації.',
-    url: BASE,
-    type: 'website',
-    locale: 'uk_UA',
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const total = getTotalBooks();
+  const formatted = total.toLocaleString('uk-UA');
+  return {
+    title: 'UkrBooks — Українська книгарня онлайн · EPUB та FB2 безкоштовно',
+    description: `Українська книгарня онлайн: ${formatted} книг у EPUB та FB2. Класика, сучасна проза, фантастика, поезія. Без реєстрації, без оплати — заходь, обирай, читай.`,
+    keywords: [
+      'українська книгарня онлайн',
+      'українські книги',
+      'українська література',
+      'читати безкоштовно',
+      'книги українською безкоштовно',
+      'epub завантажити',
+      'fb2 книги',
+      'електронні книги українською',
+      'бібліотека онлайн',
+      'ukrbooks',
+      'читати онлайн',
+      'скачати книги',
+    ],
+    alternates: { canonical: BASE },
+    openGraph: {
+      title: 'UkrBooks — українська книгарня онлайн',
+      description: `${formatted} українських книг у відкритих форматах. Класика й сучасність, завжди безкоштовно, без реєстрації.`,
+      url: BASE,
+      type: 'website',
+      locale: 'uk_UA',
+    },
+  };
+}
 
 export default function HomePage() {
   const featured = getFeaturedBooks(12);
@@ -51,17 +59,18 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd()) }}
       />
-      <HeroSection totalBooks={total} />
+      <HeroSection totalBooks={total} featuredBooks={featured.slice(0, 10)} />
       <StatsBanner totalBooks={total} totalCategories={activeCategoryCount} />
+      <CategoryGrid categories={categories} />
       <FeaturedBooks books={featured} />
       <div className="container-site">
         <AdsterraBanner size="728x90" placement="home-after-featured" />
       </div>
-      <CategoryGrid categories={categories} />
-      <div className="container-site">
-        <AdsterraBanner size="728x90" placement="home-after-categories" />
-      </div>
       <NewArrivals books={newArrivals} />
+      <MissionBand />
+      <div className="container-site">
+        <AdsterraBanner size="728x90" placement="home-after-mission" />
+      </div>
     </>
   );
 }
