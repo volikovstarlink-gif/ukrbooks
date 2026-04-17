@@ -63,6 +63,8 @@ export default function Header() {
             className="md:hidden text-white/70 hover:text-white p-1"
             onClick={() => setOpen(!open)}
             aria-label="Меню"
+            aria-expanded={open}
+            aria-controls="mobile-nav"
           >
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
@@ -71,7 +73,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <div style={{ background: 'var(--color-ink)', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
+        <div id="mobile-nav" style={{ background: 'var(--color-ink)', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
           <nav className="container-site py-4 flex flex-col gap-3">
             {NAV.map(({ href, label }) => (
               <Link

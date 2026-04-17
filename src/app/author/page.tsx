@@ -7,7 +7,7 @@ import { pluralizeBooks } from '@/lib/utils';
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
 export const metadata: Metadata = {
-  title: 'Автори — книги завантажити EPUB та FB2 | UkrBooks',
+  title: 'Автори — книги завантажити EPUB та FB2',
   description:
     'Повний список авторів бібліотеки UkrBooks. Завантажте книги улюблених письменників у форматах EPUB та FB2 без реєстрації.',
   keywords: ['автори книг', 'письменники epub', 'українські письменники', 'fb2 автори'],

@@ -4,7 +4,7 @@ import Link from 'next/link';
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
 export const metadata: Metadata = {
-  title: 'DMCA — Захист авторських прав | UkrBooks',
+  title: 'DMCA — Захист авторських прав',
   description:
     'Повідомлення про порушення авторських прав (DMCA). Якщо ваш контент розміщено без дозволу — зверніться до нас для видалення.',
   alternates: { canonical: `${BASE}/dmca` },

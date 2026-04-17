@@ -9,13 +9,14 @@ export function initSearch(books: BookSummary[]): Fuse<BookSummary> {
   fuseInstance = new Fuse(books, {
     keys: [
       { name: 'title', weight: 0.5 },
-      { name: 'author', weight: 0.35 },
-      { name: 'shortDescription', weight: 0.1 },
+      { name: 'author', weight: 0.4 },
+      { name: 'shortDescription', weight: 0.05 },
       { name: 'tags', weight: 0.05 },
     ],
-    threshold: 0.4,
+    threshold: 0.3,
     includeScore: true,
     minMatchCharLength: 2,
+    ignoreLocation: true,
   });
   return fuseInstance;
 }
