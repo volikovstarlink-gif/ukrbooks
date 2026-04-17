@@ -11,9 +11,10 @@ interface AdsterraBannerProps {
   size: AdsterraBannerSize;
   placement: string;
   className?: string;
+  compact?: boolean;
 }
 
-export default function AdsterraBanner({ size, placement, className }: AdsterraBannerProps) {
+export default function AdsterraBanner({ size, placement, className, compact }: AdsterraBannerProps) {
   const hostRef = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
 
@@ -23,21 +24,39 @@ export default function AdsterraBanner({ size, placement, className }: AdsterraB
     if (visible) return;
     const el = hostRef.current;
     if (!el) return;
+    const reveal = () => {
+      setVisible(true);
+      trackBannerImpression(`adsterra-${size}-${placement}`);
+    };
+    if (typeof IntersectionObserver === 'undefined') {
+      reveal();
+      return;
+    }
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
           if (entry.isIntersecting) {
-            setVisible(true);
-            trackBannerImpression(`adsterra-${size}-${placement}`);
+            reveal();
             observer.disconnect();
             break;
           }
         }
       },
-      { rootMargin: '200px' },
+      { rootMargin: '400px' },
     );
     observer.observe(el);
-    return () => observer.disconnect();
+    // Safety fallback: if IO never fires within 2 s (stuck above-the-fold
+    // near the top of an SSR'd page, rare layout quirks), reveal anyway.
+    const fallbackTimer = window.setTimeout(() => {
+      if (!visible) {
+        reveal();
+        observer.disconnect();
+      }
+    }, 2000);
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallbackTimer);
+    };
   }, [visible, placement, size]);
 
   const isDev = process.env.NODE_ENV === 'development';
@@ -56,7 +75,7 @@ export default function AdsterraBanner({ size, placement, className }: AdsterraB
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        margin: '1.25rem auto',
+        margin: compact ? 0 : '1.25rem auto',
         minHeight: height,
       }}
     >
@@ -67,7 +86,7 @@ export default function AdsterraBanner({ size, placement, className }: AdsterraB
           width={width}
           height={height}
           style={{ border: 'none', maxWidth: '100%' }}
-          sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-same-origin"
+          sandbox="allow-scripts allow-popups"
           referrerPolicy="no-referrer"
           aria-hidden="true"
         />
