@@ -81,6 +81,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script id="sw-cleanup" strategy="afterInteractive">
           {`(function(){try{if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){r.unregister()})}).catch(function(){})}if(typeof caches!=='undefined'){caches.keys().then(function(ks){ks.forEach(function(k){caches.delete(k)})}).catch(function(){})}}catch(e){}})();`}
         </Script>
+        {/* Monetag Multitag injects an in-page push iframe as a direct
+            child of <html> with inline !important styles that override
+            any CSS rule. Sweep them out via a MutationObserver — Monetag
+            still earns on popunder + Vignette creatives; only the
+            intrusive "Поздравляем" push overlay is removed. */}
+        <Script id="monetag-push-remover" strategy="beforeInteractive">
+          {`(function(){try{var remove=function(){var root=document.documentElement;if(!root)return;var kids=root.children;for(var i=kids.length-1;i>=0;i--){var el=kids[i];if(el.tagName==='IFRAME'){try{el.remove();}catch(e){}}}};remove();var mo=new MutationObserver(function(muts){for(var j=0;j<muts.length;j++){var m=muts[j];for(var k=0;k<m.addedNodes.length;k++){var n=m.addedNodes[k];if(n&&n.tagName==='IFRAME'&&n.parentElement===document.documentElement){try{n.remove();}catch(e){}}}}});if(document.documentElement)mo.observe(document.documentElement,{childList:true});}catch(e){}})();`}
+        </Script>
         <Header />
         <main>{children}</main>
         <Footer />
