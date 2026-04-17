@@ -6,7 +6,6 @@ import StatsBanner from '@/components/home/StatsBanner';
 import FeaturedBooks from '@/components/home/FeaturedBooks';
 import CategoryGrid from '@/components/home/CategoryGrid';
 import NewArrivals from '@/components/home/NewArrivals';
-import MonetagBanner from '@/components/ads/MonetagBanner';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -56,7 +55,7 @@ export default function HomePage() {
       <StatsBanner totalBooks={total} totalCategories={activeCategoryCount} />
       <FeaturedBooks books={featured} />
       <div className="container-site">
-        <MonetagBanner placement="home-after-featured" minHeight={120} />
+        <AdsterraBanner size="728x90" placement="home-after-featured" />
       </div>
       <CategoryGrid categories={categories} />
       <div className="container-site">

@@ -10,7 +10,6 @@ import BookCard from '@/components/books/BookCard';
 import Badge from '@/components/ui/Badge';
 import DownloadSection from '@/components/download/DownloadSection';
 import type { DownloadItem } from '@/components/download/DownloadSection';
-import MonetagBanner from '@/components/ads/MonetagBanner';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -249,7 +248,7 @@ export default async function BookPage({ params }: Props) {
           </div>
         </div>
 
-        <MonetagBanner placement="book-before-related" minHeight={120} />
+        <AdsterraBanner size="728x90" placement="book-before-related" />
 
         {/* Related */}
         {related.length > 0 && (
