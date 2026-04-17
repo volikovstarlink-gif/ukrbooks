@@ -3,6 +3,7 @@ import { useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function AdminLogin() {
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -16,12 +17,13 @@ export default function AdminLogin() {
       const res = await fetch('/api/admin/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ username, password }),
       });
       if (res.ok) {
-        router.push('/admin/dashboard');
+        router.push('/admin/overview');
+        router.refresh();
       } else {
-        const data = await res.json();
+        const data = await res.json().catch(() => ({ error: 'Помилка входу' }));
         setError(data.error || 'Помилка входу');
       }
     } catch {
@@ -41,15 +43,28 @@ export default function AdminLogin() {
         </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
+            <label className="block text-sm font-medium text-slate-300 mb-2">Логін</label>
+            <input
+              type="text"
+              value={username}
+              onChange={e => setUsername(e.target.value)}
+              placeholder="admin"
+              autoComplete="username"
+              className="w-full px-4 py-3 bg-[#0f172a] border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+              required
+              autoFocus
+            />
+          </div>
+          <div>
             <label className="block text-sm font-medium text-slate-300 mb-2">Пароль</label>
             <input
               type="password"
               value={password}
               onChange={e => setPassword(e.target.value)}
-              placeholder="Введіть пароль адміна"
+              placeholder="••••••••"
+              autoComplete="current-password"
               className="w-full px-4 py-3 bg-[#0f172a] border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
               required
-              autoFocus
             />
           </div>
           {error && (

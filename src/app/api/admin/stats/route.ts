@@ -1,16 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { SESSION_COOKIE, verifySession } from '@/lib/admin-auth';
 
 const CF_ACCOUNT_ID = process.env.CF_ACCOUNT_ID || '39b9b9435d78643309d3e2119ba21151';
 const CF_ZONE_ID = process.env.CF_ZONE_ID || '8289b04da479ab6fd342cc678ba9eea7';
 const CF_ANALYTICS_TOKEN = process.env.CF_ANALYTICS_TOKEN || '';
 const R2_ACCESS_KEY = process.env.R2_ACCESS_KEY || '';
 const R2_SECRET_KEY = process.env.R2_SECRET_KEY || '';
-const R2_ENDPOINT = `https://${CF_ACCOUNT_ID}.r2.cloudflarestorage.com`;
 
-function isAuthenticated(req: NextRequest): boolean {
-  const session = req.cookies.get('admin_session')?.value;
-  const adminPassword = process.env.ADMIN_PASSWORD || 'ukrbooks-admin-2024';
-  return session === Buffer.from(adminPassword).toString('base64');
+async function isAuthenticated(req: NextRequest): Promise<boolean> {
+  const session = req.cookies.get(SESSION_COOKIE)?.value;
+  return !!(await verifySession(session));
 }
 
 // Cloudflare GraphQL Analytics API
@@ -83,7 +82,7 @@ async function fetchR2Storage() {
 }
 
 export async function GET(req: NextRequest) {
-  if (!isAuthenticated(req)) {
+  if (!(await isAuthenticated(req))) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 

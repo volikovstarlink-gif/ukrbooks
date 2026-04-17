@@ -5,6 +5,7 @@ import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import StickyMobileBanner from '@/components/ads/StickyMobileBanner';
+import VisitTracker from '@/components/analytics/VisitTracker';
 
 const playfair = Playfair_Display({
   subsets: ['latin', 'cyrillic'],
@@ -97,6 +98,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <StickyMobileBanner />
+        <VisitTracker />
         {GA_ID && (
           <>
             <Script

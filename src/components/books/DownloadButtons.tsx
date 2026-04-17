@@ -13,7 +13,7 @@ interface DownloadButtonsProps {
 
 export default function DownloadButtons({ files, bookTitle, bookAuthor, bookSlug }: DownloadButtonsProps) {
   const handleDownload = (file: BookFile) => {
-    trackBookDownload(bookTitle, bookAuthor, file.format);
+    trackBookDownload(bookTitle, bookAuthor, file.format, bookSlug);
   };
 
   return (

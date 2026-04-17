@@ -1,3 +1,5 @@
+import { sendBeacon } from './beacon';
+
 export function trackEvent(
   eventName: string,
   parameters?: Record<string, string | number | boolean>
@@ -8,13 +10,16 @@ export function trackEvent(
   window.gtag('event', eventName, parameters);
 }
 
-export function trackBookDownload(bookTitle: string, author: string, format: string) {
+export function trackBookDownload(bookTitle: string, author: string, format: string, bookSlug?: string) {
   trackEvent('book_download', {
     book_title: bookTitle,
     book_author: author,
     file_format: format,
     content_type: 'book',
   });
+  if (bookSlug) {
+    sendBeacon('/api/track/download', { bookSlug, bookTitle, format });
+  }
 }
 
 export function trackBookView(bookTitle: string, category: string) {

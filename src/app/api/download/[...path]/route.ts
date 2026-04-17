@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { readFile } from 'fs/promises';
 import path from 'path';
+import { incrDaily, recordError } from '@/lib/redis';
 
 const BOOKS_DIR = process.env.BOOKS_DIR || path.join(process.cwd(), '..', 'Books');
 
@@ -34,6 +35,7 @@ export async function GET(
 
   try {
     const data = await readFile(filePath);
+    incrDaily('downloads').catch(() => {});
     return new NextResponse(data, {
       headers: {
         'Content-Type': mime,
@@ -41,7 +43,9 @@ export async function GET(
         'Cache-Control': 'public, max-age=86400',
       },
     });
-  } catch {
+  } catch (err) {
+    const reason = err instanceof Error ? err.message : 'unknown';
+    recordError('downloads', { dir, filename, reason }).catch(() => {});
     return new NextResponse('File not found', { status: 404 });
   }
 }
