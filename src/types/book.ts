@@ -26,6 +26,10 @@ export interface Book {
   rating: number;
   addedAt: string;
   tags?: string[];
+  /** true = verified public domain; false = under copyright; undefined = not yet classified */
+  isPublicDomain?: boolean;
+  /** Year the author died — used to derive isPublicDomain */
+  authorDeathYear?: number | null;
 }
 
 export interface Category {

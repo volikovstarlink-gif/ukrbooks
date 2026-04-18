@@ -21,10 +21,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!author) return { title: 'Автора не знайдено' };
 
   const formats = 'EPUB та FB2';
+  // Noindex if every book by this author is explicitly marked non-public-domain
+  const allNonPD = author.books.length > 0 && author.books.every(
+    (b) => b.isPublicDomain === false
+  );
   return {
-    title: `${author.name} — книги завантажити ${formats} | UkrBooks`,
-    description: `Всі книги автора ${author.name}. ${author.bookCount} творів у форматах ${formats}. Завантаження без реєстрації на UkrBooks.`,
-    keywords: [
+    title: allNonPD
+      ? `${author.name} | UkrBooks`
+      : `${author.name} — книги завантажити ${formats} | UkrBooks`,
+    description: allNonPD
+      ? `Книги автора ${author.name} на UkrBooks.`
+      : `Всі книги автора ${author.name}. ${author.bookCount} творів у форматах ${formats}. Завантаження без реєстрації на UkrBooks.`,
+    keywords: allNonPD ? undefined : [
       author.name,
       `${author.name} epub`,
       `${author.name} fb2`,
@@ -33,9 +41,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `читати ${author.name} онлайн`,
     ],
     alternates: { canonical: `${BASE}/author/${slug}` },
+    robots: allNonPD ? { index: false, follow: false } : undefined,
     openGraph: {
       title: `${author.name} — ${author.bookCount} книг | UkrBooks`,
-      description: `Завантажити книги ${author.name} у форматах EPUB та FB2.`,
+      description: allNonPD
+        ? `Книги ${author.name} на UkrBooks.`
+        : `Завантажити книги ${author.name} у форматах EPUB та FB2.`,
       url: `${BASE}/author/${slug}`,
     },
   };

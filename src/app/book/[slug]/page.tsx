@@ -31,10 +31,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const categories = getAllCategories();
   const category = categories.find((c) => c.slug === book.category);
   const formats = book.files.map(f => f.format.toUpperCase()).join(' та ');
-  const title = `${book.title} — ${book.author} | Завантажити ${formats}`;
+  // Explicitly non-PD books get a neutral title (no download keywords) and noindex
+  const isPD = book.isPublicDomain !== false;
+  const title = isPD
+    ? `${book.title} — ${book.author} | Завантажити ${formats}`
+    : `${book.title} — ${book.author} | UkrBooks`;
   const description = book.shortDescription
-    ? `${book.shortDescription} Завантажити «${book.title}» у форматі ${formats}${book.year ? `, ${book.year}` : ''}.`
-    : `Завантажити «${book.title}» — ${book.author} у форматах ${formats}. ${category?.name || ''}. Без реєстрації.`;
+    ? `${book.shortDescription}${isPD ? ` Завантажити «${book.title}» у форматі ${formats}${book.year ? `, ${book.year}` : ''}.` : ''}`
+    : isPD
+    ? `Завантажити «${book.title}» — ${book.author} у форматах ${formats}. ${category?.name || ''}. Без реєстрації.`
+    : `«${book.title}» — ${book.author}. ${category?.name || ''}. UkrBooks.`;
 
   const coverUrl = book.coverImage !== '/covers/placeholder.jpg'
     ? (book.coverImage.startsWith('http') ? book.coverImage : `${BASE}${book.coverImage}`)
@@ -43,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    keywords: [
+    keywords: isPD ? [
       book.title,
       book.author,
       `${book.title} epub`,
@@ -51,8 +57,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `${book.author} книги`,
       `завантажити ${book.title}`,
       ...(book.tags || []),
-    ],
+    ] : undefined,
     alternates: { canonical: `${BASE}/book/${slug}` },
+    robots: isPD ? undefined : { index: false, follow: false },
     openGraph: {
       title: `${book.title} — ${book.author}`,
       description,

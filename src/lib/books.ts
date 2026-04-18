@@ -138,3 +138,9 @@ export const getAuthorBySlug = cache((slug: string): AuthorSummary | undefined =
 export const getAllAuthorSlugs = cache((): string[] =>
   getAllAuthors().map((a) => a.slug)
 );
+
+/** Slugs of books that are confirmed public domain OR not yet classified.
+ *  Only books explicitly marked isPublicDomain===false are excluded. */
+export const getPublicDomainBookSlugs = cache((): string[] =>
+  index.books.filter((b) => b.isPublicDomain !== false).map((b) => b.slug)
+);

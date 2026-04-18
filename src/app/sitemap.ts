@@ -1,10 +1,10 @@
 import type { MetadataRoute } from 'next';
-import { getAllBookSlugs, getAllCategories, getAllAuthorSlugs } from '@/lib/books';
+import { getPublicDomainBookSlugs, getAllCategories, getAllAuthorSlugs } from '@/lib/books';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const slugs = getAllBookSlugs();
+  const slugs = getPublicDomainBookSlugs();
   const categories = getAllCategories();
   const authorSlugs = getAllAuthorSlugs();
 
