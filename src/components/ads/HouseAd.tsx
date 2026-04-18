@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useMemo } from 'react';
-import { BookOpen, Heart, Send } from 'lucide-react';
+import { BookOpen, Heart, Send, Sparkles, Library, Users } from 'lucide-react';
 import { trackHouseAdClick, trackHouseAdImpression } from '@/lib/ads-analytics';
 
 interface HouseAdVariant {
@@ -40,6 +40,33 @@ const VARIANTS: HouseAdVariant[] = [
     href: '/catalog',
     icon: <BookOpen size={24} />,
     accent: '#3b82f6',
+  },
+  {
+    id: 'ukr-lit',
+    title: 'Українська класика',
+    subtitle: 'Шевченко, Франко, Леся Українка — у сучасних форматах',
+    cta: 'До розділу',
+    href: '/category/ukr-literature',
+    icon: <Library size={24} />,
+    accent: '#facc15',
+  },
+  {
+    id: 'new-books',
+    title: 'Що завантажують просто зараз',
+    subtitle: 'Топ-запити цього тижня — від детективів до фентезі',
+    cta: 'Подивитися',
+    href: '/catalog?sort=popular',
+    icon: <Sparkles size={24} />,
+    accent: '#a855f7',
+  },
+  {
+    id: 'authors',
+    title: 'Обери улюбленого автора',
+    subtitle: 'Тисяча письменників в одному каталозі',
+    cta: 'До списку авторів',
+    href: '/author',
+    icon: <Users size={24} />,
+    accent: '#14b8a6',
   },
 ];
 
