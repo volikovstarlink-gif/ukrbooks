@@ -11,6 +11,7 @@ import Badge from '@/components/ui/Badge';
 import DownloadSection from '@/components/download/DownloadSection';
 import type { DownloadItem } from '@/components/download/DownloadSection';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
+import DisplayBanner from '@/components/ads/DisplayBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -202,7 +203,7 @@ export default async function BookPage({ params }: Props) {
                 <p>Опис відсутній</p>
               </div>
             )}
-            <AdsterraBanner size="300x250" placement="book-after-description" />
+            <DisplayBanner size="300x250" placement="book-after-description" />
           </div>
 
           {/* Sidebar */}
@@ -245,7 +246,7 @@ export default async function BookPage({ params }: Props) {
               </div>
             )}
 
-            <AdsterraBanner size="300x250" placement="book-sidebar" />
+            <DisplayBanner size="300x250" placement="book-sidebar" />
           </div>
         </div>
 
