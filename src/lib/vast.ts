@@ -33,7 +33,7 @@ export interface WaterfallResult {
   hopIndex: number;
 }
 
-const WATERFALL_LABELS = ['hilltopads', 'adsterra_vast'];
+const WATERFALL_LABELS = ['hilltopads'];
 
 interface RawMediaFile {
   fileURL?: string;
@@ -118,10 +118,9 @@ export async function fetchVastAd(
 }
 
 export function getVastTagUrls(): string[] {
-  return [
-    process.env.NEXT_PUBLIC_HILLTOPADS_VAST_URL,
-    process.env.NEXT_PUBLIC_ADSTERRA_VAST_URL,
-  ].filter(
+  // Adsterra confirmed (via Intercom) they don't support VAST — we keep
+  // them for banners+popunder only. HilltopAds is our sole VAST SSP now.
+  return [process.env.NEXT_PUBLIC_HILLTOPADS_VAST_URL].filter(
     (u): u is string => typeof u === 'string' && u.trim().length > 0,
   );
 }
