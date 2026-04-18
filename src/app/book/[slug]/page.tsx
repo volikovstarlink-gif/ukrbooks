@@ -202,6 +202,7 @@ export default async function BookPage({ params }: Props) {
                 <p>Опис відсутній</p>
               </div>
             )}
+            <AdsterraBanner size="300x250" placement="book-after-description" />
           </div>
 
           {/* Sidebar */}

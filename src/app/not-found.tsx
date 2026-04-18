@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { BookX } from 'lucide-react';
+import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 export default function NotFound() {
   return (
-    <div className="min-h-[60vh] flex items-center justify-center" style={{ background: 'var(--color-cream)' }}>
+    <div className="min-h-[60vh] flex flex-col items-center justify-center gap-8 py-12" style={{ background: 'var(--color-cream)' }}>
       <div className="text-center">
         <BookX size={64} className="mx-auto mb-4" style={{ color: 'var(--color-muted)' }} />
         <h1 className="font-display text-3xl font-bold mb-2">Сторінку не знайдено</h1>
@@ -13,6 +14,7 @@ export default function NotFound() {
           <Link href="/catalog" className="btn btn-secondary btn-md">Каталог</Link>
         </div>
       </div>
+      <AdsterraBanner size="728x90" placement="not-found" />
     </div>
   );
 }

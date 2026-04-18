@@ -91,10 +91,20 @@ export default async function CategoryPage({ params }: Props) {
               <>
                 <AdsterraBanner size="728x90" placement="category-after-12" />
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                  {books.slice(12).map((book) => (
+                  {books.slice(12, 36).map((book) => (
                     <BookCard key={book.slug} book={book} />
                   ))}
                 </div>
+                {books.length > 36 && (
+                  <>
+                    <AdsterraBanner size="728x90" placement="category-after-36" />
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+                      {books.slice(36).map((book) => (
+                        <BookCard key={book.slug} book={book} />
+                      ))}
+                    </div>
+                  </>
+                )}
               </>
             )}
           </>

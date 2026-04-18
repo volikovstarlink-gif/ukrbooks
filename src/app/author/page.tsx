@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Home, ChevronRight, Users } from 'lucide-react';
 import { getAllAuthors } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
+import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -70,6 +71,7 @@ export default function AuthorsIndexPage() {
 
       {/* Grid */}
       <div className="container-site py-8">
+        <AdsterraBanner size="728x90" placement="authors-list-top" />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {authors.map((author) => (
             <Link

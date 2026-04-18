@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -91,6 +92,7 @@ export default function DmcaPage() {
             </Link>
           </div>
         </div>
+        <AdsterraBanner size="728x90" placement="dmca-bottom" />
       </div>
     </div>
   );

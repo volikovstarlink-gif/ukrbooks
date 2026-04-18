@@ -174,8 +174,16 @@ export default function CatalogClient({ books, categories }: Props) {
                   <>
                     <AdsterraBanner size="728x90" placement="catalog-after-12" />
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
-                      {paginated.slice(12).map((book) => <BookCard key={book.slug} book={book} />)}
+                      {paginated.slice(12, 36).map((book) => <BookCard key={book.slug} book={book} />)}
                     </div>
+                    {paginated.length > 36 && (
+                      <>
+                        <AdsterraBanner size="728x90" placement="catalog-after-36" />
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
+                          {paginated.slice(36).map((book) => <BookCard key={book.slug} book={book} />)}
+                        </div>
+                      </>
+                    )}
                   </>
                 )}
                 {totalPages > 1 && (

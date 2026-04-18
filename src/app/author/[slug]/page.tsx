@@ -105,10 +105,20 @@ export default async function AuthorPage({ params }: Props) {
           <>
             <AdsterraBanner size="728x90" placement="author-after-12" />
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-              {author.books.slice(12).map((book) => (
+              {author.books.slice(12, 36).map((book) => (
                 <BookCard key={book.slug} book={book as Parameters<typeof BookCard>[0]['book']} />
               ))}
             </div>
+            {author.books.length > 36 && (
+              <>
+                <AdsterraBanner size="728x90" placement="author-after-36" />
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+                  {author.books.slice(36).map((book) => (
+                    <BookCard key={book.slug} book={book as Parameters<typeof BookCard>[0]['book']} />
+                  ))}
+                </div>
+              </>
+            )}
           </>
         )}
       </div>
