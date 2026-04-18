@@ -33,7 +33,9 @@ export default function DisplayBanner({ size, placement, className, compact }: D
     // Hilltop only offers 300x250 as an overlap size; anything else → Adsterra.
     const hilltopSize = size === '300x250' ? '300x250' : null;
     const hilltopCfg = hilltopSize ? getHilltopBannerConfig(hilltopSize) : null;
-    const hilltopConfigured = Boolean(hilltopCfg && (hilltopCfg.src || hilltopCfg.inlineB64));
+    const hilltopConfigured = Boolean(
+      hilltopCfg && (hilltopCfg.src || hilltopCfg.inlineB64 || hilltopCfg.staticFile),
+    );
 
     if (!adsterraKey && hilltopConfigured) return 'hilltopads';
     if (adsterraKey && !hilltopConfigured) return 'adsterra';

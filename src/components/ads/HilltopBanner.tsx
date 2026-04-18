@@ -18,8 +18,8 @@ export default function HilltopBanner({ size, placement, className, compact }: H
   const hostRef = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
 
-  const { src, inlineB64, width, height } = getHilltopBannerConfig(size);
-  const configured = Boolean(src || inlineB64);
+  const { src, inlineB64, staticFile, width, height } = getHilltopBannerConfig(size);
+  const configured = Boolean(src || inlineB64 || staticFile);
 
   useEffect(() => {
     if (visible) return;
@@ -60,7 +60,11 @@ export default function HilltopBanner({ size, placement, className, compact }: H
 
   if (!configured) return null;
 
-  const srcDoc = buildHilltopBannerHtml({ src, inlineB64 }, width, height);
+  // Static-file mode (preferred): `/hilltop-banner-300x250.html` bundled in
+  // public/. Avoids long env values that Vercel warns about and gives the
+  // iframe its own document origin (stronger isolation than srcDoc).
+  // Fallback: build srcDoc from src / inlineB64 when no static file exists.
+  const srcDoc = staticFile ? null : buildHilltopBannerHtml({ src, inlineB64 }, width, height);
 
   return (
     <div
@@ -80,7 +84,7 @@ export default function HilltopBanner({ size, placement, className, compact }: H
       {visible && (
         <iframe
           title={`ad-hilltop-${placement}`}
-          srcDoc={srcDoc}
+          {...(staticFile ? { src: staticFile } : { srcDoc: srcDoc as string })}
           width={width}
           height={height}
           style={{ border: 'none', maxWidth: '100%' }}

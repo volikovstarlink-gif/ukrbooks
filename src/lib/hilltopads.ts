@@ -24,13 +24,19 @@ export interface HilltopBannerConfig {
   /** Optional URL — for zones that give a clean <script src="..."> tag. */
   src: string | undefined;
   /**
-   * Optional base64-encoded inline payload — HilltopAds Multitag Banner
-   * zones hand you an inline IIFE `<script>…</script>` block, not a src.
-   * Put the whole block (including the <script> tags) in Vercel env as
-   * base64: `echo -n '<script>…</script>' | base64`.
-   * Builder decodes and injects into an iframe srcDoc.
+   * Optional base64-encoded inline payload. Kept as an escape hatch, but the
+   * preferred way for inline IIFE zones is the static-file mode below — it
+   * doesn't bloat env and gives the iframe its own document origin.
    */
   inlineB64: string | undefined;
+  /**
+   * Path to a static HTML shim in `public/` (e.g. `/hilltop-banner-300x250.html`).
+   * This file hosts the vendor's inline `<script>…</script>` block and gets
+   * served from our own origin inside a sandboxed iframe. Set to a truthy
+   * value when the file exists in public/. Not env-driven because the file
+   * itself is tracked in git.
+   */
+  staticFile: string | undefined;
   width: number;
   height: number;
 }
@@ -40,6 +46,7 @@ export function getHilltopBannerConfig(size: HilltopBannerSize): HilltopBannerCo
     return {
       src: process.env.NEXT_PUBLIC_HILLTOPADS_BANNER_300X250_SRC,
       inlineB64: process.env.NEXT_PUBLIC_HILLTOPADS_BANNER_300X250_B64,
+      staticFile: '/hilltop-banner-300x250.html',
       width: 300,
       height: 250,
     };
@@ -47,6 +54,7 @@ export function getHilltopBannerConfig(size: HilltopBannerSize): HilltopBannerCo
   return {
     src: process.env.NEXT_PUBLIC_HILLTOPADS_BANNER_300X100_SRC,
     inlineB64: process.env.NEXT_PUBLIC_HILLTOPADS_BANNER_300X100_B64,
+    staticFile: undefined,
     width: 300,
     height: 100,
   };

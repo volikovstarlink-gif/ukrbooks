@@ -41,6 +41,15 @@ const nextConfig: NextConfig = {
         ],
       },
       {
+        source: '/hilltop-banner-:size*.html',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=60, must-revalidate' },
+          { key: 'Content-Type', value: 'text/html; charset=utf-8' },
+          { key: 'X-Robots-Tag', value: 'noindex' },
+          // Allow cross-origin scripts to load from vendor CDN inside the iframe.
+        ],
+      },
+      {
         source: '/(.*)',
         headers: [
           { key: 'X-Content-Type-Options', value: 'nosniff' },
