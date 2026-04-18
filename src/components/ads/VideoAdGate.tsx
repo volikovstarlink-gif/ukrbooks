@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { CheckCircle, Download, Loader2, Play, Volume2, VolumeX, X } from 'lucide-react';
 import { loadAdsterraPopunder } from '@/lib/adsterra';
-import { fetchVastAdWithFallback, getVastTagUrls, type ResolvedVastAd } from '@/lib/vast';
+import { fetchVastPodWithFallback, getVastTagUrls, type ResolvedVastAd } from '@/lib/vast';
 import {
   trackAdError,
   trackAdGateOpen,
@@ -59,6 +59,7 @@ function Inner({
   const quartilesFiredRef = useRef<Record<string, boolean>>({});
   const adsCompletedRef = useRef(0);
   const currentNetworkRef = useRef<string>('unknown');
+  const podRef = useRef<ResolvedVastAd[]>([]);
   const [canSkip, setCanSkip] = useState(false);
 
   useEffect(() => {
@@ -130,22 +131,37 @@ function Inner({
       setCurrentAd(null);
       setCanSkip(false);
 
-      const urls = getVastTagUrls();
-      if (urls.length === 0) {
-        trackAdNoFill('vast_waterfall', 'no_urls_configured');
+      // First cycle: fetch the whole pod once and cache it in podRef.
+      // Subsequent cycles just replay from the cache — zero extra network
+      // round-trips for ads 2..N. This mirrors how rezka's PlayerJS works:
+      // single pod request, sequential playback.
+      if (index === 0 || podRef.current.length === 0) {
+        const urls = getVastTagUrls();
+        if (urls.length === 0) {
+          trackAdNoFill('vast_waterfall', 'no_urls_configured');
+          startFallback(index);
+          return;
+        }
+        const result = await fetchVastPodWithFallback(urls, AD_POD_SIZE, (label, _i, reason) => {
+          trackAdNoFill(label, reason);
+        });
+        if (!result || result.ads.length === 0) {
+          trackAdNoFill('vast_waterfall', 'all_hops_failed');
+          startFallback(index);
+          return;
+        }
+        currentNetworkRef.current = result.networkLabel;
+        podRef.current = result.ads;
+      }
+
+      // If the pod doesn't cover this slot, fall through to HouseAd countdown.
+      const ad = podRef.current[index];
+      if (!ad) {
+        trackAdNoFill(currentNetworkRef.current, 'pod_short');
         startFallback(index);
         return;
       }
-      const result = await fetchVastAdWithFallback(urls, (label, _i, reason) => {
-        trackAdNoFill(label, reason);
-      });
-      if (!result) {
-        trackAdNoFill('vast_waterfall', 'all_hops_failed');
-        startFallback(index);
-        return;
-      }
-      currentNetworkRef.current = result.networkLabel;
-      setCurrentAd(result.ad);
+      setCurrentAd(ad);
       setPhase('playing');
     },
     [startFallback],
@@ -274,7 +290,12 @@ function Inner({
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-4"
-      style={{ background: 'rgba(15, 23, 42, 0.9)', backdropFilter: 'blur(6px)' }}
+      style={{
+        background: 'rgba(15, 23, 42, 0.9)',
+        backdropFilter: 'blur(6px)',
+        paddingTop: 'max(1rem, env(safe-area-inset-top))',
+        paddingBottom: 'max(1rem, env(safe-area-inset-bottom))',
+      }}
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}

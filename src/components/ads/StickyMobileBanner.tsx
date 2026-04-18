@@ -36,6 +36,7 @@ export default function StickyMobileBanner() {
       className="md:hidden fixed bottom-0 left-0 right-0 z-40 flex items-center justify-between px-2"
       style={{
         minHeight: 56,
+        paddingBottom: 'env(safe-area-inset-bottom)',
         background: 'rgba(15,23,42,0.95)',
         borderTop: '1px solid rgba(255,255,255,0.08)',
         backdropFilter: 'blur(6px)',

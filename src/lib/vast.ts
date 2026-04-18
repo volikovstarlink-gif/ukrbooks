@@ -154,3 +154,80 @@ export async function fetchVastAdWithFallback(
   }
   return null;
 }
+
+/**
+ * Fetch an ad pod from a single VAST tag. HilltopAds (and most SSPs) return
+ * multiple <Ad> elements per response — this walks all of them and returns
+ * up to `maxAds` resolved creatives in order. One network round-trip serves
+ * the whole 2-cycle gate, instead of two separate fetches with cachebusters.
+ */
+export async function fetchVastPod(
+  tagUrl: string,
+  maxAds: number = 2,
+  timeoutMs: number = VAST_TIMEOUT_MS,
+): Promise<ResolvedVastAd[]> {
+  try {
+    const mod = await import('@dailymotion/vast-client');
+    const { VASTClient, VASTTracker } = mod;
+    const client = new VASTClient();
+    const resp = (await Promise.race([
+      client.get(tagUrl, { withCredentials: false }),
+      new Promise<null>((resolve) => setTimeout(() => resolve(null), timeoutMs)),
+    ])) as RawVastResponse | null;
+    if (!resp || !resp.ads || resp.ads.length === 0) return [];
+    const resolved: ResolvedVastAd[] = [];
+    for (const ad of resp.ads) {
+      if (resolved.length >= maxAds) break;
+      for (const creative of ad.creatives || []) {
+        if (creative.type !== 'linear') continue;
+        const media = pickMediaFile(creative.mediaFiles);
+        if (!media || !media.fileURL) continue;
+        const tracker = new VASTTracker(
+          client as unknown as ConstructorParameters<typeof VASTTracker>[0],
+          ad as unknown as ConstructorParameters<typeof VASTTracker>[1],
+          creative as unknown as ConstructorParameters<typeof VASTTracker>[2],
+        );
+        resolved.push({
+          media: {
+            url: media.fileURL,
+            mimeType: media.mimeType || 'video/mp4',
+            width: media.width || 0,
+            height: media.height || 0,
+          },
+          duration: creative.duration || 0,
+          tracker: tracker as unknown as VastTrackerLike,
+        });
+        break; // one linear per <Ad>
+      }
+    }
+    return resolved;
+  } catch (err) {
+    if (typeof console !== 'undefined') console.warn('[vast] pod fetch failed:', err);
+    return [];
+  }
+}
+
+/**
+ * Pod-first with waterfall: asks each SSP for a full pod in turn. First SSP
+ * that returns at least one ad wins — if the pod has fewer ads than `maxAds`,
+ * we stay with that SSP (we don't mix ads from different networks in one
+ * gate, since tracking would get confusing). Returns `{ ads, networkLabel }`
+ * or null if every SSP returned zero ads.
+ */
+export async function fetchVastPodWithFallback(
+  tagUrls: string[],
+  maxAds: number = 2,
+  onHopFail?: (networkLabel: string, hopIndex: number, reason: string) => void,
+): Promise<{ ads: ResolvedVastAd[]; networkLabel: string; hopIndex: number } | null> {
+  for (let i = 0; i < tagUrls.length; i++) {
+    const label = WATERFALL_LABELS[i] ?? `ssp_${i}`;
+    const ads = await fetchVastPod(
+      withCachebuster(tagUrls[i], `${Date.now()}_${i}`),
+      maxAds,
+      VAST_HOP_TIMEOUT_MS,
+    );
+    if (ads.length > 0) return { ads, networkLabel: label, hopIndex: i };
+    onHopFail?.(label, i, 'empty_pod');
+  }
+  return null;
+}

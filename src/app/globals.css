@@ -46,6 +46,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Reserve space for the sticky mobile banner (320x50 + padding + safe-area)
+   so the last elements of the page don't hide behind it. Desktop (≥768px)
+   removes the inset because StickyMobileBanner is md:hidden there. */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(56px + env(safe-area-inset-bottom));
+  }
+}
+
 /* ── Layout ── */
 .container-site {
   width: 100%;
