@@ -18,7 +18,8 @@ export default function HilltopBanner({ size, placement, className, compact }: H
   const hostRef = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
 
-  const { src, width, height } = getHilltopBannerConfig(size);
+  const { src, inlineB64, width, height } = getHilltopBannerConfig(size);
+  const configured = Boolean(src || inlineB64);
 
   useEffect(() => {
     if (visible) return;
@@ -57,9 +58,9 @@ export default function HilltopBanner({ size, placement, className, compact }: H
     };
   }, [visible, placement, size]);
 
-  if (!src) return null;
+  if (!configured) return null;
 
-  const srcDoc = buildHilltopBannerHtml(src, width, height);
+  const srcDoc = buildHilltopBannerHtml({ src, inlineB64 }, width, height);
 
   return (
     <div

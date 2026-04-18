@@ -32,11 +32,12 @@ export default function DisplayBanner({ size, placement, className, compact }: D
     const adsterraKey = getAdsterraBannerConfig(size).key;
     // Hilltop only offers 300x250 as an overlap size; anything else → Adsterra.
     const hilltopSize = size === '300x250' ? '300x250' : null;
-    const hilltopSrc = hilltopSize ? getHilltopBannerConfig(hilltopSize).src : undefined;
+    const hilltopCfg = hilltopSize ? getHilltopBannerConfig(hilltopSize) : null;
+    const hilltopConfigured = Boolean(hilltopCfg && (hilltopCfg.src || hilltopCfg.inlineB64));
 
-    if (!adsterraKey && hilltopSrc) return 'hilltopads';
-    if (adsterraKey && !hilltopSrc) return 'adsterra';
-    if (!adsterraKey && !hilltopSrc) return 'adsterra'; // both empty — dev placeholder
+    if (!adsterraKey && hilltopConfigured) return 'hilltopads';
+    if (adsterraKey && !hilltopConfigured) return 'adsterra';
+    if (!adsterraKey && !hilltopConfigured) return 'adsterra'; // both empty — dev placeholder
 
     // Deterministic per-placement coin flip: stable across renders of the
     // same page, so we don't swap networks mid-session. Simple string hash.
