@@ -41,12 +41,13 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: '/hilltop-banner-:size*.html',
+        // Matches any /hilltop-banner-*.html shim we add. Kept flat so Next's
+        // path-to-regexp doesn't trip on wildcards in the source pattern.
+        source: '/hilltop-banner-:slug.html',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=60, must-revalidate' },
           { key: 'Content-Type', value: 'text/html; charset=utf-8' },
           { key: 'X-Robots-Tag', value: 'noindex' },
-          // Allow cross-origin scripts to load from vendor CDN inside the iframe.
         ],
       },
       {
