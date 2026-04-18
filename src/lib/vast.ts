@@ -25,6 +25,15 @@ export interface VastTrackerLike {
 }
 
 const VAST_TIMEOUT_MS = 8000;
+const VAST_HOP_TIMEOUT_MS = 4000;
+
+export interface WaterfallResult {
+  ad: ResolvedVastAd;
+  networkLabel: string;
+  hopIndex: number;
+}
+
+const WATERFALL_LABELS = ['hilltopads', 'adsterra_vast'];
 
 interface RawMediaFile {
   fileURL?: string;
@@ -66,14 +75,17 @@ function pickMediaFile(mediaFiles: RawMediaFile[] | undefined): RawMediaFile | n
   return pool[0];
 }
 
-export async function fetchVastAd(tagUrl: string): Promise<ResolvedVastAd | null> {
+export async function fetchVastAd(
+  tagUrl: string,
+  timeoutMs: number = VAST_TIMEOUT_MS,
+): Promise<ResolvedVastAd | null> {
   try {
     const mod = await import('@dailymotion/vast-client');
     const { VASTClient, VASTTracker } = mod;
     const client = new VASTClient();
     const resp = (await Promise.race([
       client.get(tagUrl, { withCredentials: false }),
-      new Promise<null>((resolve) => setTimeout(() => resolve(null), VAST_TIMEOUT_MS)),
+      new Promise<null>((resolve) => setTimeout(() => resolve(null), timeoutMs)),
     ])) as RawVastResponse | null;
     if (!resp || !resp.ads || resp.ads.length === 0) return null;
     for (const ad of resp.ads) {
@@ -105,12 +117,41 @@ export async function fetchVastAd(tagUrl: string): Promise<ResolvedVastAd | null
   }
 }
 
+export function getVastTagUrls(): string[] {
+  return [
+    process.env.NEXT_PUBLIC_HILLTOPADS_VAST_URL,
+    process.env.NEXT_PUBLIC_ADSTERRA_VAST_URL,
+  ].filter(
+    (u): u is string => typeof u === 'string' && u.trim().length > 0,
+  );
+}
+
 export function getVastTagUrl(): string | null {
-  const raw = process.env.NEXT_PUBLIC_ADSTERRA_VAST_URL;
-  if (!raw) return null;
-  return raw;
+  return getVastTagUrls()[0] ?? null;
 }
 
 export function withCachebuster(url: string, cb: number | string): string {
   return url.includes('?') ? `${url}&cb=${cb}` : `${url}?cb=${cb}`;
+}
+
+/**
+ * Sequential VAST waterfall across configured SSPs. Each hop uses a short
+ * per-hop timeout so the worst-case wait stays bounded. Returns the first
+ * successful ad along with the network label for tracking, or null if every
+ * hop returned no-fill/timeout.
+ */
+export async function fetchVastAdWithFallback(
+  tagUrls: string[],
+  onHopFail?: (networkLabel: string, hopIndex: number, reason: string) => void,
+): Promise<WaterfallResult | null> {
+  for (let i = 0; i < tagUrls.length; i++) {
+    const label = WATERFALL_LABELS[i] ?? `ssp_${i}`;
+    const ad = await fetchVastAd(
+      withCachebuster(tagUrls[i], `${Date.now()}_${i}`),
+      VAST_HOP_TIMEOUT_MS,
+    );
+    if (ad) return { ad, networkLabel: label, hopIndex: i };
+    onHopFail?.(label, i, 'no_fill_or_timeout');
+  }
+  return null;
 }

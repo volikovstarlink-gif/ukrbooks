@@ -79,21 +79,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         {/* Unregister any leftover service worker from the old Monetag push
-            integration and clear its caches. Safe: the site does not use a
-            service worker of its own. */}
+            integration and clear its caches. Safe to keep for ~60 days after
+            Monetag removal so returning users with a cached SW get cleaned up. */}
         <Script id="sw-cleanup" strategy="afterInteractive">
           {`(function(){try{if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){r.unregister()})}).catch(function(){})}if(typeof caches!=='undefined'){caches.keys().then(function(ks){ks.forEach(function(k){caches.delete(k)})}).catch(function(){})}}catch(e){}})();`}
         </Script>
-        {/* Monetag Multitag injects its "Поздравляем, мы выбрали вас!"
-            push overlay as <iframe>s directly under <html> (siblings of
-            <body>), with src="" because content is populated cross-origin
-            via srcdoc/postMessage. Nothing legitimate on this site ever
-            puts an iframe at the <html> level — remove any that appear.
-            Popunder, Vignette Banner and In-Page Push creatives from the
-            same SDK run inside <body> (or don't use iframes at all) and
-            are NOT touched, so the rest of the monetization keeps paying. */}
-        <Script id="monetag-push-remover" strategy="beforeInteractive">
-          {`(function(){try{var isHtmlIframe=function(el){return el&&el.tagName==='IFRAME'&&el.parentElement===document.documentElement;};var sweep=function(){var root=document.documentElement;if(!root)return;for(var i=root.children.length-1;i>=0;i--){var el=root.children[i];if(isHtmlIframe(el)){try{el.remove();}catch(e){}}}};sweep();var mo=new MutationObserver(function(muts){for(var j=0;j<muts.length;j++){var m=muts[j];for(var k=0;k<m.addedNodes.length;k++){var n=m.addedNodes[k];if(isHtmlIframe(n)){try{n.remove();}catch(e){}}}}});if(document.documentElement)mo.observe(document.documentElement,{childList:true});setInterval(sweep,1500);}catch(e){}})();`}
+        {/* Anti-adblock canary: /ads.js is a path that EasyList blocks by
+            default. If the file loads, window.abc is set; if blocked, we
+            report to our analytics. Never gates downloads. */}
+        <Script src="/ads.js" strategy="afterInteractive" id="ad-canary" />
+        <Script id="ad-canary-check" strategy="afterInteractive">
+          {`(function(){setTimeout(function(){var blocked=(typeof window.abc==='undefined');window.__ukrAdBlocked=blocked;if(blocked){try{fetch('/api/track/ad-event',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'errors',network:'adblock',errorCode:'canary_blocked'}),keepalive:true});}catch(e){}}},1500);})();`}
         </Script>
         <Header />
         <main>{children}</main>

@@ -1,9 +1,8 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { CheckCircle, Download, Loader2, Play, Volume2, VolumeX, X } from 'lucide-react';
-import { loadMonetag, purgeMonetagCache } from '@/lib/monetag';
 import { loadAdsterraPopunder } from '@/lib/adsterra';
-import { fetchVastAd, getVastTagUrl, withCachebuster, type ResolvedVastAd } from '@/lib/vast';
+import { fetchVastAdWithFallback, getVastTagUrls, type ResolvedVastAd } from '@/lib/vast';
 import {
   trackAdError,
   trackAdGateOpen,
@@ -59,10 +58,10 @@ function Inner({
   const startTimeRef = useRef<number>(Date.now());
   const quartilesFiredRef = useRef<Record<string, boolean>>({});
   const adsCompletedRef = useRef(0);
+  const currentNetworkRef = useRef<string>('unknown');
+  const [canSkip, setCanSkip] = useState(false);
 
   useEffect(() => {
-    purgeMonetagCache();
-    loadMonetag();
     // Load Adsterra popunder lazily, only when the user opens the gate —
     // this is the one place on the site where an extra popunder layer is
     // expected (user already committed to downloading). Keeps catalog /
@@ -98,7 +97,6 @@ function Inner({
 
   const startFallback = useCallback(
     (index: number) => {
-      loadMonetag();
       setPhase('fallback-wait');
       setFallbackCountdown(VIGNETTE_DURATION_SEC);
       if (fallbackTimerRef.current) clearInterval(fallbackTimerRef.current);
@@ -130,21 +128,24 @@ function Inner({
       setPhase('loading');
       quartilesFiredRef.current = {};
       setCurrentAd(null);
+      setCanSkip(false);
 
-      const tagUrl = getVastTagUrl();
-      if (!tagUrl) {
-        trackAdNoFill('adsterra_vast', 'no_url_configured');
+      const urls = getVastTagUrls();
+      if (urls.length === 0) {
+        trackAdNoFill('vast_waterfall', 'no_urls_configured');
         startFallback(index);
         return;
       }
-
-      const ad = await fetchVastAd(withCachebuster(tagUrl, `${Date.now()}_${index}`));
-      if (!ad) {
-        trackAdNoFill('adsterra_vast', 'monetag_vignette');
+      const result = await fetchVastAdWithFallback(urls, (label, _i, reason) => {
+        trackAdNoFill(label, reason);
+      });
+      if (!result) {
+        trackAdNoFill('vast_waterfall', 'all_hops_failed');
         startFallback(index);
         return;
       }
-      setCurrentAd(ad);
+      currentNetworkRef.current = result.networkLabel;
+      setCurrentAd(result.ad);
       setPhase('playing');
     },
     [startFallback],
@@ -167,7 +168,7 @@ function Inner({
     const playPromise = v.play();
     if (playPromise && typeof playPromise.catch === 'function') {
       playPromise.catch((err: unknown) => {
-        trackAdError('adsterra_vast', `play:${String(err)}`);
+        trackAdError(currentNetworkRef.current, `play:${String(err)}`);
         startFallback(adIndex);
       });
     }
@@ -195,7 +196,7 @@ function Inner({
     if (!ad) return;
     if (!ad.tracker.impressed) {
       ad.tracker.trackImpression();
-      trackAdImpression('adsterra_vast', adIndex + 1);
+      trackAdImpression(currentNetworkRef.current, adIndex + 1);
     }
   };
 
@@ -214,15 +215,22 @@ function Inner({
     for (const q of quartiles) {
       if (!fired[q.key] && v.currentTime >= q.at) {
         fired[q.key] = true;
-        trackAdQuartile(q.key, adIndex + 1, 'adsterra_vast');
+        trackAdQuartile(q.key, adIndex + 1, currentNetworkRef.current);
       }
+    }
+    if (
+      !canSkip &&
+      process.env.NEXT_PUBLIC_ADS_SKIP_AFTER_15S === '1' &&
+      v.currentTime >= 15
+    ) {
+      setCanSkip(true);
     }
   };
 
   const handleVideoEnded = () => {
     const ad = currentAd;
     if (ad) ad.tracker.complete();
-    trackAdQuartile('complete', adIndex + 1, 'adsterra_vast');
+    trackAdQuartile('complete', adIndex + 1, currentNetworkRef.current);
     adsCompletedRef.current += 1;
     if (adIndex + 1 < AD_POD_SIZE) {
       void loadAndPlay(adIndex + 1);
@@ -235,8 +243,24 @@ function Inner({
   const handleVideoError = () => {
     const ad = currentAd;
     if (ad) ad.tracker.error({ ERRORCODE: 405 }, true);
-    trackAdError('adsterra_vast', 'media-error');
+    trackAdError(currentNetworkRef.current, 'media-error');
     startFallback(adIndex);
+  };
+
+  const handleSkip = () => {
+    if (!canSkip) return;
+    const ad = currentAd;
+    if (ad?.tracker.skip) {
+      try { ad.tracker.skip(); } catch {}
+    }
+    trackAdQuartile('skip', adIndex + 1, currentNetworkRef.current);
+    adsCompletedRef.current += 1;
+    if (adIndex + 1 < AD_POD_SIZE) {
+      void loadAndPlay(adIndex + 1);
+    } else {
+      setPhase('unlocked');
+      triggerDownload();
+    }
   };
 
   const toggleMute = () => {
@@ -334,11 +358,11 @@ function Inner({
         <div className="px-6 pb-6">
           {phase === 'intro' && (
             <div className="text-center">
-              <p className="text-white font-bold text-xl mb-2">Зачекайте 30 секунд ❤️</p>
+              <p className="text-white font-bold text-xl mb-2">Перегляньте 2 короткі оголошення</p>
               <p className="text-slate-300 text-base mb-1">
-                Подивіться 2 коротких відео-оголошення
+                Реклама підтримує безкоштовну бібліотеку
               </p>
-              <p className="text-slate-500 text-sm mb-6">І книга ваша 📖</p>
+              <p className="text-slate-500 text-sm mb-6">Після цього книга ваша 📖</p>
               <button
                 onClick={handleStart}
                 className="w-full py-4 rounded-xl font-semibold text-white text-base flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
@@ -383,6 +407,14 @@ function Inner({
                 >
                   {muted ? <VolumeX size={16} /> : <Volume2 size={16} />}
                 </button>
+                {canSkip && (
+                  <button
+                    onClick={handleSkip}
+                    className="absolute bottom-3 left-3 px-3 py-1.5 rounded-full bg-black/60 hover:bg-black/80 text-white text-xs font-medium"
+                  >
+                    Пропустити →
+                  </button>
+                )}
                 <div className="absolute top-3 left-3 px-2 py-1 rounded bg-black/60 text-white text-xs font-medium">
                   Оголошення {adIndex + 1} / {AD_POD_SIZE} · {remaining}с
                 </div>
