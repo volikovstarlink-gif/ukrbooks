@@ -1,3 +1,23 @@
+const POPUNDER_SCRIPT_ID = 'hilltopads-popunder';
+
+export function loadHilltopPopunder(): boolean {
+  if (typeof document === 'undefined') return false;
+  const src = process.env.NEXT_PUBLIC_HILLTOPADS_POPUNDER_SRC;
+  if (!src) return false;
+  if (document.getElementById(POPUNDER_SCRIPT_ID)) return true;
+  const s = document.createElement('script');
+  s.id = POPUNDER_SCRIPT_ID;
+  s.src = src;
+  s.async = true;
+  s.setAttribute('data-cfasync', 'false');
+  document.head.appendChild(s);
+  return true;
+}
+
+export function hasHilltopPopunder(): boolean {
+  return Boolean(process.env.NEXT_PUBLIC_HILLTOPADS_POPUNDER_SRC);
+}
+
 export type HilltopBannerSize = '300x250' | '300x100';
 
 export interface HilltopBannerConfig {

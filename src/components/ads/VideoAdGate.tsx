@@ -1,7 +1,8 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { CheckCircle, Download, Loader2, Play, Volume2, VolumeX, X } from 'lucide-react';
-import { loadAdsterraPopunder } from '@/lib/adsterra';
+import { loadAdsterraPopunder, hasAdsterraPopunder } from '@/lib/adsterra';
+import { loadHilltopPopunder, hasHilltopPopunder } from '@/lib/hilltopads';
 import { fetchVastPodWithFallback, getVastTagUrls, type ResolvedVastAd } from '@/lib/vast';
 import {
   trackAdError,
@@ -63,11 +64,20 @@ function Inner({
   const [canSkip, setCanSkip] = useState(false);
 
   useEffect(() => {
-    // Load Adsterra popunder lazily, only when the user opens the gate —
-    // this is the one place on the site where an extra popunder layer is
-    // expected (user already committed to downloading). Keeps catalog /
-    // book page / search navigation clicks free of a second popunder.
-    loadAdsterraPopunder();
+    // Popunder rotation: 50/50 between Adsterra and HilltopAds per gate open.
+    // Never load both at once — a user who clicked Download shouldn't get hit
+    // with two popup windows. If only one provider is configured, always that
+    // one. Gate-only (no popunder on catalog/book/search navigation).
+    const useHilltop = hasHilltopPopunder();
+    const useAdsterra = hasAdsterraPopunder();
+    if (useHilltop && useAdsterra) {
+      if (Math.random() < 0.5) loadHilltopPopunder();
+      else loadAdsterraPopunder();
+    } else if (useHilltop) {
+      loadHilltopPopunder();
+    } else if (useAdsterra) {
+      loadAdsterraPopunder();
+    }
     trackAdGateOpen(bookSlug, format);
     startTimeRef.current = Date.now();
     return () => {
