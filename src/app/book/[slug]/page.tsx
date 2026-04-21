@@ -67,8 +67,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       url: `${BASE}/book/${slug}`,
       type: 'book',
-      ...(coverUrl ? { images: [{ url: coverUrl, alt: book.title }] } : {}),
+      // Images intentionally omitted so Next.js picks up the
+      // per-book opengraph-image.tsx file (cover + title + author
+      // rendered dynamically). coverUrl also kept as fallback via
+      // twitter image below when useful.
     },
+    twitter: coverUrl
+      ? { card: 'summary_large_image', images: [coverUrl] }
+      : undefined,
   };
 }
 
