@@ -12,6 +12,7 @@ import DownloadSection from '@/components/download/DownloadSection';
 import type { DownloadItem } from '@/components/download/DownloadSection';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
 import DisplayBanner from '@/components/ads/DisplayBanner';
+import InlineVideoAd from '@/components/ads/InlineVideoAd';
 import ReportButton from '@/components/report/ReportButton';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -213,7 +214,10 @@ export default async function BookPage({ params }: Props) {
                 <p>Опис відсутній</p>
               </div>
             )}
-            <DisplayBanner size="300x250" placement="book-after-description" />
+            <InlineVideoAd
+              placement="book-after-description"
+              fallback={<DisplayBanner size="300x250" placement="book-after-description" />}
+            />
           </div>
 
           {/* Sidebar */}
