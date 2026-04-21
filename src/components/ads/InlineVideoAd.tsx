@@ -38,6 +38,10 @@ function Player({ placement, fallback, className }: InlineVideoAdProps) {
   const hostRef = useRef<HTMLDivElement | null>(null);
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const quartilesFiredRef = useRef<Record<string, boolean>>({});
+  // Guard against React re-running the fetch effect when our own setPhase
+  // change flows back through deps (and against Strict Mode's double-mount).
+  // Once we've started a fetch for this mounted component, never restart.
+  const fetchStartedRef = useRef(false);
 
   const [inView, setInView] = useState(false);
   const [phase, setPhase] = useState<Phase>('idle');
@@ -70,14 +74,16 @@ function Player({ placement, fallback, className }: InlineVideoAdProps) {
   }, [inView]);
 
   useEffect(() => {
-    if (!inView || phase !== 'idle') return;
+    if (!inView) return;
+    if (fetchStartedRef.current) return;
+    fetchStartedRef.current = true;
     const url = getVastTagUrl();
     if (!url) {
       setPhase('failed');
       return;
     }
-    let cancelled = false;
     setPhase('loading');
+    let cancelled = false;
     (async () => {
       const resolved = await fetchVastAd(withCachebuster(url, `${Date.now()}_${placement}`));
       if (cancelled) return;
@@ -92,7 +98,10 @@ function Player({ placement, fallback, className }: InlineVideoAdProps) {
     return () => {
       cancelled = true;
     };
-  }, [inView, phase, placement]);
+    // placement is stable per mount; intentionally omitted to keep this effect
+    // one-shot guarded by fetchStartedRef.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [inView]);
 
   useEffect(() => {
     if (phase !== 'playing') return;
