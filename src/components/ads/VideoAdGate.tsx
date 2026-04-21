@@ -81,7 +81,13 @@ function Inner({
     try {
       const response = await fetch(downloadUrl, { credentials: 'omit' });
       if (response.ok) {
-        const blob = await response.blob();
+        // Force application/octet-stream regardless of what R2 reports —
+        // .fb2 comes back as application/xml, which makes Windows save the
+        // file with wrong associations so e-reader apps don't pick it up.
+        // octet-stream is the universal "opaque bytes, honor the `download`
+        // filename verbatim" signal.
+        const bytes = await response.arrayBuffer();
+        const blob = new Blob([bytes], { type: 'application/octet-stream' });
         const blobUrl = URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.href = blobUrl;
