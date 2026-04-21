@@ -298,6 +298,8 @@ export default async function BookPage({ params }: Props) {
             </div>
           </section>
         )}
+
+        <DisplayBanner size="300x250" placement="book-after-related" />
       </div>
     </div>
   );
