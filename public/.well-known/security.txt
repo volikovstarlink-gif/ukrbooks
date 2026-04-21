@@ -1,0 +1,24 @@
+Contact: mailto:security@ukrbooks.ink
+Contact: mailto:dmca@ukrbooks.ink
+Expires: 2027-04-22T00:00:00.000Z
+Preferred-Languages: uk, en
+Canonical: https://ukrbooks.ink/.well-known/security.txt
+Policy: https://ukrbooks.ink/dmca
+Acknowledgments: https://ukrbooks.ink/transparency
+
+# ── Scope ─────────────────────────────────────────────────────
+# In-scope:
+#   - ukrbooks.ink and all subdomains
+#   - files.ukrbooks.ink (R2 bucket)
+# Out-of-scope:
+#   - Third-party ad networks (report directly to them)
+#   - Social-engineering, physical, or DDoS testing
+#
+# ── Reporting ─────────────────────────────────────────────────
+# Please email security@ukrbooks.ink with:
+#   - Clear description of the issue
+#   - Steps to reproduce
+#   - Impact assessment
+#   - Your contact info
+# We acknowledge within 48 hours. No bounty programme yet, but
+# responsible disclosures get public credit in /transparency.

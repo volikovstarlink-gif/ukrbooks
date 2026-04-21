@@ -1,0 +1,22 @@
+/* TEAM */
+Project: UkrBooks — онлайн-бібліотека українських книг
+Contact: info [at] ukrbooks.ink
+Abuse / DMCA: dmca [at] ukrbooks.ink
+Legal: legal [at] ukrbooks.ink
+Privacy: privacy [at] ukrbooks.ink
+Site: https://ukrbooks.ink
+
+/* THANKS */
+Open Library — метадані книг та обкладинки
+Project Gutenberg — твори у суспільному надбанні
+Чтиво — українські переклади
+Community — усі, хто допоміг з вичиткою та зауваженнями
+
+/* TECH */
+Framework: Next.js 16 (App Router)
+Language: TypeScript
+Styling: Tailwind CSS
+Hosting: Vercel (frontend) + Cloudflare R2 (files) + Upstash Redis (analytics)
+CDN: Cloudflare
+Search: Fuse.js (client-side for small subsets)
+Analytics: GA4 with Consent Mode v2

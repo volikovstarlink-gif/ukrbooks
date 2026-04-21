@@ -6,6 +6,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import StickyMobileBanner from '@/components/ads/StickyMobileBanner';
 import VisitTracker from '@/components/analytics/VisitTracker';
+import ConsentBanner from '@/components/analytics/ConsentBanner';
 
 const playfair = Playfair_Display({
   subsets: ['latin', 'cyrillic'],
@@ -96,6 +97,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <StickyMobileBanner />
         <VisitTracker />
+        <ConsentBanner />
+        {/* Consent Mode v2: default-deny BEFORE any ad/analytics script loads.
+            ConsentBanner flips to granted based on user choice. Runs even without
+            GA_ID because AdSense and other loaders also respect dataLayer consent. */}
+        <Script id="consent-default" strategy="beforeInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});`}
+        </Script>
         {GA_ID && (
           <>
             <Script
@@ -103,7 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               strategy="afterInteractive"
             />
             <Script id="ga4-init" strategy="afterInteractive">
-              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}',{page_path:window.location.pathname});`}
+              {`gtag('js',new Date());gtag('config','${GA_ID}',{page_path:window.location.pathname});`}
             </Script>
           </>
         )}

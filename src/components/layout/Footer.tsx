@@ -85,6 +85,9 @@ export default function Footer() {
               <Link href="/report" className="hover:text-white transition-colors">
                 Повідомити про порушення
               </Link>
+              <Link href="/transparency" className="hover:text-white transition-colors">
+                Звіт прозорості
+              </Link>
               <Link href="/terms" className="hover:text-white transition-colors">
                 Умови використання
               </Link>
