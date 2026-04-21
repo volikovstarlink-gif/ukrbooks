@@ -71,46 +71,19 @@ function Inner({
     };
   }, [bookSlug, format]);
 
-  const triggerDownload = useCallback(async () => {
-    // Files live on a different origin (files.ukrbooks.ink R2 bucket) which
-    // serves .fb2/.epub with MIME types that browsers try to render inline.
-    // The `download` attribute is ignored cross-origin, so fetch the bytes
-    // into a same-origin Blob and download that — this forces "Save as"
-    // regardless of the upstream Content-Type/Disposition.
-    let downloaded = false;
-    try {
-      const response = await fetch(downloadUrl, { credentials: 'omit' });
-      if (response.ok) {
-        // Force application/octet-stream regardless of what R2 reports —
-        // .fb2 comes back as application/xml, which makes Windows save the
-        // file with wrong associations so e-reader apps don't pick it up.
-        // octet-stream is the universal "opaque bytes, honor the `download`
-        // filename verbatim" signal.
-        const bytes = await response.arrayBuffer();
-        const blob = new Blob([bytes], { type: 'application/octet-stream' });
-        const blobUrl = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = blobUrl;
-        link.download = fileName;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        setTimeout(() => URL.revokeObjectURL(blobUrl), 60_000);
-        downloaded = true;
-      }
-    } catch {
-      // Network or CORS failure — fall through to the direct-link fallback.
-    }
-    if (!downloaded) {
-      const link = document.createElement('a');
-      link.href = downloadUrl;
-      link.download = fileName;
-      link.target = '_blank';
-      link.rel = 'noopener';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }
+  const triggerDownload = useCallback(() => {
+    // R2 serves every book file with Content-Type: application/octet-stream
+    // and Content-Disposition: attachment (migration fix-r2-download-headers),
+    // so a plain direct link downloads correctly on iOS Safari, Mi Browser,
+    // and everything else — no blob round-trip required.
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+    link.download = fileName;
+    link.rel = 'noopener';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
     const elapsed = Math.round((Date.now() - startTimeRef.current) / 1000);
     trackDownloadCompleted(bookSlug, adsCompletedRef.current, elapsed);
     setPhase('downloading');
@@ -548,7 +521,7 @@ function Inner({
                 Не завантажилось?{' '}
                 <button
                   type="button"
-                  onClick={() => void triggerDownload()}
+                  onClick={() => triggerDownload()}
                   className="text-blue-400 underline hover:text-blue-300"
                 >
                   Натисніть сюди
