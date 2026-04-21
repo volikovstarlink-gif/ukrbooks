@@ -8,6 +8,7 @@ import { authorPersonJsonLd, breadcrumbListJsonLd } from '@/lib/jsonld';
 import authorSameAs from '@/data/author-wikidata.json';
 import BookCard from '@/components/books/BookCard';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
+import InlineVideoAd from '@/components/ads/InlineVideoAd';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 const SAMEAS_MAP = authorSameAs as unknown as Record<string, string[]>;
@@ -19,7 +20,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug);
   const author = getAuthorBySlug(slug);
   if (!author) return { title: 'Автора не знайдено' };
 
@@ -59,7 +61,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function AuthorPage({ params }: Props) {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug);
   const author = getAuthorBySlug(slug);
   if (!author) notFound();
 
@@ -122,7 +125,10 @@ export default async function AuthorPage({ params }: Props) {
         </div>
         {author.books.length > 12 && (
           <>
-            <AdsterraBanner size="728x90" placement="author-after-12" />
+            <InlineVideoAd
+              placement="author-after-12"
+              fallback={<AdsterraBanner size="728x90" placement="author-after-12" />}
+            />
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
               {author.books.slice(12, 36).map((book) => (
                 <BookCard key={book.slug} book={book as Parameters<typeof BookCard>[0]['book']} />

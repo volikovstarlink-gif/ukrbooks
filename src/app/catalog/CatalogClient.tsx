@@ -8,6 +8,7 @@ import { searchBooks } from '@/lib/search';
 import { pluralizeBooks } from '@/lib/utils';
 import BookCard from '@/components/books/BookCard';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
+import InlineVideoAd from '@/components/ads/InlineVideoAd';
 
 const PAGE_SIZE = 24;
 
@@ -172,7 +173,10 @@ export default function CatalogClient({ books, categories }: Props) {
                 </div>
                 {paginated.length > 12 && (
                   <>
-                    <AdsterraBanner size="728x90" placement="catalog-after-12" />
+                    <InlineVideoAd
+                      placement="catalog-after-12"
+                      fallback={<AdsterraBanner size="728x90" placement="catalog-after-12" />}
+                    />
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
                       {paginated.slice(12, 36).map((book) => <BookCard key={book.slug} book={book} />)}
                     </div>

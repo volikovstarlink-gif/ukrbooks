@@ -8,6 +8,7 @@ import CategoryGrid from '@/components/home/CategoryGrid';
 import NewArrivals from '@/components/home/NewArrivals';
 import MissionBand from '@/components/home/MissionBand';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
+import DisplayBanner from '@/components/ads/DisplayBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -67,6 +68,9 @@ export default function HomePage() {
         <AdsterraBanner size="728x90" placement="home-after-featured" />
       </div>
       <NewArrivals books={newArrivals} />
+      <div className="container-site">
+        <DisplayBanner size="300x250" placement="home-after-new-arrivals" />
+      </div>
       <MissionBand />
       <div className="container-site">
         <AdsterraBanner size="728x90" placement="home-after-mission" />
