@@ -21,7 +21,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug: rawSlug } = await params;
-  const slug = decodeURIComponent(rawSlug);
+  // rawSlug may arrive URL-encoded depending on how Next dispatched the
+  // static prerender; decode only when it clearly contains a % sequence.
+  const slug = rawSlug.includes('%') ? decodeURIComponent(rawSlug) : rawSlug;
   const author = getAuthorBySlug(slug);
   if (!author) return { title: 'Автора не знайдено' };
 
@@ -62,7 +64,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function AuthorPage({ params }: Props) {
   const { slug: rawSlug } = await params;
-  const slug = decodeURIComponent(rawSlug);
+  // rawSlug may arrive URL-encoded depending on how Next dispatched the
+  // static prerender; decode only when it clearly contains a % sequence.
+  const slug = rawSlug.includes('%') ? decodeURIComponent(rawSlug) : rawSlug;
   const author = getAuthorBySlug(slug);
   if (!author) notFound();
 
