@@ -56,6 +56,33 @@ const nextConfig: NextConfig = {
           { key: 'X-Content-Type-Options', value: 'nosniff' },
           { key: 'X-Frame-Options', value: 'DENY' },
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          // Warm DNS for ad networks + R2 + fonts — faster ad fill.
+          { key: 'X-DNS-Prefetch-Control', value: 'on' },
+          // Block browser APIs we never need. No impact on ads, analytics,
+          // or download flow. Keep `browsing-topics` and `interest-cohort`
+          // unblocked so AdSense can still read them if user consents.
+          {
+            key: 'Permissions-Policy',
+            value:
+              'camera=(), microphone=(), geolocation=(), payment=(), usb=(), bluetooth=(), midi=(), magnetometer=(), gyroscope=(), accelerometer=(), display-capture=(), serial=(), xr-spatial-tracking=()',
+          },
+        ],
+      },
+      {
+        // Admin must never be iframed or indexed, even if leaked.
+        source: '/admin/:path*',
+        headers: [
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive' },
+          { key: 'Cache-Control', value: 'no-store, max-age=0' },
+        ],
+      },
+      {
+        // Next.js optimizer proxies book covers. Allow cross-origin <img>
+        // loads so third-party aggregators (e.g. news embeds) can show
+        // them with attribution; same-origin is always allowed.
+        source: '/_next/image',
+        headers: [
+          { key: 'Cross-Origin-Resource-Policy', value: 'cross-origin' },
         ],
       },
     ];
