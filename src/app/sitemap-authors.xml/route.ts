@@ -1,0 +1,19 @@
+import { renderUrlSet, sitemapHeaders, type SitemapEntry } from '@/lib/sitemap-xml';
+import { getAllAuthorSlugs } from '@/lib/books';
+
+export const dynamic = 'force-static';
+export const revalidate = 3600;
+
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
+
+export async function GET() {
+  const now = new Date().toISOString();
+  const entries: SitemapEntry[] = getAllAuthorSlugs().map((slug) => ({
+    url: `${BASE}/author/${slug}`,
+    lastmod: now,
+    changefreq: 'monthly' as const,
+    priority: 0.6,
+  }));
+
+  return new Response(renderUrlSet(entries), { headers: sitemapHeaders });
+}
