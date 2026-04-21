@@ -1,8 +1,6 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { CheckCircle, Download, Loader2, Play, Volume2, VolumeX, X } from 'lucide-react';
-import { loadAdsterraPopunder, hasAdsterraPopunder } from '@/lib/adsterra';
-import { loadHilltopPopunder, hasHilltopPopunder } from '@/lib/hilltopads';
 import { fetchVastPodWithFallback, getVastTagUrls, type ResolvedVastAd } from '@/lib/vast';
 import {
   trackAdError,
@@ -64,20 +62,6 @@ function Inner({
   const [canSkip, setCanSkip] = useState(false);
 
   useEffect(() => {
-    // Popunder rotation: 50/50 between Adsterra and HilltopAds per gate open.
-    // Never load both at once — a user who clicked Download shouldn't get hit
-    // with two popup windows. If only one provider is configured, always that
-    // one. Gate-only (no popunder on catalog/book/search navigation).
-    const useHilltop = hasHilltopPopunder();
-    const useAdsterra = hasAdsterraPopunder();
-    if (useHilltop && useAdsterra) {
-      if (Math.random() < 0.5) loadHilltopPopunder();
-      else loadAdsterraPopunder();
-    } else if (useHilltop) {
-      loadHilltopPopunder();
-    } else if (useAdsterra) {
-      loadAdsterraPopunder();
-    }
     trackAdGateOpen(bookSlug, format);
     startTimeRef.current = Date.now();
     return () => {
@@ -423,6 +407,7 @@ function Inner({
                   key={`ad-${adIndex}`}
                   ref={videoRef}
                   className="w-full h-full"
+                  style={{ pointerEvents: 'none' }}
                   playsInline
                   autoPlay
                   onPlay={handleVideoPlay}
@@ -431,9 +416,23 @@ function Inner({
                   onEnded={handleVideoEnded}
                   onError={handleVideoError}
                 />
+                <div
+                  aria-hidden="true"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                  }}
+                  style={{
+                    position: 'absolute',
+                    inset: 0,
+                    zIndex: 1,
+                    cursor: 'default',
+                  }}
+                />
                 <button
                   onClick={toggleMute}
                   className="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-black/60 hover:bg-black/80 flex items-center justify-center text-white"
+                  style={{ zIndex: 2 }}
                   aria-label={muted ? 'Увімкнути звук' : 'Вимкнути звук'}
                 >
                   {muted ? <VolumeX size={16} /> : <Volume2 size={16} />}
@@ -442,11 +441,15 @@ function Inner({
                   <button
                     onClick={handleSkip}
                     className="absolute bottom-3 left-3 px-3 py-1.5 rounded-full bg-black/60 hover:bg-black/80 text-white text-xs font-medium"
+                    style={{ zIndex: 2 }}
                   >
                     Пропустити →
                   </button>
                 )}
-                <div className="absolute top-3 left-3 px-2 py-1 rounded bg-black/60 text-white text-xs font-medium">
+                <div
+                  className="absolute top-3 left-3 px-2 py-1 rounded bg-black/60 text-white text-xs font-medium"
+                  style={{ zIndex: 2 }}
+                >
                   Оголошення {adIndex + 1} / {AD_POD_SIZE} · {remaining}с
                 </div>
               </div>

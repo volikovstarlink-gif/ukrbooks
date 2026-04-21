@@ -88,7 +88,7 @@ export default function HilltopBanner({ size, placement, className, compact }: H
           width={width}
           height={height}
           style={{ border: 'none', maxWidth: '100%' }}
-          sandbox="allow-scripts allow-popups"
+          sandbox="allow-scripts"
           referrerPolicy="no-referrer"
           aria-hidden="true"
         />

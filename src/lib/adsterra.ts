@@ -28,25 +28,6 @@ export function getAdsterraBannerConfig(size: AdsterraBannerSize): AdsterraBanne
   };
 }
 
-const POPUNDER_SCRIPT_ID = 'adsterra-popunder';
-
-export function loadAdsterraPopunder(): boolean {
-  if (typeof document === 'undefined') return false;
-  const src = process.env.NEXT_PUBLIC_ADSTERRA_POPUNDER_SRC;
-  if (!src) return false;
-  if (document.getElementById(POPUNDER_SCRIPT_ID)) return true;
-  const s = document.createElement('script');
-  s.id = POPUNDER_SCRIPT_ID;
-  s.src = src;
-  s.async = true;
-  document.head.appendChild(s);
-  return true;
-}
-
-export function hasAdsterraPopunder(): boolean {
-  return Boolean(process.env.NEXT_PUBLIC_ADSTERRA_POPUNDER_SRC);
-}
-
 /**
  * Build an isolated iframe srcDoc for an Adsterra banner.
  * We isolate each banner in its own iframe because Adsterra's `invoke.js`
