@@ -52,7 +52,6 @@ function Inner({
   const [fallbackCountdown, setFallbackCountdown] = useState(VIGNETTE_DURATION_SEC);
 
   const videoRef = useRef<HTMLVideoElement | null>(null);
-  const downloadLinkRef = useRef<HTMLAnchorElement | null>(null);
   const fallbackTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startTimeRef = useRef<number>(Date.now());
   const quartilesFiredRef = useRef<Record<string, boolean>>({});
@@ -72,14 +71,36 @@ function Inner({
     };
   }, [bookSlug, format]);
 
-  const triggerDownload = useCallback(() => {
-    const a = downloadLinkRef.current;
-    if (a) {
-      a.click();
-    } else {
+  const triggerDownload = useCallback(async () => {
+    // Files live on a different origin (files.ukrbooks.ink R2 bucket) which
+    // serves .fb2/.epub with MIME types that browsers try to render inline.
+    // The `download` attribute is ignored cross-origin, so fetch the bytes
+    // into a same-origin Blob and download that — this forces "Save as"
+    // regardless of the upstream Content-Type/Disposition.
+    let downloaded = false;
+    try {
+      const response = await fetch(downloadUrl, { credentials: 'omit' });
+      if (response.ok) {
+        const blob = await response.blob();
+        const blobUrl = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = blobUrl;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        setTimeout(() => URL.revokeObjectURL(blobUrl), 60_000);
+        downloaded = true;
+      }
+    } catch {
+      // Network or CORS failure — fall through to the direct-link fallback.
+    }
+    if (!downloaded) {
       const link = document.createElement('a');
       link.href = downloadUrl;
       link.download = fileName;
+      link.target = '_blank';
+      link.rel = 'noopener';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -519,14 +540,13 @@ function Inner({
               </p>
               <p className="text-slate-500 text-xs">
                 Не завантажилось?{' '}
-                <a
-                  ref={downloadLinkRef}
-                  href={downloadUrl}
-                  download={fileName}
+                <button
+                  type="button"
+                  onClick={() => void triggerDownload()}
                   className="text-blue-400 underline hover:text-blue-300"
                 >
                   Натисніть сюди
-                </a>
+                </button>
               </p>
             </div>
           )}
