@@ -112,29 +112,68 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // Email (best-effort — caseId returned even if email fails so user has ref)
-  try {
-    const team = abuseTeamEmail(payload);
-    await sendEmail({
-      to: ABUSE_TO,
-      subject: team.subject,
-      text: team.text,
-      html: team.html,
-      replyTo: email,
-    });
+  // Email coalescing — protects dmca@ inbox and Resend 100/day free quota
+  // when a storm of reports hits (DMCA-troll campaign, script, etc.).
+  // - Team mail: skip when >3 reports arrived in the last 10 minutes.
+  //   Admin still sees every report in /admin/reports — only the push
+  //   notification gets throttled.
+  // - Auto-reply: skip when the same reporter email sent >3 reports in
+  //   the last hour.
+  // Both decisions are best-effort; on Redis failure we fall back to
+  // sending normally so we don't silently drop legit notifications.
+  let teamMailSkipped = false;
+  let autoReplySkipped = false;
+  if (r) {
+    try {
+      const teamKey = `rl:email:team:${new Date().toISOString().slice(0, 16)}`; // per 10-min
+      const teamCount = await r.incr(teamKey);
+      if (teamCount === 1) await r.expire(teamKey, 600);
+      if (teamCount > 3) teamMailSkipped = true;
 
-    const auto = reporterAutoReplyEmail(payload);
-    await sendEmail({
-      to: email,
-      subject: auto.subject,
-      text: auto.text,
-      html: auto.html,
-    });
+      const replyKey = `rl:email:reply:${email.toLowerCase()}`;
+      const replyCount = await r.incr(replyKey);
+      if (replyCount === 1) await r.expire(replyKey, 3600);
+      if (replyCount > 3) autoReplySkipped = true;
+    } catch {
+      // Redis hiccup — don't block email path.
+    }
+  }
+
+  try {
+    if (!teamMailSkipped) {
+      const team = abuseTeamEmail(payload);
+      await sendEmail({
+        to: ABUSE_TO,
+        subject: team.subject,
+        text: team.text,
+        html: team.html,
+        replyTo: email,
+      });
+    }
+
+    if (!autoReplySkipped) {
+      const auto = reporterAutoReplyEmail(payload);
+      await sendEmail({
+        to: email,
+        subject: auto.subject,
+        text: auto.text,
+        html: auto.html,
+      });
+    }
   } catch (err) {
     await recordError('visits', {
       kind: 'report_email_failed',
       caseId,
       reason: err instanceof Error ? err.message : String(err),
+    }).catch(() => {});
+  }
+
+  if (teamMailSkipped || autoReplySkipped) {
+    await recordError('visits', {
+      kind: 'report_email_coalesced',
+      caseId,
+      teamMailSkipped,
+      autoReplySkipped,
     }).catch(() => {});
   }
 

@@ -1,16 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { SESSION_COOKIE, verifySession } from '@/lib/admin-auth';
+import { requireAdmin } from '@/lib/admin-api';
 
 const CF_ACCOUNT_ID = process.env.CF_ACCOUNT_ID || '39b9b9435d78643309d3e2119ba21151';
 const CF_ZONE_ID = process.env.CF_ZONE_ID || '8289b04da479ab6fd342cc678ba9eea7';
 const CF_ANALYTICS_TOKEN = process.env.CF_ANALYTICS_TOKEN || '';
 const R2_ACCESS_KEY = process.env.R2_ACCESS_KEY || '';
 const R2_SECRET_KEY = process.env.R2_SECRET_KEY || '';
-
-async function isAuthenticated(req: NextRequest): Promise<boolean> {
-  const session = req.cookies.get(SESSION_COOKIE)?.value;
-  return !!(await verifySession(session));
-}
 
 // Cloudflare GraphQL Analytics API
 async function fetchCFAnalytics(period: '1d' | '7d' | '30d') {
@@ -82,9 +77,8 @@ async function fetchR2Storage() {
 }
 
 export async function GET(req: NextRequest) {
-  if (!(await isAuthenticated(req))) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-  }
+  const denied = await requireAdmin(req, { bucket: 'stats', perMinute: 60 });
+  if (denied) return denied;
 
   const period = (req.nextUrl.searchParams.get('period') || '7d') as '1d' | '7d' | '30d';
 

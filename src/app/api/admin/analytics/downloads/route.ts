@@ -1,9 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { requireAdmin } from '@/lib/admin-api';
 import { getDaily, getRecent, getTopBooks, isConfigured } from '@/lib/redis';
 
 const PERIOD_DAYS: Record<string, number> = { '1d': 1, '7d': 7, '30d': 30 };
 
 export async function GET(req: NextRequest) {
+  const denied = await requireAdmin(req, { bucket: 'analytics-downloads', perMinute: 60 });
+  if (denied) return denied;
+
   const period = req.nextUrl.searchParams.get('period') || '7d';
   const days = PERIOD_DAYS[period] ?? 7;
 

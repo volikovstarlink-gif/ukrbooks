@@ -1,13 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { SESSION_COOKIE, verifySession } from '@/lib/admin-auth';
+import { requireAdmin } from '@/lib/admin-api';
 import { getRedis, getRecent } from '@/lib/redis';
 
 export const runtime = 'nodejs';
-
-async function isAuthenticated(req: NextRequest): Promise<boolean> {
-  const session = req.cookies.get(SESSION_COOKIE)?.value;
-  return !!(await verifySession(session));
-}
 
 interface ReportListItem {
   caseId: string;
@@ -24,9 +19,8 @@ interface ReportListItem {
 }
 
 export async function GET(req: NextRequest) {
-  if (!(await isAuthenticated(req))) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-  }
+  const denied = await requireAdmin(req, { bucket: 'reports', perMinute: 60 });
+  if (denied) return denied;
 
   const r = getRedis();
   if (!r) {

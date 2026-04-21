@@ -1,4 +1,5 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
+import { requireAdmin } from '@/lib/admin-api';
 import { getRecent, recordError } from '@/lib/redis';
 
 const CF_ACCOUNT_ID = process.env.CF_ACCOUNT_ID || '39b9b9435d78643309d3e2119ba21151';
@@ -81,7 +82,10 @@ async function fetchLocalFS(): Promise<StorageResult | null> {
   }
 }
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  const denied = await requireAdmin(req, { bucket: 'storage', perMinute: 30 });
+  if (denied) return denied;
+
   const result = (await fetchR2()) ?? (await fetchLocalFS()) ?? {
     totalGB: 9.746,
     fileCount: 8401,
