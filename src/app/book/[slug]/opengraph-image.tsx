@@ -9,18 +9,22 @@ export const contentType = 'image/png';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
-// @fontsource CDN — stable URLs, Cyrillic subset, fetched only at first render
-// per-book then cached by Vercel's image CDN.
-const MANROPE_REG = 'https://cdn.jsdelivr.net/npm/@fontsource/manrope@5.0.0/files/manrope-cyrillic-400-normal.woff2';
-const MANROPE_BOLD = 'https://cdn.jsdelivr.net/npm/@fontsource/manrope@5.0.0/files/manrope-cyrillic-700-normal.woff2';
+// Manrope Cyrillic subset shipped from /public — same-origin fetch stays
+// inside Vercel and never fails under serverless-egress timeouts (which
+// broke the jsdelivr CDN fallback we used first).
+const MANROPE_REG = `${BASE}/fonts/manrope-cyrillic-400.woff2`;
+const MANROPE_BOLD = `${BASE}/fonts/manrope-cyrillic-700.woff2`;
 
 async function fetchFont(url: string): Promise<ArrayBuffer | null> {
   try {
-    const res = await fetch(url, { cache: 'force-cache' });
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3000);
+    const res = await fetch(url, { cache: 'force-cache', signal: controller.signal });
+    clearTimeout(timeout);
     if (!res.ok) return null;
     return await res.arrayBuffer();
   } catch {
-    return null;
+    return null; // Never let a font fetch crash the whole OG render.
   }
 }
 
