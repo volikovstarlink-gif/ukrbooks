@@ -185,6 +185,59 @@ export function organizationJsonLd() {
   };
 }
 
+// Generic BreadcrumbList — use instead of ad-hoc inline JSON in pages.
+export function breadcrumbListJsonLd(items: Array<{ name: string; url: string }>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      item: it.url,
+    })),
+  };
+}
+
+// Generic CollectionPage — for /catalog, /category (index), /author (index).
+export function collectionPageJsonLd(opts: {
+  name: string;
+  url: string;
+  description: string;
+  numberOfItems?: number;
+  inLanguage?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: opts.name,
+    url: opts.url,
+    description: opts.description,
+    inLanguage: opts.inLanguage || 'uk',
+    ...(typeof opts.numberOfItems === 'number' ? { numberOfItems: opts.numberOfItems } : {}),
+    isPartOf: { '@type': 'WebSite', name: 'UkrBooks', url: BASE },
+  };
+}
+
+// Person schema with sameAs links (Wikipedia, Wikidata) — stronger E-E-A-T.
+export function authorPersonJsonLd(opts: {
+  name: string;
+  url: string;
+  sameAs?: string[];
+  deathYear?: number | null;
+  birthYear?: number | null;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: opts.name,
+    url: opts.url,
+    ...(opts.sameAs?.length ? { sameAs: opts.sameAs } : {}),
+    ...(opts.birthYear ? { birthDate: String(opts.birthYear) } : {}),
+    ...(opts.deathYear ? { deathDate: String(opts.deathYear) } : {}),
+  };
+}
+
 // FAQ schema for /dmca and similar pages
 export function faqPageJsonLd(qa: Array<{ q: string; a: string }>) {
   return {

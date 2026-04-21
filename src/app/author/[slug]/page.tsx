@@ -4,10 +4,13 @@ import Link from 'next/link';
 import { Home, ChevronRight, User } from 'lucide-react';
 import { getAllAuthorSlugs, getAuthorBySlug } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
+import { authorPersonJsonLd, breadcrumbListJsonLd } from '@/lib/jsonld';
+import authorSameAs from '@/data/author-wikidata.json';
 import BookCard from '@/components/books/BookCard';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
+const SAMEAS_MAP = authorSameAs as unknown as Record<string, string[]>;
 
 interface Props { params: Promise<{ slug: string }>; }
 
@@ -57,23 +60,25 @@ export default async function AuthorPage({ params }: Props) {
   const author = getAuthorBySlug(slug);
   if (!author) notFound();
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Person',
+  const sameAs = SAMEAS_MAP[slug];
+  // Pick a consistent deathYear if all books agree (most authors have identical values).
+  const deathYears = author.books
+    .map((b) => (typeof b.authorDeathYear === 'number' ? b.authorDeathYear : null))
+    .filter((y): y is number => y !== null);
+  const deathYear = deathYears.length > 0 && new Set(deathYears).size === 1 ? deathYears[0] : null;
+
+  const jsonLd = authorPersonJsonLd({
     name: author.name,
     url: `${BASE}/author/${slug}`,
-    sameAs: [],
-  };
+    sameAs,
+    deathYear,
+  });
 
-  const breadcrumbLd = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Головна', item: BASE },
-      { '@type': 'ListItem', position: 2, name: 'Автори', item: `${BASE}/author` },
-      { '@type': 'ListItem', position: 3, name: author.name, item: `${BASE}/author/${slug}` },
-    ],
-  };
+  const breadcrumbLd = breadcrumbListJsonLd([
+    { name: 'Головна', url: BASE },
+    { name: 'Автори', url: `${BASE}/author` },
+    { name: author.name, url: `${BASE}/author/${slug}` },
+  ]);
 
   return (
     <div style={{ background: 'var(--color-cream)', minHeight: '100vh' }}>

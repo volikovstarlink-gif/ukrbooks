@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllCategories, getAllBooks } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
+import { breadcrumbListJsonLd, collectionPageJsonLd } from '@/lib/jsonld';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -23,8 +24,21 @@ export default function CategoriesPage() {
   // Only show categories with at least 1 book
   const visibleCats = categories.filter((c) => (counts[c.slug] || 0) > 0);
 
+  const breadcrumbLd = breadcrumbListJsonLd([
+    { name: 'Головна', url: BASE },
+    { name: 'Категорії', url: `${BASE}/category` },
+  ]);
+  const collectionLd = collectionPageJsonLd({
+    name: 'Категорії книг — UkrBooks',
+    url: `${BASE}/category`,
+    description: 'Вибирайте книги за жанром: класика, фантастика, детективи, поезія, дитячі книги та інші.',
+    numberOfItems: visibleCats.length,
+  });
+
   return (
     <div style={{ background: 'var(--color-cream)', minHeight: '100vh' }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }} />
       <div style={{ background: 'var(--color-ink)' }}>
         <div className="container-site py-8">
           <h1 className="font-display text-3xl font-bold text-white mb-2">Категорії</h1>

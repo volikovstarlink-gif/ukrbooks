@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
-import { getAllBooksSummary, getAllCategories } from '@/lib/books';
+import { getAllBooksSummary, getAllCategories, getTotalBooks } from '@/lib/books';
+import { breadcrumbListJsonLd, collectionPageJsonLd } from '@/lib/jsonld';
 import CatalogClient from './CatalogClient';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -29,9 +30,26 @@ function CatalogFallback() {
 export default function CatalogPage() {
   const books = getAllBooksSummary();
   const categories = getAllCategories();
+  const total = getTotalBooks();
+
+  const breadcrumbLd = breadcrumbListJsonLd([
+    { name: 'Головна', url: BASE },
+    { name: 'Каталог', url: `${BASE}/catalog` },
+  ]);
+  const collectionLd = collectionPageJsonLd({
+    name: 'Каталог книг — UkrBooks',
+    url: `${BASE}/catalog`,
+    description: `Повний каталог української електронної бібліотеки: ${total} книг у форматах EPUB та FB2.`,
+    numberOfItems: total,
+  });
+
   return (
-    <Suspense fallback={<CatalogFallback />}>
-      <CatalogClient books={books} categories={categories} />
-    </Suspense>
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }} />
+      <Suspense fallback={<CatalogFallback />}>
+        <CatalogClient books={books} categories={categories} />
+      </Suspense>
+    </>
   );
 }
