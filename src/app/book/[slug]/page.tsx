@@ -12,6 +12,7 @@ import DownloadSection from '@/components/download/DownloadSection';
 import type { DownloadItem } from '@/components/download/DownloadSection';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
 import DisplayBanner from '@/components/ads/DisplayBanner';
+import ReportButton from '@/components/report/ReportButton';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -86,6 +87,8 @@ export default async function BookPage({ params }: Props) {
     ...book,
     categoryName: category?.name,
     description: book.description,
+    isPublicDomain: book.isPublicDomain,
+    authorDeathYear: book.authorDeathYear,
   });
 
   const ldBreadcrumb = bookBreadcrumbJsonLd({
@@ -254,6 +257,17 @@ export default async function BookPage({ params }: Props) {
             )}
 
             <DisplayBanner size="300x250" placement="book-sidebar" />
+
+            {/* Report link — subtle, under all sidebar content */}
+            <div className="pt-2 text-center">
+              <ReportButton
+                variant="link"
+                reportType="copyright"
+                bookTitle={book.title}
+              >
+                Повідомити про проблему з цією книгою
+              </ReportButton>
+            </div>
           </div>
         </div>
 

@@ -19,8 +19,13 @@ export function bookJsonLd(book: {
   categoryName?: string;
   tags?: string[];
   files: { format: string }[];
+  isPublicDomain?: boolean;
+  authorDeathYear?: number | null;
 }) {
   const langMap: Record<string, string> = { uk: 'uk', en: 'en', ru: 'ru' };
+  const licenseUrl = book.isPublicDomain === true
+    ? 'https://creativecommons.org/publicdomain/mark/1.0/'
+    : undefined;
 
   return {
     '@context': 'https://schema.org',
@@ -29,6 +34,7 @@ export function bookJsonLd(book: {
     author: {
       '@type': 'Person',
       name: book.author,
+      ...(book.authorDeathYear ? { deathDate: String(book.authorDeathYear) } : {}),
     },
     inLanguage: langMap[book.language] || book.language,
     description: book.description
@@ -42,12 +48,12 @@ export function bookJsonLd(book: {
     bookFormat: 'https://schema.org/EBook',
     ...(book.categoryName ? { genre: book.categoryName } : {}),
     ...(book.tags?.length ? { keywords: book.tags.join(', ') } : {}),
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'UAH',
-      availability: 'https://schema.org/InStock',
-    },
+    isAccessibleForFree: true,
+    ...(licenseUrl ? { license: licenseUrl } : {}),
+    usageInfo: `${BASE}/dmca`,
+    ...(book.isPublicDomain === true && book.year
+      ? { copyrightNotice: `Public Domain (опубліковано ${book.year})` }
+      : {}),
     potentialAction: {
       '@type': 'ReadAction',
       target: `${BASE}/book/${book.slug}`,
@@ -161,6 +167,37 @@ export function organizationJsonLd() {
     },
     description:
       'Онлайн-бібліотека українських книг. Тисячі книг у форматах EPUB та FB2.',
+    email: 'info@ukrbooks.ink',
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        contactType: 'customer service',
+        email: 'info@ukrbooks.ink',
+        availableLanguage: ['uk', 'en'],
+      },
+      {
+        '@type': 'ContactPoint',
+        contactType: 'copyright agent',
+        email: 'dmca@ukrbooks.ink',
+        availableLanguage: ['uk', 'en'],
+      },
+    ],
+  };
+}
+
+// FAQ schema for /dmca and similar pages
+export function faqPageJsonLd(qa: Array<{ q: string; a: string }>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: qa.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: a,
+      },
+    })),
   };
 }
 

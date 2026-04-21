@@ -144,7 +144,7 @@ export default function OverviewPage() {
               {[
                 { label: 'R2 Bucket', href: 'https://dash.cloudflare.com/39b9b9435d78643309d3e2119ba21151/r2/default/buckets/ukrbooks-files' },
                 { label: 'CF Analytics', href: 'https://dash.cloudflare.com/39b9b9435d78643309d3e2119ba21151/ukrbooks.ink/analytics/traffic' },
-                { label: 'Vercel', href: 'https://vercel.com/volikovvv-1506s-projects/ukrbooks' },
+                { label: 'Vercel', href: 'https://vercel.com/dashboard' },
                 { label: 'Upstash', href: 'https://console.upstash.com' },
               ].map(({ label, href }) => (
                 <a

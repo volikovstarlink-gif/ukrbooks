@@ -73,15 +73,27 @@ export default function Footer() {
               Інформація
             </h3>
             <nav className="flex flex-col gap-2 text-sm">
+              <Link href="/about" className="hover:text-white transition-colors">
+                Про проєкт
+              </Link>
+              <Link href="/contact" className="hover:text-white transition-colors">
+                Контакти
+              </Link>
               <Link href="/dmca" className="hover:text-white transition-colors">
                 Авторські права (DMCA)
               </Link>
-              <a
-                href="mailto:dmca@ukrbooks.ink"
-                className="hover:text-white transition-colors"
-              >
-                Зв&apos;язатись з нами
-              </a>
+              <Link href="/report" className="hover:text-white transition-colors">
+                Повідомити про порушення
+              </Link>
+              <Link href="/terms" className="hover:text-white transition-colors">
+                Умови використання
+              </Link>
+              <Link href="/privacy" className="hover:text-white transition-colors">
+                Конфіденційність
+              </Link>
+              <Link href="/cookies" className="hover:text-white transition-colors">
+                Cookies
+              </Link>
             </nav>
           </div>
         </div>

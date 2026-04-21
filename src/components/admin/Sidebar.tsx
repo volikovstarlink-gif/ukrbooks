@@ -9,6 +9,7 @@ const NAV = [
   { href: '/admin/downloads', label: 'Скачування', icon: '📥' },
   { href: '/admin/ads', label: 'Реклама', icon: '💰' },
   { href: '/admin/storage', label: 'Сховище', icon: '☁️' },
+  { href: '/admin/reports', label: 'Скарги', icon: '🚩' },
 ];
 
 export default function Sidebar() {
