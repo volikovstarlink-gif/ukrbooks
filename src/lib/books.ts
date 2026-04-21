@@ -22,12 +22,18 @@ const UNKNOWN_AUTHOR_PATTERNS = new Set([
 
 /** Collapse technical/empty author values so /author doesn't list
  *  Unknown / Пользователь Windows / blank as separate entries.
+ *  Also splits on `;` (FB2 metadata sometimes packs multiple authors into one
+ *  field and includes "Невідомий автор" as a co-author) and drops the
+ *  unknown/empty parts so real authors don't get their own "X; Unknown" entry.
  *  Runtime defense — generate_catalog.py applies the same rule at ingest. */
 function normalizeAuthor(raw: string): string {
   if (!raw) return UNKNOWN_AUTHOR;
-  const cleaned = raw.trim().replace(/\s+/g, ' ');
-  if (UNKNOWN_AUTHOR_PATTERNS.has(cleaned.toLowerCase())) return UNKNOWN_AUTHOR;
-  return cleaned;
+  const parts = raw
+    .split(';')
+    .map((p) => p.trim().replace(/\s+/g, ' '))
+    .filter((p) => p && !UNKNOWN_AUTHOR_PATTERNS.has(p.toLowerCase()));
+  if (parts.length === 0) return UNKNOWN_AUTHOR;
+  return parts.join('; ');
 }
 
 // Normalize once up front so every consumer (catalog, book page, author
