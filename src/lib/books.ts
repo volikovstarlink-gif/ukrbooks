@@ -6,7 +6,7 @@ import type { Book, Category, BooksIndex } from '@/types/book';
 const rawIndex = booksIndex as BooksIndex;
 const categories = categoriesData as Category[];
 
-const UNKNOWN_AUTHOR = 'Невідомий автор';
+export const UNKNOWN_AUTHOR = 'Невідомий автор';
 const UNKNOWN_AUTHOR_PATTERNS = new Set([
   '',
   'unknown',
@@ -131,12 +131,24 @@ export const getAllAuthors = cache((): AuthorSummary[] => {
     .sort((a, b) => b.bookCount - a.bookCount);
 });
 
+/** Authors suitable for the public /author listing and sitemap.
+ *  Excludes the "Невідомий автор" collapse bucket — it's not a real person,
+ *  just every book whose metadata lacked a usable author. The bucket page
+ *  itself stays reachable via direct URL for links from book cards. */
+export const getPublicAuthors = cache((): AuthorSummary[] =>
+  getAllAuthors().filter((a) => a.name !== UNKNOWN_AUTHOR)
+);
+
 export const getAuthorBySlug = cache((slug: string): AuthorSummary | undefined =>
   getAllAuthors().find((a) => a.slug === slug)
 );
 
 export const getAllAuthorSlugs = cache((): string[] =>
   getAllAuthors().map((a) => a.slug)
+);
+
+export const getPublicAuthorSlugs = cache((): string[] =>
+  getPublicAuthors().map((a) => a.slug)
 );
 
 /** Slugs of books that are confirmed public domain OR not yet classified.

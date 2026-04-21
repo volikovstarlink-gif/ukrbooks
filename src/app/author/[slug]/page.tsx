@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Home, ChevronRight, User } from 'lucide-react';
-import { getAllAuthorSlugs, getAuthorBySlug } from '@/lib/books';
+import { getAllAuthorSlugs, getAuthorBySlug, UNKNOWN_AUTHOR } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
 import { authorPersonJsonLd, breadcrumbListJsonLd } from '@/lib/jsonld';
 import authorSameAs from '@/data/author-wikidata.json';
@@ -24,18 +24,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!author) return { title: 'Автора не знайдено' };
 
   const formats = 'EPUB та FB2';
-  // Noindex if every book by this author is explicitly marked non-public-domain
+  const isUnknown = author.name === UNKNOWN_AUTHOR;
+  // Noindex if every book by this author is explicitly marked non-public-domain,
+  // or if this is the "Невідомий автор" collapse bucket (not a real person).
   const allNonPD = author.books.length > 0 && author.books.every(
     (b) => b.isPublicDomain === false
   );
+  const noindex = isUnknown || allNonPD;
   return {
-    title: allNonPD
+    title: allNonPD || isUnknown
       ? `${author.name} | UkrBooks`
       : `${author.name} — книги завантажити ${formats} | UkrBooks`,
-    description: allNonPD
+    description: allNonPD || isUnknown
       ? `Книги автора ${author.name} на UkrBooks.`
       : `Всі книги автора ${author.name}. ${author.bookCount} творів у форматах ${formats}. Завантаження без реєстрації на UkrBooks.`,
-    keywords: allNonPD ? undefined : [
+    keywords: allNonPD || isUnknown ? undefined : [
       author.name,
       `${author.name} epub`,
       `${author.name} fb2`,
@@ -44,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `читати ${author.name} онлайн`,
     ],
     alternates: { canonical: `${BASE}/author/${slug}` },
-    robots: allNonPD ? { index: false, follow: false } : undefined,
+    robots: noindex ? { index: false, follow: false } : undefined,
     openGraph: {
       title: `${author.name} — ${author.bookCount} книг | UkrBooks`,
       description: allNonPD

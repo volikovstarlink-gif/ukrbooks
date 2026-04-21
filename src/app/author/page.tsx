@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Home, ChevronRight, Users } from 'lucide-react';
-import { getAllAuthors } from '@/lib/books';
+import { getPublicAuthors } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 };
 
 export default function AuthorsIndexPage() {
-  const authors = getAllAuthors();
+  const authors = getPublicAuthors();
 
   const jsonLd = {
     '@context': 'https://schema.org',
