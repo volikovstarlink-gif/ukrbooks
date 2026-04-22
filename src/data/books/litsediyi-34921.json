@@ -3,7 +3,7 @@
   "slug": "litsediyi-34921",
   "title": "Лицедії",
   "author": "Сомерсет Моем",
-  "category": "ukr-literature",
+  "category": "classic",
   "language": "uk",
   "year": 2020,
   "description": "З життя театру Видання 1967 р.",
@@ -20,7 +20,7 @@
       "format": "fb2",
       "filename": "litsediyi-34921__Lytsedii__litsediyi.fb2",
       "fileDir": "Л",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
