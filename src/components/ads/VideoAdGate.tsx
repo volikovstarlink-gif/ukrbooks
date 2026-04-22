@@ -1,7 +1,13 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { CheckCircle, Download, Loader2, Play, Volume2, VolumeX, X } from 'lucide-react';
-import { fetchVastPodWithFallback, getVastTagUrls, type ResolvedVastAd } from '@/lib/vast';
+import {
+  fetchVastAd,
+  fetchVastPodWithFallback,
+  getVastTagUrls,
+  withCachebuster,
+  type ResolvedVastAd,
+} from '@/lib/vast';
 import {
   trackAdError,
   trackAdGateOpen,
@@ -125,17 +131,17 @@ function Inner({
       setCurrentAd(null);
       setCanSkip(false);
 
-      // First cycle: fetch the whole pod once and cache it in podRef.
-      // Subsequent cycles just replay from the cache — zero extra network
-      // round-trips for ads 2..N. This mirrors how rezka's PlayerJS works:
-      // single pod request, sequential playback.
-      if (index === 0 || podRef.current.length === 0) {
-        const urls = getVastTagUrls();
-        if (urls.length === 0) {
-          trackAdNoFill('vast_waterfall', 'no_urls_configured');
-          startFallback(index);
-          return;
-        }
+      const urls = getVastTagUrls();
+      if (urls.length === 0) {
+        trackAdNoFill('vast_waterfall', 'no_urls_configured');
+        startFallback(index);
+        return;
+      }
+
+      // First slot: ask for a pod (one network round-trip that may include
+      // multiple <Ad>s). Cache the result in podRef.
+      if (index === 0) {
+        podRef.current = [];
         const result = await fetchVastPodWithFallback(urls, AD_POD_SIZE, (label, _i, reason) => {
           trackAdNoFill(label, reason);
         });
@@ -146,9 +152,21 @@ function Inner({
         }
         currentNetworkRef.current = result.networkLabel;
         podRef.current = result.ads;
+      } else if (!podRef.current[index]) {
+        // Slot 2+: HilltopAds usually returns a single <Ad> per VAST response,
+        // so the pod is short for this slot. Fire a fresh VAST request with
+        // a new cachebuster — the SSP treats it as a distinct impression
+        // opportunity and can serve a different creative (otherwise the
+        // viewer sees the house fallback here and the ad network sees only
+        // one impression per download, hurting fill & revenue).
+        const fresh = await fetchVastAd(
+          withCachebuster(urls[0], `${Date.now()}_slot${index}`),
+        );
+        if (fresh) {
+          podRef.current[index] = fresh;
+        }
       }
 
-      // If the pod doesn't cover this slot, fall through to HouseAd countdown.
       const ad = podRef.current[index];
       if (!ad) {
         trackAdNoFill(currentNetworkRef.current, 'pod_short');
@@ -281,6 +299,19 @@ function Inner({
     if (ad) ad.tracker.setMuted(next);
   };
 
+  // VAST click-through: opens advertiser URL in a new tab and fires
+  // <ClickTracking> pings. Without this, HilltopAds treats every impression
+  // as fake traffic and balance stays $0 even if play-throughs look fine.
+  const handleAdClick = () => {
+    const ad = currentAd;
+    if (!ad) return;
+    const url = ad.clickThroughUrl;
+    try { ad.tracker.click?.(url, {}); } catch {}
+    if (url) {
+      try { window.open(url, '_blank', 'noopener,noreferrer'); } catch {}
+    }
+  };
+
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-4"
@@ -407,7 +438,6 @@ function Inner({
                   key={`ad-${adIndex}`}
                   ref={videoRef}
                   className="w-full h-full"
-                  style={{ pointerEvents: 'none' }}
                   playsInline
                   autoPlay
                   onPlay={handleVideoPlay}
@@ -416,17 +446,23 @@ function Inner({
                   onEnded={handleVideoEnded}
                   onError={handleVideoError}
                 />
-                <div
-                  aria-hidden="true"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                  }}
+                {/* Click-through layer — clicking the ad opens the advertiser
+                    URL in a new tab and fires VAST <ClickTracking> pings.
+                    Required by HilltopAds: without real clicks the SSP marks
+                    traffic as fake and pays $0. Controls above get zIndex:2
+                    so Mute/Skip/badge still win over this layer. */}
+                <button
+                  type="button"
+                  aria-label="Відкрити рекламодавця"
+                  onClick={handleAdClick}
                   style={{
                     position: 'absolute',
                     inset: 0,
                     zIndex: 1,
-                    cursor: 'default',
+                    background: 'transparent',
+                    border: 'none',
+                    padding: 0,
+                    cursor: currentAd?.clickThroughUrl ? 'pointer' : 'default',
                   }}
                 />
                 <button

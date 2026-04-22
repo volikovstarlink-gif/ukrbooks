@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getRedis, getRecent } from '@/lib/redis';
+import HilltopBanner from '@/components/ads/HilltopBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -217,6 +218,7 @@ export default async function TransparencyPage() {
             </Link>
           </div>
         </div>
+        <HilltopBanner size="300x250" placement="transparency-bottom" />
       </div>
     </div>
   );

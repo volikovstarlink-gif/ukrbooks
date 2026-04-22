@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ReportButton from '@/components/report/ReportButton';
+import HilltopBanner from '@/components/ads/HilltopBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -55,6 +56,7 @@ export default function ReportPage() {
             </Link>
           </div>
         </div>
+        <HilltopBanner size="300x250" placement="report-bottom" />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import HilltopBanner from '@/components/ads/HilltopBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 const UPDATED_AT = '2026-04-22';
@@ -126,6 +127,7 @@ export default function TermsPage() {
             </Link>
           </div>
         </div>
+        <HilltopBanner size="300x250" placement="terms-bottom" />
       </div>
     </div>
   );

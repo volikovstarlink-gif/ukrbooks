@@ -9,6 +9,12 @@ export interface ResolvedVastAd {
   media: VastMediaFile;
   duration: number;
   tracker: VastTrackerLike;
+  /**
+   * Click-through URL from <VideoClicks><ClickThrough>. Opening this URL on
+   * user click is what lets HilltopAds (and every SSP) count the traffic as
+   * real — no clicks → network treats impressions as fake and pays $0.
+   */
+  clickThroughUrl: string | null;
 }
 
 // Minimal subset of the @dailymotion/vast-client tracker surface that we use.
@@ -22,6 +28,8 @@ export interface VastTrackerLike {
   complete(): void;
   error(macros?: Record<string, string | number>, custom?: boolean): void;
   skip?(): void;
+  /** Fires <ClickTracking> pings. We open clickThroughUrl ourselves in a new tab. */
+  click?(fallbackClickThroughURL?: string | null, macros?: Record<string, string | number>): void;
 }
 
 const VAST_TIMEOUT_MS = 8000;
@@ -47,6 +55,7 @@ interface RawCreative {
   type?: string;
   duration?: number;
   mediaFiles?: RawMediaFile[];
+  videoClickThroughURLTemplate?: { id?: string; url?: string } | null;
 }
 
 interface RawAd {
@@ -107,6 +116,7 @@ export async function fetchVastAd(
           },
           duration: creative.duration || 0,
           tracker: tracker as unknown as VastTrackerLike,
+          clickThroughUrl: creative.videoClickThroughURLTemplate?.url || null,
         };
       }
     }
@@ -196,6 +206,7 @@ export async function fetchVastPod(
           },
           duration: creative.duration || 0,
           tracker: tracker as unknown as VastTrackerLike,
+          clickThroughUrl: creative.videoClickThroughURLTemplate?.url || null,
         });
         break; // one linear per <Ad>
       }

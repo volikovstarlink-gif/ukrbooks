@@ -174,6 +174,18 @@ function Player({ placement, fallback, className }: InlineVideoAdProps) {
     if (ad) ad.tracker.setMuted(next);
   }, [muted, ad]);
 
+  // VAST click-through: open advertiser URL in a new tab + fire <ClickTracking>
+  // pings. HilltopAds requires real clicks — impressions without clicks count
+  // as fake traffic and pay $0.
+  const handleAdClick = useCallback(() => {
+    if (!ad) return;
+    const url = ad.clickThroughUrl;
+    try { ad.tracker.click?.(url, {}); } catch {}
+    if (url) {
+      try { window.open(url, '_blank', 'noopener,noreferrer'); } catch {}
+    }
+  }, [ad]);
+
   // Fallback cases: env empty, no-fill, media error, or ad finished.
   // All of these render the fallback banner (if supplied) — never leave a
   // hole in the layout.
@@ -205,7 +217,7 @@ function Player({ placement, fallback, className }: InlineVideoAdProps) {
             <video
               ref={videoRef}
               className="absolute inset-0 w-full h-full"
-              style={{ pointerEvents: 'none', objectFit: 'contain', background: '#000' }}
+              style={{ objectFit: 'contain', background: '#000' }}
               playsInline
               autoPlay
               muted={muted}
@@ -215,18 +227,25 @@ function Player({ placement, fallback, className }: InlineVideoAdProps) {
               onEnded={handleEnded}
               onError={handleError}
             />
-            {/* Transparent click blocker — kills VAST click-through to prevent
-                redirects to another tab. Same pattern as VideoAdGate. */}
-            <div
-              aria-hidden="true"
-              onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
+            {/* Click-through layer — opens advertiser URL in a new tab and
+                fires VAST <ClickTracking>. HilltopAds pays per click; without
+                this the SSP flags the traffic as fake. */}
+            <button
+              type="button"
+              aria-label="Відкрити рекламодавця"
+              onClick={handleAdClick}
+              style={{
+                position: 'absolute',
+                inset: 0,
+                zIndex: 1,
+                background: 'transparent',
+                border: 'none',
+                padding: 0,
+                cursor: ad.clickThroughUrl ? 'pointer' : 'default',
               }}
-              style={{ position: 'absolute', inset: 0, zIndex: 1, cursor: 'default' }}
             />
             <div
-              className="absolute top-2 left-2 px-2 py-0.5 rounded text-white text-[11px] font-medium"
+              className="absolute top-2 left-2 px-2 py-0.5 rounded text-white text-[11px] font-medium pointer-events-none"
               style={{ background: 'rgba(0,0,0,0.55)', zIndex: 2 }}
             >
               Реклама · {remaining}с

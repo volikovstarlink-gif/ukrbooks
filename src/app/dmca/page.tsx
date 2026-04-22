@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import AdsterraBanner from '@/components/ads/AdsterraBanner';
+import HilltopBanner from '@/components/ads/HilltopBanner';
 import ReportButton from '@/components/report/ReportButton';
 import { faqPageJsonLd } from '@/lib/jsonld';
 
@@ -187,6 +188,7 @@ export default function DmcaPage() {
             </Link>
           </div>
         </div>
+        <HilltopBanner size="300x250" placement="dmca-bottom" />
         <AdsterraBanner size="728x90" placement="dmca-bottom" />
       </div>
     </div>
