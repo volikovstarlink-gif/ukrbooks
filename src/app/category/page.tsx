@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { getAllCategories, getAllBooks } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
 import { breadcrumbListJsonLd, collectionPageJsonLd } from '@/lib/jsonld';
-import AdsterraBanner from '@/components/ads/AdsterraBanner';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -55,7 +54,6 @@ export default function CategoriesPage() {
             </Link>
           ))}
         </div>
-        <AdsterraBanner size="728x90" placement="categories-list-bottom" />
       </div>
     </div>
   );

@@ -10,9 +10,9 @@ import BookCard from '@/components/books/BookCard';
 import Badge from '@/components/ui/Badge';
 import DownloadSection from '@/components/download/DownloadSection';
 import type { DownloadItem } from '@/components/download/DownloadSection';
-import AdsterraBanner from '@/components/ads/AdsterraBanner';
 import DisplayBanner from '@/components/ads/DisplayBanner';
 import InlineVideoAd from '@/components/ads/InlineVideoAd';
+import MgidWidget from '@/components/ads/MgidWidget';
 import ReportButton from '@/components/report/ReportButton';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -270,7 +270,7 @@ export default async function BookPage({ params }: Props) {
               </div>
             )}
 
-            <DisplayBanner size="300x250" placement="book-sidebar" />
+            <MgidWidget placement="book-sidebar" />
 
             {/* Report link — subtle, under all sidebar content */}
             <div className="pt-2 text-center">
@@ -284,8 +284,6 @@ export default async function BookPage({ params }: Props) {
             </div>
           </div>
         </div>
-
-        <AdsterraBanner size="728x90" placement="book-before-related" />
 
         {/* Related */}
         {related.length > 0 && (

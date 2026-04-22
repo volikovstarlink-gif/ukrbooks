@@ -7,7 +7,6 @@ import { pluralizeBooks } from '@/lib/utils';
 import { authorPersonJsonLd, breadcrumbListJsonLd } from '@/lib/jsonld';
 import authorSameAs from '@/data/author-wikidata.json';
 import BookCard from '@/components/books/BookCard';
-import AdsterraBanner from '@/components/ads/AdsterraBanner';
 import InlineVideoAd from '@/components/ads/InlineVideoAd';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -129,24 +128,18 @@ export default async function AuthorPage({ params }: Props) {
         </div>
         {author.books.length > 12 && (
           <>
-            <InlineVideoAd
-              placement="author-after-12"
-              fallback={<AdsterraBanner size="728x90" placement="author-after-12" />}
-            />
+            <InlineVideoAd placement="author-after-12" />
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
               {author.books.slice(12, 36).map((book) => (
                 <BookCard key={book.slug} book={book as Parameters<typeof BookCard>[0]['book']} />
               ))}
             </div>
             {author.books.length > 36 && (
-              <>
-                <AdsterraBanner size="728x90" placement="author-after-36" />
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                  {author.books.slice(36).map((book) => (
-                    <BookCard key={book.slug} book={book as Parameters<typeof BookCard>[0]['book']} />
-                  ))}
-                </div>
-              </>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+                {author.books.slice(36).map((book) => (
+                  <BookCard key={book.slug} book={book as Parameters<typeof BookCard>[0]['book']} />
+                ))}
+              </div>
             )}
           </>
         )}

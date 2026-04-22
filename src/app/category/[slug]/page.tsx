@@ -6,7 +6,6 @@ import { getAllCategories, getBooksByCategory, getCategoryBySlug } from '@/lib/b
 import { pluralizeBooks } from '@/lib/utils';
 import { categoryBreadcrumbJsonLd, categoryItemListJsonLd } from '@/lib/jsonld';
 import BookCard from '@/components/books/BookCard';
-import AdsterraBanner from '@/components/ads/AdsterraBanner';
 import InlineVideoAd from '@/components/ads/InlineVideoAd';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -90,24 +89,18 @@ export default async function CategoryPage({ params }: Props) {
             </div>
             {books.length > 12 && (
               <>
-                <InlineVideoAd
-                  placement="category-after-12"
-                  fallback={<AdsterraBanner size="728x90" placement="category-after-12" />}
-                />
+                <InlineVideoAd placement="category-after-12" />
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
                   {books.slice(12, 36).map((book) => (
                     <BookCard key={book.slug} book={book} />
                   ))}
                 </div>
                 {books.length > 36 && (
-                  <>
-                    <AdsterraBanner size="728x90" placement="category-after-36" />
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                      {books.slice(36).map((book) => (
-                        <BookCard key={book.slug} book={book} />
-                      ))}
-                    </div>
-                  </>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+                    {books.slice(36).map((book) => (
+                      <BookCard key={book.slug} book={book} />
+                    ))}
+                  </div>
                 )}
               </>
             )}

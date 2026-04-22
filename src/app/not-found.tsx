@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { BookX, Search } from 'lucide-react';
-import AdsterraBanner from '@/components/ads/AdsterraBanner';
 import { getAllCategories, getFeaturedBooks } from '@/lib/books';
 import BookCard from '@/components/books/BookCard';
 
@@ -74,8 +73,6 @@ export default function NotFound() {
             </div>
           </section>
         )}
-
-        <AdsterraBanner size="728x90" placement="not-found" />
       </div>
     </div>
   );
