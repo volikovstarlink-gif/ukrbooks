@@ -22,6 +22,8 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
   const renditionRef = useRef<Rendition | null>(null);
 
   const [progress, setProgress] = useState(0);
+  const [currentPage, setCurrentPage] = useState(0);
+  const [totalPages, setTotalPages] = useState(0);
   const [fontIndex, setFontIndex] = useState(DEFAULT_FONT_INDEX);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -83,13 +85,17 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
         localRendition = rendition;
         renditionRef.current = rendition;
 
-        // Register theme — uses site palette (cream background, ink text,
-        // sapphire links). Padding keeps text away from side tap-zones.
+        // Register theme — uses site palette (cream background, ink
+        // text, sapphire links). `touch-action: pan-y` on the body
+        // lets the browser keep vertical gestures for scrolling but
+        // hands horizontal ones to our swipe listener, so the iframe
+        // doesn't swallow page-turn swipes.
         rendition.themes.register('ukr', {
           body: {
             color: '#0F1923',
             'font-family': 'Georgia, "Times New Roman", serif',
             'line-height': '1.6',
+            'touch-action': 'pan-y',
           },
           p: { 'line-height': '1.6' },
           a: { color: '#1B3A6B' },
@@ -98,39 +104,13 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
         rendition.themes.select('ukr');
         rendition.themes.fontSize(`${FONT_SIZES[fontIndex]}%`);
 
-        // Resume from last saved position if we have one; otherwise
-        // start at the first TOC entry instead of spine[0]. Most
-        // EPUBs put the cover as spine[0] and epubjs would scale the
-        // cover image to fill the viewer, which looks like a giant
-        // stretched splash instead of "open the book to page one".
-        let startTarget: string | undefined;
-        try {
-          startTarget = window.localStorage.getItem(progressKey) || undefined;
-        } catch {
-          /* ignore */
-        }
-        if (!startTarget) {
-          try {
-            await book.ready;
-            const toc = book.navigation?.toc;
-            if (toc && toc.length > 0 && toc[0].href) {
-              startTarget = toc[0].href;
-            }
-          } catch {
-            // Fall back to epubjs default (spine[0]).
-          }
-        }
-
-        await rendition.display(startTarget);
-        if (cancelled) return;
-
-        // Swipe-to-turn inside the content iframe. epubjs's hook fires
-        // once per chapter load, so listeners get re-attached on every
-        // navigation. Horizontal delta > 50px AND dominant over
-        // vertical AND completed within 600ms — otherwise it's a
-        // scroll or a long-press, not a swipe.
-        const SWIPE_MIN_DX = 50;
-        const SWIPE_MAX_DURATION = 600;
+        // Swipe-to-turn inside the content iframe. MUST register
+        // BEFORE rendition.display(), otherwise the first chapter's
+        // iframe is created before our hook subscribes and it renders
+        // without the swipe listeners — the gesture would only work
+        // after the user manually advanced to chapter 2+.
+        const SWIPE_MIN_DX = 40;
+        const SWIPE_MAX_DURATION = 800;
         rendition.hooks.content.register((contents: { document: Document }) => {
           const doc = contents.document;
           let sx = 0;
@@ -164,11 +144,65 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
           doc.addEventListener('touchend', onEnd, { passive: true });
         });
 
-        // Build locations table so `percentage` is available on
-        // `relocated`. 1024 chars per location is epubjs default.
-        void book.locations.generate(1024).catch(() => {
-          // Non-fatal: prev/next still work, progress bar just won't move.
-        });
+        // Resume from last saved position if we have one; otherwise
+        // start at the first TOC entry instead of spine[0]. Most
+        // EPUBs put the cover as spine[0] and epubjs would scale the
+        // cover image to fill the viewer, which looks like a giant
+        // stretched splash instead of "open the book to page one".
+        let startTarget: string | undefined;
+        try {
+          startTarget = window.localStorage.getItem(progressKey) || undefined;
+        } catch {
+          /* ignore */
+        }
+        if (!startTarget) {
+          try {
+            await book.ready;
+            const toc = book.navigation?.toc;
+            if (toc && toc.length > 0 && toc[0].href) {
+              startTarget = toc[0].href;
+            }
+          } catch {
+            // Fall back to epubjs default (spine[0]).
+          }
+        }
+
+        await rendition.display(startTarget);
+        if (cancelled) return;
+
+        // Build the locations table — a stable per-character pagination
+        // that doesn't change with font size, so "page 42 of 300" means
+        // the same thing every session. Runs async for large books;
+        // UI shows `—` until it finishes (seconds for most EPUBs).
+        void book.locations
+          .generate(1024)
+          .then(() => {
+            if (cancelled) return;
+            const total =
+              typeof book.locations.length === 'function'
+                ? book.locations.length()
+                : 0;
+            setTotalPages(total);
+            // Refresh current page now that locations are available.
+            try {
+              const current = rendition.currentLocation() as unknown as {
+                start?: { cfi?: string; location?: number };
+              } | undefined;
+              const cfi = current?.start?.cfi;
+              const idx = current?.start?.location;
+              if (typeof idx === 'number') {
+                setCurrentPage(idx + 1);
+              } else if (cfi) {
+                const from = book.locations.locationFromCfi(cfi);
+                if (typeof from === 'number') setCurrentPage(from + 1);
+              }
+            } catch {
+              /* ignore */
+            }
+          })
+          .catch(() => {
+            // Non-fatal: navigation still works without location data.
+          });
 
         // Skip persisting the very first `relocated` event — that's
         // the initial display position, not a user choice. Otherwise
@@ -176,13 +210,24 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
         let firstRelocate = true;
         rendition.on('relocated', (location: unknown) => {
           const loc = location as {
-            start?: { cfi?: string; percentage?: number };
+            start?: { cfi?: string; percentage?: number; location?: number };
           };
+          // Update UI counters regardless of first/nth event.
+          if (typeof loc?.start?.percentage === 'number') {
+            setProgress(Math.round(loc.start.percentage * 100));
+          }
+          if (typeof loc?.start?.location === 'number') {
+            setCurrentPage(loc.start.location + 1);
+          } else if (loc?.start?.cfi) {
+            try {
+              const idx = book.locations.locationFromCfi(loc.start.cfi);
+              if (typeof idx === 'number') setCurrentPage(idx + 1);
+            } catch {
+              /* ignore */
+            }
+          }
           if (firstRelocate) {
             firstRelocate = false;
-            if (typeof loc?.start?.percentage === 'number') {
-              setProgress(Math.round(loc.start.percentage * 100));
-            }
             return;
           }
           if (loc?.start?.cfi) {
@@ -191,9 +236,6 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
             } catch {
               /* ignore */
             }
-          }
-          if (typeof loc?.start?.percentage === 'number') {
-            setProgress(Math.round(loc.start.percentage * 100));
           }
         });
 
@@ -398,6 +440,13 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
         </button>
         <div className="flex-1 flex items-center gap-2">
           <div
+            className="text-xs tabular-nums min-w-[3ch] text-left font-medium"
+            style={{ color: 'var(--color-ink)' }}
+            aria-label="Поточна сторінка"
+          >
+            {currentPage > 0 ? currentPage : '—'}
+          </div>
+          <div
             className="flex-1 h-1 rounded-full overflow-hidden"
             style={{ background: 'var(--color-border)' }}
           >
@@ -409,8 +458,9 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
           <div
             className="text-xs tabular-nums min-w-[3ch] text-right"
             style={{ color: 'var(--color-muted)' }}
+            aria-label="Всього сторінок"
           >
-            {progress}%
+            {totalPages > 0 ? totalPages : '—'}
           </div>
         </div>
         <button
