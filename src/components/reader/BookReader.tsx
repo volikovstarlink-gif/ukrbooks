@@ -98,15 +98,30 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
         rendition.themes.select('ukr');
         rendition.themes.fontSize(`${FONT_SIZES[fontIndex]}%`);
 
-        // Resume from last saved position if we have one.
-        let startCfi: string | undefined;
+        // Resume from last saved position if we have one; otherwise
+        // start at the first TOC entry instead of spine[0]. Most
+        // EPUBs put the cover as spine[0] and epubjs would scale the
+        // cover image to fill the viewer, which looks like a giant
+        // stretched splash instead of "open the book to page one".
+        let startTarget: string | undefined;
         try {
-          startCfi = window.localStorage.getItem(progressKey) || undefined;
+          startTarget = window.localStorage.getItem(progressKey) || undefined;
         } catch {
           /* ignore */
         }
+        if (!startTarget) {
+          try {
+            await book.ready;
+            const toc = book.navigation?.toc;
+            if (toc && toc.length > 0 && toc[0].href) {
+              startTarget = toc[0].href;
+            }
+          } catch {
+            // Fall back to epubjs default (spine[0]).
+          }
+        }
 
-        await rendition.display(startCfi);
+        await rendition.display(startTarget);
         if (cancelled) return;
 
         // Build locations table so `percentage` is available on
@@ -115,10 +130,21 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
           // Non-fatal: prev/next still work, progress bar just won't move.
         });
 
+        // Skip persisting the very first `relocated` event — that's
+        // the initial display position, not a user choice. Otherwise
+        // a bounce through the cover page gets saved as "last read".
+        let firstRelocate = true;
         rendition.on('relocated', (location: unknown) => {
           const loc = location as {
             start?: { cfi?: string; percentage?: number };
           };
+          if (firstRelocate) {
+            firstRelocate = false;
+            if (typeof loc?.start?.percentage === 'number') {
+              setProgress(Math.round(loc.start.percentage * 100));
+            }
+            return;
+          }
           if (loc?.start?.cfi) {
             try {
               window.localStorage.setItem(progressKey, loc.start.cfi);
