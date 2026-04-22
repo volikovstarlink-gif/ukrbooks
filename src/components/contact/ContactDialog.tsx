@@ -83,7 +83,7 @@ export default function ContactDialog({ open, onClose, defaultCategory = 'genera
       return;
     }
     if (!FORMSPREE_FORM_ID) {
-      setError('Форму ще не налаштовано. Спробуйте пізніше або напишіть через Telegram.');
+      setError('Форму ще не налаштовано. Спробуйте пізніше або напишіть на info@ukrbooks.ink.');
       setStatus('error');
       return;
     }

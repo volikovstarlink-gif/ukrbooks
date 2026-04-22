@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useMemo } from 'react';
-import { BookOpen, Heart, Send, Sparkles, Library, Users } from 'lucide-react';
+import { BookOpen, Sparkles, Library, Users } from 'lucide-react';
 import { trackHouseAdClick, trackHouseAdImpression } from '@/lib/ads-analytics';
 
 interface HouseAdVariant {
@@ -14,24 +14,6 @@ interface HouseAdVariant {
 }
 
 const VARIANTS: HouseAdVariant[] = [
-  {
-    id: 'telegram',
-    title: 'Підпишись на наш Telegram',
-    subtitle: 'Нові книги щотижня, підбірки та анонси',
-    cta: 'Відкрити Telegram',
-    href: process.env.NEXT_PUBLIC_TELEGRAM_URL || 'https://t.me/ukrbooks',
-    icon: <Send size={24} />,
-    accent: '#229ED9',
-  },
-  {
-    id: 'donate',
-    title: 'Підтримати UkrBooks',
-    subtitle: 'Бібліотека існує завдяки читачам. Спасибі ❤️',
-    cta: 'Зробити внесок',
-    href: process.env.NEXT_PUBLIC_DONATE_URL || 'https://send.monobank.ua/jar/ukrbooks',
-    icon: <Heart size={24} />,
-    accent: '#ef4444',
-  },
   {
     id: 'catalog',
     title: 'Відкрий тисячі книг',
