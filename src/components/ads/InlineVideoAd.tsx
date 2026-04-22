@@ -20,9 +20,11 @@ type Phase = 'idle' | 'loading' | 'playing' | 'ended' | 'failed';
 
 /**
  * Inline video ad under book description. Plays a single VAST creative from
- * HilltopAds, muted + autoplay + click-blocked (no redirects, no new tabs).
- * Falls through to the provided banner fallback if the waterfall returns no-fill
- * or env is not configured.
+ * HilltopAds, muted + autoplay. Clicking the video opens the advertiser URL
+ * in a new tab and fires <ClickTracking> pings — SSPs require real clicks
+ * to count the traffic as monetizable.
+ * Falls through to the provided banner fallback if the waterfall returns
+ * no-fill or env is not configured.
  */
 export default function InlineVideoAd({ placement, fallback, className }: InlineVideoAdProps) {
   // Short-circuit when VAST env is not configured. `NEXT_PUBLIC_*` is inlined

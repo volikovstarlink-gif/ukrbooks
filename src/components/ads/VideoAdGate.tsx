@@ -246,11 +246,12 @@ function Inner({
         trackAdQuartile(q.key, adIndex + 1, currentNetworkRef.current);
       }
     }
-    if (
-      !canSkip &&
-      process.env.NEXT_PUBLIC_ADS_SKIP_AFTER_15S === '1' &&
-      v.currentTime >= 15
-    ) {
+    // Skip button unlocks at 15s on every ad. Google Ads policy requires
+    // advertiser declaration of "non-skippable video" placements — we
+    // declared none, so this path must always be reachable, not gated on
+    // an env flag that could silently flip the experience back to
+    // non-skippable and put the Ads account at risk.
+    if (!canSkip && v.currentTime >= 15) {
       setCanSkip(true);
     }
   };

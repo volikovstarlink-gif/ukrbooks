@@ -10,7 +10,7 @@ export interface HilltopBannerConfig {
    */
   inlineB64: string | undefined;
   /**
-   * Path to a static HTML shim in `public/` (e.g. `/hilltop-banner-300x250.html`).
+   * Path to a static HTML shim in `public/` (e.g. `/sponsor-300x250.html`).
    * This file hosts the vendor's inline `<script>…</script>` block and gets
    * served from our own origin inside a sandboxed iframe. Set to a truthy
    * value when the file exists in public/. Not env-driven because the file

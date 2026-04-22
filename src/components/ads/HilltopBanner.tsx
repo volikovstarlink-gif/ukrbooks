@@ -60,7 +60,7 @@ export default function HilltopBanner({ size, placement, className, compact }: H
 
   if (!configured) return null;
 
-  // Static-file mode (preferred): `/hilltop-banner-300x250.html` bundled in
+  // Static-file mode (preferred): `/sponsor-300x250.html` bundled in
   // public/. Avoids long env values that Vercel warns about and gives the
   // iframe its own document origin (stronger isolation than srcDoc).
   // Fallback: build srcDoc from src / inlineB64 when no static file exists.
