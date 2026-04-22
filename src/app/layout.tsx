@@ -55,6 +55,7 @@ export const metadata: Metadata = {
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+const GOOGLE_ADS_CONVERSION_LABEL = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -123,7 +124,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               />
             )}
             <Script id="google-ads-init" strategy="afterInteractive">
-              {`gtag('config','${GOOGLE_ADS_ID}');`}
+              {`gtag('config','${GOOGLE_ADS_ID}');${
+                GOOGLE_ADS_CONVERSION_LABEL
+                  ? `gtag('event','conversion',{send_to:'${GOOGLE_ADS_ID}/${GOOGLE_ADS_CONVERSION_LABEL}'});`
+                  : ''
+              }`}
             </Script>
           </>
         )}
