@@ -1,15 +1,21 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail } from 'lucide-react';
+import { Send } from 'lucide-react';
 import ContactDialog from './ContactDialog';
 
 interface Props {
   bookTitle: string;
+  variant?: 'inline' | 'sidebar';
 }
 
-export default function BookReportButton({ bookTitle }: Props) {
+export default function BookReportButton({ bookTitle, variant = 'inline' }: Props) {
   const [open, setOpen] = useState(false);
+
+  const sizeClasses =
+    variant === 'sidebar'
+      ? 'w-full justify-center px-4 py-2.5 rounded-xl text-xs font-bold'
+      : 'px-2.5 py-1 rounded-md text-xs font-bold';
 
   return (
     <>
@@ -18,21 +24,11 @@ export default function BookReportButton({ bookTitle }: Props) {
         onClick={() => setOpen(true)}
         title="Повідомити про проблему з цією книгою"
         aria-label="Повідомити про проблему"
-        className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium whitespace-nowrap transition-colors"
-        style={{
-          background: 'rgba(255,255,255,0.08)',
-          border: '1px solid rgba(255,255,255,0.15)',
-          color: 'rgba(255,255,255,0.85)',
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.background = 'rgba(255,255,255,0.15)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.background = 'rgba(255,255,255,0.08)';
-        }}
+        className={`inline-flex items-center gap-1.5 ${sizeClasses} text-white whitespace-nowrap transition-opacity hover:opacity-90`}
+        style={{ background: 'var(--color-sapphire)' }}
       >
-        <Mail size={12} />
-        Повідомити
+        <Send size={variant === 'sidebar' ? 13 : 12} />
+        Повідомити про проблему
       </button>
       <ContactDialog
         open={open}
