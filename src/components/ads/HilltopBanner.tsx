@@ -70,8 +70,11 @@ export default function HilltopBanner({ size, placement, className, compact }: H
     <div
       ref={hostRef}
       className={className}
-      data-ad-placement={`hilltopads-${placement}`}
-      data-ad-size={size}
+      // Neutral data-* names — `data-ad-*` and `ad-hilltop-*` match generic
+      // cosmetic filters in uBlock / AdGuard even when the iframe src is
+      // allowed. Keep only the size info for debugging.
+      data-slot={`sp-${placement}`}
+      data-size={size}
       style={{
         width: '100%',
         display: 'flex',
@@ -83,7 +86,7 @@ export default function HilltopBanner({ size, placement, className, compact }: H
     >
       {visible && (
         <iframe
-          title={`ad-hilltop-${placement}`}
+          title={`sponsor-${placement}`}
           {...(staticFile ? { src: staticFile } : { srcDoc: srcDoc as string })}
           width={width}
           height={height}

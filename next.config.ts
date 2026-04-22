@@ -41,9 +41,10 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        // Matches any /hilltop-banner-*.html shim we add. Kept flat so Next's
-        // path-to-regexp doesn't trip on wildcards in the source pattern.
-        source: '/hilltop-banner-:slug.html',
+        // Matches any /sponsor-*.html shim we add. Neutral name to avoid
+        // EasyList / uBlock filter lists that block paths containing
+        // "hilltop" or "banner".
+        source: '/sponsor-:slug.html',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=60, must-revalidate' },
           { key: 'Content-Type', value: 'text/html; charset=utf-8' },
@@ -54,7 +55,11 @@ const nextConfig: NextConfig = {
         source: '/(.*)',
         headers: [
           { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'X-Frame-Options', value: 'DENY' },
+          // SAMEORIGIN (not DENY) lets our own /sponsor-*.html iframe shims
+          // load; still blocks cross-origin clickjacking. The previous DENY
+          // broke ad banners with net::ERR_BLOCKED_BY_RESPONSE even for
+          // same-origin iframes.
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
           // Warm DNS for ad networks + R2 + fonts — faster ad fill.
           { key: 'X-DNS-Prefetch-Control', value: 'on' },

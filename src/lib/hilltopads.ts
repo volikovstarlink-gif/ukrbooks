@@ -26,7 +26,10 @@ export function getHilltopBannerConfig(size: HilltopBannerSize): HilltopBannerCo
     return {
       src: process.env.NEXT_PUBLIC_HILLTOPADS_BANNER_300X250_SRC,
       inlineB64: process.env.NEXT_PUBLIC_HILLTOPADS_BANNER_300X250_B64,
-      staticFile: '/hilltop-banner-300x250.html',
+      // Neutral filename — adblock filter lists (EasyList/EasyPrivacy/uBlock)
+      // block any path containing "hilltop" or "-banner-" before the request
+      // even leaves the browser (status: 0, blocked at queue time).
+      staticFile: '/sponsor-300x250.html',
       width: 300,
       height: 250,
     };
