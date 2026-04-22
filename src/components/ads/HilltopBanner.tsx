@@ -91,7 +91,14 @@ export default function HilltopBanner({ size, placement, className, compact }: H
           width={width}
           height={height}
           style={{ border: 'none', maxWidth: '100%' }}
-          sandbox="allow-scripts"
+          // allow-scripts: vendor SDK needs to run.
+          // allow-popups + allow-popups-to-escape-sandbox: without these the
+          // banner renders but clicks can't open the advertiser page — same
+          // "silent click" failure that keeps HilltopAds balance at $0.
+          // allow-same-origin is intentionally omitted: the sponsor shim is
+          // hosted on our own origin, and granting it would let the vendor
+          // SDK read our cookies / localStorage.
+          sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
           referrerPolicy="no-referrer"
           aria-hidden="true"
         />
