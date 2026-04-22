@@ -2,7 +2,7 @@ import { trackEvent } from './analytics';
 import { sendBeacon } from './beacon';
 
 function normalizeNetwork(network: string): string {
-  return network.replace(/[^a-z0-9_-]/gi, '_').slice(0, 24) || 'unknown';
+  return network.replace(/[^a-z0-9_-]/gi, '_').slice(0, 48) || 'unknown';
 }
 
 export function trackAdGateOpen(bookSlug: string, format: string): void {

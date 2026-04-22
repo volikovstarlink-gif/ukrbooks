@@ -16,7 +16,7 @@ export function isConfigured(): boolean {
 }
 
 const RETENTION_SECONDS = 60 * 60 * 24 * 90;
-const UNIQUE_VISITOR_TTL = 60 * 60 * 48;
+const UNIQUE_VISITOR_TTL = RETENTION_SECONDS;
 
 export function isoDate(d: Date = new Date()): string {
   return d.toISOString().split('T')[0];

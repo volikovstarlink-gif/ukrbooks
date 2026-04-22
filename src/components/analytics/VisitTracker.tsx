@@ -1,9 +1,11 @@
 'use client';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 
 const STORAGE_KEY = 'ukr-visitor-id';
-const SESSION_FLAG = 'ukr-visit-sent';
+const LAST_PATH_KEY = 'ukr-visit-last-path';
+const LAST_PATH_TS_KEY = 'ukr-visit-last-ts';
+const SAME_PATH_DEDUPE_MS = 5_000;
 
 function getVisitorId(): string {
   try {
@@ -38,15 +40,26 @@ function sendVisit(visitorId: string, path: string): void {
 
 export default function VisitTracker() {
   const pathname = usePathname();
+  const lastSentRef = useRef<{ path: string; ts: number } | null>(null);
 
   useEffect(() => {
     if (!pathname || pathname.startsWith('/admin') || pathname.startsWith('/api')) return;
+
+    const now = Date.now();
+    const inMem = lastSentRef.current;
+    if (inMem && inMem.path === pathname && now - inMem.ts < SAME_PATH_DEDUPE_MS) return;
+
     try {
-      if (sessionStorage.getItem(SESSION_FLAG)) return;
-      sessionStorage.setItem(SESSION_FLAG, '1');
+      const lastPath = sessionStorage.getItem(LAST_PATH_KEY);
+      const lastTs = Number(sessionStorage.getItem(LAST_PATH_TS_KEY) || '0');
+      if (lastPath === pathname && now - lastTs < SAME_PATH_DEDUPE_MS) return;
+      sessionStorage.setItem(LAST_PATH_KEY, pathname);
+      sessionStorage.setItem(LAST_PATH_TS_KEY, String(now));
     } catch {
       // ignore sessionStorage errors
     }
+
+    lastSentRef.current = { path: pathname, ts: now };
     sendVisit(getVisitorId(), pathname);
   }, [pathname]);
 

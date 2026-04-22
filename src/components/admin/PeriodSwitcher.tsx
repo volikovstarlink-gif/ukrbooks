@@ -2,7 +2,7 @@
 
 export type Period = '1d' | '7d' | '30d';
 
-const LABELS: Record<Period, string> = { '1d': 'Сьогодні', '7d': '7 днів', '30d': '30 днів' };
+const LABELS: Record<Period, string> = { '1d': '24 години', '7d': '7 днів', '30d': '30 днів' };
 
 export default function PeriodSwitcher({
   value,

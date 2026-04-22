@@ -6,6 +6,7 @@ import {
   type HilltopBannerSize,
 } from '@/lib/hilltopads';
 import { trackBannerImpression } from '@/lib/ads-analytics';
+import { useAdClickTracker } from '@/lib/useAdClickTracker';
 
 interface HilltopBannerProps {
   size: HilltopBannerSize;
@@ -20,6 +21,8 @@ export default function HilltopBanner({ size, placement, className, compact }: H
 
   const { src, inlineB64, staticFile, width, height } = getHilltopBannerConfig(size);
   const configured = Boolean(src || inlineB64 || staticFile);
+  const networkName = `hilltopads-${size}-${placement}`;
+  useAdClickTracker(hostRef, networkName, visible);
 
   useEffect(() => {
     if (visible) return;
@@ -27,7 +30,7 @@ export default function HilltopBanner({ size, placement, className, compact }: H
     if (!el) return;
     const reveal = () => {
       setVisible(true);
-      trackBannerImpression(`hilltopads-${size}-${placement}`);
+      trackBannerImpression(networkName);
     };
     if (typeof IntersectionObserver === 'undefined') {
       reveal();

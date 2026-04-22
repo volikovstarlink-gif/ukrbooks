@@ -3,7 +3,7 @@ import { checkRateLimit, incrAdCounter, recordError } from '@/lib/redis';
 
 type AdEventType = 'impressions' | 'clicks' | 'errors' | 'nofill' | 'quartile' | 'gate_open' | 'download_completed';
 const VALID_TYPES: AdEventType[] = ['impressions', 'clicks', 'errors', 'nofill', 'quartile', 'gate_open', 'download_completed'];
-const NETWORK_SAFE = /^[a-z0-9_-]{1,24}$/i;
+const NETWORK_SAFE = /^[a-z0-9_-]{1,48}$/i;
 
 function getIp(req: NextRequest): string {
   const fwd = req.headers.get('x-forwarded-for');
