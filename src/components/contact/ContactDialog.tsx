@@ -3,10 +3,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { X } from 'lucide-react';
 
-export type ContactCategory = 'general' | 'dmca' | 'legal' | 'privacy' | 'ads';
+export type ContactCategory = 'general' | 'book_issue' | 'dmca' | 'legal' | 'privacy' | 'ads';
 
 const CATEGORY_LABELS: Record<ContactCategory, string> = {
   general: 'Загальні питання',
+  book_issue: 'Проблема з книгою',
   dmca: 'Авторські права (DMCA)',
   legal: 'Судові запити',
   privacy: 'Конфіденційність',
@@ -17,13 +18,14 @@ interface Props {
   open: boolean;
   onClose: () => void;
   defaultCategory?: ContactCategory;
+  bookTitle?: string;
 }
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
 const FORMSPREE_FORM_ID = process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID || '';
 
-export default function ContactDialog({ open, onClose, defaultCategory = 'general' }: Props) {
+export default function ContactDialog({ open, onClose, defaultCategory = 'general', bookTitle }: Props) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const [category, setCategory] = useState<ContactCategory>(defaultCategory);
   const [name, setName] = useState('');
@@ -41,8 +43,13 @@ export default function ContactDialog({ open, onClose, defaultCategory = 'genera
   }, [open]);
 
   useEffect(() => {
-    if (open) setCategory(defaultCategory);
-  }, [open, defaultCategory]);
+    if (open) {
+      setCategory(defaultCategory);
+      if (bookTitle && defaultCategory === 'book_issue') {
+        setMessage(`Книга: ${bookTitle}\n\nОпишіть проблему: `);
+      }
+    }
+  }, [open, defaultCategory, bookTitle]);
 
   useEffect(() => {
     if (!open) {
@@ -94,7 +101,10 @@ export default function ContactDialog({ open, onClose, defaultCategory = 'genera
           name: name.trim() || '(не вказано)',
           email: email.trim(),
           message: message.trim(),
-          _subject: `[UkrBooks · ${CATEGORY_LABELS[category]}] ${name.trim() || email.trim()}`,
+          ...(bookTitle ? { book: bookTitle } : {}),
+          _subject: bookTitle
+            ? `[UkrBooks · ${CATEGORY_LABELS[category]}] ${bookTitle}`
+            : `[UkrBooks · ${CATEGORY_LABELS[category]}] ${name.trim() || email.trim()}`,
           _replyto: email.trim(),
         }),
       });

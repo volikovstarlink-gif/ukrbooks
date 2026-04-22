@@ -15,6 +15,7 @@ import HilltopBanner from '@/components/ads/HilltopBanner';
 import InlineVideoAd from '@/components/ads/InlineVideoAd';
 import MgidWidget from '@/components/ads/MgidWidget';
 import ReportButton from '@/components/report/ReportButton';
+import BookReportButton from '@/components/contact/BookReportButton';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -156,14 +157,17 @@ export default async function BookPage({ params }: Props) {
               <h1 className="font-display text-2xl sm:text-3xl font-bold text-white mb-2 leading-tight">
                 {book.title}
               </h1>
-              {book.author === UNKNOWN_AUTHOR ? (
-                <p className="text-lg text-white/70 mb-4 italic">{book.author}</p>
-              ) : (
-                <Link href={`/author/${authorToSlug(book.author)}`}
-                  className="text-lg text-white/70 hover:text-white transition-colors mb-4 block">
-                  {book.author}
-                </Link>
-              )}
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-4">
+                {book.author === UNKNOWN_AUTHOR ? (
+                  <p className="text-lg text-white/70 italic">{book.author}</p>
+                ) : (
+                  <Link href={`/author/${authorToSlug(book.author)}`}
+                    className="text-lg text-white/70 hover:text-white transition-colors">
+                    {book.author}
+                  </Link>
+                )}
+                <BookReportButton bookTitle={book.title} />
+              </div>
 
               <div className="flex flex-wrap gap-3 mb-6">
                 {book.year && (
