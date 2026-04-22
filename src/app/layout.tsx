@@ -54,6 +54,7 @@ export const metadata: Metadata = {
 };
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -110,6 +111,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             />
             <Script id="ga4-init" strategy="afterInteractive">
               {`gtag('js',new Date());gtag('config','${GA_ID}',{page_path:window.location.pathname});`}
+            </Script>
+          </>
+        )}
+        {GOOGLE_ADS_ID && (
+          <>
+            {!GA_ID && (
+              <Script
+                src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
+                strategy="afterInteractive"
+              />
+            )}
+            <Script id="google-ads-init" strategy="afterInteractive">
+              {`gtag('config','${GOOGLE_ADS_ID}');`}
             </Script>
           </>
         )}
