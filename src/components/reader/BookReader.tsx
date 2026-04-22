@@ -124,6 +124,46 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
         await rendition.display(startTarget);
         if (cancelled) return;
 
+        // Swipe-to-turn inside the content iframe. epubjs's hook fires
+        // once per chapter load, so listeners get re-attached on every
+        // navigation. Horizontal delta > 50px AND dominant over
+        // vertical AND completed within 600ms — otherwise it's a
+        // scroll or a long-press, not a swipe.
+        const SWIPE_MIN_DX = 50;
+        const SWIPE_MAX_DURATION = 600;
+        rendition.hooks.content.register((contents: { document: Document }) => {
+          const doc = contents.document;
+          let sx = 0;
+          let sy = 0;
+          let st = 0;
+          const onStart = (e: Event) => {
+            const te = e as TouchEvent;
+            const t = te.touches[0];
+            if (!t) return;
+            sx = t.clientX;
+            sy = t.clientY;
+            st = Date.now();
+          };
+          const onEnd = (e: Event) => {
+            const te = e as TouchEvent;
+            const t = te.changedTouches[0];
+            if (!t) return;
+            const dx = t.clientX - sx;
+            const dy = t.clientY - sy;
+            const dt = Date.now() - st;
+            if (
+              Math.abs(dx) >= SWIPE_MIN_DX &&
+              Math.abs(dx) > Math.abs(dy) &&
+              dt <= SWIPE_MAX_DURATION
+            ) {
+              if (dx > 0) rendition.prev();
+              else rendition.next();
+            }
+          };
+          doc.addEventListener('touchstart', onStart, { passive: true });
+          doc.addEventListener('touchend', onEnd, { passive: true });
+        });
+
         // Build locations table so `percentage` is available on
         // `relocated`. 1024 chars per location is epubjs default.
         void book.locations.generate(1024).catch(() => {
@@ -233,31 +273,55 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
     return () => window.removeEventListener('keydown', onKey);
   }, [handlePrev, handleNext]);
 
+  // Swipe handler for touches that land OUTSIDE the iframe (e.g. the
+  // thin margin around the EPUB viewport). Mirrors the iframe-level
+  // handler so the reader responds no matter where the finger starts.
+  const touchStartRef = useRef<{ x: number; y: number; t: number } | null>(null);
+  const onViewerTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    const t = e.touches[0];
+    if (!t) return;
+    touchStartRef.current = { x: t.clientX, y: t.clientY, t: Date.now() };
+  };
+  const onViewerTouchEnd = (e: React.TouchEvent<HTMLDivElement>) => {
+    const start = touchStartRef.current;
+    touchStartRef.current = null;
+    if (!start) return;
+    const t = e.changedTouches[0];
+    if (!t) return;
+    const dx = t.clientX - start.x;
+    const dy = t.clientY - start.y;
+    const dt = Date.now() - start.t;
+    if (Math.abs(dx) >= 50 && Math.abs(dx) > Math.abs(dy) && dt <= 600) {
+      if (dx > 0) handlePrev();
+      else handleNext();
+    }
+  };
+
   return (
     <div
       className="fixed inset-0 flex flex-col"
       style={{ background: 'var(--color-cream)', zIndex: 60 }}
     >
-      {/* Top bar */}
+      {/* Top bar — compact so the book gets more screen */}
       <div
-        className="flex items-center gap-3 px-4 py-3"
+        className="flex items-center gap-2 px-3 py-1.5"
         style={{ background: '#fff', borderBottom: '1px solid var(--color-border)' }}
       >
         <div className="flex-1 min-w-0">
           <div
-            className="font-semibold text-sm sm:text-base truncate"
+            className="font-semibold text-sm truncate leading-tight"
             style={{ color: 'var(--color-ink)' }}
           >
             {title}
           </div>
           <div
-            className="text-xs sm:text-sm truncate"
+            className="text-xs truncate leading-tight"
             style={{ color: 'var(--color-muted)' }}
           >
             {author}
           </div>
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-0.5">
           <button
             onClick={decreaseFont}
             disabled={fontIndex === 0}
@@ -278,7 +342,7 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
           </button>
           <Link
             href={`/book/${slug}`}
-            className="ml-2 p-2 rounded transition-colors hover:bg-gray-100"
+            className="ml-1 p-1.5 rounded transition-colors hover:bg-gray-100"
             aria-label="Закрити читач"
             style={{ color: 'var(--color-ink)' }}
           >
@@ -288,7 +352,11 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
       </div>
 
       {/* Reader surface */}
-      <div className="flex-1 relative overflow-hidden">
+      <div
+        className="flex-1 relative overflow-hidden"
+        onTouchStart={onViewerTouchStart}
+        onTouchEnd={onViewerTouchEnd}
+      >
         {loading && !error && (
           <div
             className="absolute inset-0 flex items-center justify-center text-sm"
@@ -312,29 +380,18 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
           </div>
         )}
         <div ref={viewerRef} className="absolute inset-0" />
-
-        {/* Invisible tap zones for mobile — left third = prev, right third = next */}
-        <button
-          onClick={handlePrev}
-          aria-label="Попередня сторінка"
-          className="absolute left-0 top-0 bottom-0 w-[20%] sm:w-16 bg-transparent"
-        />
-        <button
-          onClick={handleNext}
-          aria-label="Наступна сторінка"
-          className="absolute right-0 top-0 bottom-0 w-[20%] sm:w-16 bg-transparent"
-        />
       </div>
 
-      {/* Bottom bar */}
+      {/* Bottom bar — compact */}
       <div
-        className="flex items-center gap-3 px-4 py-3"
+        className="flex items-center gap-2 px-3 py-1.5"
         style={{ background: '#fff', borderTop: '1px solid var(--color-border)' }}
       >
         <button
           onClick={handlePrev}
-          className="flex items-center gap-1 px-3 py-2 rounded text-sm font-medium transition-colors hover:bg-gray-100"
+          className="flex items-center gap-0.5 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-gray-100"
           style={{ color: 'var(--color-ink)' }}
+          aria-label="Попередня сторінка"
         >
           <ChevronLeft size={16} />
           <span className="hidden sm:inline">Назад</span>
@@ -358,8 +415,9 @@ export default function BookReader({ title, author, slug, epubUrl }: BookReaderP
         </div>
         <button
           onClick={handleNext}
-          className="flex items-center gap-1 px-3 py-2 rounded text-sm font-medium transition-colors hover:bg-gray-100"
+          className="flex items-center gap-0.5 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-gray-100"
           style={{ color: 'var(--color-ink)' }}
+          aria-label="Наступна сторінка"
         >
           <span className="hidden sm:inline">Далі</span>
           <ChevronRight size={16} />
