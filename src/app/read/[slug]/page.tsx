@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getBookBySlug, getDownloadUrl } from '@/lib/books';
-import BookReader from '@/components/reader/BookReader';
+import ReaderFlow from '@/components/reader/ReaderFlow';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -29,7 +29,7 @@ export default async function ReaderPage({ params }: Props) {
   const epubUrl = getDownloadUrl(epubFile.filename, epubFile.fileDir);
 
   return (
-    <BookReader
+    <ReaderFlow
       title={book.title}
       author={book.author}
       slug={book.slug}

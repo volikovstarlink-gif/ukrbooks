@@ -1,6 +1,6 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { CheckCircle, Download, Loader2, Play, Volume2, VolumeX, X } from 'lucide-react';
+import { BookOpen, CheckCircle, Download, Loader2, Play, Volume2, VolumeX, X } from 'lucide-react';
 import {
   fetchVastAd,
   fetchVastPodWithFallback,
@@ -36,6 +36,11 @@ interface VideoAdGateProps {
   bookSlug: string;
   isOpen: boolean;
   onClose: () => void;
+  /** If provided, the gate calls this instead of triggering a file
+   *  download after the ad pod is satisfied. Used by the online
+   *  reader flow: parent flips its state and unmounts the gate, so
+   *  no "Завантаження розпочато" UI flashes at the end. */
+  onComplete?: () => void;
 }
 
 export default function VideoAdGate(props: VideoAdGateProps) {
@@ -49,6 +54,7 @@ function Inner({
   format,
   bookSlug,
   onClose,
+  onComplete,
 }: Omit<VideoAdGateProps, 'isOpen'>) {
   const [phase, setPhase] = useState<Phase>('intro');
   const [adIndex, setAdIndex] = useState(0);
@@ -78,6 +84,13 @@ function Inner({
   }, [bookSlug, format]);
 
   const triggerDownload = useCallback(() => {
+    // Reader flow: parent handles what "complete" means (e.g. render
+    // BookReader). Don't touch files, don't fire download telemetry.
+    if (onComplete) {
+      onComplete();
+      return;
+    }
+
     // R2 serves every book file with Content-Type: application/octet-stream
     // and Content-Disposition: attachment (migration fix-r2-download-headers),
     // so a plain direct link downloads correctly on iOS Safari, Mi Browser,
@@ -94,7 +107,7 @@ function Inner({
     trackDownloadCompleted(bookSlug, adsCompletedRef.current, elapsed);
     setPhase('downloading');
     setTimeout(onClose, 1500);
-  }, [downloadUrl, fileName, bookSlug, onClose]);
+  }, [downloadUrl, fileName, bookSlug, onClose, onComplete]);
 
   const startFallback = useCallback(
     (index: number) => {
@@ -346,10 +359,16 @@ function Inner({
                 border: '1px solid rgba(59,130,246,0.3)',
               }}
             >
-              <Download size={20} className="text-blue-400" />
+              {onComplete ? (
+                <BookOpen size={20} className="text-blue-400" />
+              ) : (
+                <Download size={20} className="text-blue-400" />
+              )}
             </div>
             <div>
-              <p className="text-white font-semibold text-sm leading-tight">Завантаження файлу</p>
+              <p className="text-white font-semibold text-sm leading-tight">
+                {onComplete ? 'Відкриття книги' : 'Завантаження файлу'}
+              </p>
               <p className="text-slate-400 text-xs mt-0.5 truncate max-w-[220px]">{fileName}</p>
             </div>
           </div>
@@ -409,7 +428,9 @@ function Inner({
               <p className="text-slate-300 text-base mb-1">
                 Реклама підтримує безкоштовну бібліотеку
               </p>
-              <p className="text-slate-500 text-sm mb-6">Після цього книга ваша 📖</p>
+              <p className="text-slate-500 text-sm mb-6">
+                {onComplete ? 'Після цього почнеться читання 📖' : 'Після цього книга ваша 📖'}
+              </p>
               <button
                 onClick={handleStart}
                 className="w-full py-4 rounded-xl font-semibold text-white text-base flex items-center justify-center gap-2 transition-all hover:opacity-90 active:scale-95"
