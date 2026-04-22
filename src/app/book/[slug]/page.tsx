@@ -11,6 +11,7 @@ import Badge from '@/components/ui/Badge';
 import DownloadSection from '@/components/download/DownloadSection';
 import type { DownloadItem } from '@/components/download/DownloadSection';
 import DisplayBanner from '@/components/ads/DisplayBanner';
+import HilltopBanner from '@/components/ads/HilltopBanner';
 import InlineVideoAd from '@/components/ads/InlineVideoAd';
 import MgidWidget from '@/components/ads/MgidWidget';
 import ReportButton from '@/components/report/ReportButton';
@@ -228,6 +229,13 @@ export default async function BookPage({ params }: Props) {
               placement="book-after-description"
               fallback={<DisplayBanner size="300x250" placement="book-after-description" />}
             />
+            {/* Mobile-only 300x250 sponsor banner — user wanted it
+                directly under the description on phones. Hidden on
+                desktop (lg:) where the same banner lives in the sidebar
+                so the zone isn't counted twice on a single page view. */}
+            <div className="lg:hidden mt-4">
+              <HilltopBanner size="300x250" placement="book-under-description-mobile" />
+            </div>
           </div>
 
           {/* Sidebar */}
@@ -281,6 +289,14 @@ export default async function BookPage({ params }: Props) {
               >
                 Повідомити про проблему з цією книгою
               </ReportButton>
+            </div>
+
+            {/* Desktop-only 300x250 sponsor banner — right sidebar,
+                below the "Report a problem" link, as requested on every
+                book page. Hidden on mobile (<lg) where the same zone
+                renders under the description instead. */}
+            <div className="hidden lg:block">
+              <HilltopBanner size="300x250" placement="book-sidebar" />
             </div>
           </div>
         </div>
