@@ -79,7 +79,12 @@ export async function GET(
 
   const ext = filename.split('.').pop()?.toLowerCase() || '';
   const mime = MIME[ext] || 'application/octet-stream';
-  const filePath = path.join(BOOKS_DIR, dir, filename);
+  // Production downloads go direct to R2 via NEXT_PUBLIC_BOOKS_BASE_URL and
+  // never hit this route. The filesystem read below is dev-only. We mark the
+  // path.join with turbopackIgnore so Turbopack doesn't trace the entire
+  // Books/ directory (28k+ files) into the serverless bundle — doing so
+  // exceeds Vercel's 250MB function size limit.
+  const filePath = path.join(/*turbopackIgnore: true*/ BOOKS_DIR, dir, filename);
 
   try {
     const data = await readFile(filePath);
