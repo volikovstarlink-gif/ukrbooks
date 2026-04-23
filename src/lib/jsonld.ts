@@ -21,6 +21,7 @@ export function bookJsonLd(book: {
   files: { format: string }[];
   isPublicDomain?: boolean;
   authorDeathYear?: number | null;
+  authorSlug?: string;
 }) {
   const langMap: Record<string, string> = { uk: 'uk', en: 'en', ru: 'ru' };
   const licenseUrl = book.isPublicDomain === true
@@ -34,6 +35,7 @@ export function bookJsonLd(book: {
     author: {
       '@type': 'Person',
       name: book.author,
+      ...(book.authorSlug ? { url: `${BASE}/author/${book.authorSlug}` } : {}),
       ...(book.authorDeathYear ? { deathDate: String(book.authorDeathYear) } : {}),
     },
     inLanguage: langMap[book.language] || book.language,

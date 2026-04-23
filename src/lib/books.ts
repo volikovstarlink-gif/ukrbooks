@@ -188,9 +188,16 @@ export const getAllAuthors = cache((): AuthorSummary[] => {
 /** Authors suitable for the public /author listing and sitemap.
  *  Excludes the "Невідомий автор" collapse bucket — it's not a real person,
  *  just every book whose metadata lacked a usable author. The bucket page
- *  itself stays reachable via direct URL for links from book cards. */
+ *  itself stays reachable via direct URL for links from book cards.
+ *  Also excludes authors whose entire catalog is non-public-domain —
+ *  their page emits noindex so listing them in sitemap/authors grid
+ *  creates a soft-404 signal. */
 export const getPublicAuthors = cache((): AuthorSummary[] =>
-  getAllAuthors().filter((a) => a.name !== UNKNOWN_AUTHOR)
+  getAllAuthors().filter((a) => {
+    if (a.name === UNKNOWN_AUTHOR) return false;
+    const hasIndexable = a.books.some((b) => b.isPublicDomain !== false);
+    return hasIndexable;
+  })
 );
 
 export const getAuthorBySlug = cache((slug: string): AuthorSummary | undefined =>
@@ -210,3 +217,52 @@ export const getPublicAuthorSlugs = cache((): string[] =>
 export const getPublicDomainBookSlugs = cache((): string[] =>
   index.books.filter((b) => b.isPublicDomain !== false).map((b) => b.slug)
 );
+
+export const SOURCE_LANGUAGE_LABEL: Record<string, { name: string; flag: string; genitive: string }> = {
+  en: { name: 'Англійська', flag: '🇬🇧', genitive: 'англійської' },
+  fr: { name: 'Французька', flag: '🇫🇷', genitive: 'французької' },
+  de: { name: 'Німецька', flag: '🇩🇪', genitive: 'німецької' },
+  pl: { name: 'Польська', flag: '🇵🇱', genitive: 'польської' },
+  ru: { name: 'Російська', flag: '🇷🇺', genitive: 'російської' },
+  es: { name: 'Іспанська', flag: '🇪🇸', genitive: 'іспанської' },
+  it: { name: 'Італійська', flag: '🇮🇹', genitive: 'італійської' },
+  ja: { name: 'Японська', flag: '🇯🇵', genitive: 'японської' },
+  cz: { name: 'Чеська', flag: '🇨🇿', genitive: 'чеської' },
+  sv: { name: 'Шведська', flag: '🇸🇪', genitive: 'шведської' },
+  no: { name: 'Норвезька', flag: '🇳🇴', genitive: 'норвезької' },
+  pt: { name: 'Португальська', flag: '🇵🇹', genitive: 'португальської' },
+  ko: { name: 'Корейська', flag: '🇰🇷', genitive: 'корейської' },
+  zh: { name: 'Китайська', flag: '🇨🇳', genitive: 'китайської' },
+  ar: { name: 'Арабська', flag: '🇸🇦', genitive: 'арабської' },
+  tr: { name: 'Турецька', flag: '🇹🇷', genitive: 'турецької' },
+  sl: { name: 'Словенська', flag: '🇸🇮', genitive: 'словенської' },
+  other: { name: 'Інша', flag: '🌐', genitive: 'іншої' },
+};
+
+/** All books classified as translations (translatedFrom is a non-null language code). */
+export const getTranslatedBooks = cache((): Book[] =>
+  index.books.filter((b) => b.translatedFrom)
+);
+
+/** Translations grouped by source language, sorted by book count desc. */
+export const getTranslationsBySourceLanguage = cache((): Array<{ lang: string; books: Book[] }> => {
+  const map = new Map<string, Book[]>();
+  for (const b of index.books) {
+    if (!b.translatedFrom) continue;
+    const arr = map.get(b.translatedFrom) ?? [];
+    arr.push(b);
+    map.set(b.translatedFrom, arr);
+  }
+  return Array.from(map.entries())
+    .map(([lang, books]) => ({ lang, books }))
+    .sort((a, b) => b.books.length - a.books.length);
+});
+
+/** Featured translations for homepage — prefer cover + high confidence. */
+export const getFeaturedTranslations = cache((limit = 8): Book[] => {
+  const all = index.books.filter((b) => b.translatedFrom);
+  const withCover = all.filter((b) => b.coverImage && b.coverImage !== '/covers/placeholder.jpg');
+  const high = withCover.filter((b) => b.translationConfidence === 'high');
+  const pool = high.length >= limit ? high : withCover.length >= limit ? withCover : all;
+  return pool.slice(0, limit);
+});

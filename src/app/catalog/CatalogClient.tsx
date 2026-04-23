@@ -1,5 +1,5 @@
 'use client';
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import { Search, X, SlidersHorizontal } from 'lucide-react';
 import type { Book, Category } from '@/types/book';
@@ -68,6 +68,32 @@ export default function CatalogClient({ books, categories }: Props) {
   }, [router, pathname]);
 
   const hasFilters = Boolean(query || category || language || format);
+  const shouldNoindex = hasFilters || page > 1;
+
+  // Dynamically inject `<meta name="robots" content="noindex, follow">` when
+  // the user applies filters or navigates to page 2+. Prevents Google from
+  // indexing thousands of near-duplicate filter URLs, which would get the
+  // site flagged for thin/duplicate content. Clean URL (/catalog) stays indexable.
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+    const META_ID = 'dynamic-robots-catalog';
+    const existing = document.getElementById(META_ID);
+    if (shouldNoindex) {
+      if (!existing) {
+        const meta = document.createElement('meta');
+        meta.id = META_ID;
+        meta.name = 'robots';
+        meta.content = 'noindex, follow';
+        document.head.appendChild(meta);
+      }
+    } else if (existing) {
+      existing.remove();
+    }
+    return () => {
+      const leftover = document.getElementById(META_ID);
+      if (leftover) leftover.remove();
+    };
+  }, [shouldNoindex]);
 
   const filtered = useMemo(() => {
     let result = query ? searchBooks(books, query) : [...books];

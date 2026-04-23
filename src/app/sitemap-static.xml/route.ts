@@ -18,7 +18,6 @@ export async function GET() {
     { url: `${BASE}/privacy`,     lastmod: now, changefreq: 'yearly',  priority: 0.3 },
     { url: `${BASE}/cookies`,     lastmod: now, changefreq: 'yearly',  priority: 0.3 },
     { url: `${BASE}/contact`,     lastmod: now, changefreq: 'monthly', priority: 0.4 },
-    { url: `${BASE}/report`,      lastmod: now, changefreq: 'monthly', priority: 0.3 },
     { url: `${BASE}/transparency`,lastmod: now, changefreq: 'weekly',  priority: 0.5 },
     { url: `${BASE}/changelog`,   lastmod: now, changefreq: 'weekly',  priority: 0.4 },
   ];
