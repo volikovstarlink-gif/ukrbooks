@@ -3,7 +3,7 @@
   "slug": "beztilesna-lyudina-5472",
   "title": "Безтілесна людина",
   "author": "Джон Діксон Карр",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2011,
   "description": "Оригінальна варіація визнаного майстра детективного жанру на класичну тему «вбивство у замкненій кімнаті».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

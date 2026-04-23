@@ -3,7 +3,7 @@
   "slug": "mij-podarunok-tsogo-roku-31435",
   "title": "Мій подарунок цього року",
   "author": "Сієрра Сімоне",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Це не українська книга. Сієрра Сімоне — американська авторка, а \"My Gift This Year\" належить до жанру сучасної художної літератури, а не історії.\n\nЯ можу допомогти описати українські книги. Чи є у вас українське видання для опису?",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

@@ -3,7 +3,7 @@
   "slug": "koli-vpade-temryava-14019",
   "title": "Коли впаде темрява",
   "author": "Стівен Кінг",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2009,
   "description": "Найпотаємніші страхи, що іноді приходять до кожного! На вас чекають кіт-убивця, телефонні дзвінки з того світу, маніяки, дірки у часі і просторі та інші жахи, створені фантазією геніального автора. «Я написав ці оповідання, щоб передати те, що лякає мене», — каже Стівен Кінг.",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "koli-vpade-temryava-14019__Koly_vpade_temriava__koli-vpade-temryava.fb2",
       "fileDir": "К",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

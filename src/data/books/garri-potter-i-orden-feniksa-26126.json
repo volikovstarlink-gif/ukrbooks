@@ -3,7 +3,7 @@
   "slug": "garri-potter-i-orden-feniksa-26126",
   "title": "Гаррі Поттер і Орден Фенікса",
   "author": "Джоан Кетлін Ролінґ",
-  "category": "children",
+  "category": "fantasy",
   "language": "uk",
   "year": 2003,
   "description": "Ніхто й не сподівався, що п’ятий рік навчання у Гоґвортсі буде для Гаррі та його друзів легкою прогулянкою. Проте запровадження в школі посади Верховного інквізитора ще більше все ускладнило…",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

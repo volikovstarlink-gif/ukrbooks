@@ -3,7 +3,7 @@
   "slug": "bungalo-10240",
   "title": "Бунгало",
   "author": "Сара Джіо",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "|Веб-сайт= |освіта= Сара Джіо (англ. Sarah Jio; народилася 18 лютого 1978, острів Бейнбрідж, США) — американська письменниця, авторка сентиментальних романів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

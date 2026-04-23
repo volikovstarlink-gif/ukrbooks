@@ -3,7 +3,7 @@
   "slug": "tayemna-brehnya-vdovinogo-cholovika-18577",
   "title": "Таємна брехня вдовиного чоловіка",
   "author": "Фріда МакФадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Психологічний трилер про вдову, яка наймає помічницю та незабаром розуміє, що та приховує небезпечні таємниці. Розгортається гра маніпуляцій та взаємних звинувачень, де жодна героїня не говорить правду. Напружений детектив із несподіваною розв'язкою.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

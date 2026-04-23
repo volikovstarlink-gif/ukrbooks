@@ -3,7 +3,7 @@
   "slug": "galapagos-24489",
   "title": "Галапагос",
   "author": "Курт Воннегут",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Курт Во́ннеґут-молодший (англ. Kurt Vonnegut, Jr.; 11 листопада 1922, Індіанаполіс — 11 квітня 2007, Нью-Йорк) — американський письменник-фантаст. Вважається одним з найбільш значних американських письменників XX століття.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

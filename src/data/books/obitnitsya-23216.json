@@ -3,7 +3,7 @@
   "slug": "obitnitsya-23216",
   "title": "Обітниця",
   "author": "Володимир Лис",
-  "category": "ukr-literature",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Володимир Савович Лис (нар. 26 жовтня 1950, хутір поблизу села Згорани, Волинська область) — український журналіст, драматург, письменник. Відомий також як народний синоптик.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

@@ -14,7 +14,7 @@
       "format": "epub",
       "filename": "nich-koli-oliviya-vpala-13060__Nich_koly_Oliviia_vpala.epub",
       "fileDir": "Н",
-      "sizeMb": 0.0
+      "sizeMb": 0
     },
     {
       "format": "fb2",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "foreign-language"
 }

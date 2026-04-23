@@ -3,7 +3,7 @@
   "slug": "korporatsiya-idiotiv-7364",
   "title": "Корпорація ідіотів",
   "author": "Лариса Денисенко",
-  "category": "ukr-literature",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Лари́са Володи́мирівна Денисе́нко (нар. 17 червня 1973, Київ) — українська письменниця, адвокатка, правозахисниця, телеведуча, радіоведуча, членкиня Українського ПЕН.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

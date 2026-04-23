@@ -3,7 +3,7 @@
   "slug": "usi-sistemi-chervoni-2870",
   "title": "Усі системи червоні",
   "author": "Марта Велс",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Премію «Г'юго» у категорії «Найкраща повість» (англ. Hugo Award for Best Novella) присуджують щорічно під час церемонії відзначення найкращих досягнень у галузі наукової фантастики та фентезі на черговому з'їзді Світового товариства наукової фантастики (англ. Worldcon / The World Science Fiction Convention).",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

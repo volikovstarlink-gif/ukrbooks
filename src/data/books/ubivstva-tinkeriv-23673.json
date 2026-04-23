@@ -3,7 +3,7 @@
   "slug": "ubivstva-tinkeriv-23673",
   "title": "Убивство Тінкерів",
   "author": "Кен Бруен",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Детективний роман про приватного сищика Джека Тейлора, який розслідує вбивство членів ірландської циганської общини в Голвеї. Жорстокий, напружений твір із чорним гумором та син-агогою до соціального відчуження. Першою в серії про героя, що вижив занадто багато катастроф.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

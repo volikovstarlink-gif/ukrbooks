@@ -3,7 +3,7 @@
   "slug": "korolivstvo-proklyatih-33801",
   "title": "Керрі Маніскалко_Королівство Проклятих",
   "author": "Невідомий автор",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "Це переклад фентезі-романтики Керрі Маніскалко про чаклунку, яка потрапляє в темне королівство і закохується в його магічного принца. Суміш готичної атмосфери, романтичних поворотів та магічних битв.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

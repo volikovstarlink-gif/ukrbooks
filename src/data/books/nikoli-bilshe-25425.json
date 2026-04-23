@@ -3,7 +3,7 @@
   "slug": "nikoli-bilshe-25425",
   "title": "Ніколи більше",
   "author": "Пенелопа Дуглас",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Майкл Кірк Дуглас (англ. Michael Kirk Douglas; нар. 25 вересня 1944, Нью-Брансвік, Нью-Джерсі, США) — американський актор та кінопродюсер; лауреат премії «Оскар» як «найкращий актор» (фільм «Волл-Стріт», 1987).",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

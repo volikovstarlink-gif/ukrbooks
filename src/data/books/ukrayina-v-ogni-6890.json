@@ -3,7 +3,7 @@
   "slug": "ukrayina-v-ogni-6890",
   "title": "Україна в огні",
   "author": "Олександр Довженко",
-  "category": "ukr-literature",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Повний текст \"Україна в огні\" (автор: Довженко Олександр Петрович) з Бібліотеки Української Літератури УкрЛіб",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

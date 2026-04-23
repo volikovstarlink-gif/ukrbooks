@@ -3,7 +3,7 @@
   "slug": "ne-zakohani-23250",
   "title": "Не закохані",
   "author": "Алі Гейзелвуд",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Два соціально незручних науковці видають себе за пару, щоб уникнути небажаних запитань. Пристрасна любовна історія з гумором та хімією, де закоханість виникає всупереч плану.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

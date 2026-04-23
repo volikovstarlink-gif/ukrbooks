@@ -3,7 +3,7 @@
   "slug": "napishu-dlya-tebe-27066",
   "title": "Напишу для тебе",
   "author": "Тіллі Коул",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Тіллі Коул ((англ.)Tillie Cole) — англійська письменниця-романістка, найбільш відома книгами young adult. Найпопулярніші твори авторки — «Тисяча пам'ятних поцілунків», Eternally North, Thoroughly Whipped, A Wish For Us. Дві серії Тіллі Коул, що найчастіше перекладають, — Boy Kisses та Sweet Home.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

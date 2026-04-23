@@ -3,7 +3,7 @@
   "slug": "vikrivlena-viddanist-27369",
   "title": "Викривлена Відданість",
   "author": "Кора Рейлі",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Історія про дівчину, яка борається з власними чуттями й суспільними очікуваннями, коли зустрічає людину, котра змінює її світ. Любовна лінія переплітається з розмисленнями про лояльність, яка може бути як благороднаю, так і деструктивною.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

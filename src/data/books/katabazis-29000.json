@@ -3,7 +3,7 @@
   "slug": "katabazis-29000",
   "title": "Катабазис, Р. Кванг",
   "author": "Unknown",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "Науково-фантастичний роман про спуск у підземні світи, де дослідники стикаються з альтернативною цивілізацією. Кванг поєднує класичні мотиви путешествій у невідомість з сучасними філософськими питаннями про природу реальності та людського свідомості.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

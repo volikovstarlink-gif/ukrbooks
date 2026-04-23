@@ -3,7 +3,7 @@
   "slug": "tri-tayemnitsi-velikogo-ozera-7916",
   "title": "Три таємниці Великого озера",
   "author": "Наталя Тисовська",
-  "category": "ukr-literature",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "На дні Великого озера криються три секрети, які змінюють долі трьох поколінь. Наталя Тисовська переплітає історії любові, втрати та прощення з містичними мотивами водної стихії. Психологічна драма розгортається в атмосфері напруги між тягою до правди й небезпекою її розкриття.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

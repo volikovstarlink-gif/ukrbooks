@@ -1,7 +1,7 @@
 import { cache } from 'react';
 import booksIndex from '@/data/books-index.json';
 import categoriesData from '@/data/categories.json';
-import type { Book, Category, BooksIndex } from '@/types/book';
+import type { Book, Category, Subcategory, BooksIndex } from '@/types/book';
 
 const rawIndex = booksIndex as BooksIndex;
 const categories = categoriesData as Category[];
@@ -89,6 +89,22 @@ export const getAllBookSlugs = cache((): string[] =>
   index.books.map((b) => b.slug)
 );
 
+/** Old flat slugs → new top-level slugs mapping.
+ *  Used for 301 redirects when SEO-indexed old URLs land on the site. */
+export const OLD_TO_NEW_CATEGORY: Record<string, string> = {
+  'ukr-literature': 'literature-ukr',
+  'fiction': 'fantasy',
+  'detective': 'literature-foreign',
+  'romance': 'literature-foreign',
+  'classic': 'classics',
+  'business': 'business-science',
+  'psychology': 'self-help',
+  'science': 'business-science',
+  'children': 'children',
+  'history': 'history',
+  'other': 'other',
+};
+
 export const getAllCategories = cache((): Category[] =>
   categories.sort((a, b) => a.order - b.order)
 );
@@ -96,6 +112,34 @@ export const getAllCategories = cache((): Category[] =>
 export const getCategoryBySlug = cache((slug: string): Category | undefined =>
   categories.find((c) => c.slug === slug)
 );
+
+export const getSubcategory = cache(
+  (categorySlug: string, subSlug: string): Subcategory | undefined =>
+    categories.find((c) => c.slug === categorySlug)?.subcategories?.find((s) => s.slug === subSlug)
+);
+
+export const getBooksBySubcategory = cache(
+  (categorySlug: string, subSlug: string): Book[] =>
+    index.books.filter((b) => b.category === categorySlug && b.subcategory === subSlug)
+);
+
+/** Compute per-subcategory book counts for the tree nav. */
+export const getCategoriesWithCounts = cache((): Category[] => {
+  return categories
+    .map((cat) => {
+      const catBooks = index.books.filter((b) => b.category === cat.slug);
+      const subs = (cat.subcategories ?? []).map((s) => ({
+        ...s,
+        bookCount: catBooks.filter((b) => b.subcategory === s.slug).length,
+      }));
+      return {
+        ...cat,
+        bookCount: catBooks.length,
+        subcategories: subs,
+      };
+    })
+    .sort((a, b) => a.order - b.order);
+});
 
 export const getTotalBooks = (): number => index.total;
 

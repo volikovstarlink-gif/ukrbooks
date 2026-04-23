@@ -3,7 +3,7 @@
   "slug": "do-tebe-31180",
   "title": "До тебе",
   "author": "Сергій Постніков",
-  "category": "ukr-literature",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Авторська збірка Сергія Постнікова, яка осмислює український досвід крізь призму особистого звернення. Поетичні й прозові фрагменти переплітаються з роздумами про історичну пам'ять та ідентичність.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

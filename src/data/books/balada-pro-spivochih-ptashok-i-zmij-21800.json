@@ -3,7 +3,7 @@
   "slug": "balada-pro-spivochih-ptashok-i-zmij-21800",
   "title": "Балада про співочих пташок і змій",
   "author": "Сюзанна Коллінз",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Балада про співочих пташок і змій (англ. The Ballad of songbirds and snakes) — книга-приквел трилогії «Голодні ігри» американської письменниці Сюзанни Коллінз.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

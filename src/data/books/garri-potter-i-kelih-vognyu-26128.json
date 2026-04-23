@@ -3,7 +3,7 @@
   "slug": "garri-potter-i-kelih-vognyu-26128",
   "title": "Гаррі Поттер і Келих Вогню",
   "author": "Джоан Кетлін Ролінґ",
-  "category": "children",
+  "category": "fantasy",
   "language": "uk",
   "year": 2000,
   "description": "Попереду у Гаррі Поттера четвертий рік навчання у Гоґвортській школі чарів і чаклунства, на яку несподівано насувається дивовижна подія — Тричаклунський турнір. І, на жаль, не лише він…",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

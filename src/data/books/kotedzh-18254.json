@@ -3,7 +3,7 @@
   "slug": "kotedzh-18254",
   "title": "D:\\wwwroot\\cleverpdf-web\\14106661\\Котедж (1).epub",
   "author": "Unknown",
-  "category": "fiction",
+  "category": "other",
   "language": "en",
   "year": null,
   "description": "Психологічний триллер про родину, що переїжджає в котедж біля лісу. Атмосфера дискомфорту та відчуття спостереження наростає поступово, криючи у собі більш темні таємниці мешканців будинку та його історії.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

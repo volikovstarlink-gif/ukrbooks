@@ -3,7 +3,7 @@
   "slug": "ariadna-34422",
   "title": "Аріадна",
   "author": "Дженніфер Сейнт",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Дженніфер Сейнт — британська письменниця, відома тим, що переповідає історії жіночих персонажок із грецької міфології. На думку Chicago Review of Books «Електра» «оживила чарівних жінок із грецького міфу». У Paste її роман «Атланта» описали як «схожий на добрячий ковток свіжого повітря».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

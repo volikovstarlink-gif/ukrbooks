@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "ne-moya-istoriya-32629__Ne_moia_istoriia__ne-moya-istoriya.fb2",
       "fileDir": "Н",
-      "sizeMb": 2.0
+      "sizeMb": 2
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

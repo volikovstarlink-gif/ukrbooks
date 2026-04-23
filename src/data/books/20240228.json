@@ -3,7 +3,7 @@
   "slug": "20240228",
   "title": "Ярмарок суєти",
   "author": "Вільям Текерей",
-  "category": "classic",
+  "category": "other",
   "language": "uk",
   "year": 2023,
   "description": "«Я́рмарок суєти́» («Ярмарок марнославства», англ. Vanity Fair: A Novel without a Hero) — роман англійського письменника Вільяма Мейкпіса Текерея про епоху Наполеонівських війн, який публікувався в сатиричному журналі «Punch» з січня 1847 по липень 1848 року.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

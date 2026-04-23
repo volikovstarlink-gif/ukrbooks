@@ -3,7 +3,7 @@
   "slug": "zlochinna-tsivilizatsiya-10774",
   "title": "Злочинна цивілізація",
   "author": "Роберт Шеклі",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Повість «Злочинна цивілізація» з разючою силою показує, до яких згубних наслідків — і для суспільства в цілому, й для людини —призводить конформізм, беззастережна підтримка панівної ідеології та її слухняної виконавиці — урядової політики.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

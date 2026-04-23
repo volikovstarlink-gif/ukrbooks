@@ -3,7 +3,7 @@
   "slug": "diasp-21926",
   "title": "Лисичка, Котик і Півник",
   "author": "Лисичка, Котик і Півник",
-  "category": "children",
+  "category": "other",
   "language": "uk",
   "year": 1919,
   "description": "«Казка про котика і півника» — українська народна казка. В казці розповідається про хитру Лисичку, яка викрала Півника і як його побратим Котик рятував.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

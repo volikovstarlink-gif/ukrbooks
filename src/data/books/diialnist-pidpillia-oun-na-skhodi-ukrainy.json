@@ -3,7 +3,7 @@
   "slug": "diialnist-pidpillia-oun-na-skhodi-ukrainy",
   "title": "Arch diialnist pidpillia oun na skhodi ukrainy",
   "author": "",
-  "category": "history",
+  "category": "other",
   "language": "uk",
   "year": 0,
   "description": "Документальна розповідь про діяльність підпільної мережі ОУН на південному сході України. Книга базується на архівних матеріалах та спогадах учасників руху опору радянській окупації 1940-50-х років.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }

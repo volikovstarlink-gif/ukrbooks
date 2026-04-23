@@ -3,7 +3,7 @@
   "slug": "mono-no-avare-23252",
   "title": "Моно-но аваре",
   "author": "Кен Лю",
-  "category": "fiction",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Премію «Г'юґо» у категорії «Найкраще оповідання» (англ. Hugo Award for Best Short Story) присуджують щорічно за коротку повість в жанрі наукової фантастики чи фентезі, які були видані англійською мовою (оригінал або переклад) протягом попереднього календарного року.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

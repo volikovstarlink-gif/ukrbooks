@@ -3,7 +3,7 @@
   "slug": "some-pravilo-charivnika-abo-stovpi-tvorinnya-20645",
   "title": "Сьоме Правило Чарівника, або Стовпи Творіння",
   "author": "Террі Гудкайнд",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2013,
   "description": "Зло стає все сильніше, все могутніше. Занадто чорні людські душі, занадто багато хто мріє про владу і багатство — і готові, в ім'я досягнення власної мети, служити будь-кому. Навіть — соноходцю Джегану, чия армія захоплює все нові й нові землі — і майже не зустрічає опору. Хто виявиться настільки чистий душею, що не повірить в принадні обіцянки Тьми? Тільки — юна сестра легендарного Річарда Сайфера Дженнсен. Єдина, кому вдалося вислизнути від клинків найманих убивць. Та, перед якою лежить повний небезпек шлях у серце Д'хари — бо тільки там зможе вона пізнати Сьоме Правило Чарівника.",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "some-pravilo-charivnika-abo-stovpi-tvorinnya-20645__Some_Pravylo_Charivnyka_abo_Stovpy_Tvorinnia__some-pravilo-charivnika-abo-stovpi-tvorinnya.fb2",
       "fileDir": "С",
-      "sizeMb": 2.0
+      "sizeMb": 2
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

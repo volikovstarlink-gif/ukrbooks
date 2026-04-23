@@ -3,7 +3,7 @@
   "slug": "litsediyi-34921",
   "title": "Лицедії",
   "author": "Сомерсет Моем",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2020,
   "description": "З життя театру Видання 1967 р.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

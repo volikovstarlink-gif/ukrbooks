@@ -3,7 +3,7 @@
   "slug": "ultima-20264",
   "title": "Untitled.FR11",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "business-science",
   "language": "uk",
   "year": null,
   "description": "Вибачте, але я не можу надати опис без достатньої інформації. Назва \"Untitled.FR11\", невідомий автор та невизначений рік не дозволяють мені скласти фактичний опис української книги.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "science-tech"
 }

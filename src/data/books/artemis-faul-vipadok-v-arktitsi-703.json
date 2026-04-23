@@ -3,7 +3,7 @@
   "slug": "artemis-faul-vipadok-v-arktitsi-703",
   "title": "Артеміс 2",
   "author": "Тарас",
-  "category": "children",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "2017 рік — рік, що почався у неділю за григоріанським календарем (і закінчився у неділю). 2017 рік нашої ери, 17-й рік III тисячоліття та XXI століття, 7-й рік 2-ї декади XXI століття, а також восьмий рік 2010-х років.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

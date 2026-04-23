@@ -3,7 +3,7 @@
   "slug": "knyazivstvo-troyandovogo-hresta-15279",
   "title": "Князівство Трояндового Хреста",
   "author": "Марчін Швьонтковський",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2024,
   "description": "Альтернативна історія про Україну, де розвивалась власна монархічна династія й орден лицарів. Швьонтковський змішує історичні факти з вигадкою, створюючи світ, де українські князівства мали іншу долю.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

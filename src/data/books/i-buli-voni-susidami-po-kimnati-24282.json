@@ -3,7 +3,7 @@
   "slug": "i-buli-voni-susidami-po-kimnati-24282",
   "title": "І були вони сусідами по кімнаті",
   "author": "Пейдж Поварс",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Розповідь про життя двох жінок у гуртожитку для американських студенток у 1960-х роках, що стала свідченням епохи соціальних змін та боротьби за рівноправність.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

@@ -3,7 +3,7 @@
   "slug": "tsarska-rokirovka-17613",
   "title": "Царська рокіровка",
   "author": "Мельхіор Медар",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2012,
   "description": "Детективний роман французького письменника про шпигунські інтриги в царській Росії. Загадкові вбивства, політичні змови й розслідування переплітаються в атмосфері напруги й недовіри. Динамічна фабула з несподіваними поворотами сюжету.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

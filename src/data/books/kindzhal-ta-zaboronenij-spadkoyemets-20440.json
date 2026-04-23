@@ -3,7 +3,7 @@
   "slug": "kindzhal-ta-zaboronenij-spadkoyemets-20440",
   "title": "Кинджал та заборонений спадкоємець",
   "author": "Емілія Джей",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Історичний роман про боротьбу за владу в Оттоманській імперії, де переплітаються особисті амбіції й державні інтриги. Головна героїня опиняється в центрі конфлікту між спадкоємцями престолу, змушена вибирати між лояльністю і виживанням.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

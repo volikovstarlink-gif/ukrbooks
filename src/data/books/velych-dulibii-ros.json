@@ -3,7 +3,7 @@
   "slug": "velych-dulibii-ros",
   "title": "Arch velych dulibii ros",
   "author": "",
-  "category": "history",
+  "category": "other",
   "language": "uk",
   "year": 0,
   "description": "Давньоруський літопис про князівство Волинь-Галичини. Текст розповідає про розселення дулібів та їхню роль у формуванні ранньосередньовічних держав на теренах України. Важливе джерело для вивчення етногенезу слов'янських племен IX–X століть.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }

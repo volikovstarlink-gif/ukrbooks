@@ -3,7 +3,7 @@
   "slug": "pidstupnij-cholovik-31504",
   "title": "Підступний чоловік",
   "author": "Катаріна Маура",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романтичний триллер про жінку, яка впізнає в новому сусідові людину зі свого болісного минулого. Коли той починає чарувати її та навколишніх, вона мусить вирішити: довіритися чуттям чи слухати голос інстинкту самозбереження.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

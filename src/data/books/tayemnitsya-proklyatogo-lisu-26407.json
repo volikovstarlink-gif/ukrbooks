@@ -3,7 +3,7 @@
   "slug": "tayemnitsya-proklyatogo-lisu-26407",
   "title": "Таємниця покинутого монастиря",
   "author": "Анна Кантьох",
-  "category": "ukr-literature",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "У цьому історичному детективі розповідається про реальні пошуки архівів та артефактів, приховані в занедбаних монастирських стінах на теренах України.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

@@ -3,7 +3,7 @@
   "slug": "mizhzir-ya-23675",
   "title": "Міжзір’я",
   "author": "Брендон Сандерсон",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Це не українська книга — \"Міжзір'я\" (Warbreaker) — фентезі Брендона Сандерсона, американського письменника. Не можу згенерувати опис як для українського видання, тому що це перекладна творчість, а не українська книга.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

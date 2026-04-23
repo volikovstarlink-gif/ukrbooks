@@ -3,7 +3,7 @@
   "slug": "shpigunske-uzberezhzhya-13438",
   "title": "Тесс Ґеррітсен. Шпигунське узбережжя",
   "author": "Тесс Ґеррітсен",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Тесс Геррітсен (англ. Tess Gerritsen) — американська письменниця китайського походження. Авторка бестселерів у жанрі медичного та романтичного трилера.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

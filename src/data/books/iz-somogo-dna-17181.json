@@ -3,7 +3,7 @@
   "slug": "iz-somogo-dna-17181",
   "title": "із сьомого дна",
   "author": "Невідомий автор",
-  "category": "ukr-literature",
+  "category": "business-science",
   "language": "uk",
   "year": null,
   "description": "Ярослав Іванович Яріш (нар. 24 лютого 1981(19810224), село Ралівка, Самбірський район, Львівська область) — український письменник, актор, сценарист. Автор сценарію фільму «Екс».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "science-tech"
 }

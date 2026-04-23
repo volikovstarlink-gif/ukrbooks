@@ -3,7 +3,7 @@
   "slug": "prekrasna-chaklunka-4449",
   "title": "Прекрасна чаклунка",
   "author": "Владімір Нефф",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Прекрасна чаклунка» (1979) — завершальна частина історично-пародійного триптиха про пригоди Петра Куканя (перша частина — «У королеви немає ніг», друга — «Перстень Борджіїв») чеського письменника В. Неффа (1909–1983).",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

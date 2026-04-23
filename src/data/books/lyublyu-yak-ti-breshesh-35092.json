@@ -3,7 +3,7 @@
   "slug": "lyublyu-yak-ti-breshesh-35092",
   "title": "Люблю як ти брешеш",
   "author": "Ліза Ангер",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Роман про складні взаємини пари, де обман стає способом існування. Персонажі балансують між правдою та вигадкою, шукаючи сенс у розпадаючихся зв'язках. Історія про те, як люди придумують один одного замість того, щоб дійсно збагнути.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

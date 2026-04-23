@@ -3,7 +3,7 @@
   "slug": "vladko-idut-robotari",
   "title": "Ідуть роботарі",
   "author": "Володимир Владко",
-  "category": "ukr-literature",
+  "category": "fantasy",
   "language": "uk",
   "year": 1936,
   "description": "Відомий фантастичний роман В. Владка в редакції 1936 року, що пізніше видавався під назвою «Залізний бунт».",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "fantasy"
 }

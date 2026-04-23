@@ -50,3 +50,11 @@ next-env.d.ts
 .vercel
 dev_server.log
 .next/dev/
+scripts/classify-queue/
+scripts/classify-results/
+scripts/__pycache__/
+scripts/reclassify-ai-*.json
+scripts/reclassify-ai-run.log
+src/data/*.backup
+src/data/*.pre-*
+src/data/uk-books-metadata.json*

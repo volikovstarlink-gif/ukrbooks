@@ -3,7 +3,7 @@
   "slug": "kola-na-vodi-9589",
   "title": "Кола на воді",
   "author": "Олена Печорна",
-  "category": "ukr-literature",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2013,
   "description": "Анатолій упевнений, що його страждання зменшить тільки справедливий суд над Звіром-маніяком, який убив його доньку. Наміри нещасного батька здійснює вода міського озера, яка незбагненним чином затягує злочинця в свої глибини. Здавалося б, справедливість встановлено, але Анатолій дізнається, що Звір-убивця і сам був жертвою, і вирішить спокутувати цей гріх…",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "kola-na-vodi-9589__Kola_na_vodi__kola-na-vodi.fb2",
       "fileDir": "К",
-      "sizeMb": 2.0
+      "sizeMb": 2
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

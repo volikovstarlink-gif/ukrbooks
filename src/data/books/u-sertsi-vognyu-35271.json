@@ -3,7 +3,7 @@
   "slug": "u-sertsi-vognyu-35271",
   "title": "У серці вогню",
   "author": "Дін Кунц",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Дін Рей Кунц (англ. Dean Ray Koontz; 9 липня 1945, Пенсільванія, США) — американський письменник у жанрі містики, трилеру та жахів. Багато його книжок потрапили у список бестселерів Нью-Йорк таймс. В ранні роки своєї творчості писав під декількома псевдонімами: Девід Акстон (англ. David Axton), Лі Ніколас (англ. Leigh Nichols), Браян Кофей (англ. Brian Coffey) та ін.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

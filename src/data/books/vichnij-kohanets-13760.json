@@ -3,7 +3,7 @@
   "slug": "vichnij-kohanets-13760",
   "title": "Вічний коханець",
   "author": "Дж.Р. Уорд",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Цей список незвичайних смертей включає унікальні або надзвичайно рідкісні обставини смерті, зареєстровані в історії, які зазначаються як незвичні в багатьох джерелах.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

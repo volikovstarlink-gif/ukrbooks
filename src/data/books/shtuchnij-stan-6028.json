@@ -3,7 +3,7 @@
   "slug": "shtuchnij-stan-6028",
   "title": "Штучний стан",
   "author": "Марта Велс",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Друга книга серії Murderbot Diaries (Щоденники робота-кіллера). Murderbot знайомиться з новими людьми і допомагає їм вибратися з скрутного становища.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

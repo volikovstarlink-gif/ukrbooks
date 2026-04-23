@@ -3,7 +3,7 @@
   "slug": "moskoviada-1731",
   "title": "Московіада",
   "author": "Юрій Андрухович",
-  "category": "ukr-literature",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 1992,
   "description": "«Я прожив у Москві майже два роки, і то було чи не найщасливіші мої часи. Мабуть, саме з цієї причини в моєму романі стільки злості й чорної невдячності. Я досі не знаю, що в ньому більше важіть: втрачені можливості чи здобуті примари.»",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

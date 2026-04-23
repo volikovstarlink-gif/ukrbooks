@@ -3,7 +3,7 @@
   "slug": "sprava-pro-19-royaliv-7017",
   "title": "Справа про 19 роялів",
   "author": "Еміл Вахек",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2009,
   "description": "Гострий детективний сюжет твору спроектований на широку картину політичного життя Чехословаччини напередодні розчленування і загарбання її гітлерівською Німеччиною.",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "sprava-pro-19-royaliv-7017__Sprava_pro_19_roialiv__sprava-pro-19-royaliv.fb2",
       "fileDir": "С",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

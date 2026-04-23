@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "kleopatra-34905__Kleopatra__kleopatra.fb2",
       "fileDir": "К",
-      "sizeMb": 15.0
+      "sizeMb": 15
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

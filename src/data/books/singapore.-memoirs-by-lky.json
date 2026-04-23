@@ -3,7 +3,7 @@
   "slug": "singapore.-memoirs-by-lky",
   "title": "Singapore story by LKY volume ONE",
   "author": "LKY",
-  "category": "history",
+  "category": "other",
   "language": "uk",
   "year": 2011,
   "description": "Ukrainian translation of the book by the great statesman LKY (L ee Kuan Yew) who tells his story of building The Wonder in the East: mega successful State of Singapore.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }

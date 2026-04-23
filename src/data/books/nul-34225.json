@@ -3,7 +3,7 @@
   "slug": "nul-34225",
   "title": "Нуль",
   "author": "Щепан Твардох",
-  "category": "classic",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "У центрі роману — крах австро-угорської імперії після Першої світової війни через очима людей, які втратили império, статус і впевненість у майбутньому.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

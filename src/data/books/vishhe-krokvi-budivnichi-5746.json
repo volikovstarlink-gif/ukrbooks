@@ -3,7 +3,7 @@
   "slug": "vishhe-krokvi-budivnichi-5746",
   "title": "Вище крокви, будівничі",
   "author": "Джером Девід Селінджер",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Повість «Вище крокви, будівничі» належить до циклу творів про родину Глассів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

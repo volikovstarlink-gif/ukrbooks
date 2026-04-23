@@ -3,7 +3,7 @@
   "slug": "shovanka-19517",
   "title": "Схованка",
   "author": "Пенелопа Дуглас",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Пенелопа Дуглас (англ. Penelope Douglas; нар. 1 лютого 1977) - сучасна американська письменниця, авторка бестселерів за версією New York Times, USA Today та Wall Street Journal. Працює в жанрі сучасної любовної та романтичної прози.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

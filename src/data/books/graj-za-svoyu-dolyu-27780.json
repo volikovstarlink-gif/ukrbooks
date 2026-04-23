@@ -3,7 +3,7 @@
   "slug": "graj-za-svoyu-dolyu-27780",
   "title": "Грай за свою долю",
   "author": "Unknown",
-  "category": "fiction",
+  "category": "other",
   "language": "en",
   "year": null,
   "description": "Драматичний твір про боротьбу за власну судьбу в умовах соціальних обмежень. Персонажі мають зробити складні моральні вибори, які визначать їхнє майбутнє. Напружена фабула розкриває темпераменти людей, схожих на нас.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

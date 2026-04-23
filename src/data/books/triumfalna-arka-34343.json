@@ -3,7 +3,7 @@
   "slug": "triumfalna-arka-34343",
   "title": "Тріумфальна арка",
   "author": "Еріх Марія Ремарк",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 1945,
   "description": "Роман «Тріумфальна арка» , що оповідає про життя антифашистів - емігрантів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

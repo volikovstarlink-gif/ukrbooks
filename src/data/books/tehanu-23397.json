@@ -3,7 +3,7 @@
   "slug": "tehanu-23397",
   "title": "Техану",
   "author": "Урсула Ле Ґуїн",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "ISBN: 966-692-638-5 Урсула Ле Ґуїн, “Техану” Тернопіль, Навчальна книга – Богдан, 2005 Tehanu: The Last Book of Earthsea by Ursula K. Le Guin, 1990 Переклад з англійської Анатолія Сагана ---------- Бібліотека світової літератури для дітей у 100 томах \"СВІТОВИД\" заснована 2004 року",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

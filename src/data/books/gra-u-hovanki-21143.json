@@ -3,7 +3,7 @@
   "slug": "gra-u-hovanki-21143",
   "title": "Гра у хованки",
   "author": "Мері Бертон",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Детективний роман про розслідування вбивства, де кожний підозрюваний має власну таємницю. Напружена гра між детективом і злочинцем розгортається крізь лабіринт неправдивих показань та прихованих мотивів.",
@@ -14,7 +14,7 @@
       "format": "epub",
       "filename": "gra-u-hovanki-21143__Hra_u_khovanky.epub",
       "fileDir": "Г",
-      "sizeMb": 2.0
+      "sizeMb": 2
     },
     {
       "format": "fb2",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

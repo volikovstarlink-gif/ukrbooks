@@ -3,7 +3,7 @@
   "slug": "spivrobitnik-15920",
   "title": "Співробітник",
   "author": "Фріда МакФадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Молода жінка приймає роботу помічниці в успішного письменника, але незабаром розуміє, що потрапила в небезпечну гру. Детективний трилер про маніпуляцію та таємниці, які можуть коштувати життя.",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "spivrobitnik-15920__Spivrobitnyk__spivrobitnik.fb2",
       "fileDir": "С",
-      "sizeMb": 4.0
+      "sizeMb": 4
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

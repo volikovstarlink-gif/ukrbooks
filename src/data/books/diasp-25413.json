@@ -3,7 +3,7 @@
   "slug": "diasp-25413",
   "title": "Савицька І. Денник Ромця",
   "author": "Іванна Савицька",
-  "category": "ukr-literature",
+  "category": "other",
   "language": "uk",
   "year": 1963,
   "description": "Іва́нна Олекса́ндрівна Сави́цька (до шлюбу Трешневська; 14 березня 1914, Опарівка, повіт Стрижів, Галичина — 2011) — українська дитяча письменниця. З 1949 жила у США.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

@@ -3,7 +3,7 @@
   "slug": "kniga-yubileyev-ili-maloye-bytiye-1895",
   "title": "Arch Kniga Yubileyev ili Maloye Bytiye 1895",
   "author": "",
-  "category": "history",
+  "category": "other",
   "language": "uk",
   "year": 0,
   "description": "Архівна книга юбілеїв з 1895 року — документальна пам'ятка, що записує важливі дати й події з життя громадських діячів та інституцій. Джерело для дослідження соціальної історії Російської імперії та українських земель цієї доби.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }

@@ -3,7 +3,7 @@
   "slug": "strazhi-poryadku-23676",
   "title": "Стражі порядку",
   "author": "Кен Бруен",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Чорний крайовий кримінал про поліцейських Дубліна, які борються з організованою злочинністю та власними демонами. Бруен змішує ірландський сленг із жорстким реалізмом, розглядаючи корупцію в системі насильства.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

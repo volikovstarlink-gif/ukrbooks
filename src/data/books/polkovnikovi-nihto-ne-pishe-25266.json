@@ -3,7 +3,7 @@
   "slug": "polkovnikovi-nihto-ne-pishe-25266",
   "title": "Полковникові ніхто не пише",
   "author": "Габриэль Гарсия Маркес",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Магічний реалізм латиноамериканського майстра розповідає про самотність старого полковника, що чекає пенсію, яка ніколи не приходить. Його безнадійна чекання в розорених місцевості поринає в абсурдність війни та людської гідності, розчавленої державою.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

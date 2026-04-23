@@ -3,7 +3,7 @@
   "slug": "istoriya-ukrainy-1011",
   "title": "Arch istoriya ukrainy 1011",
   "author": "",
-  "category": "history",
+  "category": "other",
   "language": "uk",
   "year": 0,
   "description": "Архівна історія України з 1011 року висвітлює період формування ранньомедієвальної державності та культури на теренах майбутньої нації. Текст охоплює вирішальні моменти розвитку суспільства, релігійні зміни та становлення політичних структур кіївської держави.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }

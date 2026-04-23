@@ -3,7 +3,7 @@
   "slug": "borisya-za-svoye-sertse-27758",
   "title": "Unknown",
   "author": "Стелла Так",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "«Стелла Маріс» (англ. Stella Maris) — роман американського письменника Кормака Маккарті, опублікований 6 грудня 2022 року. Це останній роман автора, виданий за його життя. Маккарті помер 13 червня 2023 року. Книга з’явилася друком через місяць після виходу роману «Пасажир».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

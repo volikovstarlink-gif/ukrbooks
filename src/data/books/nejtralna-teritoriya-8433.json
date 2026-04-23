@@ -3,7 +3,7 @@
   "slug": "nejtralna-teritoriya-8433",
   "title": "Нейтральна територія",
   "author": "Андрій Кокотюха",
-  "category": "ukr-literature",
+  "category": "fantasy",
   "language": "uk",
   "year": 2002,
   "description": "Містичний трилер, героям якого доводиться робити непростий вибір — змиритись з Дияволом, який збирається ожити в їх тілі, або свідомо прийняти смерть на Нейтральній території.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

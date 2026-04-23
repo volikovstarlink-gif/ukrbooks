@@ -3,7 +3,7 @@
   "slug": "rujnivnitsya-fortets-14987",
   "title": "Руйнівниця фортець",
   "author": "Марчін Швьонтковський",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2024,
   "description": "Польський письменник створює динамічний роман про руйнування фортець та людські долі у часи великих змін. Історія поєднує військові конфлікти з інтимними портретами персонажів, які опиняються на перехресті своїх бажань і історичних обставин.",
@@ -14,7 +14,7 @@
       "format": "epub",
       "filename": "rujnivnitsya-fortets-14987__Ruinivnytsia_fortets.epub",
       "fileDir": "Р",
-      "sizeMb": 1.0
+      "sizeMb": 1
     },
     {
       "format": "fb2",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

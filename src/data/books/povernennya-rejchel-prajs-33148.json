@@ -3,7 +3,7 @@
   "slug": "povernennya-rejchel-prajs-33148",
   "title": "Повернення Рейчел",
   "author": "Невідомий автор",
-  "category": "detective",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "Детективний роман про розслідування зникнення жінки на ім'я Рейчел. Сюжет розгортається між спогадами про минуле та сучасними подіями, розкриваючи складні стосунки персонажів. Напруга зростає, коли відкриваються нові докази та мотиви злочину.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

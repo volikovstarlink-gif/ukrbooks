@@ -3,7 +3,7 @@
   "slug": "shlyah-nevidomogo-34545",
   "title": "Шлях невідомого",
   "author": "Качуровський Ігор",
-  "category": "ukr-literature",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Повість захоплююче оповідає про життєві перипетії молодого українського інтеліґента, який у роки Другої світової війни опинився між пекельними жорнами двох демонічних диктатур, сталінської й гітлерівської.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

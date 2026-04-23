@@ -3,7 +3,7 @@
   "slug": "spotvoreni-igri-16673",
   "title": "Спотворені ігри",
   "author": "Ана Хуанг",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Це роман про складні стосунки, владу та гру в сокири на тлі світу корпоративних інтриг. Головна героїня і таємничий мільйардер опиняються у взаємній грі спокус і маніпуляцій, де кожен намагається переграти іншого.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

@@ -3,7 +3,7 @@
   "slug": "provulok-svitlyachkiv-31992",
   "title": "Untitled",
   "author": "Неизвестный автор",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Не можу створити опис для невизначеного джерела без назви, автора і року видання. Потрібні конкретні дані про книгу, щоб написати точний і фактичний опис українською мовою.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

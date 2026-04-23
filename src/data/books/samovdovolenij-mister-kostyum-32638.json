@@ -3,7 +3,7 @@
   "slug": "samovdovolenij-mister-kostyum-32638",
   "title": "Самовдоволений містер костюм",
   "author": "Ві Кіланд Пенелопа Уорд",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Романтична комедія про зустріч самозакоханого бізнесмена та жінки, яка не терпить його манер. Між ними розгоряється конфлікт, змішаний з неспільною атракцією, що поступово змінює обох персонажів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

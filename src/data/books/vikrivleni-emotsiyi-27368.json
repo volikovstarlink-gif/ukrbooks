@@ -3,7 +3,7 @@
   "slug": "vikrivleni-emotsiyi-27368",
   "title": "Unknown",
   "author": "Кора Рейлі",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "en",
   "year": null,
   "description": "Без назви та року видання складно дати коректний опис. Можеш уточнити:\n- Точну українську або оригінальну назву?\n- Рік публікації?\n- Видавництво або інші деталі про книгу?",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

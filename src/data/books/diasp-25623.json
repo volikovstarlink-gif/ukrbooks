@@ -3,7 +3,7 @@
   "slug": "diasp-25623",
   "title": "Історія України для дітей шкільного віку",
   "author": "Історія України для дітей шкільного віку",
-  "category": "children",
+  "category": "history",
   "language": "uk",
   "year": 1972,
   "description": "Zirka Menzatyuk (Ukrainian: Зірка Захаріївна Мензатюк; 21 October 1954) is a Ukrainian children's book author and journalist; from 1995 the Member of National Writers' Union of Ukraine. She lives and works in Kyiv.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "ukraine"
 }

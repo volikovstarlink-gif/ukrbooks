@@ -3,7 +3,7 @@
   "slug": "brantsi-moroku-13267",
   "title": "Бранці мороку",
   "author": "Наталка Шевченко",
-  "category": "ukr-literature",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2007,
   "description": "Коронація слова — міжнародний літературний конкурс романів, п'єс, кіносценаріїв, пісенної лірики та творів для дітей. Сьома церемонія нагородження відбулася 7 червня 2007 у приміщенні театра ім. Івана Франка у Києві.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

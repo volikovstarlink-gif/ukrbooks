@@ -3,7 +3,7 @@
   "slug": "vse-korolivske-vijsko-31936",
   "title": "Все королівське військо",
   "author": "Роберт Пенн Уоррен",
-  "category": "classic",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Ро́берт Пенн Во́ррен (англ. Robert Penn Warren; 24 квітня 1905 — 15 вересня 1989) — американський письменник, літературний критик і поет. Представник південної літературної школи, один з фундаторів та активних учасників Південного відродження.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

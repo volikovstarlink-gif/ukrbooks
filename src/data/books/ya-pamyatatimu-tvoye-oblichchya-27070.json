@@ -3,7 +3,7 @@
   "slug": "ya-pamyatatimu-tvoye-oblichchya-27070",
   "title": "Я пам'ятатиму твоє обличчя",
   "author": "Поліна Кулакова",
-  "category": "detective",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Полі́на Андрі́ївна Кулако́ва (нар. 6 грудня 1989, смт Тіксі, Якутська АРСР) — сучасна українська письменниця, авторка книжок у жанрі трилер/детектив.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

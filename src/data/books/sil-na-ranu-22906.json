@@ -3,7 +3,7 @@
   "slug": "sil-na-ranu-22906",
   "title": "Cіль на рану",
   "author": "Сієрра Сімоне",
-  "category": "romance",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Історія секс-скандалу в папській курії 1970-х років, розповідь про те, як церковна ієрархія приховувала аморальність своїх членів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

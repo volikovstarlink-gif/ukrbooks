@@ -3,7 +3,7 @@
   "slug": "99-frankiv-13824",
   "title": "99 франків",
   "author": "Бегбедер Фредерік",
-  "category": "fiction",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Фредерік Беґбеде́ або Фредерік Беґбедер (фр. Frédéric Beigbeder; нар.21 вересня 1965, Нейї-сюр-Сен) — французький прозаїк, публіцист, літературний критик, редактор, сценарист, актор та режисер. Вважається одним з найцікавіших сучасних письменників Франції.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

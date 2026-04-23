@@ -3,7 +3,7 @@
   "slug": "ostannij-krok-17915",
   "title": "Останній крок",
   "author": "Мері Бертон",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Віктор Франкенштайн — вигаданий персонаж, який вперше з'явився як головний герой роману Мері Шеллі «Франкенштайн, або Сучасний Прометей».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

@@ -3,7 +3,7 @@
   "slug": "vtecha-vid-gudini-33239",
   "title": "Втеча від Гудіні",
   "author": "Керрі Маніскалко",
-  "category": "fiction",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Керрі Маніскалко (англ. Kerri Maniscalco) — американська письменниця, авторка бестселера № 1 за версією New York Times «По сліду Джека Різника», серії книг «Королівство нечестивих» та фантастичного роману для дорослих «Трон полеглих» (Throne of the Fallen). Сьогодні книги К. Маніскалко перекладені більш ніж двадцятьма мовами, її історії переглянуті в TikTok сотні мільйонів разів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

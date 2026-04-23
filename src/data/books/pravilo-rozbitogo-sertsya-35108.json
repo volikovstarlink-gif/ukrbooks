@@ -3,7 +3,7 @@
   "slug": "pravilo-rozbitogo-sertsya-35108",
   "title": "ПРАВИЛО РОЗБИТОГО СЕРЦЯ",
   "author": "Стефані Арчер",
-  "category": "romance",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Вибачте, але це видання не українське — це переклад або видання англійської авторки Stephanie Archer. Я генерую описи саме українських книг. \n\nБудь ласка, уточніть українське видання, якщо воно існує, або запропонуйте іншу українську книгу.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

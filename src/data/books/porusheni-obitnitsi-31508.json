@@ -3,7 +3,7 @@
   "slug": "porusheni-obitnitsi-31508",
   "title": "Порушені обітниці",
   "author": "Катаріна Маура",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романтична історія про розлучену жінку, яка повертається в рідне місто і зустрічає першу любов. Неочікувана зустріч змушує пережити старі почуття та переосмислити життєві рішення. Драма особистого вибору між безпечністю минулого та невизначеністю майбутнього.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

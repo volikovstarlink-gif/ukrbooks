@@ -3,7 +3,7 @@
   "slug": "451-za-farenheytom-6793",
   "title": "451° за Фаренгейтом",
   "author": "Рей Бредбері",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2009,
   "description": "Роман та оповідання відомого, сучасного американського письменника-фантаста пройняті любов’ю до людини, вірою в неминучу перемогу розуму над безумом, добра над злом.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

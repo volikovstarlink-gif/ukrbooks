@@ -3,7 +3,7 @@
   "slug": "korolivska-doroga-21916",
   "title": "Королівська дорога",
   "author": "Андре Мальро",
-  "category": "fiction",
+  "category": "business-science",
   "language": "uk",
   "year": null,
   "description": "Камі́ль Піссарро́ (фр. Jacób Abrahám Camílle Pissarró; 10 липня 1830 — 12 листопада 1903) — французький художник єврейського походження, один із засновників імпресіонізму. Малював пейзажі, натюрморти, іноді побутові картини і портрети.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "science-tech"
 }

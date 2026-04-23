@@ -3,7 +3,7 @@
   "slug": "ozero-spokoyu-31704",
   "title": "Озеро спокою",
   "author": "Рейчел Кейн",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Ре́йчел Кейн (англ. Rachel Caine) — псевдонім Роксани Лонґстріт Конрад (27 квітня 1962 — 1 листопада 2020) — американська письменниця, що писала в жанрах наукової фантастики, фентезі, детективів, саспенсу і романів жахів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

@@ -3,7 +3,7 @@
   "slug": "mertva-tisha-26170",
   "title": "Майкл Коннелі_Мертва тиша",
   "author": "Невідомий автор",
-  "category": "detective",
+  "category": "business-science",
   "language": "uk",
   "year": null,
   "description": "Я не можу створити опис, оскільки дані суперечливі. \"Мертва тиша\" — романтичний твір Майкла Коннеллі, але ви позначили категорію як science. Також відсутня інформація про рік видання і перекладача.\n\nУточніть, будь ласка:\n- Українське видання якого року?\n- Хто перекладач?",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "science-tech"
 }

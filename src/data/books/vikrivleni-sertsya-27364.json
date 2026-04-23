@@ -3,7 +3,7 @@
   "slug": "vikrivleni-sertsya-27364",
   "title": "Викривлені серця",
   "author": "Кора Рейлі",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романтична історія про двох людей, які намагаються подолати власні травми та недовіру. Їхній шлях до кохання повний складних емоцій, непередбачених поворотів і важких вибірок. Живий портрет того, як любов може вицілити навіть найглибші рани.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

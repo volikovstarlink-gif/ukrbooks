@@ -3,7 +3,7 @@
   "slug": "misto-ta-jogo-nepevni-stini-16751",
   "title": "Місто та його непевні стіни",
   "author": "Харукі Муракамі",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Це японський роман, а не українська книга. Я генерую описи саме українських видань. Якщо потрібен опис українського перекладу цього твору або іншої українській книги — напиши назву й автора українського твору.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

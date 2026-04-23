@@ -3,7 +3,7 @@
   "slug": "borgi-predkiv-28025",
   "title": "Борги предків",
   "author": "Террі Ґудкайнд",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 1998,
   "description": "Нижченаведена історія сталася задовго до подій, описаних у «Першому Правилі Чарівника».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

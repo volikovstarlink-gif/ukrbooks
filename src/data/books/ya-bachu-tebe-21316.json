@@ -3,7 +3,7 @@
   "slug": "ya-bachu-tebe-21316",
   "title": "Я бачу тебе",
   "author": "Мері Бертон",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Сонна лощина» (англ. Sleepy Hollow) — американський фільм жахів режисера Тіма Бертона, що побачив світ у 1999 році. Базується на творі Вашингтона Ірвінга «Легенда сонного виярка».",
@@ -14,7 +14,7 @@
       "format": "epub",
       "filename": "ya-bachu-tebe-21316__Ya_bachu_tebe.epub",
       "fileDir": "Я",
-      "sizeMb": 1.0
+      "sizeMb": 1
     },
     {
       "format": "fb2",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

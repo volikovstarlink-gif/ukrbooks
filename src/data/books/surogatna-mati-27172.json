@@ -3,7 +3,7 @@
   "slug": "surogatna-mati-27172",
   "title": "Сурогатна мати",
   "author": "Фріда МакФадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Жінка погоджується бути сурогатною матір'ю для заможної родини, але незабаром розуміє, що потрапила в небезпечну пастку. Психологічний трилер про маніпуляції, таємниці й боротьбу за виживання у стінах закритого дому.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

@@ -3,7 +3,7 @@
   "slug": "kviti-dlya-eldzhernona-4987",
   "title": "Квіти для Елджернона",
   "author": "Деніел Кіз",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 1959,
   "description": "Всесвітній бестселер, який сколихнув серця мільйонів читачів! Неодноразово екранізований роман, який здобув найпрестижніші літературні премії! Історія, яка зворушує та змушує замислитися… Розумово відсталий Чарлі Гордон погоджується на ризикований науковий експеримент — понад усе він мріє стати розумним. Після надскладної операції на мозку його інтелект дійсно стає блискавичним. Але ніхто не міг передбачити, які наслідки спричинить цей дослід…",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "kviti-dlya-eldzhernona-4987__Kvity_dlia_Eldzhernona__kviti-dlya-eldzhernona.fb2",
       "fileDir": "К",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

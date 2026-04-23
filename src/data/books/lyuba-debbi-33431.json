@@ -3,7 +3,7 @@
   "slug": "lyuba-debbi-33431",
   "title": "Люба Деббі",
   "author": "Фріда Мак-Фадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "en",
   "year": null,
   "description": "Молода жінка прокидається в дивному будинку без пам'яті про те, як вона там опинилася. Її утримує людина, яка стверджує, що вона його дружина Люба, але все навколо кричить про небезпеку. Психологічний трилер про витончену гру маніпуляцій та боротьбу за виживання.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

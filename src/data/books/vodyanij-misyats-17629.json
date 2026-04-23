@@ -14,7 +14,7 @@
       "format": "epub",
       "filename": "vodyanij-misyats-17629__Vodianyi_Misiats.epub",
       "fileDir": "В",
-      "sizeMb": 5.0
+      "sizeMb": 5
     },
     {
       "format": "fb2",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

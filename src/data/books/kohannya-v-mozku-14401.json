@@ -3,7 +3,7 @@
   "slug": "kohannya-v-mozku-14401",
   "title": "Алі Гейзелвуд Кохання на розумі",
   "author": "Алі Гейзелвуд",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "en",
   "year": null,
   "description": "Наукова вишколиця Olive зустрічає харизматичного дослідника Henry на конференції і невдовзі розуміє, що їх розумова сумісність переросла в щось більше.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

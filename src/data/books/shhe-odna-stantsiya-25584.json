@@ -3,7 +3,7 @@
   "slug": "shhe-odna-stantsiya-25584",
   "title": "Unknown",
   "author": "Anastasia Mysko",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Я не можу створити опис без назви книги та року видання. Будь ласка, надай повну інформацію про видання.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

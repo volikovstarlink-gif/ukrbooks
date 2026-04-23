@@ -3,7 +3,7 @@
   "slug": "diasp-17384",
   "title": "Бурик Н. Гусеня",
   "author": "Надія Бурик",
-  "category": "ukr-literature",
+  "category": "other",
   "language": "uk",
   "year": 1946,
   "description": "Казка про гусеня, який був іншим від своїх братів і сестер. Надія Бурик створила найніжнішу історію про те, як прийняти себе та знайти своє місце у світі.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

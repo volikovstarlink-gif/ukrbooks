@@ -3,7 +3,7 @@
   "slug": "tvoya-provina-14991",
   "title": "Твоя провина",
   "author": "Мерседес Рон",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Твоя провина (іспанська Culpa tuya) — іспанська романтична драма 2024 року, знята Домінго Гонсалесом за мотивами серіалу Мерседес Рон «Винуватці» з Ніколь Воллес і Габріелем Геварою в головних ролях. Це продовження фільму «Моя вина» (2023).",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

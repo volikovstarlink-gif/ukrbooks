@@ -3,7 +3,7 @@
   "slug": "zamaskovana-kvitka-30949",
   "title": "Замаскована квітка",
   "author": "Ерін Халлі",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Це не українська книга — \"The Masked Flower\" Ерін Халлі — історичний роман про любов і політичні інтриги у викторіанській Англії. Я можу описати тільки українські видання. Якщо маєте український переклад цієї книги, наведіть його назву.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

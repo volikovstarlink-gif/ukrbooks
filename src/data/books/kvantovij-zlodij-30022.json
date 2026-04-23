@@ -3,7 +3,7 @@
   "slug": "kvantovij-zlodij-30022",
   "title": "ГАННУ РАЯНІЕМІ",
   "author": "Admin",
-  "category": "fiction",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2025,
   "description": "Дебютний роман фінської письменниці про материнство крізь призму тяжкого психічного розладу. Головна героїня борється з постпологовою депресією, яка перетворює повсякденність на випробування та змушує переосмислити свідомість.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

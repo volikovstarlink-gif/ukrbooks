@@ -3,7 +3,7 @@
   "slug": "frantsuzke-vihovannya-4437",
   "title": "Французьке виховання",
   "author": "Памела Дракермен",
-  "category": "psychology",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Огаркова Тетяна Анатоліївна (* 27 червня 1979, Кам'янець-Подільський) — українська літературознавиця, докторка філософії в галузі літературознавства, фахівчиня у галузі теорії літератури та історії французької літератури.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

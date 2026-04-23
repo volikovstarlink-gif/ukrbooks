@@ -3,7 +3,7 @@
   "slug": "laskavo-prosimo-do-budinku-mertsiv-5902",
   "title": "Unknown",
   "author": "Maryana",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Who’s There? (Russian: Кто там?, romanized: Kto tam?) is a 2022 Russian thriller film directed by Vladimir Maslov, Vitaly Dudka and Mikhail Morskov. Dudka and Morskov are also screenwriters, along with Mikhail Sokolovsky and Goga Poberezhnyy. This film was theatrically released on September 15, 2022 by Central Partnership.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

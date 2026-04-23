@@ -3,7 +3,7 @@
   "slug": "diyavol-nosit-halati-15778",
   "title": "Диявол носить халати",
   "author": "Фріда МакФадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Психологічний трилер про лікарню для психічно хворих, де медсестра Алісон виявляє, що один з пацієнтів — небезпечний вбивця, якому вдалося приховатися. Напруга зростає, коли стає неясно, кого насправді варто боятися.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

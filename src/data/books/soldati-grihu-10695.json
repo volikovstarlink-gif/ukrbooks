@@ -3,7 +3,7 @@
   "slug": "soldati-grihu-10695",
   "title": "Солдати гріху",
   "author": "Анджей Земянський",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2010,
   "description": "Анджей Земянський (пол. Andrzej Ziemiański, 17 лютого 1960(19600217)) — польський письменник-фантаст, який за фахом є архітектором.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

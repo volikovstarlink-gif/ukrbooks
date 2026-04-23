@@ -3,7 +3,7 @@
   "slug": "vikrivlena-gordist-27367",
   "title": "Викривлена гордість",
   "author": "Кора Рейлі",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Американська романтична комедія про двох людей, котрі борються з упередженнями та соціальними очікуваннями. Історія сповнена гумору, гострих діалогів і поступового розуміння один одного, замасковані під конфліктом й атракцією.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

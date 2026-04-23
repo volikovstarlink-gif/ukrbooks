@@ -3,7 +3,7 @@
   "slug": "merezhevij-efekt-6114",
   "title": "Мережевий ефект",
   "author": "Марта Велс",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "По дорозі додому на експедицію з оцінювання нападають рейдери, щоб заволодіти небезпечною зброєю. Добре, що за безпеку людей відповідає людина-робот. Твір отримав премію Неб'юла за 2021 рік.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

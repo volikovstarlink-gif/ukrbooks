@@ -3,7 +3,7 @@
   "slug": "krah-17617",
   "title": "Крах",
   "author": "Фріда МакФадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Психологічний триллер про жінку, яка прокидається без пам'яті в лікарні й дізнається, що її звинувачують у вбивстві чоловіка. Розслідуючи власне минуле, героїня виявляє темні таємниці своєї родини та дізнається страшну правду про себе.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

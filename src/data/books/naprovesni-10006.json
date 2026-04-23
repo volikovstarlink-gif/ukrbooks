@@ -3,7 +3,7 @@
   "slug": "naprovesni-10006",
   "title": "Напровесні",
   "author": "Сьюзен Гілл",
-  "category": "fiction",
+  "category": "literature-foreign",
   "language": "en",
   "year": 2020,
   "description": "Переклад з англійської Взято з журналу \"Всесвіт\", №11-12 за 1979 р.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

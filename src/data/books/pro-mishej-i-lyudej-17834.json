@@ -3,7 +3,7 @@
   "slug": "pro-mishej-i-lyudej-17834",
   "title": "Про мишей і людей",
   "author": "Unknown",
-  "category": "classic",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "Subnautica — це пригодницька відеогра в жанрі виживання у відкритому ігровому світі, що була розроблена та опублікована студією Unknown Worlds Entertainment. Гра дозволяє персонажу гравця вільно досліджувати океан на віддаленій невідомій планеті, позначеній як планета 4546B, для чого йому потрібно постійно шукати ресурси для виживання.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

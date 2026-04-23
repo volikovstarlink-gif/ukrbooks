@@ -3,7 +3,7 @@
   "slug": "konan-varvar-iz-kimeriyi-9130",
   "title": "Конан, варвар із Кімерії",
   "author": "Роберт Говард",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2010,
   "description": "Це гостросюжетний лицарський роман з елементами містики, динамічним сюжетом і позитивним супергероєм, що в нерівних сутичках б'ється з силами зла.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

@@ -3,7 +3,7 @@
   "slug": "snigovij-gist-13757",
   "title": "Сніговий гість",
   "author": "Андрей Анатольевич Кокотюха",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2014,
   "description": "Зимовий вечір, заміській будинок, довкола — ні душі. Жінка чекає вдома на чоловіка, а замість нього з’являється поранений озброєний незнайомець. Порятунку нема, але рятуватися треба. Яка зброя сильніше: пістолет чи хитрощі?",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

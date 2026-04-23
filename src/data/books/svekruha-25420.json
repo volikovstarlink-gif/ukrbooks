@@ -3,7 +3,7 @@
   "slug": "svekruha-25420",
   "title": "свекруха",
   "author": "Саллі Гепворт",
-  "category": "detective",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Саллі Гепворт (англ. Sally Hepworth; нар. 1980) — австралійська письменниця. Написала сім книжок, зокрема «Секрети акушерок», роман, який вийшов 2015 року, і роман «Хороша сестра», який виграв премію Девітта в категорії кримінальний роман для дорослих 2021 року. Гепворт та її роботи були представлені в ЗМІ, зокрема в USA Today, The New York Times і The Sydney Morning Herald.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

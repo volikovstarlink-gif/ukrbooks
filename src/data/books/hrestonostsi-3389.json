@@ -3,7 +3,7 @@
   "slug": "hrestonostsi-3389",
   "title": "Хрестоносці",
   "author": "Генрик Сенкевич",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Ге́нрик Сенке́вич (повне ім'я Генрик Адам Александр Піус Сенкевич, пол. Henryk Adam Aleksander Pius Sienkiewicz; 5 травня 1846, Воля-Окшейська, Підляшшя, Російська імперія — 15 листопада 1916, Веве, Швейцарія) — польський прозаїк білорусько-татарського походження. Автор низки оповідань і романів, зокрема, «Quo vadis» (1896) та «Хрестоносці» (1897–1900).",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

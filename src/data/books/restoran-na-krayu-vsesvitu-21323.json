@@ -3,7 +3,7 @@
   "slug": "restoran-na-krayu-vsesvitu-21323",
   "title": "Ресторан на краю Всесвіту",
   "author": "Дуглас Адамс",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 1980,
   "description": "Ресторан \"На Краю Всесвіту\" (1980, англ. The Restaurant at the End of the Universe) — гумористичний науково-фантастичний роман британського письменника Дугласа Адамса. Друга частина серії \"Путівник по Галактиці\".",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

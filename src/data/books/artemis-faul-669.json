@@ -3,7 +3,7 @@
   "slug": "artemis-faul-669",
   "title": "Артеміс Фаул",
   "author": "Йон Колфер",
-  "category": "children",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Оуен (Йоун, Йон) Ко́лфер (англ. Eoin Colfer, ім'я читається як Owen) — ірландський письменник-фантаст. Насамперед відомий як автор дитячої книжкової серії «Артеміс Фаул».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

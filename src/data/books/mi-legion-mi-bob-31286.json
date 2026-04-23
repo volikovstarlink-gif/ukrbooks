@@ -3,7 +3,7 @@
   "slug": "mi-legion-mi-bob-31286",
   "title": "МИ ЛЕГІОН (Ми Боб) (Книга 1)",
   "author": "Денніс І. Тейлор",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Денніс І. Тейлор — канадський письменник і колишній програміст, відомий творами у жанрі наукової фантастики, які досліджують взаємодію штучного інтелекту та людської природи.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

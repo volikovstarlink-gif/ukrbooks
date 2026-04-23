@@ -3,7 +3,7 @@
   "slug": "tin-shho-kradetsya-2293",
   "title": "Локвук & Ко: Тінь, що крадеться",
   "author": "Джонатан Страуд",
-  "category": "fiction",
+  "category": "business-science",
   "language": "uk",
   "year": null,
   "description": "Британський письменник Джонатан Страуд створив світ, де магічні істоти служать людям через древній договір.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "science-tech"
 }

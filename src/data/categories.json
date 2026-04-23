@@ -1,101 +1,458 @@
 [
   {
-    "slug": "ukr-literature",
-    "name": "Українська література",
-    "nameEn": "Ukrainian Literature",
-    "description": "Класичні та сучасні твори українських авторів",
+    "slug": "literature-ukr",
+    "name": "Сучасна українська проза",
+    "nameEn": "Modern Ukrainian Prose",
+    "description": "Романи, повісті та оповідання сучасних українських авторів",
     "icon": "🌻",
-    "bookCount": 2370,
-    "order": 1
+    "bookCount": 997,
+    "order": 1,
+    "subcategories": [
+      {
+        "slug": "novels",
+        "name": "Романи",
+        "description": "Великі прозові твори",
+        "bookCount": 984
+      },
+      {
+        "slug": "stories",
+        "name": "Оповідання та повісті",
+        "description": "Мала та середня проза",
+        "bookCount": 0
+      },
+      {
+        "slug": "historical",
+        "name": "Історична проза",
+        "description": "Художні твори про минуле",
+        "bookCount": 0
+      },
+      {
+        "slug": "war",
+        "name": "Воєнна проза",
+        "description": "Про війни, зокрема російсько-українську",
+        "bookCount": 0
+      },
+      {
+        "slug": "sentimental",
+        "name": "Жіноча та сентиментальна проза",
+        "description": "Романтичні й емоційні твори",
+        "bookCount": 0
+      },
+      {
+        "slug": "detectives",
+        "name": "Детективи та трилери",
+        "description": "Українські детективи, трилери, кримінальна проза",
+        "bookCount": 13
+      },
+      {
+        "slug": "humor",
+        "name": "Гумор і сатира",
+        "description": "Комічна та сатирична література",
+        "bookCount": 0
+      }
+    ]
   },
   {
-    "slug": "fiction",
-    "name": "Фантастика",
-    "nameEn": "Fiction",
-    "description": "Наукова фантастика, фентезі, альтернативна історія",
-    "icon": "🚀",
-    "bookCount": 924,
-    "order": 2
+    "slug": "literature-foreign",
+    "name": "Сучасна зарубіжна проза",
+    "nameEn": "Modern Foreign Prose",
+    "description": "Світова сучасна література у перекладах українською",
+    "icon": "🌍",
+    "bookCount": 958,
+    "order": 2,
+    "subcategories": [
+      {
+        "slug": "novels",
+        "name": "Романи",
+        "description": "Великі прозові твори зарубіжних авторів",
+        "bookCount": 544
+      },
+      {
+        "slug": "stories",
+        "name": "Оповідання та повісті",
+        "description": "Мала та середня проза",
+        "bookCount": 0
+      },
+      {
+        "slug": "historical",
+        "name": "Історична проза",
+        "description": "Зарубіжні художні твори про минуле",
+        "bookCount": 0
+      },
+      {
+        "slug": "detectives",
+        "name": "Детективи та трилери",
+        "description": "Світові детективи, трилери, саспенс",
+        "bookCount": 307
+      },
+      {
+        "slug": "sentimental",
+        "name": "Жіноча та сентиментальна проза",
+        "description": "Романтичні твори",
+        "bookCount": 107
+      }
+    ]
   },
   {
-    "slug": "detective",
-    "name": "Детективи",
-    "nameEn": "Detective",
-    "description": "Детективи, трилери, кримінальні романи",
-    "icon": "🔍",
-    "bookCount": 407,
-    "order": 3
-  },
-  {
-    "slug": "romance",
-    "name": "Романи",
-    "nameEn": "Romance",
-    "description": "Любовні романи та мелодрами",
-    "icon": "💝",
-    "bookCount": 218,
-    "order": 4
-  },
-  {
-    "slug": "classic",
+    "slug": "classics",
     "name": "Класика",
-    "nameEn": "Classic Literature",
-    "description": "Світова класична література",
+    "nameEn": "Classics",
+    "description": "Українська та світова класична література",
     "icon": "📜",
-    "bookCount": 323,
-    "order": 5
+    "bookCount": 1438,
+    "order": 3,
+    "subcategories": [
+      {
+        "slug": "ukrainian",
+        "name": "Українська класика",
+        "description": "Твори класиків української літератури",
+        "bookCount": 1419
+      },
+      {
+        "slug": "foreign",
+        "name": "Зарубіжна класика",
+        "description": "Світова класична проза та драматургія",
+        "bookCount": 1
+      },
+      {
+        "slug": "antique",
+        "name": "Антична література",
+        "description": "Давньогрецька, давньоримська, середньовічна",
+        "bookCount": 18
+      },
+      {
+        "slug": "poetry-classic",
+        "name": "Класична поезія",
+        "description": "Поезія минулих епох",
+        "bookCount": 0
+      }
+    ]
   },
   {
-    "slug": "business",
-    "name": "Бізнес",
-    "nameEn": "Business",
-    "description": "Бізнес-книги, підприємництво, менеджмент",
-    "icon": "💼",
-    "bookCount": 8,
-    "order": 6
+    "slug": "fantasy",
+    "name": "Фантастика та фентезі",
+    "nameEn": "Fantasy & Sci-Fi",
+    "description": "Фентезі, наукова фантастика, містика і пригоди",
+    "icon": "🚀",
+    "bookCount": 492,
+    "order": 4,
+    "subcategories": [
+      {
+        "slug": "fantasy",
+        "name": "Фентезі",
+        "description": "Магічні світи, епічне фентезі, роментезі",
+        "bookCount": 487
+      },
+      {
+        "slug": "sci-fi",
+        "name": "Наукова фантастика",
+        "description": "Hard SF, космічна опера, кіберпанк",
+        "bookCount": 0
+      },
+      {
+        "slug": "mystery-horror",
+        "name": "Містика і горор",
+        "description": "Жахи, готика, надприродне",
+        "bookCount": 0
+      },
+      {
+        "slug": "dystopia",
+        "name": "Постапокаліпсис і антиутопія",
+        "description": "Світи після катастрофи, дистопії",
+        "bookCount": 5
+      },
+      {
+        "slug": "adventure",
+        "name": "Пригоди",
+        "description": "Пригодницька проза, подорожі",
+        "bookCount": 0
+      }
+    ]
   },
   {
-    "slug": "psychology",
-    "name": "Психологія",
-    "nameEn": "Psychology",
-    "description": "Психологія, саморозвиток, мотивація",
-    "icon": "🧠",
-    "bookCount": 28,
-    "order": 7
+    "slug": "poetry",
+    "name": "Поезія",
+    "nameEn": "Poetry",
+    "description": "Українська та світова поезія",
+    "icon": "🪶",
+    "bookCount": 0,
+    "order": 5,
+    "subcategories": [
+      {
+        "slug": "ukrainian-modern",
+        "name": "Сучасна українська поезія",
+        "description": "Поети XX-XXI століть",
+        "bookCount": 0
+      },
+      {
+        "slug": "world",
+        "name": "Світова поезія",
+        "description": "Зарубіжна поезія у перекладах",
+        "bookCount": 0
+      },
+      {
+        "slug": "folk-songs",
+        "name": "Пісні та фольклор",
+        "description": "Народні пісні, думи, епос",
+        "bookCount": 0
+      }
+    ]
   },
   {
     "slug": "children",
-    "name": "Дитячі книги",
-    "nameEn": "Children",
-    "description": "Книги для дітей та підлітків",
+    "name": "Дитяча література",
+    "nameEn": "Children's Books",
+    "description": "Книги для дітей — казки, вірші, пригоди, дитяча класика",
     "icon": "🌈",
-    "bookCount": 384,
-    "order": 8
+    "bookCount": 190,
+    "order": 6,
+    "subcategories": [
+      {
+        "slug": "fairytales",
+        "name": "Казки та міфи",
+        "description": "Народні й авторські казки, легенди",
+        "bookCount": 94
+      },
+      {
+        "slug": "prose",
+        "name": "Дитяча проза",
+        "description": "Сучасні повісті та оповідання для дітей",
+        "bookCount": 96
+      },
+      {
+        "slug": "poems",
+        "name": "Дитячі вірші",
+        "description": "Поезія для дітей",
+        "bookCount": 0
+      },
+      {
+        "slug": "adventures",
+        "name": "Пригоди для дітей",
+        "description": "Дитячі пригодницькі історії",
+        "bookCount": 0
+      },
+      {
+        "slug": "educational",
+        "name": "Пізнавальне та енциклопедії",
+        "description": "Нонфікшн для дітей",
+        "bookCount": 0
+      },
+      {
+        "slug": "classics",
+        "name": "Класика дитячої літератури",
+        "description": "Перевірені часом дитячі книги",
+        "bookCount": 0
+      }
+    ]
   },
   {
-    "slug": "science",
-    "name": "Наука",
-    "nameEn": "Science",
-    "description": "Наукові книги, популярна наука",
-    "icon": "🔬",
-    "bookCount": 56,
-    "order": 9
+    "slug": "teen",
+    "name": "Підліткова література",
+    "nameEn": "Young Adult",
+    "description": "YA — для підлітків і молоді",
+    "icon": "🎒",
+    "bookCount": 0,
+    "order": 7,
+    "subcategories": [
+      {
+        "slug": "prose",
+        "name": "Підліткова проза",
+        "description": "Сучасна проза для підлітків",
+        "bookCount": 0
+      },
+      {
+        "slug": "fantasy",
+        "name": "Фентезі та фантастика для підлітків",
+        "description": "YA-фантастика",
+        "bookCount": 0
+      },
+      {
+        "slug": "detectives",
+        "name": "Детективи для підлітків",
+        "description": "YA-трилери та містика",
+        "bookCount": 0
+      },
+      {
+        "slug": "nonfiction",
+        "name": "Нонфікшн для підлітків",
+        "description": "Пізнавальна література для молоді",
+        "bookCount": 0
+      }
+    ]
   },
   {
     "slug": "history",
-    "name": "Історія",
-    "nameEn": "History",
-    "description": "Історичні книги та документальна проза",
+    "name": "Історія та біографії",
+    "nameEn": "History & Biographies",
+    "description": "Історія України і світу, мемуари, біографії",
     "icon": "⚔️",
-    "bookCount": 764,
-    "order": 10
+    "bookCount": 1163,
+    "order": 8,
+    "subcategories": [
+      {
+        "slug": "ukraine",
+        "name": "Історія України",
+        "description": "Від Київської Русі до сьогодення",
+        "bookCount": 399
+      },
+      {
+        "slug": "world",
+        "name": "Світова історія",
+        "description": "Історія інших країн і цивілізацій",
+        "bookCount": 686
+      },
+      {
+        "slug": "russo-ukrainian-war",
+        "name": "Російсько-українська війна",
+        "description": "Документалістика про війну з 2014 року",
+        "bookCount": 0
+      },
+      {
+        "slug": "memoirs",
+        "name": "Мемуари та щоденники",
+        "description": "Спогади очевидців і учасників подій",
+        "bookCount": 67
+      },
+      {
+        "slug": "biographies",
+        "name": "Біографії",
+        "description": "Життєписи видатних людей",
+        "bookCount": 11
+      },
+      {
+        "slug": "documents",
+        "name": "Документи та архіви",
+        "description": "Історичні документи, збірники, дослідження",
+        "bookCount": 0
+      }
+    ]
+  },
+  {
+    "slug": "nonfiction",
+    "name": "Нонфікшн та публіцистика",
+    "nameEn": "Non-fiction",
+    "description": "Есеї, публіцистика, культура, релігія, філософія",
+    "icon": "💭",
+    "bookCount": 0,
+    "order": 9,
+    "subcategories": [
+      {
+        "slug": "essays",
+        "name": "Публіцистика та есеїстика",
+        "description": "Есеї, статті, рефлексії",
+        "bookCount": 0
+      },
+      {
+        "slug": "politics",
+        "name": "Політика та суспільство",
+        "description": "Аналітика, соціологія, держава",
+        "bookCount": 0
+      },
+      {
+        "slug": "religion-philosophy",
+        "name": "Релігія та філософія",
+        "description": "Духовна й філософська література",
+        "bookCount": 0
+      },
+      {
+        "slug": "culture",
+        "name": "Культурологія та мистецтво",
+        "description": "Книги про мистецтво, кіно, культуру",
+        "bookCount": 0
+      },
+      {
+        "slug": "linguistics",
+        "name": "Мовознавство та літературознавство",
+        "description": "Про мову і літературу",
+        "bookCount": 0
+      }
+    ]
+  },
+  {
+    "slug": "self-help",
+    "name": "Саморозвиток та психологія",
+    "nameEn": "Self-help & Psychology",
+    "description": "Популярна психологія, мотивація, стосунки, здоров'я",
+    "icon": "🧠",
+    "bookCount": 11,
+    "order": 10,
+    "subcategories": [
+      {
+        "slug": "psychology",
+        "name": "Популярна психологія",
+        "description": "Психологія для загального читача",
+        "bookCount": 11
+      },
+      {
+        "slug": "motivation",
+        "name": "Саморозвиток і мотивація",
+        "description": "Продуктивність, звички, особистий ріст",
+        "bookCount": 0
+      },
+      {
+        "slug": "relationships",
+        "name": "Стосунки та родина",
+        "description": "Психологія стосунків, батьківство",
+        "bookCount": 0
+      },
+      {
+        "slug": "health",
+        "name": "Здоров'я",
+        "description": "Психічне й фізичне здоров'я",
+        "bookCount": 0
+      }
+    ]
+  },
+  {
+    "slug": "business-science",
+    "name": "Бізнес та наука",
+    "nameEn": "Business & Science",
+    "description": "Бізнес, економіка, наука, довідкова література",
+    "icon": "💼",
+    "bookCount": 93,
+    "order": 11,
+    "subcategories": [
+      {
+        "slug": "business",
+        "name": "Бізнес і економіка",
+        "description": "Підприємництво, менеджмент, фінанси",
+        "bookCount": 9
+      },
+      {
+        "slug": "science-tech",
+        "name": "Наука і технології",
+        "description": "Популярна наука, IT, інженерія",
+        "bookCount": 84
+      },
+      {
+        "slug": "reference",
+        "name": "Довідкова і навчальна",
+        "description": "Словники, довідники, підручники",
+        "bookCount": 0
+      }
+    ]
   },
   {
     "slug": "other",
     "name": "Інше",
     "nameEn": "Other",
-    "description": "Некатегоризовані книги",
+    "description": "Книги іноземними мовами та нерозібрані",
     "icon": "📚",
-    "bookCount": 630,
-    "order": 11
+    "bookCount": 770,
+    "order": 12,
+    "subcategories": [
+      {
+        "slug": "foreign-language",
+        "name": "Книги іноземними мовами",
+        "description": "Англійською, російською, польською та іншими",
+        "bookCount": 364
+      },
+      {
+        "slug": "uncategorized",
+        "name": "Нерозібрані",
+        "description": "Книги, які поки що не вдалося класифікувати",
+        "bookCount": 406
+      }
+    ]
   }
 ]

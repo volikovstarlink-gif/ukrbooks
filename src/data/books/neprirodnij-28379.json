@@ -3,7 +3,7 @@
   "slug": "neprirodnij-28379",
   "title": "Неприродний",
   "author": "Міа Шерідан",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Романтична драма про двох людей, чиє кохання існує всупереч природі й суспільству. Шерідан досліджує, як почуття піддаються тиску обставин, а справжня близькість виринає з несподіваних місць.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

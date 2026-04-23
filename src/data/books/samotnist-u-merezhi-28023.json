@@ -3,7 +3,7 @@
   "slug": "samotnist-u-merezhi-28023",
   "title": "Самотність у мережі",
   "author": "Януш Вишневський",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Януш Леон Вишне́вський (пол. Janusz Leon Wiśniewski; нар. 18 серпня 1954, Торунь) — сучасний польський письменник. Насамперед відомий як автор роману «Самотність у мережі» (2001).",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

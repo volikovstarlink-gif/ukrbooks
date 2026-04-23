@@ -3,7 +3,7 @@
   "slug": "primarnij-hlopets-2294",
   "title": "Локвук & Ко: Примарний Хлопець",
   "author": "Джонатан Страуд",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Приключенська фантастика про трьох дітей, які потрапляють до Лондона, де їх переслідують привиди та містичні сили. Головний герой Локвуд — молодий детектив, що розслідує надприродні явища разом із помічниками.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

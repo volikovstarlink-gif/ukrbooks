@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "marlovskij-kriminalnij-klub-24714__Marlovskyi_kryminalnyi_klub__marlovskij-kriminalnij-klub.fb2",
       "fileDir": "М",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

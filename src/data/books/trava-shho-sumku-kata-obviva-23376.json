@@ -3,7 +3,7 @@
   "slug": "trava-shho-sumku-kata-obviva-23376",
   "title": "Трава, що сумку ката обвива",
   "author": "Алан Бредлі",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "А́лан Бре́длі (англ. Alan Bradley; нар. 10 жовтня 1938, Торонто, Онтаріо, Канада) — канадський письменник, журналіст і сценарист. Президент Товариства письменників Саскатун та засновник Гільдії письменників Саскачевана. Відомий серією детективних творів про Флавію де Люс.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

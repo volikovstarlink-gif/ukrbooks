@@ -3,7 +3,7 @@
   "slug": "opivnich-z-toboyu-22224",
   "title": "Опівніч з тобою",
   "author": "Клер Осонгко",
-  "category": "science",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Це англійськомовна праця про історію ночі як соціального явища, де Осонгко досліджує, як люди пережили й переживають темряву крізь призму культури, технологій та влади.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

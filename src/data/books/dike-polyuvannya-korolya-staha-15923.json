@@ -3,7 +3,7 @@
   "slug": "dike-polyuvannya-korolya-staha-15923",
   "title": "Дике полювання короля Стаха",
   "author": "Володимир Короткевич",
-  "category": "ukr-literature",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2011,
   "description": "«Дике полювання короля Стаха» — детектив в традиційному значенні слова, але він наближається до творів соціально-філософських, викликає роздуми про складні проблеми життя, «злочин і кару», зв'язки з минулим, показує пробудження соціальної свідомості народу.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

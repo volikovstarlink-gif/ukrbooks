@@ -3,7 +3,7 @@
   "slug": "mok-9922",
   "title": "Мок",
   "author": "Марек Краєвський",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2016,
   "description": "Детективний роман про вбивство в Варшаві, де головний герой — простий працівник — раптово потрапляє в центр кримінальної гри. Краєвський розплітає складну сітку змови з несподіваними поворотами. Напружена атмосфера та непередбачуваний сюжет утримують читача до останньої сторінки.",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "mok-9922__Mok__mok.fb2",
       "fileDir": "М",
-      "sizeMb": 2.0
+      "sizeMb": 2
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

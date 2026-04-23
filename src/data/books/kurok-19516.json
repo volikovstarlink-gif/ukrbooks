@@ -3,7 +3,7 @@
   "slug": "kurok-19516",
   "title": "Курок",
   "author": "Unknown",
-  "category": "children",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "Байка про курку і свиню розповідає про спробу тварин розпочати спільний бізнес, створивши страву з шинки та яєць. За такої умови від свині вимагається цілковита жертовність (шинка), а від курки часткова участь (яйця).",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

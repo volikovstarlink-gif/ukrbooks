@@ -3,7 +3,7 @@
   "slug": "chomu-zebri-ne-strazhdayut-na-virazku-17263",
   "title": "Чому зебри не страждають на виразку",
   "author": "Роберт М. Сапольські",
-  "category": "science",
+  "category": "business-science",
   "language": "uk",
   "year": null,
   "description": "Нейробіолог розповідає, як стрес впливає на організм тварин і людини. Через приклади з дикої природи та лабораторних дослідів пояснює, чому хронічний стрес призводить до серйозних хвороб, і як наша психіка формує фізичне здоров'я.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "science-tech"
 }

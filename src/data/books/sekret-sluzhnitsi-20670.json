@@ -3,7 +3,7 @@
   "slug": "sekret-sluzhnitsi-20670",
   "title": "Секрет покоївки",
   "author": "Фріда МакФадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Американка переїжджає на роботу до багатої сім'ї з темною історією, але незабаром розуміє, що найбільша небезпека — це її роботодавці. Психологічний трилер про те, як легко можна потрапити в западню, якщо потрібні гроші. Напруга накопичується до непередбачуваної розв'язки.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

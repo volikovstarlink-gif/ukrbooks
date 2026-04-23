@@ -3,7 +3,7 @@
   "slug": "nebesa-zsuvu-24483",
   "title": "Небеса зсуву",
   "author": "Кеті Регнері",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романтична історія про два людей, які зустрічаються в складних життєвих обставинах і змушені переосмислити свої відносини до любові та довіри. Напружена емоційна динаміка між героями розгортається на тлі особистих криз і внутрішніх конфліктів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

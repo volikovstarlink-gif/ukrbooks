@@ -3,7 +3,7 @@
   "slug": "mama-donka-bandyugan-11604",
   "title": "МАМА, ДОНЬКА, БАНДЮГАН",
   "author": "Андрей Анатольевич Кокотюха",
-  "category": "ukr-literature",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2013,
   "description": "Детективний роман про розслідування вбивства у сім'ї з неоднозначною історією. Головна героїня — журналістка, яка намагається розібратися в клубку брехні та конфліктів, щоб дійти істини.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

@@ -3,7 +3,7 @@
   "slug": "prokinsya-v-nikoli-29828",
   "title": "Маріша Пессл_Прокинься в Ніколи",
   "author": "Невідомий автор",
-  "category": "detective",
+  "category": "other",
   "language": "en",
   "year": null,
   "description": "Психологічний трилер про дівчину, яка прокидається без спогадів про те, як потрапила в незнайому оселю. Кожен день вона знову забуває всю своє минулий, а довкола – дивні люди з непростими намірами.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

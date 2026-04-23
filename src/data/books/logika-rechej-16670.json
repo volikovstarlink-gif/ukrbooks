@@ -3,7 +3,7 @@
   "slug": "logika-rechej-16670",
   "title": "Логіка речей",
   "author": "Василь Кожелянко",
-  "category": "ukr-literature",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2007,
   "description": "«Логіка речей» — збірка жорстких реалістичних новел про виживання в умовах сучасного «речового тоталітаризму».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

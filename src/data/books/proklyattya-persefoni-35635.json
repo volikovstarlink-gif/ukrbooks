@@ -3,7 +3,7 @@
   "slug": "proklyattya-persefoni-35635",
   "title": "Прокляття Персефони",
   "author": "Катріна Лено",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": 2026,
   "description": "Сучасна переробка мітології про Персефону й Аїда. Героїня опиняється в підземному царстві й відкриває складну правду про своє божественне походження. Темна романтична фентезі про силу, вибір та визволення від родинних проклять.",
@@ -27,5 +27,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

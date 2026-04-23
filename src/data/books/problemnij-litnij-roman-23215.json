@@ -3,7 +3,7 @@
   "slug": "problemnij-litnij-roman-23215",
   "title": "Проблемний Літній Роман",
   "author": "Алі Гейзелвуд",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Молода жінка з проблемною особистістю закохується в математика на літньому курсі. Їхні стосунки розвиваються крізь гумор, невдачі та поступове розуміння одне одного. Легкий, іноді гіркий роман про те, як любов змінює людей.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

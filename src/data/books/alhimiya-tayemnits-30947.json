@@ -3,7 +3,7 @@
   "slug": "alhimiya-tayemnits-30947",
   "title": "Алхімія таємниць",
   "author": "Стефані Ґарбер",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Вимишлена історія про середньовічних алхіміків, які шукали філософський камінь у німецьких землях. Ґарбер переплітає фольклор, реальні історичні постаті й змаґоване шахтарство в розповідь про наукові пошуки та духовні амбіції.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

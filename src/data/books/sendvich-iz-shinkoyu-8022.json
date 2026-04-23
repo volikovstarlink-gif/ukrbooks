@@ -3,7 +3,7 @@
   "slug": "sendvich-iz-shinkoyu-8022",
   "title": "Сендвіч із шинкою",
   "author": "Чарльз Буковскі",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Генрі Чарлз Буковскі (англ. Charles Bukowski; 16 серпня 1920, Андернах, Німеччина — 9 березня 1994, Лос-Анджелес, США) — американський поет, романіст, новеліст польсько-німецького походження. Автор шести романів, понад тридцяти збірок поезії, шістнадцяти збірників оповідань і одного сценарію для фільму.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

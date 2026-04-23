@@ -3,7 +3,7 @@
   "slug": "diasp-28482",
   "title": "Тарнович Ю. Батьківська слава. Історична читанка",
   "author": "Юліян Тарнович",
-  "category": "ukr-literature",
+  "category": "history",
   "language": "uk",
   "year": 1941,
   "description": "Юліян Тарнович (псевд. Юліян Бескид) (2 січня 1903(19030102) — 28 вересня 1977) — український громадський діяч, журналіст, публіцист і письменник.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "ukraine"
 }

@@ -3,7 +3,7 @@
   "slug": "troyandovij-dzhem-29214",
   "title": "Трояндовий джем",
   "author": "Тетяна Белімова",
-  "category": "ukr-literature",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "У цій книжці зібрані твори, що об’єднані теплотою, добротою й бажанням трішки розрадити читача в нашому непростому сьогоденні. Авторка засвідчує, що сюжети тут не вигадані, вони насправді були пережиті їхніми героями, а вже самі персонажі потім, на вушко, розказали їх у різний, інколи досить несподіваний спосіб.",
@@ -14,7 +14,7 @@
       "format": "epub",
       "filename": "troyandovij-dzhem-29214__Troiandovyi_dzhem.epub",
       "fileDir": "Т",
-      "sizeMb": 1.0
+      "sizeMb": 1
     },
     {
       "format": "fb2",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

@@ -3,7 +3,7 @@
   "slug": "ostannya-danina-saveru-34576",
   "title": "Остання данина Саверу",
   "author": "Катерина Самойленко",
-  "category": "ukr-literature",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Історичний роман про крах Османської імперії й долю запорозьких козаків у боротьбі за свободу. Самойленко переплітає реальні события з долями персонажів, що прагнуть визнання й справедливості в часи геополітичних перетворень.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

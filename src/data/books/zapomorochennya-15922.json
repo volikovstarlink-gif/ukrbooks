@@ -3,7 +3,7 @@
   "slug": "zapomorochennya-15922",
   "title": "Запаморочення",
   "author": "Франк Тільє",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Психологічний детектив про детектива, що розслідує вбивство багатої дами, але поступово втрачає впевненість у своїх висновках. Тільє будує історію як головоломку, де читач разом з героєм заходить в глухий кут підозр і неправильних висновків.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

@@ -3,7 +3,7 @@
   "slug": "kohannya-kusaye-duzhe-silno-19369",
   "title": "Кохання кусає дуже сильно",
   "author": "Лола Ґлас",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Романтична історія про непрості стосунки двох людей, які зустрічаються у напруженому соціальному контексті. Авторка досліджує, як глибокі почуття стикаються з реальністю та соціальними умовами.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

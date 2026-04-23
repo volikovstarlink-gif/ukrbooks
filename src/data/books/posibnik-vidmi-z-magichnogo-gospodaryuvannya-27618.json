@@ -3,7 +3,7 @@
   "slug": "posibnik-vidmi-z-magichnogo-gospodaryuvannya-27618",
   "title": "Посібник відьми з магічного господарювання",
   "author": "Сангу Манданна",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Практичний путівник із застосування магії в повсякденному господарстві та земельництві. Поєднує традиційні знання про рослини, сезонні роботи та фольклорні практики з методологічним підходом до ведення ферми чи саду.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

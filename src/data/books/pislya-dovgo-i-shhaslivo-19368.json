@@ -3,7 +3,7 @@
   "slug": "pislya-dovgo-i-shhaslivo-19368",
   "title": "Unknown",
   "author": "nigliz",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Вибачте, але для створення опису потрібна інформація про назву книги та автора. \"Unknown\" та \"nigliz\" — це недостатньо конкретні дані.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

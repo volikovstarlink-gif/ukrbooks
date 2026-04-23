@@ -3,7 +3,7 @@
   "slug": "znahidka-u-bibliotetsi-22225",
   "title": "Знахідка у бібліотеці",
   "author": "Агата Крісті",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Да́ма Ага́та Ме́рі Клари́сса Крі́сті, ле́ді Малло́вен, до шлюбу Мі́ллер (англ. Dame Agatha Mary Clarissa Christie, Lady Mallowan, née Miller; публікувалася під власним ім'ям і під псевдонімом Ме́рі Ве́стмакотт, англ.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

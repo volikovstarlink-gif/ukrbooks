@@ -3,7 +3,7 @@
   "slug": "kyiv-psaltyr",
   "title": "Київський Псалтир (Kiev Psalter of 1397)",
   "author": "Протодиякон Спиридоній",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "Kyiv Psalter (Київський Псалтир; Kyivskyi Psaltyr). A monument of Old Ukrainian script and illumination. The work was commissioned by Bishop Mykhail and composed in 1397 by the Kyiv archdeacon Spyrydonii. Consisting of 228 large parchment sheets, its 293 rich miniatures belong to the highest achievements of 14th-century Ukrainian art and continue the artistic tradition of Kyivan Rus’. The psalter, preserved in the Saltykov-Shchedrin Library in Saint Petersburg, was reproduced photomechanically and published in Moscow in 1978. [This article originally appeared in the Encyclopedia of Ukraine, vol. 2 (1989).] Серед церковнослов’янського тексту Київського Псалтиру 1397 р. наявні риси української мови. В. В. Німчук. Пам'ятки української мови // Українська мова: Енциклопедія. К., 2004. – С. 454. КИЇВСЬКИЙ ПСАЛТЙР 1397 - пам’ятка середньовічної книжної культури і мистецтва. Є перекладом з грецької церковно-слов’янською мовою однієї з книг Старого Завіту — Псалтиря (див. Біблія ), яка складається з 151 псалму (переважна більшість з них приписується цареві Давиду). Переписана в Києві протодияконом Спиридонієм на замовлення смоленського єпископа Михаїла і, очевидно, була подарована ним Успенському соборові у Смоленську (нині місто в РФ). Написана урочистим, дуже чітким і каліграфічним півуставом, оформлена 302 мініатюрами (див. Мініатюра книжкова ), виконаними в неовізант. стилі. Пізніше Псалтир потрапив до рук підскарбія Великого князівства Литовського А. Глембоцького, який 1518 передав його до правосл. Свято-Микільської церкви у Вільно (нині м. Вільнюс ). Там книга зберігалася понад 300 років. Нині зберігається в Рос. нац. б-ці ім. М. Салтикова-Щедріна (м. Санкт-Петербург). Уперше пам’ятка була видана фототипічним способом 1890, друге факсимільне видання — 1978. Літ.: Вздорнов Г. Киевская Псалтырь 1397 года. Приложение: Исследование о Киевской Псалтыри. М., 1978. Ю.А. Мицик. Київський Псалтир 1397 // Енциклопедія історії України: Т. 4: Ка - Ком. — К., 2007. – С. 266.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "ukraine"
 }

@@ -3,7 +3,7 @@
   "slug": "shlyah-mecha-21142",
   "title": "Шлях меча",
   "author": "Генри Лайон Олди",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Клинок, вдумливий, як людина. Людина, небезпечна, як клинок. Вони поруч, навіть разом, проте не чують один одного. І лише пройшовши через смерті близьких і мало не загубивши себе, вони стануть друзями, майже єдиним цілим.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

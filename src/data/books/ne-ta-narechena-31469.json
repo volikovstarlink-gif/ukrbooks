@@ -3,7 +3,7 @@
   "slug": "ne-ta-narechena-31469",
   "title": "Не та наречена",
   "author": "Катаріна Маура",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Гра розуму та почуттів у палаці, де кожна рішучість коштує дорого. Молода жінка змушена вийти заміж за того, кого не любить, але чекає на можливість змінити своє життя. Романтична історія про те, як правильна людь у неправильний момент може перетворити все.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

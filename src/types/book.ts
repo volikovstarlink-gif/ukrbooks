@@ -13,7 +13,10 @@ export interface Book {
   slug: string;
   title: string;
   author: string;
+  /** Top-level category slug (see categories.json) */
   category: string;
+  /** Optional sub-category slug within the parent top-level */
+  subcategory?: string;
   language: BookLanguage;
   year: number | null;
   description?: string;
@@ -30,6 +33,15 @@ export interface Book {
   isPublicDomain?: boolean;
   /** Year the author died — used to derive isPublicDomain */
   authorDeathYear?: number | null;
+  /** AI-classification confidence: high = body-text match, medium = metadata-only, low = guessed fallback */
+  categoryConfidence?: 'high' | 'medium' | 'low';
+}
+
+export interface Subcategory {
+  slug: string;
+  name: string;
+  description?: string;
+  bookCount?: number;
 }
 
 export interface Category {
@@ -40,6 +52,7 @@ export interface Category {
   icon: string;
   bookCount: number;
   order: number;
+  subcategories?: Subcategory[];
 }
 
 export interface BooksIndex {

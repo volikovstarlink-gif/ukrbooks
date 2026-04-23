@@ -2,13 +2,13 @@ import Link from 'next/link';
 import { BookOpen } from 'lucide-react';
 
 const CATEGORIES = [
-  { slug: 'ukr-literature', name: 'Українська література' },
-  { slug: 'fiction', name: 'Фантастика' },
-  { slug: 'detective', name: 'Детективи' },
-  { slug: 'classic', name: 'Класика' },
-  { slug: 'history', name: 'Історія' },
-  { slug: 'romance', name: 'Романи' },
-  { slug: 'children', name: 'Дитячі книги' },
+  { slug: 'literature-ukr', name: 'Сучасна українська проза' },
+  { slug: 'literature-foreign', name: 'Сучасна зарубіжна проза' },
+  { slug: 'classics', name: 'Класика' },
+  { slug: 'fantasy', name: 'Фантастика та фентезі' },
+  { slug: 'history', name: 'Історія та біографії' },
+  { slug: 'children', name: 'Дитяча література' },
+  { slug: 'self-help', name: 'Саморозвиток та психологія' },
 ];
 
 export default function Footer() {

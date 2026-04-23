@@ -3,7 +3,7 @@
   "slug": "kohati-dzhejsona-torna-22364",
   "title": "Кохати Джейсона Торна",
   "author": "Елла Мейз",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Романтична драма про жінку, яка закохується в чоловіка з темним минулим. Їхні почуття стають випробуванням, коли поривають приховані таємниці та травми. Книга досліджує, як любов змагається з внутрішніми демонами.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

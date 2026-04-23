@@ -3,7 +3,7 @@
   "slug": "malenki-rechi-28326",
   "title": "Маленькі речі",
   "author": "Ванда М. Морріс",
-  "category": "detective",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Це не українська книга — «Маленькі речі» Ванди М. Морріс — англомовне видання американської авторки. Я генеруюю описи українських книг.\n\nЯкщо у вас є українська книга, поділіться назвою, автором і роком — з радістю напишу опис.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

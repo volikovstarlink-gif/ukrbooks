@@ -3,7 +3,7 @@
   "slug": "privid-21707",
   "title": "Привид",
   "author": "Емілі Барр",
-  "category": "detective",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Музей воскових фігур 2 (англ. Waxwork II: Lost in Time) — американський комедійний фільм жахів, режисера Ентоні Гікокса. Продовження фільму 1988 року «Музей воскових фігур».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

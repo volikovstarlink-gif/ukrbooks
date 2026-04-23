@@ -3,7 +3,7 @@
   "slug": "tse-stalosya-vlitku-21609",
   "title": "Це трапилось одного літа",
   "author": "Тесса Бейлі",
-  "category": "fiction",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Розповідь про літо, коли змінилося все. Напружена драма про родину, яка постає перед складним моральним вибором під час неспокійних часів. Персональна історія, що відбиває глибші суспільні конфлікти.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

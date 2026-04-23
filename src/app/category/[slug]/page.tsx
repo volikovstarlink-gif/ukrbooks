@@ -2,11 +2,15 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Home, ChevronRight } from 'lucide-react';
-import { getAllCategories, getBooksByCategory, getCategoryBySlug } from '@/lib/books';
+import {
+  getAllCategories,
+  getBooksByCategory,
+  getCategoryBySlug,
+  getCategoriesWithCounts,
+} from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
 import { categoryBreadcrumbJsonLd, categoryItemListJsonLd } from '@/lib/jsonld';
 import BookCard from '@/components/books/BookCard';
-import InlineVideoAd from '@/components/ads/InlineVideoAd';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
 
@@ -22,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!cat) return { title: 'Категорія не знайдена' };
   const books = getBooksByCategory(slug);
   return {
-    title: `${cat.name} — книги завантажити EPUB FB2 | UkrBooks`,
-    description: `${cat.description}. ${books.length} книг у форматах EPUB та FB2. Завантаження без реєстрації.`,
+    title: `${cat.name} — ${books.length} книг у форматах EPUB та FB2 | UkrBooks`,
+    description: `${cat.description}. ${books.length} книг. Завантаження без реєстрації.`,
     keywords: [cat.name, `${cat.name} epub`, `${cat.name} fb2`, `завантажити ${cat.name.toLowerCase()}`, 'електронні книги'],
     alternates: { canonical: `${BASE}/category/${slug}` },
     openGraph: {
@@ -36,9 +40,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CategoryPage({ params }: Props) {
   const { slug } = await params;
-  const cat = getCategoryBySlug(slug);
+  const catWithCounts = getCategoriesWithCounts().find((c) => c.slug === slug);
+  const cat = catWithCounts ?? getCategoryBySlug(slug);
   if (!cat) notFound();
   const books = getBooksByCategory(slug);
+  const visibleSubs = (catWithCounts?.subcategories ?? []).filter((s) => (s.bookCount ?? 0) > 0);
+
+  // Sample featured books for the top-level overview — one per sub-category when possible
+  const featured = visibleSubs
+    .map((sub) => books.find((b) => b.subcategory === sub.slug))
+    .filter((b): b is NonNullable<typeof b> => !!b)
+    .slice(0, 12);
+  const featuredFallback = featured.length < 6 ? books.slice(0, 12) : featured;
 
   const ldBreadcrumb = categoryBreadcrumbJsonLd({ name: cat.name, slug });
   const ldItemList = categoryItemListJsonLd({ name: cat.name, slug }, books);
@@ -50,7 +63,6 @@ export default async function CategoryPage({ params }: Props) {
 
       <div style={{ background: 'var(--color-ink)' }}>
         <div className="container-site py-8">
-          {/* Breadcrumbs */}
           <nav aria-label="Навігація" className="flex items-center gap-1.5 text-xs text-white/50 mb-5 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors flex items-center gap-1">
               <Home size={11} />Головна
@@ -82,28 +94,46 @@ export default async function CategoryPage({ params }: Props) {
           </div>
         ) : (
           <>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-              {books.slice(0, 12).map((book) => (
-                <BookCard key={book.slug} book={book} />
-              ))}
-            </div>
-            {books.length > 12 && (
-              <>
-                <InlineVideoAd placement="category-after-12" />
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                  {books.slice(12, 36).map((book) => (
-                    <BookCard key={book.slug} book={book} />
+            {visibleSubs.length > 0 && (
+              <section className="mb-10">
+                <h2 className="font-display text-xl font-semibold mb-4">Підкатегорії</h2>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                  {visibleSubs.map((sub) => (
+                    <Link
+                      key={sub.slug}
+                      href={`/category/${slug}/${sub.slug}`}
+                      className="rounded-xl p-4 transition-all hover:-translate-y-0.5 hover:shadow-md"
+                      style={{ background: '#fff', border: '1px solid var(--color-border)' }}
+                    >
+                      <div className="font-semibold leading-tight">{sub.name}</div>
+                      <div className="text-xs mt-1" style={{ color: 'var(--color-muted)' }}>
+                        {pluralizeBooks(sub.bookCount ?? 0)}
+                      </div>
+                    </Link>
                   ))}
                 </div>
-                {books.length > 36 && (
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                    {books.slice(36).map((book) => (
-                      <BookCard key={book.slug} book={book} />
-                    ))}
-                  </div>
-                )}
-              </>
+              </section>
             )}
+
+            <section>
+              <h2 className="font-display text-xl font-semibold mb-4">Усі книги</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+                {featuredFallback.map((book) => (
+                  <BookCard key={book.slug} book={book} />
+                ))}
+              </div>
+              {books.length > featuredFallback.length && (
+                <div className="text-center mt-8">
+                  <Link
+                    href={`/catalog?category=${slug}`}
+                    className="inline-block px-5 py-2.5 rounded-lg font-semibold transition-colors"
+                    style={{ background: 'var(--color-ink)', color: '#fff' }}
+                  >
+                    Переглянути всі {pluralizeBooks(books.length)} →
+                  </Link>
+                </div>
+              )}
+            </section>
           </>
         )}
       </div>

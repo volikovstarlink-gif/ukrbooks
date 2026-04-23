@@ -3,7 +3,7 @@
   "slug": "syayuchij-shlyah-14013",
   "title": "Сяючий шлях",
   "author": "Дмитро Олександрович Корчинський",
-  "category": "ukr-literature",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Роман для домогосподарок. Пригодницька історія про кохання з детективним сюжетом.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

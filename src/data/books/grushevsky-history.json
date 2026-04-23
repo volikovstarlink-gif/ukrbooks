@@ -3,7 +3,7 @@
   "slug": "grushevsky-history",
   "title": "tmp0",
   "author": "",
-  "category": "history",
+  "category": "other",
   "language": "uk",
   "year": 0,
   "description": "Вибачте, але не можу створити опис без назви книги та автора. Будь ласка, надайте:\n- Назву твору\n- Прізвище автора\n- Приблизний рік видання (або період)\n\nТоді дам вам змістовний короткий опис.",
@@ -27,5 +27,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }

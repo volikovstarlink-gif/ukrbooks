@@ -3,7 +3,7 @@
   "slug": "ostannij-svit-14980",
   "title": "Останній світ",
   "author": "Крістоф Рансмайр",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Австрійський письменник Крістоф Рансмайр переносить читача в занепадаючу Римську імперію, де молодий герой шукає забутого поета Овідія серед варварських нападів та власних змін.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

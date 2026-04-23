@@ -3,7 +3,7 @@
   "slug": "doli-furij-14356",
   "title": "Unknown",
   "author": "Helen Scheuerer",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Я не можу створити опис для книги \"Unknown\" — недостатньо інформації. Потрібна точна назва українською, автор та рік видання, щоб правильно представити твір.\n\nУточни деталі, будь ласка.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

@@ -3,7 +3,7 @@
   "slug": "glibina-17182",
   "title": "Глибина",
   "author": "Алі Гейзелвуд",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Наукова фантастика про астробіолога, що досліджує морські глибини чужої планети і несподівано зустрічає там загадкового першого контакту. Захоплива суміш романтики, пригод та космічних таємниць.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

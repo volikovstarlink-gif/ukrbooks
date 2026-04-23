@@ -3,7 +3,7 @@
   "slug": "diasp-23367",
   "title": "Молодий Цвіт",
   "author": "Молодий Цвіт",
-  "category": "ukr-literature",
+  "category": "other",
   "language": "uk",
   "year": 1952,
   "description": "Літературно-художній збірник українців діаспори, видану в Австралії в період активного культурного самозбереження емігрантської спільноти.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

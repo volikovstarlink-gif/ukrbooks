@@ -3,7 +3,7 @@
   "slug": "inferno-3611",
   "title": "Інферно",
   "author": "Ден Браун",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2013,
   "description": "Після того як на нього було скоєно замах, професор Роберт Ленґдон втратив пам'ять. «Шукайте і знайдете» — ці строки з безсмертної поеми Данте лунають у його голові. Вони, безумовно, ключ до таємниці... але до якої?",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

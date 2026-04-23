@@ -3,7 +3,7 @@
   "slug": "shifr-14981",
   "title": "Шифр - Knigarnya",
   "author": "Невідомий автор",
-  "category": "fiction",
+  "category": "business-science",
   "language": "uk",
   "year": null,
   "description": "Містична наукова повість про розшифрування древнього коду, який приховує відповіді на питання про природу реальності. Головний герой розплутує складну систему символів, що пов'язує математику, філософію та езотеризм в єдину теорію світобудови.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "science-tech"
 }

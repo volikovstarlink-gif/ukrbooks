@@ -3,7 +3,7 @@
   "slug": "diasp-19778",
   "title": "Гикавий О. Збірка байок",
   "author": "Онуфрій Гикавий",
-  "category": "ukr-literature",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 0,
   "description": "Онуфрій Гикавий збирав байки з українського народного побуту і переказував їх у стислій, дотепній формі. Твори розповідають про животних та людей, висміюючи людські вади — жадібність, пихатість, лицемірство.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "novels"
 }

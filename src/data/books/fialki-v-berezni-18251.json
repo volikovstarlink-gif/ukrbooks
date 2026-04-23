@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "fialki-v-berezni-18251__Fialky_v_berezni__fialki-v-berezni.fb2",
       "fileDir": "Ф",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

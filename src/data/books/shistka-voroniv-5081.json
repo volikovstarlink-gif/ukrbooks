@@ -3,7 +3,7 @@
   "slug": "shistka-voroniv-5081",
   "title": "Шістка воронів",
   "author": "Лі Бардуґо",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Шість небезпечних покидьків. Одне неможливе викрадення. Казова команда — мабуть, єдине, що залишилося між світом і його руйнацією, — якщо вони, звісно, не повбивають одне одного раніше.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

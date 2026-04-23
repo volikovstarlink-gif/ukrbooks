@@ -3,7 +3,7 @@
   "slug": "polovij-komandir-11709",
   "title": "Польовий командир",
   "author": "Сергій Батурин",
-  "category": "ukr-literature",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2011,
   "description": "Хто справжній польовий командир: той, хто керує революцією на Майдані, чи той, хто веде свій загін на бій через тайгу? Що буде, коли ці двоє зустрінуться? Про це розповідає новий роман Сергія Батурина, написаний в жанрі політичної фантастики.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

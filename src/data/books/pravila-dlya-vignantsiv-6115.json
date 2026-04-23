@@ -3,7 +3,7 @@
   "slug": "pravila-dlya-vignantsiv-6115",
   "title": "Правила для вигнанців",
   "author": "Марта Веллс",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Третя книга серії Murderbot Diaries (Щоденники робота-кіллера). Людина-робот вирішує повернутись на Мілу, щоб знайти там докази незаконної діяльності компанії GrayCris",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

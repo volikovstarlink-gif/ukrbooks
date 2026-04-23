@@ -3,7 +3,7 @@
   "slug": "diasp-18962",
   "title": "Коваленко О. Горбоконик",
   "author": "Олекса Коваленко",
-  "category": "ukr-literature",
+  "category": "other",
   "language": "uk",
   "year": 0,
   "description": "Оле́кса Ку́зьмович Ковале́нко (10 березня 1880, хутір Власів, колишня Воронізька губернія, нині Бєлгородська область — 1927, Київ) — український поет, перекладач, видавець. Уродженець Східної Слобожанщини.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

@@ -3,7 +3,7 @@
   "slug": "korol-dama-valet-2020",
   "title": "Korol dama valet",
   "author": "Невідомий автор",
-  "category": "classic",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "Експериментальний твір російської літератури, що грає з детективним сюжетом і літературною формою. Карткова символіка структурує оповідь про обман, страсть та втечу від реальності. Роман ставить під сумнів межі між авторством і читацьким сприйманням.",
@@ -21,5 +21,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "foreign-language"
 }

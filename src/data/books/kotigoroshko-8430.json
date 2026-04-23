@@ -3,7 +3,7 @@
   "slug": "kotigoroshko-8430",
   "title": "Котигорошко",
   "author": "Василь Кожелянко",
-  "category": "ukr-literature",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Котигорошко» — сатиричний роман у жанрі альтернативної історії, написаний українським письменником Василем Кожелянком та вперше надрукований у видавництві «Кальварія» 2001 року. Є п'ятим романом книжкової серії «Дефіляди».",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

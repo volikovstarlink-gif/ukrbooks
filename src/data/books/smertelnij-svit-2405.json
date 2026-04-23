@@ -3,7 +3,7 @@
   "slug": "smertelnij-svit-2405",
   "title": "Смертельний світ",
   "author": "Гаррі Гаррісон",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 1960,
   "description": "«Гаррі Поттер та Смертельні Реліквії: Частина 2» (англ. Harry Potter and the Deathly Hallows – Part 2) — британо-американське фентезі, зняте режисером Девідом Єйтсом, завершальна частина серії фільмів про Гаррі Поттера та друга з двох частин екранізації роману «Гаррі Поттер і Смертельні реліквії» Джоан Роулінг.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

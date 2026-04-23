@@ -31,6 +31,22 @@ const nextConfig: NextConfig = {
   compress: true,
   poweredByHeader: false,
 
+  async redirects() {
+    // Old flat-category slugs → new top-level slugs. SEO-indexed URLs
+    // preserved via 301; no loss of link equity. Keep in sync with
+    // OLD_TO_NEW_CATEGORY in src/lib/books.ts.
+    return [
+      { source: '/category/ukr-literature', destination: '/category/literature-ukr', permanent: true },
+      { source: '/category/fiction', destination: '/category/fantasy', permanent: true },
+      { source: '/category/detective', destination: '/category/literature-foreign', permanent: true },
+      { source: '/category/romance', destination: '/category/literature-foreign', permanent: true },
+      { source: '/category/classic', destination: '/category/classics', permanent: true },
+      { source: '/category/business', destination: '/category/business-science', permanent: true },
+      { source: '/category/psychology', destination: '/category/self-help', permanent: true },
+      { source: '/category/science', destination: '/category/business-science', permanent: true },
+    ];
+  },
+
   async headers() {
     return [
       {

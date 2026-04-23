@@ -3,7 +3,7 @@
   "slug": "buvajte-i-dyakuyemo-za-ribu-35636",
   "title": "Бувайте, і дякуємо за рибу;",
   "author": "Дуглас Адамс;",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": 1984,
   "description": "«Бувайте, та дякуємо за рибу» (англ. So Long, and Thanks for all the Fish) — гумористичний науково-фантастичний роман британського письменника Дугласа Адамса. Четверта частина серії книг, відомих під загальною назвою «Путівник Галактикою».",
@@ -27,5 +27,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

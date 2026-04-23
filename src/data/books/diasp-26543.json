@@ -3,7 +3,7 @@
   "slug": "diasp-26543",
   "title": "Halun Bloch M. Bern, son of Mikula",
   "author": "Marie Halun Bloch",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": 1972,
   "description": "Роман американської авторки українського походження про хлопця на ім'я Берн, сина Микули, в якому переплітаються історії еміграції та адаптації родини в новому світі. Книга відображає боротьбу між традиціями предків та реальністю американського життя.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }

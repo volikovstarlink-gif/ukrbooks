@@ -3,7 +3,7 @@
   "slug": "garri-potter-i-tayemna-kimnata-26079",
   "title": "Гаррі Поттер і Таємна кімната",
   "author": "Джоан Кетлін Ролінґ",
-  "category": "children",
+  "category": "fantasy",
   "language": "uk",
   "year": 1998,
   "description": "Це друга книжка про пригоди Гаррі Поттера. Він знову вступає у відчайдушну сутичку зі злом. Проте цього разу ворог такий сильний, що надії на перемогу майже немає…",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

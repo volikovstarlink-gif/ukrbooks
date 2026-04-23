@@ -3,7 +3,7 @@
   "slug": "diasp-25705",
   "title": "K.I. A History of Ukraine",
   "author": "I. K. (Іван Крипякевич)",
-  "category": "history",
+  "category": "other",
   "language": "uk",
   "year": 1971,
   "description": "Проведення історії України від найдавніших часів до середини XX століття. Видання української діаспори США, де Крипякевич викладав та публікував свої праці після емігрції. Синтетичний виклад, орієнтований на англомовну аудиторію.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }

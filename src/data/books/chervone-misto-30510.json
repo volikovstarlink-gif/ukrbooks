@@ -3,7 +3,7 @@
   "slug": "chervone-misto-30510",
   "title": "Червоне місто, Мері Ло",
   "author": "Unknown",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "У мальовничому місті на березі річки розгортається історія про дружбу, першого кохання та вибору між традиціями родини й власними мріями. Герої роблять відкриття про себе через пригоди, помилки і раптові озаріння. Світ навколо них змінюється, змінюються й вони самі.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

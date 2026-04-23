@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "nevilikovno-23905__Nevylikovno__nevilikovno.fb2",
       "fileDir": "Н",
-      "sizeMb": 5.0
+      "sizeMb": 5
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "memoirs"
 }

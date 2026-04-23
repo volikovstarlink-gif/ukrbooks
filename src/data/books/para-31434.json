@@ -3,7 +3,7 @@
   "slug": "para-31434",
   "title": "Пара - Алі Гейзелвуд",
   "author": "Алі Гейзелвуд",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Молода жінка, яка уникає стосунків, несподівано вплутується в романтичну історію з чоловіком, якого намагалася уникати. Їхня холодна гра перетворюється на пристрасне кохання, коли вони змушені близько працювати разом.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

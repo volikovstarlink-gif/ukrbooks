@@ -3,7 +3,7 @@
   "slug": "nichnij-podorozhnij-26886",
   "title": "Господар крижаного саду. Нічний подорожній",
   "author": "Ярослав Ґжендович",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Вітаємо на планеті Мідґаард! Це магічне місце, населене розумними істотами, які схожі на людей, духом скандинавської міфології та жахливим створіннями, що немов зійшли з полотен Ієроніма Босха. Саме тут самотній землянин шукає загублених членів експедиції й опиняється у вихорі надзвичайних подій.",
@@ -14,7 +14,7 @@
       "format": "epub",
       "filename": "nichnij-podorozhnij-26886__Nichnyi_podorozhnii.epub",
       "fileDir": "Н",
-      "sizeMb": 1.0
+      "sizeMb": 1
     },
     {
       "format": "fb2",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

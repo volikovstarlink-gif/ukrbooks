@@ -3,7 +3,7 @@
   "slug": "za-zbigom-obstavin-33432",
   "title": "За збігом обставин",
   "author": "Ребекка Яррос",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романтична історія про двох людей, яких зводить разом випадок, але розділяють глибокі секрети та страхи. Вони змушені навчитися довіряти один одному, щоб подолати перешкоди на шляху до кохання, яке потребує мужності визнати вразливість.",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "za-zbigom-obstavin-33432__Za_zbihom_obstavyn__za-zbigom-obstavin.fb2",
       "fileDir": "З",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

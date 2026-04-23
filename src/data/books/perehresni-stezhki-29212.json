@@ -3,7 +3,7 @@
   "slug": "perehresni-stezhki-29212",
   "title": "Перехресні стежки",
   "author": "Іван Франко",
-  "category": "ukr-literature",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "У збірці новел Франко змальовує життя провінційної України кінця XIX століття крізь призму характерів звичайних людей. Конфлікти між традицією й модерністю, матеріальною нуждою й духовними прагненнями розгортаються в атмосфері реалістичного спостереження.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukrainian"
 }

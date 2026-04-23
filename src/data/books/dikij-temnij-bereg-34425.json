@@ -3,7 +3,7 @@
   "slug": "dikij-temnij-bereg-34425",
   "title": "Дикий темний берег",
   "author": "Unknown",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "Містичний твір, що розкриває атмосферу страху й невизначеності на межі реальності та фантазії. Протагоніст опиняється в незвичайному місці, де панує дика природа й темні сили. Книга залишає читача у стані напруги, змушуючи переосмислити власне розуміння безпеки й цивілізації.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

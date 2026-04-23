@@ -3,7 +3,7 @@
   "slug": "podarunok-17838",
   "title": "Подарунок",
   "author": "Фріда МакФадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Психологічний триллер про жінку, яка отримує дивний подарунок і потрапляє в небезпечну гру з невідомим. Напруга зростає, коли виявляється, що дарувальник стежить за нею та знає темні секрети її минулого. Захопливий детектив про маніпуляцію та виживання.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

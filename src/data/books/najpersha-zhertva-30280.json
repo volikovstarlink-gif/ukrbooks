@@ -3,7 +3,7 @@
   "slug": "najpersha-zhertva-30280",
   "title": "Роберт ШЕКЛІ",
   "author": "Vitaliy",
-  "category": "other",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Вітальій досліджує творчість американського письменника-фантаста Роберта Шеклі, чия сатирична наукова фантастика 1950–70-х років висміювала споживацьке суспільство і бюрократію.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

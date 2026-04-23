@@ -3,7 +3,7 @@
   "slug": "diasp-28927",
   "title": "Симчук В. Св. о. Миколай",
   "author": "Василь Симчук",
-  "category": "ukr-literature",
+  "category": "other",
   "language": "uk",
   "year": 0,
   "description": "Черничин (пол. Czerniczyn) — село в Польщі, у гміні Грубешів Грубешівського повіту Люблінського воєводства. Населення — 692 особи (2011). Розташоване на українському Закерзонні (в історичній Холмщині).",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

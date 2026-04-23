@@ -3,7 +3,7 @@
   "slug": "moya-idealna-pomilka-34183",
   "title": "Моя ідеальна помилка",
   "author": "Олівія Гейл",
-  "category": "fiction",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Гі́ларі Е́ргард Дафф (англ. Hilary Erhard Duff; нар. 28 вересня 1987, Х'юстон, США) — американська співачка (поп-рок, денс-поп), акторка (телебачення, кіно, озвучення), письменниця, підприємиця, кінопродюсерка, дизайнерка одягу, прикрас та парфумів, захисниця прав тварин та філантропка.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

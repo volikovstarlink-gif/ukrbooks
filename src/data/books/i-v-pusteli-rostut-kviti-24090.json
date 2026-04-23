@@ -3,7 +3,7 @@
   "slug": "i-v-pusteli-rostut-kviti-24090",
   "title": "І в пустелі ростуть квіти",
   "author": "Євгенія Береженська",
-  "category": "ukr-literature",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Історичний роман про долю українців, розкиданих вихором революцій і воєн. Переплітаються персональні драми з великими історичними подіями, показуючи, як звичайні люди пережили катаклізми XX століття.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

@@ -3,7 +3,7 @@
   "slug": "preriya-2653",
   "title": "Прерія",
   "author": "Джеймс Фенімор Купер",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2011,
   "description": "Завершальний роман відомої пенталогії класика американської літератури про доброчесного мисливця Натті Бампо.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

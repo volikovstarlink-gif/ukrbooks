@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "sim-nepravd-29830__Sim_nepravd__sim-nepravd.fb2",
       "fileDir": "С",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

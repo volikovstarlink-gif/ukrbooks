@@ -3,7 +3,7 @@
   "slug": "kohannya-j-olivki-24703",
   "title": "Unknown",
   "author": "Василий Кононюк",
-  "category": "ukr-literature",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Історичний твір Василя Кононюка освітлює малознані сторінки минулого, пропонуючи аналіз подій та осіб, які формували українські долі. Авторське бачення базується на архівних джерелах та критичному переосмисленню традиційних наративів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

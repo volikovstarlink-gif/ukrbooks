@@ -3,7 +3,7 @@
   "slug": "pershe-pravilo-charivnika-20652",
   "title": "Перше Правило Чарівника",
   "author": "Террі Гудкайнд",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2013,
   "description": "Ще учора молодий Річард був усього лише лісовим провідником, а нині йому випав на долю тяжкий жереб Шукача Істини. Тяжкий, бо магія не приносить радості, а за істину, як і за могутність, розплачуються дорогою ціною. Тяжкий — бо Шукачеві Істини належить вступити з найбільшим з чорних магів трьох королівств, безжальним Даркеном Ралом, повелителем Д'Хари, в смертельну сутичку за володіння трьома чарівними скриньками Ордену, одна з яких дарує безсмертя, друга — смерть, а третя — несе загибель усьому живому…",
@@ -14,18 +14,19 @@
       "format": "epub",
       "filename": "pershe-pravilo-charivnika-20652__Pershe_Pravylo_Charivnyka.epub",
       "fileDir": "П",
-      "sizeMb": 1.0
+      "sizeMb": 1
     },
     {
       "format": "fb2",
       "filename": "pershe-pravilo-charivnika-20652__Pershe_Pravylo_Charivnyka__pershe-pravilo-charivnika.fb2",
       "fileDir": "П",
-      "sizeMb": 3.0
+      "sizeMb": 3
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

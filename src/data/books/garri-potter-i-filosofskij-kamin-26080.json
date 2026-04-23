@@ -3,7 +3,7 @@
   "slug": "garri-potter-i-filosofskij-kamin-26080",
   "title": "Гаррі Поттер і фiлософський камiнь",
   "author": "Джоан Кетлін Ролінґ",
-  "category": "children",
+  "category": "fantasy",
   "language": "uk",
   "year": 1997,
   "description": "Відірвавшись від комп’ютерів телеекранів, сотні мільйонів дітей та дорослих у всьому світі ЗНОВУ ЧИТАЮТЬ! Казка про хлопчика-чарівника Гаррі Поттера зачарувала всю планету…",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

@@ -3,7 +3,7 @@
   "slug": "mandrivnik-6228",
   "title": "Мандрівник",
   "author": "Джон Твелф Гоукс",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Світ, який існує в тіні нашого світу. Боротьба, яку ми ніколи не побачимо. Одна жінка, яка стоїть між тими, хто збирається контролювати історію, і тими, хто ризикуватиме своїм життям заради свободи.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

@@ -3,7 +3,7 @@
   "slug": "psi-gospodni-15283",
   "title": "Пси господні",
   "author": "Марчін Швьонтковський",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": 2023,
   "description": "Екранізований роман про совість та вибір під час російської окупації. Головний герой — командир, що розривається між військовим обов'язком та людськістю, коли його загін вимушений приймати важкі рішення.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

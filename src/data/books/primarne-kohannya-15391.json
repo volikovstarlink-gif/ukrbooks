@@ -3,7 +3,7 @@
   "slug": "primarne-kohannya-15391",
   "title": "Примарне кохання",
   "author": "Енн Шерідан",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Тетяна Ігорівна Шитова (рос. Татьяна Игоревна Шитова; нар. 1 серпня 1975 року) — російська актриса театру, кіно й озвучування.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

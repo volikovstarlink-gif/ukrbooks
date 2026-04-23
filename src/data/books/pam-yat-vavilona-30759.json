@@ -3,7 +3,7 @@
   "slug": "pam-yat-vavilona-30759",
   "title": "Крістелль Дабос_Пам’ять Вавилона",
   "author": "Невідомий автор",
-  "category": "fiction",
+  "category": "business-science",
   "language": "uk",
   "year": null,
   "description": "Епічна науково-фантастична сага про цивілізацію, яка існує у спотворених шарах часу з паралельними версіями історії. Протагоніст мусить розібратися в лабіринті спогадів і змінювальних реальностей, щоб знайти істину про своє минуле.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "science-tech"
 }

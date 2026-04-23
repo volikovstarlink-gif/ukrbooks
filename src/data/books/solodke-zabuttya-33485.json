@@ -3,7 +3,7 @@
   "slug": "solodke-zabuttya-33485",
   "title": "Солодке Забуття Даніель Лорі",
   "author": "Unknown",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "У романі розповідається про людей, які намагаються втекти від травм минулого через безконечний пошук насолоди та задоволення. Головні персонажі потрапляють у спіраль залежностей, де реальність поступово розчиняється.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

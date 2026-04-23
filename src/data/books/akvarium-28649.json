@@ -3,7 +3,7 @@
   "slug": "akvarium-28649",
   "title": "Акваріум",
   "author": "Віктор Суворов",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Розповідь радянського розвідника про своє життя в ГРУ й момент дезертирства на Заході. Суворов описує внутрішню кухню радянської військової розвідки та її операції під час холодної війни.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

@@ -3,7 +3,7 @@
   "slug": "zipsovanij-19524",
   "title": "Зіпсований",
   "author": "Невідомий автор",
-  "category": "fiction",
+  "category": "other",
   "language": "uk",
   "year": null,
   "description": "Кільце навколо Сонця(англ. Ring Around the Sun) — науково-фантастичний роман американського письменника Кліффорда Сімака, написаний в традиційному для автора антиурбаністичному стилі.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "uncategorized"
 }

@@ -3,7 +3,7 @@
   "slug": "edem-4442",
   "title": "Едем",
   "author": "Станіслав Лем",
-  "category": "fiction",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Стані́слав Герман Лем (пол. Stanisław Herman Lem; 12 вересня 1921, Львів — 27 березня 2006, Краків) — польський письменник-фантаст єврейського походження. Найбільше перекладений польський письменник.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "fantasy"
 }

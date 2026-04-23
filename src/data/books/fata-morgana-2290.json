@@ -3,7 +3,7 @@
   "slug": "fata-morgana-2290",
   "title": "Fata Morgana",
   "author": "Михайло Коцюбинський",
-  "category": "ukr-literature",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Повний текст \"Fata Morgana\" (автор: Коцюбинський Михайло Михайлович) з Бібліотеки Української Літератури УкрЛіб",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukrainian"
 }

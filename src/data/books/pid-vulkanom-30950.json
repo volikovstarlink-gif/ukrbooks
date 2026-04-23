@@ -3,7 +3,7 @@
   "slug": "pid-vulkanom-30950",
   "title": "Під вулканом",
   "author": "Малкольм Лаурі",
-  "category": "classic",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Рікардо Крістобаль Блуме Траверсо (ісп. Ricardo Cristóbal Blume Traverso; 16 серпня 1933, Ліма, Перу — 30 жовтня 2020, Сантьяго-де-Керетаро, Керетаро, Мексика) — перуанський актор та режисер, більша частина кар'єри якого пов'язана з Мексикою.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

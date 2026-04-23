@@ -3,7 +3,7 @@
   "slug": "mertvij-med-13443",
   "title": "Мертвий Мед",
   "author": "Фріда МакФадден",
-  "category": "detective",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Психологічна розв'язка про жінку, яка прокидається з амнезією в домі невідомої родини і повинна з'ясувати, чи вона справді потрібна їм, чи стала жертвою хитрого обману. Напружений трилер про довіру і небезпеку, яка криється в сімейних таємницях.",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "mertvij-med-13443__Mertvyi_Med__mertvij-med.fb2",
       "fileDir": "М",
-      "sizeMb": 4.0
+      "sizeMb": 4
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "detectives"
 }

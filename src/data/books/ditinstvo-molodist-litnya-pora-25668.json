@@ -3,7 +3,7 @@
   "slug": "ditinstvo-molodist-litnya-pora-25668",
   "title": "Дитинство. Молодість. Літня пора",
   "author": "Джон Максвелл Кутзее",
-  "category": "classic",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 1997,
   "description": "Творчість Дж. М. Кутзее багатогранна й оригінальна. Як було зазначено в рішенні Шведської королівської академії, яка в 2003 році присудила йому Нобелівську премію, «в його творчості немає двох книг, створених за одним рецептом». При цьому в основі його романів — спогади про життя в Південно-Африканській Республіці. «Дитинство», «Молодість» та «Літня пора» — це автобіографія, автобіографія дуже незвична, в якій автор з безжалісною прямотою описує внутрішні сумніви та страждання людини, яка шукає і не може знайти свого місця в житті.",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "ditinstvo-molodist-litnya-pora-25668__Dytynstvo._Molodist._Litnia_pora__ditinstvo-molodist-litnya-pora.fb2",
       "fileDir": "Д",
-      "sizeMb": 2.0
+      "sizeMb": 2
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

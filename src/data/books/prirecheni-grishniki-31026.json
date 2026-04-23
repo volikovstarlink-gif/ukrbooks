@@ -3,7 +3,7 @@
   "slug": "prirecheni-grishniki-31026",
   "title": "Приречені грішники",
   "author": "Сомма Скетчер",
-  "category": "romance",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Роман про долі українців під час голодомору 1932–1933 років. Скетчер розповідає про звичайних людей, які опинилися в пастці радянської системи й голоду, мусячи робити неможливі вибори. Твір утверджує українську нарацію про трагедію XX століття.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "ukraine"
 }

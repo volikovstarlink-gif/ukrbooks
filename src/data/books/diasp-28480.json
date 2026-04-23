@@ -3,7 +3,7 @@
   "slug": "diasp-28480",
   "title": "Погідний-Угорчак М. Дніпрові дзвони",
   "author": "Микола Погідний-Угорчак",
-  "category": "ukr-literature",
+  "category": "other",
   "language": "uk",
   "year": 2003,
   "description": "Мико́ла Погі́дний (Мико́ла Петро́вич Угорча́к; * 22 грудня 1901, Тисмениця, Галичина, Австро-Угорщина — 1982, штат Нью-Джерсі, США) — український дитячий письменник.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

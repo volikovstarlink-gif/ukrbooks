@@ -3,7 +3,7 @@
   "slug": "krvavkniha01zakh",
   "title": "Krvavá kniha",
   "author": "Zakhidno-Ukraïnska Narodna Respublika",
-  "category": "history",
+  "category": "other",
   "language": "uk",
   "year": 1920,
   "description": "Translation of Krivava knyha",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "uncategorized"
 }

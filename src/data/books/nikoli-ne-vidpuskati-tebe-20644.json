@@ -3,7 +3,7 @@
   "slug": "nikoli-ne-vidpuskati-tebe-20644",
   "title": "Ніколи не відпускати тебе",
   "author": "Кеті Регнері",
-  "category": "romance",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Студентка прибиває хлопця, якому призначена скупа емоційність, але він не здається. Їхні зустрічі чергуються між конфліктами й несподіваним притяганням, доки один з них не змінює правила гри.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "sentimental"
 }

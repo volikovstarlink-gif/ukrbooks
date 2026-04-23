@@ -3,7 +3,7 @@
   "slug": "solonij-potsilunok-22905",
   "title": "Солоний Поцілунок",
   "author": "Сьєрра Сімоне",
-  "category": "romance",
+  "category": "history",
   "language": "en",
   "year": null,
   "description": "Еротичний роман про сексуальні відносини в історичному контексті. Книга дослідує табуйовані теми через призму інтимних стосунків персонажів.",
@@ -27,5 +27,6 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "world"
 }

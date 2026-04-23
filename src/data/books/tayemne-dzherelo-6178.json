@@ -3,7 +3,7 @@
   "slug": "tayemne-dzherelo-6178",
   "title": "Таємне джерело",
   "author": "Андрій Анатолійович Кокотюха",
-  "category": "ukr-literature",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Коли прагматичний і скептичний Ігор Князевич починав розслідування серії загадкових убивств, він навіть не здогадувався, що сліди приведуть його до прадавнього Чорного лісу, де струмить таємне джерело. Добру людину, якщо вірити народним оповідкам, вода з нього може оживити. А лиху, із чорним серцем, – убити. Люди зникають, а джерело зберігає свою таємницю. Та чи до снаги Князевичу розплутати цей міфічний клубок?",
@@ -20,12 +20,13 @@
       "format": "fb2",
       "filename": "tayemne-dzherelo-6178__Taiemne_dzherelo__tayemne-dzherelo.fb2",
       "fileDir": "Т",
-      "sizeMb": 1.0
+      "sizeMb": 1
     }
   ],
   "isFeatured": false,
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "subcategory": "novels"
 }

@@ -3,7 +3,7 @@
   "slug": "b-001-036-450-all",
   "title": "Arch B 001 036 450 ALL",
   "author": "",
-  "category": "science",
+  "category": "other",
   "language": "uk",
   "year": 0,
   "description": "Psilocybin, also known as 4-phosphoryloxy-N,N-dimethyltryptamine (4-PO-DMT), is a naturally occurring tryptamine alkaloid and investigational drug found in more than 200 species of mushrooms, with hallucinogenic and serotonergic effects. Effects include euphoria, changes in perception, a distorted sense of time, and perceived spiritual experiences. Psilocybin is a prodrug of psilocin.",
@@ -21,5 +21,6 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "subcategory": "foreign-language"
 }
