@@ -18,7 +18,7 @@ import {
 } from '@/lib/ads-analytics';
 import HouseAd from './HouseAd';
 
-const AD_POD_SIZE = 2;
+const AD_POD_SIZE = 1;
 const VIGNETTE_DURATION_SEC = 15;
 
 type Phase =
@@ -424,7 +424,7 @@ function Inner({
         <div className="px-6 pb-6">
           {phase === 'intro' && (
             <div className="text-center">
-              <p className="text-white font-bold text-xl mb-2">Перегляньте 2 короткі оголошення</p>
+              <p className="text-white font-bold text-xl mb-2">Перегляньте коротке оголошення</p>
               <p className="text-slate-300 text-base mb-1">
                 Реклама підтримує безкоштовну бібліотеку
               </p>
