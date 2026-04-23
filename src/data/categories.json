@@ -5,7 +5,7 @@
     "nameEn": "Ukrainian Literature",
     "description": "Класичні та сучасні твори українських авторів",
     "icon": "🌻",
-    "bookCount": 189,
+    "bookCount": 2525,
     "order": 1
   },
   {
@@ -14,7 +14,7 @@
     "nameEn": "Fiction",
     "description": "Наукова фантастика, фентезі, альтернативна історія",
     "icon": "🚀",
-    "bookCount": 440,
+    "bookCount": 443,
     "order": 2
   },
   {
@@ -23,7 +23,7 @@
     "nameEn": "Detective",
     "description": "Детективи, трилери, кримінальні романи",
     "icon": "🔍",
-    "bookCount": 229,
+    "bookCount": 233,
     "order": 3
   },
   {
@@ -32,7 +32,7 @@
     "nameEn": "Romance",
     "description": "Любовні романи та мелодрами",
     "icon": "💝",
-    "bookCount": 47,
+    "bookCount": 57,
     "order": 4
   },
   {
@@ -50,7 +50,7 @@
     "nameEn": "Business",
     "description": "Бізнес-книги, підприємництво, менеджмент",
     "icon": "💼",
-    "bookCount": 4,
+    "bookCount": 10,
     "order": 6
   },
   {
@@ -59,7 +59,7 @@
     "nameEn": "Psychology",
     "description": "Психологія, саморозвиток, мотивація",
     "icon": "🧠",
-    "bookCount": 6,
+    "bookCount": 10,
     "order": 7
   },
   {
@@ -68,7 +68,7 @@
     "nameEn": "Children",
     "description": "Книги для дітей та підлітків",
     "icon": "🌈",
-    "bookCount": 37,
+    "bookCount": 133,
     "order": 8
   },
   {
@@ -77,7 +77,7 @@
     "nameEn": "Science",
     "description": "Наукові книги, популярна наука",
     "icon": "🔬",
-    "bookCount": 48,
+    "bookCount": 76,
     "order": 9
   },
   {
@@ -86,7 +86,7 @@
     "nameEn": "History",
     "description": "Історичні книги та документальна проза",
     "icon": "⚔️",
-    "bookCount": 1261,
+    "bookCount": 1524,
     "order": 10
   },
   {
@@ -95,7 +95,7 @@
     "nameEn": "Other",
     "description": "Некатегоризовані книги",
     "icon": "📚",
-    "bookCount": 0,
+    "bookCount": 32,
     "order": 11
   }
 ]
