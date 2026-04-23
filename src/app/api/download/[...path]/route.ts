@@ -1,9 +1,14 @@
 import { NextResponse } from 'next/server';
 import { readFile } from 'fs/promises';
-import path from 'path';
 import { checkRateLimit, getRedis, incrDaily, recordError } from '@/lib/redis';
 
-const BOOKS_DIR = process.env.BOOKS_DIR || path.join(process.cwd(), '..', 'Books');
+// Dev-only filesystem read; prod downloads go direct to R2 via
+// NEXT_PUBLIC_BOOKS_BASE_URL. BOOKS_DIR is read from env at runtime — no
+// path.join of a project-relative dir, so Turbopack doesn't trace Books/.
+const BOOKS_DIR = process.env.BOOKS_DIR || '';
+
+// Force dynamic so no static path analysis includes filesystem deps.
+export const dynamic = 'force-dynamic';
 
 const MIME: Record<string, string> = {
   epub: 'application/epub+zip',
@@ -79,12 +84,14 @@ export async function GET(
 
   const ext = filename.split('.').pop()?.toLowerCase() || '';
   const mime = MIME[ext] || 'application/octet-stream';
-  // Production downloads go direct to R2 via NEXT_PUBLIC_BOOKS_BASE_URL and
-  // never hit this route. The filesystem read below is dev-only. We mark the
-  // path.join with turbopackIgnore so Turbopack doesn't trace the entire
-  // Books/ directory (28k+ files) into the serverless bundle — doing so
-  // exceeds Vercel's 250MB function size limit.
-  const filePath = path.join(/*turbopackIgnore: true*/ BOOKS_DIR, dir, filename);
+  // Dev only: prod never hits this route (NEXT_PUBLIC_BOOKS_BASE_URL routes
+  // downloads direct to R2). Short-circuit in prod to avoid filesystem dep.
+  if (!BOOKS_DIR || process.env.VERCEL) {
+    return new NextResponse('Not Found', { status: 404 });
+  }
+  // Template literal avoids Turbopack's path.join NFT trace of Books/.
+  const sep = BOOKS_DIR.includes('\\') ? '\\' : '/';
+  const filePath = `${BOOKS_DIR}${sep}${dir}${sep}${filename}`;
 
   try {
     const data = await readFile(filePath);

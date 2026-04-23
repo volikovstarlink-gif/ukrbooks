@@ -2,6 +2,16 @@ import type { NextConfig } from "next";
 import withBundleAnalyzer from '@next/bundle-analyzer';
 
 const nextConfig: NextConfig = {
+  // Exclude local Books/ trees from serverless function tracing.
+  // /api/download reads from BOOKS_DIR only in dev; in prod downloads go
+  // direct to R2 via NEXT_PUBLIC_BOOKS_BASE_URL. Without this exclude,
+  // Turbopack traces 28k+ book files into the serverless bundle and the
+  // function exceeds Vercel's 250MB unzipped size limit.
+  outputFileTracingExcludes: {
+    '**/*': ['**/Books/**', '**/Books_part2/**', '**/node_modules/@next/swc-*/**'],
+    '/api/download/*': ['**/Books/**', '**/Books_part2/**'],
+  },
+
   images: {
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 768, 1024, 1280],
