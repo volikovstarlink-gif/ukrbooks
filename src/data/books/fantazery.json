@@ -3,7 +3,7 @@
   "slug": "fantazery",
   "title": "Fantazery",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "fiction",
   "language": "uk",
   "year": null,
   "description": "Збірка фантастичних оповідань, написана невідомим автором в епоху, коли наукова фантастика в українській літературі почала набирати популярності. Твори поєднують вигаданні світи з соціальними мотивами, характерними для періоду написання.",
@@ -14,7 +14,7 @@
       "format": "epub",
       "filename": "fantazery__Fantazery.epub",
       "fileDir": "Ф",
-      "sizeMb": 0.0
+      "sizeMb": 0
     }
   ],
   "isFeatured": false,
