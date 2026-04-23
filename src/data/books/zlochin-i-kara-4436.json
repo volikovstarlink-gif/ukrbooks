@@ -27,5 +27,8 @@
   "isNewArrival": false,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2024-01-01"
+  "addedAt": "2024-01-01",
+  "translatedFrom": "ru",
+  "translator": null,
+  "translationConfidence": "high"
 }

@@ -166,3 +166,80 @@ export const getPublicAuthorSlugs = cache((): string[] =>
 export const getPublicDomainBookSlugs = cache((): string[] =>
   index.books.filter((b) => b.isPublicDomain !== false).map((b) => b.slug)
 );
+
+export const SOURCE_LANGUAGE_LABEL: Record<string, { name: string; flag: string; genitive: string }> = {
+  en: { name: 'Англійська', flag: '🇬🇧', genitive: 'англійської' },
+  fr: { name: 'Французька', flag: '🇫🇷', genitive: 'французької' },
+  de: { name: 'Німецька', flag: '🇩🇪', genitive: 'німецької' },
+  pl: { name: 'Польська', flag: '🇵🇱', genitive: 'польської' },
+  ru: { name: 'Російська', flag: '🇷🇺', genitive: 'російської' },
+  es: { name: 'Іспанська', flag: '🇪🇸', genitive: 'іспанської' },
+  it: { name: 'Італійська', flag: '🇮🇹', genitive: 'італійської' },
+  ja: { name: 'Японська', flag: '🇯🇵', genitive: 'японської' },
+  cs: { name: 'Чеська', flag: '🇨🇿', genitive: 'чеської' },
+  sv: { name: 'Шведська', flag: '🇸🇪', genitive: 'шведської' },
+  no: { name: 'Норвезька', flag: '🇳🇴', genitive: 'норвезької' },
+  da: { name: 'Данська', flag: '🇩🇰', genitive: 'данської' },
+  nl: { name: 'Нідерландська', flag: '🇳🇱', genitive: 'нідерландської' },
+  fi: { name: 'Фінська', flag: '🇫🇮', genitive: 'фінської' },
+  pt: { name: 'Португальська', flag: '🇵🇹', genitive: 'португальської' },
+  tr: { name: 'Турецька', flag: '🇹🇷', genitive: 'турецької' },
+  ar: { name: 'Арабська', flag: '🇸🇦', genitive: 'арабської' },
+  zh: { name: 'Китайська', flag: '🇨🇳', genitive: 'китайської' },
+  ko: { name: 'Корейська', flag: '🇰🇷', genitive: 'корейської' },
+  he: { name: 'Іврит', flag: '🇮🇱', genitive: 'івриту' },
+  hu: { name: 'Угорська', flag: '🇭🇺', genitive: 'угорської' },
+  ro: { name: 'Румунська', flag: '🇷🇴', genitive: 'румунської' },
+  bg: { name: 'Болгарська', flag: '🇧🇬', genitive: 'болгарської' },
+  sr: { name: 'Сербська', flag: '🇷🇸', genitive: 'сербської' },
+  sk: { name: 'Словацька', flag: '🇸🇰', genitive: 'словацької' },
+  sl: { name: 'Словенська', flag: '🇸🇮', genitive: 'словенської' },
+  hr: { name: 'Хорватська', flag: '🇭🇷', genitive: 'хорватської' },
+  el: { name: 'Грецька', flag: '🇬🇷', genitive: 'грецької' },
+  la: { name: 'Латина', flag: '📜', genitive: 'латини' },
+  other: { name: 'Інша', flag: '🌐', genitive: 'іншої' },
+};
+
+/** ISO aliases and obvious misclassifications to fold during read.
+ *  `cz` is not a valid ISO 639-1 code — Czech is `cs`. Ukrainian (`uk`) is
+ *  the site's target language, so it can never be a source of translation. */
+const SOURCE_LANG_ALIASES: Record<string, string | null> = {
+  cz: 'cs',
+  uk: null, // drop: target language, classifier error
+  ua: null,
+};
+
+function normalizeSourceLang(raw: string | null | undefined): string | null {
+  if (!raw) return null;
+  if (raw in SOURCE_LANG_ALIASES) return SOURCE_LANG_ALIASES[raw];
+  return raw;
+}
+
+/** All books that have been classified as translations (translatedFrom set). */
+export const getTranslatedBooks = cache((): Book[] =>
+  index.books.filter((b) => normalizeSourceLang(b.translatedFrom) !== null)
+);
+
+/** Translations grouped by source language, sorted by book count desc. */
+export const getTranslationsBySourceLanguage = cache((): Array<{ lang: string; books: Book[] }> => {
+  const map = new Map<string, Book[]>();
+  for (const b of index.books) {
+    const lang = normalizeSourceLang(b.translatedFrom);
+    if (!lang) continue;
+    const arr = map.get(lang) ?? [];
+    arr.push(b);
+    map.set(lang, arr);
+  }
+  return Array.from(map.entries())
+    .map(([lang, books]) => ({ lang, books }))
+    .sort((a, b) => b.books.length - a.books.length);
+});
+
+/** Featured translations for homepage — prefer books with cover + high confidence. */
+export const getFeaturedTranslations = cache((limit = 8): Book[] => {
+  const all = index.books.filter((b) => normalizeSourceLang(b.translatedFrom) !== null);
+  const withCover = all.filter((b) => b.coverImage && b.coverImage !== '/covers/placeholder.jpg');
+  const high = withCover.filter((b) => b.translationConfidence === 'high');
+  const pool = high.length >= limit ? high : withCover.length >= limit ? withCover : all;
+  return pool.slice(0, limit);
+});

@@ -21,5 +21,8 @@
   "isNewArrival": true,
   "downloadCount": 0,
   "rating": 0,
-  "addedAt": "2026-04-22"
+  "addedAt": "2026-04-22",
+  "translatedFrom": "da",
+  "translator": "Артем Орел",
+  "translationConfidence": "high"
 }

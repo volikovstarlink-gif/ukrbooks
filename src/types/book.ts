@@ -30,6 +30,12 @@ export interface Book {
   isPublicDomain?: boolean;
   /** Year the author died — used to derive isPublicDomain */
   authorDeathYear?: number | null;
+  /** ISO 639-1 code of original language if this is a translation; null = original Ukrainian */
+  translatedFrom?: string | null;
+  /** Translator name(s), when credited */
+  translator?: string | null;
+  /** Classifier confidence: high = explicit marker, medium = clearly foreign author, low = guess */
+  translationConfidence?: 'high' | 'medium' | 'low';
 }
 
 export interface Category {
