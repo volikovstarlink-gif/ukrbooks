@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
   },
 
   images: {
+    // Bypass Vercel's image optimizer — free tier hits 402 at ~6k books
+    // with 20+ catalog pages. Covers are already small JPEGs (<100KB)
+    // served with long Cache-Control, so the optimizer adds no value
+    // and the quota fail makes every cover broken.
+    unoptimized: true,
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 768, 1024, 1280],
     imageSizes: [200, 300, 400],
