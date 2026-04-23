@@ -104,14 +104,18 @@ export const getDownloadUrl = (filename: string, fileDir: string): string => {
   return `${base}/${encodeURIComponent(fileDir)}/${encodeURIComponent(filename)}`;
 };
 
-/** Convert author name to URL-safe slug */
-export const authorToSlug = (author: string): string =>
-  author
+/** Convert author name to URL-safe slug — capped at 100 chars so filesystem
+ *  paths (e.g. .next/server/app/author/<slug>.segments on Linux ext4 with
+ *  255-byte name limit) don't blow up on sprawling titles passed as authors. */
+export const authorToSlug = (author: string): string => {
+  const s = author
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^a-zа-яёіїєґ0-9-]/gu, '')
     .replace(/-+/g, '-')
     .trim();
+  return s.length > 100 ? s.slice(0, 100).replace(/-+$/, '') : s;
+};
 
 export interface AuthorSummary {
   name: string;

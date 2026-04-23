@@ -1,10 +1,9 @@
 import { NextResponse } from 'next/server';
-import { readFile, stat } from 'fs/promises';
+import { readFile } from 'fs/promises';
 import path from 'path';
 import { checkRateLimit, getRedis, incrDaily, recordError } from '@/lib/redis';
 
 const BOOKS_DIR = process.env.BOOKS_DIR || path.join(process.cwd(), '..', 'Books');
-const BOOKS_DIR_2 = process.env.BOOKS_DIR_2 || '';
 
 const MIME: Record<string, string> = {
   epub: 'application/epub+zip',
@@ -80,18 +79,7 @@ export async function GET(
 
   const ext = filename.split('.').pop()?.toLowerCase() || '';
   const mime = MIME[ext] || 'application/octet-stream';
-  // Try primary BOOKS_DIR, fall back to BOOKS_DIR_2 (local dev supports two roots).
-  const candidatePaths = [path.join(BOOKS_DIR, dir, filename)];
-  if (BOOKS_DIR_2) candidatePaths.push(path.join(BOOKS_DIR_2, dir, filename));
-
-  let filePath = candidatePaths[0];
-  for (const p of candidatePaths) {
-    try {
-      await stat(p);
-      filePath = p;
-      break;
-    } catch { /* try next */ }
-  }
+  const filePath = path.join(BOOKS_DIR, dir, filename);
 
   try {
     const data = await readFile(filePath);
