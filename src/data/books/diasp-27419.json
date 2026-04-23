@@ -1,0 +1,25 @@
+{
+  "id": "diasp-27419",
+  "slug": "diasp-27419",
+  "title": "Буквар",
+  "author": "Буквар",
+  "category": "other",
+  "language": "uk",
+  "year": 1965,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_27419__Bukvar.pdf",
+      "fileDir": "Б",
+      "sizeMb": 3.74
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

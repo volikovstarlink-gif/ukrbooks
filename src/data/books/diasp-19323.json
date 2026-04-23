@@ -1,0 +1,25 @@
+{
+  "id": "diasp-19323",
+  "slug": "diasp-19323",
+  "title": "Народні казки. Часть друга",
+  "author": "Народні казки. Часть друга",
+  "category": "children",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_19323__Narodni_kazky._Chast_druha.pdf",
+      "fileDir": "Н",
+      "sizeMb": 3.55
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

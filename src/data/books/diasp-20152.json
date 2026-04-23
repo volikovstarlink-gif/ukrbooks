@@ -1,0 +1,25 @@
+{
+  "id": "diasp-20152",
+  "slug": "diasp-20152",
+  "title": "Андерсен Г.Х. Дві казки",
+  "author": "Ганс Христіян Андерзен",
+  "category": "children",
+  "language": "uk",
+  "year": 1940,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_20152__Andersen_H.Kh._Dvi_kazky.pdf",
+      "fileDir": "А",
+      "sizeMb": 11.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

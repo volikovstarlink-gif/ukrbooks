@@ -1,0 +1,25 @@
+{
+  "id": "1997rus",
+  "slug": "1997rus",
+  "title": "Arch 1997rus",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/1997rus.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_1997rus__Pokhodzhennia_Rusi._Starodavni_skandynavski_dzherela_krim_islandskykh_sag.epub",
+      "fileDir": "П",
+      "sizeMb": 1.93
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

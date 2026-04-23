@@ -1,0 +1,25 @@
+{
+  "id": "labinska2016",
+  "slug": "labinska2016",
+  "title": "Arch labinska2016",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/labinska2016.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_labinska2016__Toponimika_Navchalnyi_posibnyk.epub",
+      "fileDir": "Т",
+      "sizeMb": 4.51
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

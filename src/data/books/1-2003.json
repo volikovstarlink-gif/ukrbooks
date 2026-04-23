@@ -1,0 +1,25 @@
+{
+  "id": "1-2003",
+  "slug": "1-2003",
+  "title": "Arch 1 2003",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/1-2003.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_1-2003__Entsyklopediia_istorii_Ukrainy._T._1_A-V_2003.epub",
+      "fileDir": "Е",
+      "sizeMb": 41.36
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

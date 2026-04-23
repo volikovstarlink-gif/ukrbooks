@@ -1,0 +1,25 @@
+{
+  "id": "diasp-17480",
+  "slug": "diasp-17480",
+  "title": "Дідова ріпка",
+  "author": "Дідова ріпка",
+  "category": "other",
+  "language": "uk",
+  "year": 1958,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_17480__Didova_ripka.pdf",
+      "fileDir": "Д",
+      "sizeMb": 1.18
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

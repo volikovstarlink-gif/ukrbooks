@@ -1,0 +1,25 @@
+{
+  "id": "diasp-17264",
+  "slug": "diasp-17264",
+  "title": "Білоусенко О. Колобок",
+  "author": "Олександер Білоусенко (Лотоцький)",
+  "category": "other",
+  "language": "uk",
+  "year": 1916,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_17264__Bilousenko_O._Kolobok.pdf",
+      "fileDir": "Б",
+      "sizeMb": 1.18
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

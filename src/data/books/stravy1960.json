@@ -1,0 +1,25 @@
+{
+  "id": "stravy1960",
+  "slug": "stravy1960",
+  "title": "Arch stravy1960",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/stravy1960.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_stravy1960__Ukrainski_stravy.epub",
+      "fileDir": "У",
+      "sizeMb": 37.88
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "diasp-20683",
+  "slug": "diasp-20683",
+  "title": "Барагура В. Меч і книга",
+  "author": "Володимир Барагура",
+  "category": "other",
+  "language": "uk",
+  "year": 1954,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_20683__Barahura_V._Mech_i_knyha.pdf",
+      "fileDir": "Б",
+      "sizeMb": 1.04
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

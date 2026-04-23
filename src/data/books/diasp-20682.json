@@ -1,0 +1,25 @@
+{
+  "id": "diasp-20682",
+  "slug": "diasp-20682",
+  "title": "Андерсен Г.Х. Дикі лебеді",
+  "author": "Ганс Христіян Андерзен",
+  "category": "other",
+  "language": "uk",
+  "year": 1940,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_20682__Andersen_H.Kh._Dyki_lebedi.pdf",
+      "fileDir": "А",
+      "sizeMb": 0.45
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

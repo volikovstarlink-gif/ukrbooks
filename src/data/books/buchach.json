@@ -1,0 +1,25 @@
+{
+  "id": "buchach",
+  "slug": "buchach",
+  "title": "Бучач і Бучаччина. Історично-мемуарний збірник",
+  "author": "Островерх Михайло",
+  "category": "history",
+  "language": "uk",
+  "year": 1972,
+  "description": "Бучач і Бучаччина. Історично-мемуарний збірник / ред. колегія Михайло Островерха та інші. — Ню Йорк — Лондон — Париж — Сидней — Торонто : НТШ, Український архів, 1972. — Т. XXVII. — 944 с. — іл.",
+  "shortDescription": "Бучач і Бучаччина. Історично-мемуарний збірник / ред. колегія Михайло Островерха та інші. — Ню Йорк — Лондон — Париж — Сидней — Торонто : НТШ, Український архів, 1972. — Т. XXVII. — 944 с. — іл.",
+  "coverImage": "/covers/buchach.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_buchach__Buchach_i_Buchachchyna._Istorychno-memuarnyi_zbirnyk.epub",
+      "fileDir": "Б",
+      "sizeMb": 9.49
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

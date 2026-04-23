@@ -1,0 +1,25 @@
+{
+  "id": "rus2022",
+  "slug": "rus2022",
+  "title": "Arch rus2022",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/rus2022.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_rus2022__Vid_vikinhiv_do_Rusi.epub",
+      "fileDir": "В",
+      "sizeMb": 9.48
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

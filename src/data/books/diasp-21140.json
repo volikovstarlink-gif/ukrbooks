@@ -1,0 +1,25 @@
+{
+  "id": "diasp-21140",
+  "slug": "diasp-21140",
+  "title": "Бажалук М. Наша природа ч. 1",
+  "author": "Микола Бажалук",
+  "category": "other",
+  "language": "uk",
+  "year": 1941,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_21140__Bazhaluk_M._Nasha_pryroda_ch._1.pdf",
+      "fileDir": "Б",
+      "sizeMb": 1.49
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

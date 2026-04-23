@@ -1,0 +1,25 @@
+{
+  "id": "enukrfr",
+  "slug": "enukrfr",
+  "title": "Arch enukrfr",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/enukrfr.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_enukrfr__Anhlo-ukrainskyi_frazeolohichnyi_slovnyk.epub",
+      "fileDir": "А",
+      "sizeMb": 2.79
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

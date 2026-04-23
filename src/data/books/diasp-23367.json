@@ -1,0 +1,25 @@
+{
+  "id": "diasp-23367",
+  "slug": "diasp-23367",
+  "title": "Молодий Цвіт",
+  "author": "Молодий Цвіт",
+  "category": "other",
+  "language": "uk",
+  "year": 1952,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_23367__Molodyi_Tsvit.pdf",
+      "fileDir": "М",
+      "sizeMb": 1.78
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

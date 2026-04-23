@@ -1,0 +1,25 @@
+{
+  "id": "diasp-24311",
+  "slug": "diasp-24311",
+  "title": "Івасик-Дурник Народня казка",
+  "author": "Івасик-Дурник Народня казка",
+  "category": "children",
+  "language": "uk",
+  "year": 1947,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_24311__Ivasyk-Durnyk_Narodnia_kazka.pdf",
+      "fileDir": "І",
+      "sizeMb": 2.89
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

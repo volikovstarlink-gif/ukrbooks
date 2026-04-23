@@ -1,0 +1,25 @@
+{
+  "id": "diasp-20919",
+  "slug": "diasp-20919",
+  "title": "Збірник для дітей",
+  "author": "Укл. Анна Данилович",
+  "category": "other",
+  "language": "uk",
+  "year": 1984,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_20919__Zbirnyk_dlia_ditei.pdf",
+      "fileDir": "З",
+      "sizeMb": 2.8
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

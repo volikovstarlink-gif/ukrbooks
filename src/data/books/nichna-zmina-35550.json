@@ -1,0 +1,31 @@
+{
+  "id": "nichna-zmina-35550",
+  "slug": "nichna-zmina-35550",
+  "title": "Нічна зміна",
+  "author": "М. Л. Ріо",
+  "category": "other",
+  "language": "uk",
+  "year": 2025,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/nichna-zmina-35550.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "nichna-zmina-35550__Nichna_zmina.epub",
+      "fileDir": "Н",
+      "sizeMb": 1.36
+    },
+    {
+      "format": "fb2",
+      "filename": "nichna-zmina-35550__Nichna_zmina__nichna-zmina.fb2",
+      "fileDir": "Н",
+      "sizeMb": 1.96
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

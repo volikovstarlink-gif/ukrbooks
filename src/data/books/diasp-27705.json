@@ -1,0 +1,25 @@
+{
+  "id": "diasp-27705",
+  "slug": "diasp-27705",
+  "title": "Лотоцький А. Перша кров",
+  "author": "Антін Лотоцький",
+  "category": "other",
+  "language": "uk",
+  "year": 1939,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_27705__Lototskyi_A._Persha_krov.pdf",
+      "fileDir": "Л",
+      "sizeMb": 17.98
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "divchatkam",
+  "slug": "divchatkam",
+  "title": "Arch divchatkam",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/divchatkam.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_divchatkam__Entsyklopediia_dlia_divchatok._Divochi_turboty._Vykhovannia_samopovahy.epub",
+      "fileDir": "Е",
+      "sizeMb": 0.31
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

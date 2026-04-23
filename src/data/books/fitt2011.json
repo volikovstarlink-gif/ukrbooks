@@ -1,0 +1,25 @@
+{
+  "id": "fitt2011",
+  "slug": "fitt2011",
+  "title": "Arch fitt2011",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/fitt2011.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_fitt2011__Roslyny_Ukrainy.epub",
+      "fileDir": "Р",
+      "sizeMb": 0.32
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

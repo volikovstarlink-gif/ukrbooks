@@ -1,0 +1,25 @@
+{
+  "id": "diasp-17270",
+  "slug": "diasp-17270",
+  "title": "Романенчук Б. Українська читанка для ІІ року",
+  "author": "Богдан Романенчук",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 1960,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_17270__Romanenchuk_B._Ukrainska_chytanka_dlia_II_roku.pdf",
+      "fileDir": "Р",
+      "sizeMb": 8.7
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

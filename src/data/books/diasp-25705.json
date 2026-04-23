@@ -1,0 +1,25 @@
+{
+  "id": "diasp-25705",
+  "slug": "diasp-25705",
+  "title": "K.I. A History of Ukraine",
+  "author": "I. K. (Іван Крипякевич)",
+  "category": "other",
+  "language": "uk",
+  "year": 1971,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_25705__K.I._A_History_of_Ukraine.pdf",
+      "fileDir": "К",
+      "sizeMb": 20.37
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

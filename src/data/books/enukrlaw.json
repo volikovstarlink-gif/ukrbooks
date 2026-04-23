@@ -1,0 +1,25 @@
+{
+  "id": "enukrlaw",
+  "slug": "enukrlaw",
+  "title": "Arch enukrlaw",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/enukrlaw.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_enukrlaw__Anhliisko-ukrainskyi_iurydychnyi_slovnyk.epub",
+      "fileDir": "А",
+      "sizeMb": 2.54
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "berestejschyna",
+  "slug": "berestejschyna",
+  "title": "Arch berestejschyna",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/berestejschyna.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_berestejschyna__Slovnyk_Beresteishchyny.epub",
+      "fileDir": "С",
+      "sizeMb": 0.73
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

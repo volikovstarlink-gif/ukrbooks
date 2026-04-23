@@ -1,0 +1,25 @@
+{
+  "id": "diasp-19193",
+  "slug": "diasp-19193",
+  "title": "Народні казки. Часть перша",
+  "author": "Народні казки. Часть перша",
+  "category": "children",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_19193__Narodni_kazky._Chast_persha.pdf",
+      "fileDir": "Н",
+      "sizeMb": 3.13
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

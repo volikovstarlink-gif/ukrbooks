@@ -1,0 +1,25 @@
+{
+  "id": "diasp-28170",
+  "slug": "diasp-28170",
+  "title": "Тис Ю. Вибрані казки",
+  "author": "Юрій Тис (Крохмалюк)",
+  "category": "children",
+  "language": "uk",
+  "year": 1971,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_28170__Tys_Yu._Vybrani_kazky.pdf",
+      "fileDir": "Т",
+      "sizeMb": 2.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

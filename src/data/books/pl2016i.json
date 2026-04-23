@@ -1,0 +1,25 @@
+{
+  "id": "pl2016i",
+  "slug": "pl2016i",
+  "title": "Arch pl2016i",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/pl2016i.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_pl2016i__Brama_Yevropy._Istoriia_Ukrainy_vid_skifskykh_voien_do_nezalezhnosti.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.82
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

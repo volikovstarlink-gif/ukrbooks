@@ -1,0 +1,25 @@
+{
+  "id": "samostiyna-ukraina",
+  "slug": "samostiyna-ukraina",
+  "title": "Arch Samostiyna Ukraina",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/samostiyna-ukraina.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_Samostiyna_Ukraina__Zhurnal_Samostiina_Ukraina_1948-1999.epub",
+      "fileDir": "Ж",
+      "sizeMb": 18.94
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

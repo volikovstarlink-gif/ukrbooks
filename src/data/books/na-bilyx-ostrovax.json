@@ -1,0 +1,25 @@
+{
+  "id": "na-bilyx-ostrovax",
+  "slug": "na-bilyx-ostrovax",
+  "title": "На білих островах (Na bilyx ostrovax)",
+  "author": "Рильський, Максим (Ryl'śkyj, Maksym)",
+  "category": "other",
+  "language": "uk",
+  "year": 1910,
+  "description": "69 сторінок.",
+  "shortDescription": "69 сторінок.",
+  "coverImage": "/covers/na-bilyx-ostrovax.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_na-bilyx-ostrovax__Na_bilykh_ostrovakh_Na_bilyx_ostrovax.epub",
+      "fileDir": "Н",
+      "sizeMb": 47.17
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

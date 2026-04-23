@@ -1,0 +1,25 @@
+{
+  "id": "diasp-25406",
+  "slug": "diasp-25406",
+  "title": "Казки",
+  "author": "Казки",
+  "category": "children",
+  "language": "uk",
+  "year": 1946,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_25406__Kazky.pdf",
+      "fileDir": "К",
+      "sizeMb": 1.15
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "diasp-22222",
+  "slug": "diasp-22222",
+  "title": "Мунте А., Франко І. Ведмеді",
+  "author": "Аксель Мунте, Іван Франко",
+  "category": "classic",
+  "language": "uk",
+  "year": 1948,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_22222__Munte_A._Franko_I._Vedmedi.pdf",
+      "fileDir": "М",
+      "sizeMb": 2.11
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

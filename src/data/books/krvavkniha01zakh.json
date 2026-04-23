@@ -1,0 +1,25 @@
+{
+  "id": "krvavkniha01zakh",
+  "slug": "krvavkniha01zakh",
+  "title": "Krvavá kniha",
+  "author": "Zakhidno-Ukraïnska Narodna Respublika",
+  "category": "other",
+  "language": "uk",
+  "year": 1920,
+  "description": "Translation of Krivava knyha",
+  "shortDescription": "Translation of Krivava knyha",
+  "coverImage": "/covers/krvavkniha01zakh.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_krvavkniha01zakh__Krvavá_kniha.epub",
+      "fileDir": "К",
+      "sizeMb": 2.68
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

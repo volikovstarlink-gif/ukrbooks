@@ -1,0 +1,25 @@
+{
+  "id": "holy-quran-ukrainian",
+  "slug": "holy-quran-ukrainian",
+  "title": "Holy Quran Ukrainian",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "Holy Quran Ukrainian",
+  "shortDescription": "Holy Quran Ukrainian",
+  "coverImage": "/covers/holy-quran-ukrainian.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_holy-quran-ukrainian__Holy_Quran_Ukrainian.epub",
+      "fileDir": "Н",
+      "sizeMb": 12.72
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

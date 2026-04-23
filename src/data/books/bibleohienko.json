@@ -1,0 +1,25 @@
+{
+  "id": "bibleohienko",
+  "slug": "bibleohienko",
+  "title": "Arch BibleOhienko",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/bibleohienko.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_BibleOhienko__Bible_Ohienko.epub",
+      "fileDir": "В",
+      "sizeMb": 9.85
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

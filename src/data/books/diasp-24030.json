@@ -1,0 +1,25 @@
+{
+  "id": "diasp-24030",
+  "slug": "diasp-24030",
+  "title": "Шіндлер Ф. Фізика для вищих початкових шкіл",
+  "author": "Перекл. Андрій Сабат",
+  "category": "science",
+  "language": "uk",
+  "year": 1918,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_24030__Shindler_F._Fizyka_dlia_vyshchykh_pochatkovykh_shkil.pdf",
+      "fileDir": "Ш",
+      "sizeMb": 7.79
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

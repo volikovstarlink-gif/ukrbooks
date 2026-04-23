@@ -1,0 +1,25 @@
+{
+  "id": "postmodernizm",
+  "slug": "postmodernizm",
+  "title": "Arch postmodernizm",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/postmodernizm.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_postmodernizm__Entsyklopediia_postmodernizmu.epub",
+      "fileDir": "Е",
+      "sizeMb": 1.3
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

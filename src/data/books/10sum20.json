@@ -1,0 +1,25 @@
+{
+  "id": "10sum20",
+  "slug": "10sum20",
+  "title": "Arch 10sum20",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/10sum20.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_10sum20__Slovnyk_ukrainskoi_movy_u_20_t._Tom_10._Nastup_-_Obmil.epub",
+      "fileDir": "С",
+      "sizeMb": 3.85
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

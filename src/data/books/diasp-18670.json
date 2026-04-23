@@ -1,0 +1,25 @@
+{
+  "id": "diasp-18670",
+  "slug": "diasp-18670",
+  "title": "Байки і казки",
+  "author": "Байки і казки",
+  "category": "children",
+  "language": "uk",
+  "year": 1931,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_18670__Baiky_i_kazky.pdf",
+      "fileDir": "Б",
+      "sizeMb": 0.32
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

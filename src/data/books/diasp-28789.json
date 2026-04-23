@@ -1,0 +1,25 @@
+{
+  "id": "diasp-28789",
+  "slug": "diasp-28789",
+  "title": "Вовк В. Казки",
+  "author": "Віра Вовк (Селянська)",
+  "category": "children",
+  "language": "uk",
+  "year": 1956,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_28789__Vovk_V._Kazky.pdf",
+      "fileDir": "В",
+      "sizeMb": 23.86
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

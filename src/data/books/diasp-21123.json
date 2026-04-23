@@ -1,0 +1,25 @@
+{
+  "id": "diasp-21123",
+  "slug": "diasp-21123",
+  "title": "Рукавичка. Народна казка",
+  "author": "Рукавичка. Народна казка",
+  "category": "children",
+  "language": "uk",
+  "year": 1954,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_21123__Rukavychka._Narodna_kazka.pdf",
+      "fileDir": "Р",
+      "sizeMb": 12.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

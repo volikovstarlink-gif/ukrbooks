@@ -1,0 +1,25 @@
+{
+  "id": "diasp-30058",
+  "slug": "diasp-30058",
+  "title": "Корнієнко В. Запорожський клад",
+  "author": "Василь Корнієнко",
+  "category": "other",
+  "language": "uk",
+  "year": 1923,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_30058__Korniienko_V._Zaporozhskyi_klad.pdf",
+      "fileDir": "К",
+      "sizeMb": 8.76
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

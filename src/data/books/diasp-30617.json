@@ -1,0 +1,25 @@
+{
+  "id": "diasp-30617",
+  "slug": "diasp-30617",
+  "title": "Сторм Т. Юрчик Мандрівник",
+  "author": "Теодор Сторм",
+  "category": "other",
+  "language": "uk",
+  "year": 1947,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_30617__Storm_T._Yurchyk_Mandrivnyk.pdf",
+      "fileDir": "С",
+      "sizeMb": 5.22
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

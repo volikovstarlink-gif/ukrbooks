@@ -1,0 +1,25 @@
+{
+  "id": "katalogpovisteio00knyhuoft",
+  "slug": "katalogpovisteio00knyhuoft",
+  "title": "Katalog poviste i opovidan",
+  "author": "Knyharnia naukovoho tovarystva im. Shevchenka u Lvovi",
+  "category": "other",
+  "language": "uk",
+  "year": 1930,
+  "description": "Bound with Katalog ukraïnskoi knyharni Teodor Savula u Vidni. Wien, [19--?]",
+  "shortDescription": "Bound with Katalog ukraïnskoi knyharni Teodor Savula u Vidni. Wien, [19--?]",
+  "coverImage": "/covers/katalogpovisteio00knyhuoft.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_katalogpovisteio00knyhuoft__Katalog_poviste_i_opovidan.epub",
+      "fileDir": "К",
+      "sizeMb": 3.47
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

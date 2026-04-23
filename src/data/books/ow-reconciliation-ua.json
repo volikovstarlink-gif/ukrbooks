@@ -1,0 +1,25 @@
+{
+  "id": "ow-reconciliation-ua",
+  "slug": "ow-reconciliation-ua",
+  "title": "Reconciliation (UA, Overwatch comic)",
+  "author": "Blizzard Entertainment, Inc",
+  "category": "other",
+  "language": "uk",
+  "year": 2025,
+  "description": "Комікс \"Reconciliation\" ( \"Примирення\" ) по Overwatch від Blizzard , Українською мовою \"Reconciliation\" comic book on Overwatch universe by Blizzard , in Ukrainian Оригінал Англійською",
+  "shortDescription": "Комікс \"Reconciliation\" ( \"Примирення\" ) по Overwatch від Blizzard , Українською мовою \"Reconciliation\" comic book on Overwatch universe by Blizzard , in Ukrainian Оригінал Англійською",
+  "coverImage": "/covers/ow-reconciliation-ua.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_ow-Reconciliation-ua__Reconciliation_UA_Overwatch_comic.epub",
+      "fileDir": "Інше",
+      "sizeMb": 2.87
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

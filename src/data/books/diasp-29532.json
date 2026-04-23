@@ -1,0 +1,25 @@
+{
+  "id": "diasp-29532",
+  "slug": "diasp-29532",
+  "title": "Брати Грімм. Казки",
+  "author": "Перекл. Степан Гаєвський",
+  "category": "children",
+  "language": "uk",
+  "year": 1946,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_29532__Braty_Hrimm._Kazky.pdf",
+      "fileDir": "Б",
+      "sizeMb": 3.62
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

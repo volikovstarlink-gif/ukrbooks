@@ -1,0 +1,25 @@
+{
+  "id": "diasp-31032",
+  "slug": "diasp-31032",
+  "title": "Коломиєць А. Казки",
+  "author": "Аверір Коломиєць",
+  "category": "children",
+  "language": "uk",
+  "year": 1946,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_31032__Kolomyiets_A._Kazky.pdf",
+      "fileDir": "К",
+      "sizeMb": 33.14
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

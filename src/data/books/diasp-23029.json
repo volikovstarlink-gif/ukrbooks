@@ -1,0 +1,25 @@
+{
+  "id": "diasp-23029",
+  "slug": "diasp-23029",
+  "title": "Матернє слово. Перша читанка",
+  "author": "Матернє слово. Перша читанка",
+  "category": "other",
+  "language": "uk",
+  "year": 1917,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_23029__Maternie_slovo._Persha_chytanka.pdf",
+      "fileDir": "М",
+      "sizeMb": 0.91
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

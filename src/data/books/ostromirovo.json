@@ -1,0 +1,25 @@
+{
+  "id": "ostromirovo",
+  "slug": "ostromirovo",
+  "title": "Arch ostromirovo",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ostromirovo.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_ostromirovo__Ostromyrove_Yevanheliie_1056-1057_rr..epub",
+      "fileDir": "О",
+      "sizeMb": 0.49
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

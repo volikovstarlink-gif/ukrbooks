@@ -1,0 +1,31 @@
+{
+  "id": "stari-j-molodi-35469",
+  "slug": "stari-j-molodi-35469",
+  "title": "Старі й молоді",
+  "author": "Луїджі Піранделло",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/stari-j-molodi-35469.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "stari-j-molodi-35469__Stari_i_molodi.epub",
+      "fileDir": "С",
+      "sizeMb": 0.7
+    },
+    {
+      "format": "fb2",
+      "filename": "stari-j-molodi-35469__Stari_i_molodi__stari-j-molodi.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.82
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

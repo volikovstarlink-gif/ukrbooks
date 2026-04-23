@@ -1,0 +1,25 @@
+{
+  "id": "atlas-russian-empire-45-maps",
+  "slug": "atlas-russian-empire-45-maps",
+  "title": "Тлас Российской Империи, Состоящий Из 45 Карт",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "Atlas of the Russian Empire, Consisting of 45 maps",
+  "shortDescription": "Atlas of the Russian Empire, Consisting of 45 maps",
+  "coverImage": "/covers/atlas-russian-empire-45-maps.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_atlas-russian-empire-45-maps__Tlas_Rossyiskoi_Ymperyy_Sostoiashchyi_Yz_45_Kart.epub",
+      "fileDir": "Т",
+      "sizeMb": 43.19
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "vladko-idut-robotari",
+  "slug": "vladko-idut-robotari",
+  "title": "Ідуть роботарі",
+  "author": "Володимир Владко",
+  "category": "fiction",
+  "language": "uk",
+  "year": 1936,
+  "description": "Відомий фантастичний роман В. Владка в редакції 1936 року, що пізніше видавався під назвою «Залізний бунт».",
+  "shortDescription": "Відомий фантастичний роман В. Владка в редакції 1936 року, що пізніше видавався під назвою «Залізний бунт».",
+  "coverImage": "/covers/vladko-idut-robotari.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_vladko-idut-robotari__Idut_Robotari_-_Volodymyr_Vladko_Idut_Robotari_-_Volodymyr_Vladko.epub",
+      "fileDir": "І",
+      "sizeMb": 0.79
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

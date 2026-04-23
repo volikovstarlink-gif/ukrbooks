@@ -1,0 +1,25 @@
+{
+  "id": "p0lissia",
+  "slug": "p0lissia",
+  "title": "Arch p0lissia",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/p0lissia.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_p0lissia__Slovnyk_poliskykh_hovoriv.epub",
+      "fileDir": "С",
+      "sizeMb": 0.51
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

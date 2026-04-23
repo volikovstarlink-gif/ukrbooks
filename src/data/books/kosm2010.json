@@ -1,0 +1,25 @@
+{
+  "id": "kosm2010",
+  "slug": "kosm2010",
+  "title": "Arch kosm2010",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/kosm2010.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_kosm2010__Vidkrytyi_kosmos.epub",
+      "fileDir": "В",
+      "sizeMb": 0.53
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

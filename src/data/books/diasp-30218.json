@@ -1,0 +1,25 @@
+{
+  "id": "diasp-30218",
+  "slug": "diasp-30218",
+  "title": "Казки Фанельона",
+  "author": "Казки Фанельона",
+  "category": "children",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_30218__Kazky_Fanelona.pdf",
+      "fileDir": "К",
+      "sizeMb": 2.43
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

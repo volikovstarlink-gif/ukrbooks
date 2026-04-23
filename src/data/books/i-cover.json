@@ -1,0 +1,31 @@
+{
+  "id": "i-cover",
+  "slug": "i-cover",
+  "title": "Вiрменська Читанка",
+  "author": "Аветик Исаакян",
+  "category": "other",
+  "language": "uk",
+  "year": 2021,
+  "description": "Первая хрестоматия армянской литературы на украинском языке для упрочения взаимопонимания между двумя великими народами.",
+  "shortDescription": "Первая хрестоматия армянской литературы на украинском языке для упрочения взаимопонимания между двумя великими народами.",
+  "coverImage": "/covers/i-cover.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_i-cover__Armenian_Readings.epub",
+      "fileDir": "А",
+      "sizeMb": 2.21
+    },
+    {
+      "format": "fb2",
+      "filename": "arch_i-cover__Armenian_Readings.fb2",
+      "fileDir": "А",
+      "sizeMb": 1.88
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

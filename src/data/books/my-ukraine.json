@@ -1,0 +1,25 @@
+{
+  "id": "my-ukraine",
+  "slug": "my-ukraine",
+  "title": "Arch My Ukraine",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/my-ukraine.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_My_Ukraine__Suiarko_O.V._Moia_Ukraina_I_Bil_I_Nadiia_spohady_staroi_provintsialky_2006.epub",
+      "fileDir": "С",
+      "sizeMb": 0.32
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

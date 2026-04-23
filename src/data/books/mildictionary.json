@@ -1,0 +1,25 @@
+{
+  "id": "mildictionary",
+  "slug": "mildictionary",
+  "title": "Arch mildictionary",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/mildictionary.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_mildictionary__Rosiisko-ukrainsko-anhliiskyi_viiskovyi_slovnyk_Russian-Ukrainian-English_military_dictionary.epub",
+      "fileDir": "Р",
+      "sizeMb": 1.34
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

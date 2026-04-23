@@ -1,0 +1,25 @@
+{
+  "id": "ukr-art",
+  "slug": "ukr-art",
+  "title": "Arch ukr art",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/ukr-art.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_ukr_art__Narysy_Z_Istorii_Obrazotvorchoho_Mystetstva_Ukrainy_XX_St..epub",
+      "fileDir": "Н",
+      "sizeMb": 99.17
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

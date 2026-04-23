@@ -1,0 +1,25 @@
+{
+  "id": "diasp-24926",
+  "slug": "diasp-24926",
+  "title": "Хрестоматія з української літератури ХХ століття",
+  "author": "Упоряд. Євген В. Федоренко та Павло Маляр",
+  "category": "history",
+  "language": "uk",
+  "year": 1978,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_24926__Khrestomatiia_z_ukrainskoi_literatury_KhKh_stolittia.pdf",
+      "fileDir": "Х",
+      "sizeMb": 1.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

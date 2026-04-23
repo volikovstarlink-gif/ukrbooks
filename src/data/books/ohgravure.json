@@ -1,0 +1,25 @@
+{
+  "id": "ohgravure",
+  "slug": "ohgravure",
+  "title": "Ох",
+  "author": "",
+  "category": "children",
+  "language": "uk",
+  "year": 1968,
+  "description": "Українська народна казка.",
+  "shortDescription": "Українська народна казка.",
+  "coverImage": "/covers/ohgravure.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_ohgravure__Okh.epub",
+      "fileDir": "О",
+      "sizeMb": 21.68
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

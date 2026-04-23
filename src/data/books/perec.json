@@ -1,0 +1,25 @@
+{
+  "id": "perec",
+  "slug": "perec",
+  "title": "Arch perec",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/perec.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_perec__Perets_zhurnal_1928-2017.epub",
+      "fileDir": "П",
+      "sizeMb": 34.5
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

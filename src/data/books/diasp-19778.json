@@ -1,0 +1,25 @@
+{
+  "id": "diasp-19778",
+  "slug": "diasp-19778",
+  "title": "Гикавий О. Збірка байок",
+  "author": "Онуфрій Гикавий",
+  "category": "ukr-literature",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_19778__Hykavyi_O._Zbirka_baiok.pdf",
+      "fileDir": "Г",
+      "sizeMb": 1.39
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

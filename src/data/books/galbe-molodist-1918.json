@@ -1,0 +1,25 @@
+{
+  "id": "galbe-molodist-1918",
+  "slug": "galbe-molodist-1918",
+  "title": "Arch galbe molodist 1918",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/galbe-molodist-1918.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_galbe_molodist_1918__Molodist.epub",
+      "fileDir": "М",
+      "sizeMb": 2.07
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "grushevsky-history",
+  "slug": "grushevsky-history",
+  "title": "tmp0",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/grushevsky-history.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_Grushevsky_History__Hrushevskyi_M._Istoriia_Ukrainy-Rusy_v_odynadtsiaty_tomakh_v_dvanadtsiaty_knyzhkakh_T._1-10_1991-1997.epub",
+      "fileDir": "Г",
+      "sizeMb": 1.19
+    },
+    {
+      "format": "fb2",
+      "filename": "arch_Grushevsky_History__Hrushevskyi_M._Istoriia_Ukrainy-Rusy_v_odynadtsiaty_tomakh_v_dvanadtsiaty_knyzhkakh_T._1-10_1991-1997.fb2",
+      "fileDir": "Г",
+      "sizeMb": 2.85
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

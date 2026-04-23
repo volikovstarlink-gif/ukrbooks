@@ -1,0 +1,25 @@
+{
+  "id": "din2010en",
+  "slug": "din2010en",
+  "title": "Arch din2010en",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/din2010en.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_din2010en__Dynozavry._Entsyklopediia.epub",
+      "fileDir": "Д",
+      "sizeMb": 0.07
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

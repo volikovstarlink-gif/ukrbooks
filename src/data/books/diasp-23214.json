@@ -1,0 +1,25 @@
+{
+  "id": "diasp-23214",
+  "slug": "diasp-23214",
+  "title": "Екер Я. Біблія для дітей",
+  "author": "Яків Екер",
+  "category": "other",
+  "language": "uk",
+  "year": 1981,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_23214__Eker_Ya._Bibliia_dlia_ditei.pdf",
+      "fileDir": "Е",
+      "sizeMb": 9.08
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

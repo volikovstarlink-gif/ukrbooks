@@ -1,0 +1,25 @@
+{
+  "id": "diasp-22253",
+  "slug": "diasp-22253",
+  "title": "Андерсен Г.К. Попелюшка",
+  "author": "Перкл. Н. Люквіджо",
+  "category": "other",
+  "language": "uk",
+  "year": 1956,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_22253__Andersen_H.K._Popeliushka.pdf",
+      "fileDir": "А",
+      "sizeMb": 0.88
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

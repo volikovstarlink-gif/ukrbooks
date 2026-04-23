@@ -1,0 +1,25 @@
+{
+  "id": "diasp-21127",
+  "slug": "diasp-21127",
+  "title": "Брати Грімм. Казки й байки",
+  "author": "Якоб і Вільгельм Грімми",
+  "category": "children",
+  "language": "uk",
+  "year": 1940,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_21127__Braty_Hrimm._Kazky_i_baiky.pdf",
+      "fileDir": "Б",
+      "sizeMb": 10.02
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

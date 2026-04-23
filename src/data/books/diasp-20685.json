@@ -1,0 +1,25 @@
+{
+  "id": "diasp-20685",
+  "slug": "diasp-20685",
+  "title": "Вовчок М. Маруся",
+  "author": "Марко Вовчок",
+  "category": "other",
+  "language": "uk",
+  "year": 1943,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_20685__Vovchok_M._Marusia.pdf",
+      "fileDir": "В",
+      "sizeMb": 3.56
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

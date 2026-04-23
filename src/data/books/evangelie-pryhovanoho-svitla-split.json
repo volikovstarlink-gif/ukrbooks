@@ -1,0 +1,25 @@
+{
+  "id": "evangelie-pryhovanoho-svitla-split",
+  "slug": "evangelie-pryhovanoho-svitla-split",
+  "title": "Євангеліє Прихованого Світла",
+  "author": "Феодот Пустельник (апокриф)",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/evangelie-pryhovanoho-svitla-split.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_evangelie-pryhovanoho-svitla-split__Evangelie_Pryhovanoho_Svitla_Split.epub",
+      "fileDir": "Е",
+      "sizeMb": 2.16
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

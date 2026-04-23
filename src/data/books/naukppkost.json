@@ -1,0 +1,25 @@
+{
+  "id": "naukppkost",
+  "slug": "naukppkost",
+  "title": "Arch naukppkost",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/naukppkost.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_naukppkost__Naukovo-publitsystychni_i_polemichni_pysannia_Kostomarova.epub",
+      "fileDir": "Н",
+      "sizeMb": 0.87
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

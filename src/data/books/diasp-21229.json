@@ -1,0 +1,25 @@
+{
+  "id": "diasp-21229",
+  "slug": "diasp-21229",
+  "title": "Андерсен Г.Х. Дванадцять казок",
+  "author": "Перекл. Артем Орел",
+  "category": "other",
+  "language": "uk",
+  "year": 1948,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_21229__Andersen_H.Kh._Dvanadtsiat_kazok.pdf",
+      "fileDir": "А",
+      "sizeMb": 15.73
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "bezozloblennia",
+  "slug": "bezozloblennia",
+  "title": "Arch Bezozloblennia",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/bezozloblennia.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "arch_Bezozloblennia___Bez_ozloblennia_bez_nenavysti_shchodennyk_Etti_Hillesum_1941-1943.epub",
+      "fileDir": "Б",
+      "sizeMb": 1.98
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

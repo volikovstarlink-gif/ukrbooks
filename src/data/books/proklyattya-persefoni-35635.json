@@ -1,0 +1,31 @@
+{
+  "id": "proklyattya-persefoni-35635",
+  "slug": "proklyattya-persefoni-35635",
+  "title": "Прокляття Персефони",
+  "author": "Катріна Лено",
+  "category": "other",
+  "language": "uk",
+  "year": 2026,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/proklyattya-persefoni-35635.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "proklyattya-persefoni-35635__Prokliattia_Persefony.epub",
+      "fileDir": "П",
+      "sizeMb": 2.38
+    },
+    {
+      "format": "fb2",
+      "filename": "proklyattya-persefoni-35635__Prokliattia_Persefony__proklyattya-persefoni.fb2",
+      "fileDir": "П",
+      "sizeMb": 3.74
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

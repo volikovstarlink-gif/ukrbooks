@@ -1,0 +1,31 @@
+{
+  "id": "skazhi-meni-nizhno-35709",
+  "slug": "skazhi-meni-nizhno-35709",
+  "title": "Skazhi meni nizhno 35709",
+  "author": "",
+  "category": "other",
+  "language": "uk",
+  "year": 0,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/skazhi-meni-nizhno-35709.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "skazhi-meni-nizhno-35709__Skazhy_meni_nizhno.epub",
+      "fileDir": "С",
+      "sizeMb": 0.57
+    },
+    {
+      "format": "fb2",
+      "filename": "skazhi-meni-nizhno-35709__Skazhy_meni_nizhno__skazhi-meni-nizhno.fb2",
+      "fileDir": "С",
+      "sizeMb": 1.2
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

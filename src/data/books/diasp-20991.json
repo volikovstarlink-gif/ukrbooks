@@ -1,0 +1,25 @@
+{
+  "id": "diasp-20991",
+  "slug": "diasp-20991",
+  "title": "Білаш О. Казки про мудрих дітей",
+  "author": "Оленка Білаш",
+  "category": "children",
+  "language": "uk",
+  "year": 1988,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_20991__Bilash_O._Kazky_pro_mudrykh_ditei.pdf",
+      "fileDir": "Б",
+      "sizeMb": 20.92
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

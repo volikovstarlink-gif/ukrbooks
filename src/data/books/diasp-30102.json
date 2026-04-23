@@ -1,0 +1,25 @@
+{
+  "id": "diasp-30102",
+  "slug": "diasp-30102",
+  "title": "Дорошевич В. Казки Сходу",
+  "author": "Перкл. М. Селегія",
+  "category": "children",
+  "language": "uk",
+  "year": 1923,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/placeholder.jpg",
+  "files": [
+    {
+      "format": "pdf",
+      "filename": "diasp_30102__Doroshevych_V._Kazky_Skhodu.pdf",
+      "fileDir": "Д",
+      "sizeMb": 5.89
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}

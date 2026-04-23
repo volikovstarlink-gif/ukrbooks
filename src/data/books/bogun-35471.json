@@ -1,0 +1,31 @@
+{
+  "id": "bogun-35471",
+  "slug": "bogun-35471",
+  "title": "Богун",
+  "author": "Яцек Комуда",
+  "category": "other",
+  "language": "uk",
+  "year": 2006,
+  "description": "",
+  "shortDescription": "",
+  "coverImage": "/covers/bogun-35471.jpg",
+  "files": [
+    {
+      "format": "epub",
+      "filename": "bogun-35471__Bohun.epub",
+      "fileDir": "Б",
+      "sizeMb": 0.5
+    },
+    {
+      "format": "fb2",
+      "filename": "bogun-35471__Bohun__bogun.fb2",
+      "fileDir": "Б",
+      "sizeMb": 0.98
+    }
+  ],
+  "isFeatured": false,
+  "isNewArrival": true,
+  "downloadCount": 0,
+  "rating": 0,
+  "addedAt": "2026-04-22"
+}
