@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
   },
 
   images: {
+    // Covers are pre-converted to WebP at build time by
+    // scripts/generate-webp-covers.mjs (resized to 500px, q=82). Vercel's
+    // image optimizer would just re-encode them and burn quota for no
+    // visible win, so we serve the WebP files directly via Vercel's CDN.
+    unoptimized: true,
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 768, 1024, 1280],
     imageSizes: [200, 300, 400],

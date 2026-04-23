@@ -28,8 +28,13 @@ export function truncate(text: string, maxLen: number): string {
   return text.slice(0, maxLen).trimEnd() + '…';
 }
 
+/** Returns the display URL for a cover. We pre-generate a .webp version
+ *  of every /covers/*.jpg at build-time (scripts/generate-webp-covers.mjs);
+ *  this swaps the extension so browsers get the smaller WebP while OG/
+ *  Schema.org meta (which set book.coverImage directly) keep the JPEG. */
 export function getCoverUrl(coverImage: string): string {
-  return coverImage || '/covers/placeholder.jpg';
+  const src = coverImage || '/covers/placeholder.jpg';
+  return src.replace(/\.jpe?g$/i, '.webp');
 }
 
 /** Ukrainian pluralization for book counts: 1 книга, 2 книги, 5 книг */

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { BookOpen, Library, ChevronLeft, ChevronRight } from 'lucide-react';
 import type { Book } from '@/types/book';
+import { getCoverUrl } from '@/lib/utils';
 
 const AUTOPLAY_MS = 6500;
 const SWIPE_THRESHOLD = 50;
@@ -87,7 +88,7 @@ export default function HeroCarousel({ books }: { books: Book[] }) {
                     style={{ boxShadow: '0 20px 50px rgba(0,0,0,0.45), 0 8px 20px rgba(0,0,0,0.25)' }}
                   >
                     <Image
-                      src={book.coverImage}
+                      src={getCoverUrl(book.coverImage)}
                       alt={`${book.title} — ${book.author}`}
                       fill
                       sizes="(min-width: 1024px) 260px, (min-width: 768px) 220px, 180px"
