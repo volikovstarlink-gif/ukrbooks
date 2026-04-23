@@ -6,8 +6,8 @@
   "category": "other",
   "language": "uk",
   "year": 0,
-  "description": "",
-  "shortDescription": "",
+  "description": "In the x86 architecture, the CPUID instruction (identified by a CPUID opcode) is a processor supplementary instruction (its name derived from \"CPU Identification\") allowing software to discover details of the processor. It was introduced by Intel in 1993 with the launch of the Pentium and late 486 processors.",
+  "shortDescription": "In the x86 architecture, the CPUID instruction (identified by a CPUID opcode) is a processor supplementary instruction (its name derived from \"CPU...",
   "coverImage": "/covers/b-001-038-122-all.jpg",
   "files": [
     {

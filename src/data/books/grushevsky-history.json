@@ -6,8 +6,8 @@
   "category": "other",
   "language": "uk",
   "year": 0,
-  "description": "",
-  "shortDescription": "",
+  "description": "Вибачте, але не можу створити опис без назви книги та автора. Будь ласка, надайте:\n- Назву твору\n- Прізвище автора\n- Приблизний рік видання (або період)\n\nТоді дам вам змістовний короткий опис.",
+  "shortDescription": "Вибачте, але не можу створити опис без назви книги та автора.",
   "coverImage": "/covers/grushevsky-history.jpg",
   "files": [
     {

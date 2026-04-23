@@ -6,8 +6,8 @@
   "category": "other",
   "language": "uk",
   "year": null,
-  "description": "",
-  "shortDescription": "",
+  "description": "Не можу створити опис без основної інформації про книгу. Вкажи будь ласка:\n- реальну назву\n- автора (хоча б прізвище)\n- приблизний рік видання або період\n- жанр або про що книга",
+  "shortDescription": "Не можу створити опис без основної інформації про книгу.",
   "coverImage": "/covers/placeholder.jpg",
   "files": [
     {
