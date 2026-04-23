@@ -22,8 +22,12 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+// Pre-render only the first 500 book pages at build time. Remaining pages
+// are generated on first visit (SSG on-demand) — keeps deployment under
+// Vercel's file-count and build-output-size limits at 6k+ books.
+export const dynamicParams = true;
 export async function generateStaticParams() {
-  return getAllBookSlugs().map((slug) => ({ slug }));
+  return getAllBookSlugs().slice(0, 500).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

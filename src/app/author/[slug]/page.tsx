@@ -14,8 +14,11 @@ const SAMEAS_MAP = authorSameAs as unknown as Record<string, string[]>;
 
 interface Props { params: Promise<{ slug: string }>; }
 
+// All author pages SSG on-demand — avoids Vercel file-count limits at 3k+
+// authors. First visit generates + caches; subsequent visits are fast.
+export const dynamicParams = true;
 export async function generateStaticParams() {
-  return getAllAuthorSlugs().map((slug) => ({ slug }));
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
