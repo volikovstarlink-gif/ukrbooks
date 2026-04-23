@@ -1,25 +1,26 @@
 'use client';
 
 import { useState } from 'react';
+import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
 import VideoAdGate from '@/components/ads/VideoAdGate';
 import BookReader from './BookReader';
+
+// PDF reader is client-only (pdf.js needs DOM) and we do not want to
+// pay for its bundle on EPUB reads, so we lazy-load it.
+const PdfReader = dynamic(() => import('./PdfReader'), { ssr: false });
+
+type ReaderFormat = 'epub' | 'pdf';
 
 interface ReaderFlowProps {
   title: string;
   author: string;
   slug: string;
-  epubUrl: string;
+  fileUrl: string;
+  format: ReaderFormat;
 }
 
-/**
- * Shell for the /read/[slug] route. First shows VideoAdGate (2 video
- * ads, same pod as the download flow) and only mounts the heavy
- * epubjs-powered BookReader after the ads are satisfied. Keeps the
- * reader monetized on par with downloads while reusing all existing
- * VAST infrastructure — no duplicate ad code.
- */
-export default function ReaderFlow({ title, author, slug, epubUrl }: ReaderFlowProps) {
+export default function ReaderFlow({ title, author, slug, fileUrl, format }: ReaderFlowProps) {
   const router = useRouter();
   const [adsDone, setAdsDone] = useState(false);
 
@@ -29,23 +30,16 @@ export default function ReaderFlow({ title, author, slug, epubUrl }: ReaderFlowP
         isOpen
         onClose={() => router.push(`/book/${slug}`)}
         onComplete={() => setAdsDone(true)}
-        // downloadUrl/fileName are unused in reader-mode (onComplete
-        // short-circuits the download path) — pass empty strings so
-        // the type still matches without leaking download intent.
         downloadUrl=""
         fileName={title}
-        format="epub"
+        format={format}
         bookSlug={slug}
       />
     );
   }
 
-  return (
-    <BookReader
-      title={title}
-      author={author}
-      slug={slug}
-      epubUrl={epubUrl}
-    />
-  );
+  if (format === 'pdf') {
+    return <PdfReader title={title} author={author} slug={slug} pdfUrl={fileUrl} />;
+  }
+  return <BookReader title={title} author={author} slug={slug} epubUrl={fileUrl} />;
 }

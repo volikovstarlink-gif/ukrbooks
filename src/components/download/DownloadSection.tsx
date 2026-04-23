@@ -37,12 +37,12 @@ export default function DownloadSection({
     setGateOpen(true);
   };
 
-  const hasEpub = items.some((i) => i.format === 'epub');
+  const canReadOnline = items.some((i) => i.format === 'epub' || i.format === 'pdf');
 
   return (
     <>
       <div className="flex flex-wrap gap-3">
-        {hasEpub && (
+        {canReadOnline && (
           <Link href={`/read/${bookSlug}`} className="btn btn-primary btn-lg">
             <BookOpen size={18} />
             Читати онлайн

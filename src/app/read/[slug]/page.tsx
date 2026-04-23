@@ -23,17 +23,23 @@ export default async function ReaderPage({ params }: Props) {
   const book = getBookBySlug(slug);
   if (!book) notFound();
 
+  // Prefer EPUB (paginated reflow); fall back to PDF (fixed layout) so
+  // books that only ship a PDF can still be read online.
   const epubFile = book.files.find((f) => f.format === 'epub');
-  if (!epubFile) notFound();
+  const pdfFile = book.files.find((f) => f.format === 'pdf');
+  const chosen = epubFile ?? pdfFile;
+  if (!chosen) notFound();
 
-  const epubUrl = getDownloadUrl(epubFile.filename, epubFile.fileDir);
+  const fileUrl = getDownloadUrl(chosen.filename, chosen.fileDir);
+  const format = chosen.format === 'pdf' ? 'pdf' : 'epub';
 
   return (
     <ReaderFlow
       title={book.title}
       author={book.author}
       slug={book.slug}
-      epubUrl={epubUrl}
+      fileUrl={fileUrl}
+      format={format}
     />
   );
 }
