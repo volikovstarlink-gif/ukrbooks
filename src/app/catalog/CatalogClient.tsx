@@ -13,7 +13,6 @@ const PAGE_SIZE = 24;
 
 const LANGUAGES = [
   { value: 'uk', label: 'Українська' },
-  { value: 'ru', label: 'Російська' },
   { value: 'en', label: 'Англійська' },
 ];
 const FORMATS = [

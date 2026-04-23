@@ -7,7 +7,7 @@ const CATEGORIES = [
   { slug: 'detective', name: 'Детективи' },
   { slug: 'classic', name: 'Класика' },
   { slug: 'history', name: 'Історія' },
-  { slug: 'poetry', name: 'Поезія' },
+  { slug: 'romance', name: 'Романи' },
   { slug: 'children', name: 'Дитячі книги' },
 ];
 
