@@ -3,7 +3,7 @@
   "slug": "andrij-lagovskij-34009",
   "title": "Андрій Лаговський",
   "author": "Агатангел Кримський",
-  "category": "literature-ukr",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Роман Агатангела Кримського «Андрій Лаговський» — це життєвий шлях юнака з небагатої сім'ї, який будь-що здобуває освіту й шукає свій шлях серед кола інтелігенції. Герой твору нелегко приходить до високих ідеалів, національного самоусвідомлення, до розуміння сенсу й мети свого життя.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "ukrainian",
+  "categoryConfidence": "high"
 }

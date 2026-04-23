@@ -3,8 +3,8 @@
   "slug": "b-001-037-928-all",
   "title": "Советская историография Киевской Руси",
   "author": "(ред.)",
-  "category": "business-science",
-  "language": "uk",
+  "category": "other",
+  "language": "ru",
   "year": 1978,
   "description": "Л.: Наука",
   "shortDescription": "Л.: Наука",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "science-tech"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "1936-20210403",
   "title": "Долівкові Вправи.С.Гайдучок. 1936",
   "author": "Степан Гайдучок, Digitized by Andriy Galabuda Lviv",
-  "category": "other",
+  "category": "business-science",
   "language": "uk",
   "year": 1936,
   "description": "Сокільський підручничок з гімнастики. 1936 року видання. Львів, автор - Степан Гайдучок.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "reference",
+  "categoryConfidence": "medium"
 }

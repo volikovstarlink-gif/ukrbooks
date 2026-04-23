@@ -3,7 +3,7 @@
   "slug": "sosiurapoeziitom2z3",
   "title": "Поезії (том 2. з 3.)",
   "author": "Сосюра, Володимир (Sosjura, Volodymyr)",
-  "category": "other",
+  "category": "poetry",
   "language": "uk",
   "year": 1929,
   "description": "220 pages.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "ukrainian-modern",
+  "categoryConfidence": "medium"
 }

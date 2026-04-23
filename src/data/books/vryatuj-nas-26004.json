@@ -3,7 +3,7 @@
   "slug": "vryatuj-nas-26004",
   "title": "Врятуй нас",
   "author": "Мона Кастен",
-  "category": "literature-foreign",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "Молода жінка обирає між безпечним коханням і чоловіком, якого дійсно любить. Зовні впевнена, але всередині розривається між чужим життям і власним щастям. Романтична драма про те, як складно відпустити чужі мрії заради своєї.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "sentimental"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

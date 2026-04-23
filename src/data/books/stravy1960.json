@@ -3,7 +3,7 @@
   "slug": "stravy1960",
   "title": "Arch stravy1960",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Мистецтво кулінарії й естетика столу в українській традиції. Подається як практичний порадник із рецептів та правил сервірування, що відбивають смаки та можливості радянської епохи. Важливий документ побутової культури середини ХХ століття.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "essays",
+  "categoryConfidence": "medium"
 }

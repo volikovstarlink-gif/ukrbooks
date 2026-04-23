@@ -3,7 +3,7 @@
   "slug": "fortetsya-na-borisfeni-6960",
   "title": "Фортеця на Борисфенi",
   "author": "Валентин Лукич Чемерис",
-  "category": "history",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Боротьба за незалежність України.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "historical",
+  "categoryConfidence": "high"
 }

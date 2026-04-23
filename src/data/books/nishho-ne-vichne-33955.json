@@ -3,7 +3,7 @@
   "slug": "nishho-ne-vichne-33955",
   "title": "Ніщо не вічне",
   "author": "Сідні Шелдон",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Ніщо не вічне — американський науково-фантастичний комедійно-драматичний фільм 1984 року. Ніщо не вічне — 9-й епізод одинадцятого сезону серіалу «Цілком таємно». Ніщо не вічне — роман Сідні Шелдона 1994 року. Ніщо не вічне — роман Родеріка Торпа 1979 року (екранізований як «Міцний горішок»).",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

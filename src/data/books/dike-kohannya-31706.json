@@ -3,7 +3,7 @@
   "slug": "dike-kohannya-31706",
   "title": "Дике кохання",
   "author": "Елсі Сілвер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романтична драма про життя та почуття у часи соціальних потрясінь. Через долю головної героїні розкривається конфлікт між особистим щастям та суспільними обов'язками, які розривають закохані сердця. Книга відображає атмосферу епохи, де кохання борється з історією.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

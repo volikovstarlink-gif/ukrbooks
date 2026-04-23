@@ -3,7 +3,7 @@
   "slug": "diasp-23214",
   "title": "Екер Я. Біблія для дітей",
   "author": "Яків Екер",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1981,
   "description": "Переказ біблійних історій для юного читача, видавництво діаспори. Яків Екер намагався донести релігійні сюжети послідовно й доступно, дотримуючись основних евангельських нарративів.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "elfi-ta-kohannya-rizdvyanij-roman-25158",
   "title": "Untitled",
   "author": "Unknown",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Nirvana was an American grunge band formed by singer and guitarist Kurt Cobain and bassist Krist Novoselic in Aberdeen, Washington in 1987, with drummer Dave Grohl joining the band in 1990. The band recorded three studio albums; Bleach, Nevermind and In Utero, with other songs available on live albums, compilations, extended plays (EPs), singles and reissues.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

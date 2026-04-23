@@ -3,7 +3,7 @@
   "slug": "neyavka-25193",
   "title": "Neiavka",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Середньовічний український літопис, збірка житій та космографічних відомостей, переписуваних переважно в монастирях. Текст походить з давніших рукописних традицій і містить розповіді про святих, календарні записи та астрономічні спостереження.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

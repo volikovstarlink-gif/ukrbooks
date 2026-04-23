@@ -3,7 +3,7 @@
   "slug": "vihodu-nemaye-31178",
   "title": "Vykhodu nemaie",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Підпільна збірка українських патріотичних творів, виданих в умовах репресій. Текст \"Виходу немає\" став символом духовного опору перед загрозою знищення національної культури. Твір зберігав пам'ять про українську мову і традиції в період заборон.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

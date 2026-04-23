@@ -3,7 +3,7 @@
   "slug": "amerikanskij-eksperiment-susidstva-10124",
   "title": "Американський експеримент сусідства",
   "author": "Елена Армас",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Аналіз соціальних експериментів американських міст, де з'ясовується, як міське планування та житлова політика формували расові та класові розділення. Елена Армас досліджує парадокси урбаністичного прогресу, який часто консервував нерівність замість її подолання.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

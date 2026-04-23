@@ -3,7 +3,7 @@
   "slug": "nova-hata-1934",
   "title": "Arch Nova Hata 1934",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Альманах українського модернізму, виданий у міжвоєнному Львові. Збірка містить експериментальну поезію, прозу й графіку авангардистів, які шукали нових форм українського мистецтва. Документ епохи артистичних пошуків у період національного відродження.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "culture",
+  "categoryConfidence": "high"
 }

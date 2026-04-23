@@ -4,7 +4,7 @@
   "title": "Feet on the Pillow and other Ukrainian Folk Tales ...",
   "author": "Retold by Danny Evanishen",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 1996,
   "description": "Збірка українських народних казок, переказаних для англомовних читачів. Включає класичні сюжети про чарівні предмети, хитрих персонажів і магічні перетворення. Видання 1996 року зберігає дух оригінальних історій, адаптуючи їх для сучасної аудиторії.",
   "shortDescription": "Збірка українських народних казок, переказаних для англомовних читачів. Включає класичні сюжети про чарівні предмети, хитрих персонажів і магічні перетворення.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

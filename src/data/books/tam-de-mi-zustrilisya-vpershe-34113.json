@@ -3,7 +3,7 @@
   "slug": "tam-de-mi-zustrilisya-vpershe-34113",
   "title": "file",
   "author": "Unknown",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "CorelDraw Bitmap — основний формат векторного графічного редактора CorelDRAW. Формат CDR став універсальним для інших програм завдяки використанню окремої компресії для векторних і растрових зображень, можливості вбудовувати шрифти, величезному робочому полю 45х45 метрів, підтримці багатосторінковості.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

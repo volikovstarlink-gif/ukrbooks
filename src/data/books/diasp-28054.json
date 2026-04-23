@@ -3,7 +3,7 @@
   "slug": "diasp-28054",
   "title": "Франко І. Ріпка",
   "author": "Адаптація Галі Дмитришин",
-  "category": "literature-foreign",
+  "category": "children",
   "language": "uk",
   "year": 1990,
   "description": "Франко переповідав українське село з роботою на землі, несправедливістю та мріями простої людини. Дмитришин адаптувала класику для молодших читачів, збереживши гостроту соціального конфлікту. Видання вийшло в період відновлення українського книговидання після СРСР.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "novels"
+  "subcategory": "fairytales",
+  "categoryConfidence": "high"
 }

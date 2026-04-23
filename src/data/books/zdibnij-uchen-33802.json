@@ -3,7 +3,7 @@
   "slug": "zdibnij-uchen-33802",
   "title": "Здібний учень",
   "author": "Стівен Кінг",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Здібний учень» (англ. Apt Pupil) — повість американського письменника Стівена Кінга, що входить до збірки «Чотири сезони». Тодд Боуден найкращий учень у своєму класі й має гарну репутацію поза школою. Одного дня він дізнається, що у їхньому маленькому містечку живе колишній есесівець, воєнний злочинець, який лишився безкарним.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

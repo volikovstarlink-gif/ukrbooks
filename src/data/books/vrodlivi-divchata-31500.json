@@ -3,7 +3,7 @@
   "slug": "vrodlivi-divchata-31500",
   "title": "pretty girls (2)",
   "author": "Unknown",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Так Треба Продакшн» (TAK TREBA PRODUCTION) — мультимедійна компанія, яка спеціалізується на послугах з адаптації іноземних фільмів, серіалів та анімації (озвучування, дубляж, титрування українською мовою). Клієнти «Так Треба Продакшн» — це українські та іноземні телеканали та телевізійні мережі, продакшн-компанії, та дистриб'ютори.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

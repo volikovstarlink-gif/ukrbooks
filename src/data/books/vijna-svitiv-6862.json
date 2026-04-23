@@ -3,7 +3,7 @@
   "slug": "vijna-svitiv-6862",
   "title": "Війна світів",
   "author": "Герберт Уэллс",
-  "category": "fantasy",
+  "category": "classics",
   "language": "uk",
   "year": 2010,
   "description": "До збірника ввійшли “Машина Часу”, “Острів доктора Моро”, “Невидимець”, “Війна світів” - найвідоміші твори Герберта Уеллса (1866–1946), визначного англійського письменника, одного з засновників наукової фантастики",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

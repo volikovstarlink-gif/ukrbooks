@@ -3,7 +3,7 @@
   "slug": "diasp-23853",
   "title": "Федчук Б. Відгадай. Девята книжечка загадок",
   "author": "Богдан Федчук",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1966,
   "description": "Дев'ята збірка загадок від Богдана Федчука містить традиційні українські загадки для дітей. Видання вийшло у діаспорі 1960-х років, коли українці в еміграції активно видавали дитячу літературу для збереження мови й культури.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "vovche-pravo-24083",
   "title": "Вовче право",
   "author": "Рафал Дембський",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2010,
   "description": "Психологічний триллер про людину, яка опиняється в екстремальній ситуації і змушена борешся за виживання, керуючись інстинктами, а не мораллю. Польський письменник досліджує, як цивілізація швидко зникає, коли людина потрапляє в умови, де діють тільки закони природи.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

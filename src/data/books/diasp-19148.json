@@ -3,7 +3,7 @@
   "slug": "diasp-19148",
   "title": "Буквар для дітей першого року навчання з додатком ...",
   "author": "Буквар для дітей першого року навчання з додатком рахунків",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1918,
   "description": "Шкільни́цтво (шкільна справа) в Україні — формування та організація системи початкової та середньої освіти в Україні, з метою виховання молодого покоління.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-28935",
   "title": "Співаник МПЗ 100-ліття Пласту \"Вовча тропа\"",
   "author": "Співаник МПЗ 100-ліття Пласту \"Вовча тропа\"",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 2011,
   "description": "Колекція пісень для членів Пласту до століття цієї найстарішої українській скаутської організації.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "poems",
+  "categoryConfidence": "high"
 }

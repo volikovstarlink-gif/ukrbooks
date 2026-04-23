@@ -3,7 +3,7 @@
   "slug": "zastryagti-z-toboyu-19187",
   "title": "застрягти з тобою",
   "author": "Еллі Гейзелвуд",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "\"Застрягти з тобою\" — чуттєвий роман про двох людей, які опиняються в ліфті й змушені розкрити одне перед одним найпотаємніші переживання. На тлі замкненого простору розгортається глибока психологічна драма, в якій кожне слово стає випробуванням щирості.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

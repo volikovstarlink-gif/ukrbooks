@@ -4,7 +4,7 @@
   "title": "Сочинения в трёх томах. Т. 3. Макар Дубрава. Калиновая роща. Крылья. Статьи и речи",
   "author": "Александр Евдокимович Корнейчук",
   "category": "other",
-  "language": "uk",
+  "language": "ru",
   "year": 1956,
   "description": "М.: Художественная литература",
   "shortDescription": "М.: Художественная литература",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

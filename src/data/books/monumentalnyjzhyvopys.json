@@ -3,7 +3,7 @@
   "slug": "monumentalnyjzhyvopys",
   "title": "Монументальний живопис в Україні XVII–XVIII ст. (Monumental'nyj žyvopys v Ukrajini XVII–XVIII st.)",
   "author": "Жолтовський, Павло (Žoltovśkyj, Pavlo)",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 1988,
   "description": "155 pages.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "culture",
+  "categoryConfidence": "medium"
 }

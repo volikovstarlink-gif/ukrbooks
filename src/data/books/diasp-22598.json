@@ -3,7 +3,7 @@
   "slug": "diasp-22598",
   "title": "Рахунки для четвертої кляси народних шкіл",
   "author": "Рахунки для четвертої кляси народних шкіл",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 0,
   "description": "Висло́боки — село в Україні, у Львівському районі Львівської області. Населення станом на 2016 рік становило 390 осіб. Орган місцевого самоврядування — Жовтанецька сільська рада.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "odnogo-razu-v-rimi-35529",
   "title": "Одного разу в Римі",
   "author": "Сара Адамс",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2026,
   "description": "Са́ра Дже́ссіка Па́ркер (англ. Sarah Jessica Parker; 25 березня 1965, Нельсонвіль, Огайо, США) — американська акторка, продюсерка та модель. Чотириразова лауреатка премії «Золотий глобус» за найкращу жіночу роль у комедійному серіалі (2000, 2001, 2002, 2004, усього 9 номінацій у 1999—2017 роках), дворазова лауреатка премії «Еммі» (2001, 2004, усього 8 номінацій у 1999—2004 роках).",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "artemis-faul-kod-vichnosti-702",
   "title": "Артеміс Фаул. Код вічності",
   "author": "Йон Колфер",
-  "category": "fantasy",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "Оуен (Йоун, Йон) Ко́лфер (англ. Eoin Colfer, ім'я читається як Owen) — ірландський письменник-фантаст. Насамперед відомий як автор дитячої книжкової серії «Артеміс Фаул».",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

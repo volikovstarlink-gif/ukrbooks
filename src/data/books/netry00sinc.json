@@ -3,7 +3,7 @@
   "slug": "netry00sinc",
   "title": "Netry",
   "author": "Sinclair, Upton, 1878-1968",
-  "category": "other",
+  "category": "classics",
   "language": "uk",
   "year": 1919,
   "description": "332, [4] p",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign",
+  "categoryConfidence": "medium"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-30614",
   "title": "Українська читанка для 3 кляси народних шкіл",
   "author": "Українська читанка для 4 кляси народних шкіл",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1942,
   "description": "Омеля́н Йо́сипович Парти́цький (28 травня 1840, Тейсарів — 1 лютого 1895, Львів) — український учений-мовознавець, етнограф, історик, педагог, громадський діяч.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "bibliya-ili-knigi-svyaschennogo-pisaniya-1889",
   "title": "Arch Bibliya ili knigi Svyaschennogo Pisaniya 1889",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Церковнослов'янський переклад Священного Писання, виданий в Австрії наприкінці XIX ст. Це видання українських емігрантів, що зберігало православну традицію поза межами Російської імперії.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "religion-philosophy",
+  "categoryConfidence": "medium"
 }

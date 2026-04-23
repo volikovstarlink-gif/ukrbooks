@@ -3,7 +3,7 @@
   "slug": "diasp-20685",
   "title": "Вовчок М. Маруся",
   "author": "Марко Вовчок",
-  "category": "other",
+  "category": "classics",
   "language": "uk",
   "year": 1943,
   "description": "Оповідання про селянську дівчину з трагічною долею, що розгортається на тлі українського села XIX століття. Вовчок змалював конфлікт між почуттями героїні та суворістю традиційного укладу життя.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "ukrainian",
+  "categoryConfidence": "high"
 }

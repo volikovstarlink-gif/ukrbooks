@@ -3,7 +3,7 @@
   "slug": "diasp-30058",
   "title": "Корнієнко В. Запорожський клад",
   "author": "Василь Корнієнко",
-  "category": "other",
+  "category": "teen",
   "language": "uk",
   "year": 1923,
   "description": "У повісті Василя Корнієнка розповідається про козаків, які ховають скарб в очікуванні майбутніх поколінь. Твір поєднує історичні реалії запорозької вольниці з романтичними мотивами пошуку й легендарних багатств.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

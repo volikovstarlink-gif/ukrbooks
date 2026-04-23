@@ -3,7 +3,7 @@
   "slug": "zlamati-jogo-30871",
   "title": "Зламати його",
   "author": "Шерілі Грей",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "\"Зламати його\" — психологічна драма про маніпуляцію й емоційне насильство в близьких стосунках. Через очі головної героїні розкривається механізм поступового зруйнування особистості під впливом партнера.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

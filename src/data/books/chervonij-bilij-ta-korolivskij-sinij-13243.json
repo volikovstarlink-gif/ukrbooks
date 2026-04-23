@@ -3,8 +3,8 @@
   "slug": "chervonij-bilij-ta-korolivskij-sinij-13243",
   "title": "D:\\wwwroot\\cleverpdf-web\\11283503\\Червоний_білий_королівсько_синій.epub",
   "author": "Unknown",
-  "category": "other",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Збірка есеїв та розмислів про політичні й культурні процеси в Україні, що торкаються питань національної ідентичності, державності та міжнаціональних відносин.",
   "shortDescription": "Збірка есеїв та розмислів про політичні й культурні процеси в Україні, що торкаються питань національної ідентичності, державності та міжнаціональних відносин.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

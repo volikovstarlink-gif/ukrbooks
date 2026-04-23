@@ -3,7 +3,7 @@
   "slug": "20-000-lye-pid-vodoyu-22809",
   "title": "20 000 льє під водою",
   "author": "Жуль Верн",
-  "category": "fantasy",
+  "category": "classics",
   "language": "uk",
   "year": 2011,
   "description": "Всесвітньовідомий роман великого французького фантаста Жуля Верна (1828–1905) про сповнену небезпек і пригод навколосвітню подорож капітана Немо та його друзів на підводному човні «Наутілус».",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "vidinnya-orfeya-22366",
   "title": "Vydinnia Orfeia",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Давня українська поема про подорож Орфея до підземного царства в переложенні невідомого автора. Твір поєднує давньогрецький сюжет із стилістикою українського бароко, зберігаючи класичну трагічність історії про втрачене кохання.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

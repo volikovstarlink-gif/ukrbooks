@@ -3,7 +3,7 @@
   "slug": "finalnij-gambit-20036",
   "title": "Unknown",
   "author": "Дженніфер Лінн Барнс",
-  "category": "history",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "Боб Ді́лан (англ. Bob Dylan — псевдонім Ро́берта А́ллена Ці́ммермана (англ. Robert Allen Zimmerman), 24 травня 1941, Дулут, Міннесота, США) — американський співак, композитор, поет і гітарист, з лірики якого запозичено багато крилатих фраз, а музика вплинула на творчість багатьох композиторів-піснярів. Одна з найвпливовіших фігур у поп-музиці за останні п'ятдесят років.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

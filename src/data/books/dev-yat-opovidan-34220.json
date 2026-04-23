@@ -3,7 +3,7 @@
   "slug": "dev-yat-opovidan-34220",
   "title": "Селінджер Дж.9 оповідань",
   "author": "Неизвестный автор",
-  "category": "history",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Збірка оповідань Джерома Девіда Селінджера презентує його ранні прозові роботи, де письменник експериментує з психологічним портретуванням персонажів.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

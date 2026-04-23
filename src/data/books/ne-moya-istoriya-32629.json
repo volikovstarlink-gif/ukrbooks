@@ -3,7 +3,7 @@
   "slug": "ne-moya-istoriya-32629",
   "title": "Не моя історія!",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Капітан Чарльз Джонсон (англ. Captain Charles Johnson;? -?) — автор книги «Загальна історія крадіжок і вбивств, вчинених самими знаменитими піратами», виданої в Лондоні в 1724 році.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

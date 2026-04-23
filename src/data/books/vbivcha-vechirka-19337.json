@@ -3,7 +3,7 @@
   "slug": "vbivcha-vechirka-19337",
   "title": "Вбивча вечірка",
   "author": "Лілі Андерсон",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Культовий американський телесеріал «Надприродне» (англ. Supernatural; 2005—2020) поєднує в собі елементи містики, драми, детектива, жахів та комедії.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

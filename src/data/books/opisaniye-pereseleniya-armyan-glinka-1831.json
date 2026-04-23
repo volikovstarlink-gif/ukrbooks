@@ -4,7 +4,7 @@
   "title": "Arch Opisaniye pereseleniya armyan Glinka 1831",
   "author": "",
   "category": "other",
-  "language": "uk",
+  "language": "ru",
   "year": 0,
   "description": "Праця російського вченого про массове переселення вірмен до південних регіонів Російської імперії на початку XIX ст. Розглядає причини міграції, умови облаштування та демографічні наслідки для вірменської громади.",
   "shortDescription": "Праця російського вченого про массове переселення вірмен до південних регіонів Російської імперії на початку XIX ст.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

@@ -3,8 +3,8 @@
   "slug": "zoryanij-metelik-27957",
   "title": "Зоряний Метелик",
   "author": "Бернард Вербер",
-  "category": "history",
-  "language": "en",
+  "category": "fantasy",
+  "language": "uk",
   "year": null,
   "description": "Берна́р (Берна́рд) Вербе́р (фр. Bernard Werber; 18 вересня 1961, Тулуза, Франція) — французький прозаїк єврейського походження. У Франції його твори розійшлися накладом понад 5 млн, за кордоном продано понад 10 млн копій книг. Романи Вербера перекладено більш ніж тридцятьма мовами світу.",
   "shortDescription": "Берна́р (Берна́рд) Вербе́р (фр. Bernard Werber; 18 вересня 1961, Тулуза, Франція) — французький прозаїк єврейського походження.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sci-fi",
+  "categoryConfidence": "high"
 }

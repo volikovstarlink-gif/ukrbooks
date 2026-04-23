@@ -3,7 +3,7 @@
   "slug": "na-gachku-20206",
   "title": "На гачку",
   "author": "Тесса Бейлі",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "\"На гачку\" Тесси Бейлі розповідає про історію рибальства та його вплив на розвиток цивілізацій. Авторка досліджує, як лов риби формував економіку, культуру й міжнародні відносини протягом тисячоліть.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

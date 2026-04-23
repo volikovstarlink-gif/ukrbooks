@@ -3,7 +3,7 @@
   "slug": "diti-kapitana-granta-22854",
   "title": "Діти капітана Гранта",
   "author": "Жюль Верн",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2010,
   "description": "Герої пригодницького роману відомого французького письменника перетинають три океани, розшукуючи шотландського патріота — капітана Гранта, що зазнав корабельну катастрофу…",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

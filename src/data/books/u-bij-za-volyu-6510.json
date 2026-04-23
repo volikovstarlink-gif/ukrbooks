@@ -3,8 +3,8 @@
   "slug": "u-bij-za-volyu-6510",
   "title": "U bii za voliu",
   "author": "Unknown",
-  "category": "other",
-  "language": "en",
+  "category": "history",
+  "language": "uk",
   "year": null,
   "description": "У боротьбі за волю — збірка текстів українських емігрантів, що розкриває складну історію боротьби за незалежність через погляди діаспори.",
   "shortDescription": "У боротьбі за волю — збірка текстів українських емігрантів, що розкриває складну історію боротьби за незалежність через погляди діаспори.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "ukraine",
+  "categoryConfidence": "high"
 }

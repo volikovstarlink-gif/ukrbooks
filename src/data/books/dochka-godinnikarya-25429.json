@@ -3,7 +3,7 @@
   "slug": "dochka-godinnikarya-25429",
   "title": "Дочка годинникаря",
   "author": "Кейт Мортон",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це британський романтичний триллер про дівчину, яка знаходить під полом будинку старовинні листи та починає розплутувати таємниці своєї родини, пов'язані з Англією 1920-х років. Паралельна розповідь про минуле розкриває трагічні подіїї та приховані зв'язки між поколіннями.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

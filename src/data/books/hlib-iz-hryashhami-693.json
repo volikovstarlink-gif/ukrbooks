@@ -3,7 +3,7 @@
   "slug": "hlib-iz-hryashhami-693",
   "title": "Khlib iz khriashchamy",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Хліб із хрящами — твір невідомого українського автора, який поєднує реалістичне зображення побутових труднощів з гіркою іронією. Назва метафорично відбиває складність звичайного життя, де навіть базові речі стають болючими.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "chuzhyntsi1942",
   "title": "Arch chuzhyntsi1942",
   "author": "",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "Архів «Чужинці» — збірка матеріалів про інтелігенцію в умовах окупації й воєнного часу. Документи й тексти відбивають напружену атмосферу 1940-х років і долі людей, розділених кордонами. Видання важливе для розуміння культурного життя українців під час Другої світової війни.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "documents",
+  "categoryConfidence": "medium"
 }

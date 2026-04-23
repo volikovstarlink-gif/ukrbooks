@@ -3,7 +3,7 @@
   "slug": "zhartivniki-30278",
   "title": "Жартівники",
   "author": "Мирослав Сивицький",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Головна героїня роману, молода студентка яка володіє прийомами карате, потрапляє в пастку, підбудовану сином відомого професора-хірурга, очевидно торговцем людськими органами. Дівчині вдасться вирватися й уникнути страшної долі, але найняті сином професора бандити йдуть по її сліду…",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "detectives"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

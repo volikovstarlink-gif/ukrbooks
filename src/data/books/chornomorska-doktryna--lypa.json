@@ -3,7 +3,7 @@
   "slug": "chornomorska-doktryna--lypa",
   "title": "Чорноморська доктрина (Čornomorśka doktryna)",
   "author": "Липа, Юрій (Lypa, Jurij)",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 1942,
   "description": "165 сторінок.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "politics",
+  "categoryConfidence": "high"
 }

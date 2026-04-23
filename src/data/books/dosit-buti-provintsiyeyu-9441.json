@@ -3,7 +3,7 @@
   "slug": "dosit-buti-provintsiyeyu-9441",
   "title": "Досить бути провінцією",
   "author": "Костя Грек",
-  "category": "business-science",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "У науковому дослідженні Костя Грек розглядає історичні та соціальні причини, що робили українські землі залежними від імперських центрів. Аналізує механізми культурної та економічної периферійності, від коли сяпів до новітніх часів.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "science-tech"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

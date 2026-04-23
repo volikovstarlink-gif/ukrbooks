@@ -3,7 +3,7 @@
   "slug": "spotvorena-brehnya-16666",
   "title": "Спотворена брехня",
   "author": "Ана Хуанг",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Розповідь про історичну постать або подію, де офіційні версії та пропаганда приховувають справжню правду. Автор розшифровує суперечності в документах, свідченнях та записах, щоб показати, що насправді сталось. Книга кидає виклик усталеним міфам та переписаній історії.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

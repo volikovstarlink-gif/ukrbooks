@@ -3,7 +3,7 @@
   "slug": "zimove-sontsestoyannya-25857",
   "title": "Zymove sontsestoiannia",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "\"Зимове сонцестояння\" — твір невідомого автора, що досліджує особливості зимового циклу природи та його вплив на людську свідомість. Текст поєднує спостереження за астрономічними явищами з філософськими роздумами про сезонні перетворення.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

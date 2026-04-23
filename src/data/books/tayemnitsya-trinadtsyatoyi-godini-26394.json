@@ -3,7 +3,7 @@
   "slug": "tayemnitsya-trinadtsyatoyi-godini-26394",
   "title": "Таємниця тринадцятої години",
   "author": "Анна Кантьох",
-  "category": "history",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "Роман про перепетії українського життя у ХХ столітті, де історичні катаклізми переплітаються з особистими драмами звичайних людей. Автор розплутує складні вузли минулого, шукаючи істину в розповідях очевидців та архівних документах.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

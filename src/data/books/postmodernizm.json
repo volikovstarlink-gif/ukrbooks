@@ -3,7 +3,7 @@
   "slug": "postmodernizm",
   "title": "Arch postmodernizm",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Дослідження постмодернізму в архітектурі, що аналізує розхитування модерністських канонів і повернення до історичних посилань, орнаментики та іронії.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "essays",
+  "categoryConfidence": "high"
 }

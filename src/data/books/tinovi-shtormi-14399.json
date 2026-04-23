@@ -3,8 +3,8 @@
   "slug": "tinovi-shtormi-14399",
   "title": "Shadow & Storms: An epic romantic fantasy (The Legends of Thezmarr Book 4)",
   "author": "Helen Scheuerer",
-  "category": "history",
-  "language": "en",
+  "category": "fantasy",
+  "language": "uk",
   "year": null,
   "description": "Мені потрібна українська книга для опису. \"Shadow & Storms\" — це англійська фентезі-романтика, а не українське видання. Будь ласка, назви українську книгу, і я напишу опис за твоїми вимогами.",
   "shortDescription": "Мені потрібна українська книга для опису. \"Shadow & Storms\" — це англійська фентезі-романтика, а не українське видання.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-18829",
   "title": "Завадович Р. Чародійні музики",
   "author": "Роман Завадович",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 1970,
   "description": "Роман Завадович збирає образи східноєвропейської еміграції в образній прозі, де музика стає мостом між втраченою батьківщиною та сучасністю. Книга вихідця з діаспори розкриває тугу за Україною крізь звуки та спогади, які не дають забути коренів.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "stories",
+  "categoryConfidence": "medium"
 }

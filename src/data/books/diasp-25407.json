@@ -3,7 +3,7 @@
   "slug": "diasp-25407",
   "title": "Орел А. Їжак-миротворець",
   "author": "Артем Орел (Антон Білоус)",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1953,
   "description": "Казка про їжака, що своєю мудрістю й добротою примирює лісних звірів. Видана в еміграційному дитячому журналі під час холодної війни. Міцна мораль про пошук миру в конфліктних ситуаціях, написана простою образною мовою.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "fairytales",
+  "categoryConfidence": "high"
 }

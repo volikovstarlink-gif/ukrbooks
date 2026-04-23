@@ -3,7 +3,7 @@
   "slug": "bibleohienko",
   "title": "Arch BibleOhienko",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Архітектурний довідник, що систематизує будівельно-конструктивні елементи в західноєвропейській традиції. Містить детальні креслення та класифікацію архітектурних форм від античності до модернізму. Енциклопедичний матеріал для архітекторів, художників і спеціалістів.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "religion-philosophy",
+  "categoryConfidence": "medium"
 }

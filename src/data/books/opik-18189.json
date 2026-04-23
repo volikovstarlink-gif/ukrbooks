@@ -3,7 +3,7 @@
   "slug": "opik-18189",
   "title": "Опік",
   "author": "Пітер Геллер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Документальне розслідування про Чорнобильську катастрофу. Геллер розповідає про людей, які врятували світ від ядерної рази, та про ціну, яку вони заплатили. Книга поєднує технічні деталі аварії з персональними історіями евакуйованих та ліквідаторів.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

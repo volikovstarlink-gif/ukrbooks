@@ -3,8 +3,8 @@
   "slug": "vogon-majya-24864",
   "title": "Вогонь майя_01",
   "author": "Невідомий автор",
-  "category": "other",
-  "language": "en",
+  "category": "fantasy",
+  "language": "uk",
   "year": null,
   "description": "Ар-деко́, також артдеко́, (фр. art déco — дослівно «декоративне мистецтво») — мистецька течія першої половини XX століття. З'явилася і розвивалася в архітектурі, декоративному мистецтві, моді та живописі. Є синтезом модерну і неокласицизму.",
   "shortDescription": "Ар-деко́, також артдеко́, (фр. art déco — дослівно «декоративне мистецтво») — мистецька течія першої половини XX століття.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "sci-fi",
+  "categoryConfidence": "high"
 }

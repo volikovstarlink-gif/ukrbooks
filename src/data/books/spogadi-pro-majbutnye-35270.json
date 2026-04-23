@@ -3,7 +3,7 @@
   "slug": "spogadi-pro-majbutnye-35270",
   "title": "Спогади про майбутнє (done)",
   "author": "Дін Кунц",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це переклад американського фантаста Діна Кунца. Утопічний роман про майбутнє, де люди борються з тотальним контролем та пошуком сенсу в технологічному світі. Камерна й філософічна історія про відродження людяності.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

@@ -4,7 +4,7 @@
   "title": "Chary na Ukraïni",
   "author": "Antonovych, V. (Volodymyr), 1834-1907",
   "category": "other",
-  "language": "uk",
+  "language": "other",
   "year": 1905,
   "description": "Gift of the National Library of the Czech Republic",
   "shortDescription": "Gift of the National Library of the Czech Republic",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "medium"
 }

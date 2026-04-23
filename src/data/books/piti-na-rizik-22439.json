@@ -3,7 +3,7 @@
   "slug": "piti-na-rizik-22439",
   "title": "Піти на ризик",
   "author": "Ханна Бонам-Янг",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Дослідження про те, як звичайні люди в Європі та Америці робили ризиковані вибори під час криз — від середньовіччя до сучасності. Бонам-Янг аналізує, чим керувалися люди, коли ставкували на майбутнє та як історичні катастрофи змінювали поведінку суспільства.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

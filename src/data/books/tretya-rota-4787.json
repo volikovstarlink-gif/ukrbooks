@@ -3,7 +3,7 @@
   "slug": "tretya-rota-4787",
   "title": "Третя рота",
   "author": "Владимир Николаевич Сосюра",
-  "category": "literature-ukr",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Поема про українських революціонерів, які борються за визволення від царизму. Сосюра змальовує драму молодих боївців, що жертвують собою заради нової України. Твір написаний потужною образною мовою, відбиває атмосферу революційного піднесення 1920-х років.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "ukrainian",
+  "categoryConfidence": "high"
 }

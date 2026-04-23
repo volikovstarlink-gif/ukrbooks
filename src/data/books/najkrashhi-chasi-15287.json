@@ -3,7 +3,7 @@
   "slug": "najkrashhi-chasi-15287",
   "title": "Naykrashchi chasy",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Збірка українських народних пісень та поетичних творів, записана напередодні радикальних суспільних змін. Тексти відображають побутові сцени, кохання й смуток простого люду, збережені усною традицією.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "stories",
+  "categoryConfidence": "medium"
 }

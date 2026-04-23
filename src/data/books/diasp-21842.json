@@ -3,7 +3,7 @@
   "slug": "diasp-21842",
   "title": "Зоря. Читанка для 2. и 3. школьноrо рока аародньіx...",
   "author": "Укл. Ем. Фотул, Б. Заклинський",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1925,
   "description": "Шкільна читанка для молодших класів з творами українських авторів та фольклором. Видана в міжвоєнній Україні з метою утвердження українськомовної освіти. Поєднує навчальну функцію з виховними цілями національного характеру.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

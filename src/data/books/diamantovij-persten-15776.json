@@ -3,7 +3,7 @@
   "slug": "diamantovij-persten-15776",
   "title": "Діамантовий перстень",
   "author": "Людмила Старицька-Черняхівська",
-  "category": "history",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Пригодницька повість «Діамантовий перстень» — романтична розповідь про кохання, про листопадове повстання 1830 року у Варшаві, про шляхетних людей чистих духом, готових до самопожертви.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "ukrainian",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "najbozhevilnisha-oderzhimist-33484",
   "title": "Найбожевільніша одержимість",
   "author": "Unknown",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це добірка матеріалів про історію французької духовної опери та зв'язки з українською культурою періоду модерну. Твір досліджує феномен театральної містики, який вплинув на європейське мистецтво кінця XIX століття.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

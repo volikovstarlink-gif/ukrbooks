@@ -3,7 +3,7 @@
   "slug": "chornobilska-molitva-hronika-majbutnogo-30512",
   "title": "Chornobylska molytva. Khronika maibutnoho",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": null,
   "description": "Сві́дчення про Чорнобиль, написані як монологи людей, які пережили катастрофу та мешкають у зоні відчуження. Невідомий автор збирає голоси постраждалих — від ліквідаторів до звичайних містян — щоб показати психологічні наслідки найбільшої техногенної аварії.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "memoirs",
+  "categoryConfidence": "high"
 }

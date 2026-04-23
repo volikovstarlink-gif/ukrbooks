@@ -3,7 +3,7 @@
   "slug": "tochi-ta-rubaj-33679",
   "title": "Точи та рубай",
   "author": "Тейлор Гаттон",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це не українська книга. Тейлор Гаттон — американський автор, а \"Dots and Rebar\" (якщо мова про цю роботу) належить до англомовної літератури. Я генерую описи саме українських книг.\n\nБудь ласка, запропонуй українське видання чи твір українського автора.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

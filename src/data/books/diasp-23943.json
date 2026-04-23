@@ -3,7 +3,7 @@
   "slug": "diasp-23943",
   "title": "К. М. Козацькі діти",
   "author": "К.М. (Костянтина Малицька)",
-  "category": "history",
+  "category": "children",
   "language": "uk",
   "year": 1935,
   "description": "Ка́луський райо́н — колишній район України у північній частині Івано-Франківської області, у зоні Передкарпатського передгір'я. Населення на 1 серпня 2013 року становило 60 339 осіб. Площа району 647 км².",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "ukraine"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

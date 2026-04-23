@@ -3,7 +3,7 @@
   "slug": "tajemnyci-lvivskoji-kavy",
   "title": "Таємниці львівської кави (Tajemnyci l'vivśkoji kavy)",
   "author": "Винничук, Юрій (Vynnyčuk, Jurij)",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2008,
   "description": "220 сторінок.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "novels",
+  "categoryConfidence": "medium"
 }

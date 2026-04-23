@@ -3,7 +3,7 @@
   "slug": "z-lyubov-yu-mama-19531",
   "title": "З любов'ю, мама",
   "author": "Іліана Ксандер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Листи та спогади, що розкривають життя українки в еміграції. Прямі розповіді про побут, відносини у родині й адаптацію в чужій країні, коли батьківщина залишається вдалеке.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "memoirs"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

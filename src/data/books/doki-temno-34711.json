@@ -3,7 +3,7 @@
   "slug": "doki-temno-34711",
   "title": "Доки темно",
   "author": "Кара Хантер",
-  "category": "history",
+  "category": "other",
   "language": "en",
   "year": null,
   "description": "Костянти́н Олекса́ндрович Бєля́єв (нар. 15 грудня 1971, Соснівка, Червоноградський район, Львівська область, УРСР, СРСР) — український письменник і перекладач.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

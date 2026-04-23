@@ -3,8 +3,8 @@
   "slug": "probudzhennya-musoniv-31976",
   "title": "Тея Гуанзон_Пробудження мусонів. Книга 2",
   "author": "Невідомий автор",
-  "category": "other",
-  "language": "en",
+  "category": "fantasy",
+  "language": "uk",
   "year": null,
   "description": "Другий том науково-фантастичної серії про конфлікти на колонізованих світах. Розповідь розгортається на тлі політичних інтриг та військових операцій, де місцеве населення намагається відстояти свою незалежність.",
   "shortDescription": "Другий том науково-фантастичної серії про конфлікти на колонізованих світах.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

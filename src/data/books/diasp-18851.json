@@ -3,7 +3,7 @@
   "slug": "diasp-18851",
   "title": "Василишин С. Дивись-слухай-говори. Ч. 3: Весна і л...",
   "author": "Софія Василишин",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1975,
   "description": "Третя частина навчального комплексу для дітей розроблена Софією Василишин як поєднання візуальних, слухових й вербальних методик. Матеріал організовано навколо весняної тематики та включає вправи для розвитку мови й сприйняття.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

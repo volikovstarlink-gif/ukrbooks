@@ -3,7 +3,7 @@
   "slug": "vijdi-i-vizmi-19080",
   "title": "Вийди і візьми",
   "author": "Тимофій Гаврилів",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2013,
   "description": "У романі «Вийди і візьми» Тимофія Гавриліва з новою силою звучить тема дому й безхатченства. З історії сім’ї, любові, надій і занепаду виростає панорама життя українського суспільства, де невіра в можливість що-небудь змінити породжує гротескні форми обходження з дійсністю.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

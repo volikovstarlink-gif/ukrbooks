@@ -3,7 +3,7 @@
   "slug": "najkrashhij-sishhik-ta-padinnya-imperiyi-17833",
   "title": "Найкращий сищик та падіння імперії",
   "author": "Владислав Івченко",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Війна триває, але у Івана Карповича свої турботи. Він стає знаменитістю, їздить із презентаціями книжок, опановує аероплан із відомою спортсменкою та веде богемне життя. Але без найкращого сищика все одно не обійтися. У нього далі просять допомоги, адже таємничих справ не меншає.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "detectives"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

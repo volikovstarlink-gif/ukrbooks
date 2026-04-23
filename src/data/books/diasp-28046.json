@@ -3,7 +3,7 @@
   "slug": "diasp-28046",
   "title": "Живуть на світі добрі звірі...",
   "author": "Перекл. Світлани Кузьменко",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1995,
   "description": "Збірка віршів австрійської письменниці Ангели Зуттер в українському перекладі. Ліричні дитячі вірші про звірів та природу, проникнуті теплом та дитячим поглядом на світ. Видання 1995 року репрезентує процес культурного обміну між Європою та Україною у період незалежності.",
@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "poems",
+  "translatedFrom": "de",
+  "translator": "Світлана Кузьменко",
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

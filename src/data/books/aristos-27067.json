@@ -3,7 +3,7 @@
   "slug": "aristos-27067",
   "title": "Арістос",
   "author": "Джон Роберт Фаулз",
-  "category": "literature-foreign",
+  "category": "nonfiction",
   "language": "uk",
   "year": null,
   "description": "Джон Фаулз – один з найяскравіших представників англійської інтелектуальної прози, відомий читачеві романами «Колекціонер», «Маг», «Жінка французького лейтенанта», «Вежа з чорного дерева», «Деніел Мартін», «Мантиса», «Примха». Книга «Арістос» – єдина в його доробку суто філософська праця.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "religion-philosophy",
+  "categoryConfidence": "high"
 }

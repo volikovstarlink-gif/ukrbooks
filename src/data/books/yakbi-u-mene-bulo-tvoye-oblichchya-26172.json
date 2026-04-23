@@ -3,7 +3,7 @@
   "slug": "yakbi-u-mene-bulo-tvoye-oblichchya-26172",
   "title": "Якби у мене було твоє обличчя",
   "author": "Франсес Чха",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Південнокорейська письменниця досліджує апартеїд крізь призму жіночого досвіду: два голоси розповідають про расову дискримінацію, тілесність і пошук ідентичності в американському суспільстві.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "dika-storona-31708",
   "title": "Дика сторона",
   "author": "Елсі Сілвер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Мемуари канадської письменниці про австралійський Дикий Захід кінця XIX століття. Сілвер описує зустрічі з золотошукачами, аборигенами та поселенцями, розкриваючи романтизовану й жорстку реальність колоніальної експансії.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "memoirs"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-29404",
   "title": "Панчук М. Scholae latinae: Підручник з навчання ла...",
   "author": "Микола Панчук",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 1943,
   "description": "Підручник для вивчення латини з практичними вправами. Панчук поєднав граматику з текстами, щоб учні могли засвоїти мову через реальні приклади. Видання випущене під час II світової війни в складних обставинах українського друку.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "essays",
+  "categoryConfidence": "high"
 }

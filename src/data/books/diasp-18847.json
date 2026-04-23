@@ -3,7 +3,7 @@
   "slug": "diasp-18847",
   "title": "Дивись і кажи",
   "author": "Ред. Генрика Мізь",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 0,
   "description": "Дошкільний посібник з розвитку мовлення та спостережливості. Діти вчаться називати предмети, явища й дії, спостерігаючи за зображеннями та описуючи їх. Методика спрямована на розширення словникового запасу та розвиток комунікативних навичок.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

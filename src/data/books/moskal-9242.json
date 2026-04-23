@@ -3,7 +3,7 @@
   "slug": "moskal-9242",
   "title": "Москаль",
   "author": "Міхал Голковський",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2016,
   "description": "Роман про козака-розбійника Москаля, що діяв у XVI столітті на українських землях. Голковський змалював його легендарну боротьбу проти татарських набігів та польської окупації в дусі козацької вільниці. Епічна розповідь поєднує історичні факти з фольклорними мотивами.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

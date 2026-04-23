@@ -3,7 +3,7 @@
   "slug": "diki-bili-koni-11737",
   "title": "Dyki bili koni",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": null,
   "description": "\"Дикі білі коні\" — давня українська казка про магічних коней, що жили в степах. Розповідь змішує фольклорні мотиви з описами кочовницької культури. Твір збережено в усній традиції та записаний у ХІХ столітті дослідниками українського фольклору.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "fairytales",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-18860",
   "title": "Завадович Р. Гоца Драла",
   "author": "Роман Завадович",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 1977,
   "description": "Роман «Гоца Драла» розповідає про легендарного угорського розбійника XIX століття крізь призму його конфлікту з австрійськими властями та місцевим дворянством. Завадович відтворює атмосферу карпатських гір, де головний герой стає символом народного спротиву.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "historical",
+  "categoryConfidence": "medium"
 }

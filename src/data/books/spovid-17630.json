@@ -3,7 +3,7 @@
   "slug": "spovid-17630",
   "title": "Сповідь",
   "author": "Коллін Гувер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Психологічний трилер про жінку, яка вбила чоловіка на самозахист, але не може розповісти правду навіть його сім'ї. Коллін Гувер досліджує, як секрети руйнують відносини та як складно говорити про насильство в особистих стосунках.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

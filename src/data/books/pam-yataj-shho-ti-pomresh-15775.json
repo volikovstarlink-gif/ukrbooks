@@ -3,7 +3,7 @@
   "slug": "pam-yataj-shho-ti-pomresh-15775",
   "title": "Пам'ятай, що ти помреш",
   "author": "Іден Робінс",
-  "category": "history",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Премія «Локус» за найкращий науково-фантастичний роман (англ. Locus Award for Best Science Fiction Novel) — премія, яку присуджує журнал «Локус» за роботи, опубліковані в попередньому календарному році. Переможця обирають за підсумками голосування читачів журналу.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

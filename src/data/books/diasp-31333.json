@@ -3,7 +3,7 @@
   "slug": "diasp-31333",
   "title": "Саведчук Л. Лихомор",
   "author": "Леся Саоедчук",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 1982,
   "description": "Роман про селище на українсько-польському пограниччі в міжвоєнну добу. Саведчук змалює атмосферу напруженості і моральної розтоптаності, коли місцева спільнота розколюється між національними утиснення.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

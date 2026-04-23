@@ -3,7 +3,7 @@
   "slug": "1981-pdf-202112",
   "title": "Про атеїзм і релігію в історії суспільства і культури",
   "author": "Плеханов Г. В.",
-  "category": "history",
+  "category": "nonfiction",
   "language": "uk",
   "year": 1981,
   "description": "У книгу увійшли праці Г. В. Плеханова, присвячені аналізу ролі релігії і атеїзму в історії світової культури і мистецтва. Книга розрахована на широке коло читачів",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "world"
+  "subcategory": "religion-philosophy",
+  "categoryConfidence": "medium"
 }

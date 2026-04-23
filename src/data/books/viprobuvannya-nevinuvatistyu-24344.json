@@ -3,7 +3,7 @@
   "slug": "viprobuvannya-nevinuvatistyu-24344",
   "title": "Vyprobuvannia nevynuvatistiu",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це збірка українських письмових пам'яток з судових справ та мемуарних записів, що відображають повсякденне життя та правові конфлікти доби.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "vihor-21697",
   "title": "Вихор",
   "author": "Кайла Ґроуз",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Американка Кайла Ґроуз розповідає про вихристів — релігійну секту XVIII ст., яка практикувала екстатичні танці й закликала відмовитися від сексуальності.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

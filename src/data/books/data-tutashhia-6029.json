@@ -3,7 +3,7 @@
   "slug": "data-tutashhia-6029",
   "title": "Дата Туташхіа",
   "author": "Чабуа Аміреджибі",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Багатоплановий гостросюжетний твір відомого грузинського радянського письменника сповнений глибокого соціального змісту. В ньому подано широку панораму життя Грузії кінця XIX — початку XX ст.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "z-glibini-vikiv",
   "title": "Arch z glibini vikiv",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Мандрівка крізь історію архітектури від античності до сучасності. Книга розповідає про еволюцію архітектурних стилів, знакових споруд і техніки будівництва, що формували людські цивілізації. Ілюстрована подорож архітектурним спадком світу.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "essays",
+  "categoryConfidence": "medium"
 }

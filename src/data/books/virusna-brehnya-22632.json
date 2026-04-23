@@ -3,7 +3,7 @@
   "slug": "virusna-brehnya-22632",
   "title": "29. Вірусна брехня - Мері Стоун, Анджела Кей",
   "author": "Мері Стоун, Анджела Кей",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Розслідування про те, як інфекційні хвороби використовували як зброю пропаганди й політичного маніпулювання. Авторки прослідковують історичні та сучасні приклади дезінформації навколо епідемій — від інспірованих чуток до скоординованих інформаційних кампаній.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

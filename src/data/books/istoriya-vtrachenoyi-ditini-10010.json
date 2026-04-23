@@ -3,7 +3,7 @@
   "slug": "istoriya-vtrachenoyi-ditini-10010",
   "title": "Історія втраченої дитини",
   "author": "Ферранте, Элена",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Downloaded from Z-Library https://singlelogin.se",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "veresnevij-dim-22852",
   "title": "Veresnevyi dim",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Видання невідомого автора, закордонний друк, виданий між першою та другою світовими війнами. В сюжеті розповідається про будинок з червоної цегли як символ втечі від турбот. Твір отримав малу популярність через складність розповіді і незрозуміло для читачів композицію.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "medium"
 }

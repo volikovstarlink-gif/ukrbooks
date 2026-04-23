@@ -3,7 +3,7 @@
   "slug": "zbirach-bazhan-22907",
   "title": "Збирач Бажань",
   "author": "Мія Шерідан",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романтичний триллер про жінку, що потрапляє в давню легенду шотландського нагір'я та змушена вибирати між реальністю й магією. Переплетіння часів і любовних ліній розгортається на тлі містичних ландшафтів.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "prints-i-zlidar-33483",
   "title": "Принц і злидар",
   "author": "Марк Твен",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": 2010,
   "description": "Це перший і найвідоміший історичний роман Марка Твена. Дія книги відбувається в Лондоні в 1547 році, коли хлопчик-бідняк Том Кенті, що страждає від батьківських побоїв, потрапляє в королівський палац і міняється одягом з напрочуд схожим на нього принцом Едуардом…",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "ukrainian",
+  "categoryConfidence": "high"
 }

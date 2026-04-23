@@ -3,7 +3,7 @@
   "slug": "vodyanij-misyats-17629",
   "title": "Водяний Місяць",
   "author": "Саманта Сотто Ямбао",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Історичний нарис про життя і боротьбу філіпінської авіаторки Саманти Сотто Ямбао, яка першою серед азіатських жінок здійснила трансокеанський перельот. Книга розповідає про її сміливість, технічні досягнення та опір суспільних норм у першій половині XX століття.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

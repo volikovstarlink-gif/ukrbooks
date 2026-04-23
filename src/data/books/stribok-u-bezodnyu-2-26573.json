@@ -3,7 +3,7 @@
   "slug": "stribok-u-bezodnyu-2-26573",
   "title": "Стрибок у безодню",
   "author": "Кріс Бохджалян",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Американський письменник вибудовує психологічний трилер навколо справжнього інциденту — самогубства avstійської принцеси Крістель у 1889 році. Змішує історичні факти з домислами про внутрішні конфлікти у династії Габсбургів, розкриваючи темну сторону «золотої» епохи.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

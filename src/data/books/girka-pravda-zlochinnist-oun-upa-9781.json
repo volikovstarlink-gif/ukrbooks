@@ -3,7 +3,7 @@
   "slug": "girka-pravda-zlochinnist-oun-upa-9781",
   "title": "Гірка правда. Злочинність ОУН-УПА (сповідь українця)",
   "author": "Віктор Поліщук",
-  "category": "literature-ukr",
+  "category": "history",
   "language": "uk",
   "year": 1995,
   "description": "Пам’яті жертв ОУН-УПА труд цей присвячую. Нехай ніхто, хто почуває себе українським націоналістом, не кидає в мене болотом, не прочитавши цієї книжки. (с) Copyright 1995 by Wiktor Poliszczuk. Копіювання чи передрук цілості, або фрагментів більших ніж одна сторінка, вимагає письмової згоди Автора. Торонто-Варшава-Київ 1995",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "documents",
+  "categoryConfidence": "high"
 }

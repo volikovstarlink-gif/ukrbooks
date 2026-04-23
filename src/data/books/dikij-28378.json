@@ -3,7 +3,7 @@
   "slug": "dikij-28378",
   "title": "Дикий / Небажаний",
   "author": "Міа Шерідан",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Роман про дівчину, що виростала в глухому лісі без людської цивілізації, та юнака, якого суспільство відкинуло. Їхні паралельні історії змінюють один одного, розкриваючи, що справді означає бути «небажаним». Книга досліджує межу між дикістю і культурою.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

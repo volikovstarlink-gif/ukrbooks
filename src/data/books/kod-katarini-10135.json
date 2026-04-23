@@ -28,5 +28,8 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "detectives"
+  "subcategory": "detectives",
+  "translatedFrom": "no",
+  "translator": null,
+  "translationConfidence": "high"
 }

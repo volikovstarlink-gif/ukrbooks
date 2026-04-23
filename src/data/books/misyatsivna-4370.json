@@ -3,7 +3,7 @@
   "slug": "misyatsivna-4370",
   "title": "Misiatsivna",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Середньовічна українська поема невідомого авторства, що розповідає про княжі міжусобиці та боротьбу за владу. Твір відображає суспільні конфлікти доби розпорошення східнослов'янських князівств. Збереглася у фрагментарному вигляді в рукописних колекціях.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "mystery-horror",
+  "categoryConfidence": "high"
 }

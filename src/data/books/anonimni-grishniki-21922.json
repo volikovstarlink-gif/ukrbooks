@@ -3,7 +3,7 @@
   "slug": "anonimni-grishniki-21922",
   "title": "Анонімні грішники",
   "author": "Сомма Скетчер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "У книзі розповідається про замовчувані сторінки історії — людей, чиї імена стерлися, але діяння визначали хід подій. Через документи та спогади Сомма Скетчер відновлює долі тих, кого вважали простолюдинами, але які насправді змінювали світ.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "memoirs"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-21259",
   "title": "Турко К., Грекул О. Ходіть зі мною",
   "author": "Ксенія Турко, Олена Грекул",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 1978,
   "description": "Збірка фотографій та нарисів про життя в українських селах 1970-х років. Авторки документують повсякденність сільської України — роботу в полях, домашнє господарство, традиційні звичаї та портрети людей.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "culture",
+  "categoryConfidence": "medium"
 }

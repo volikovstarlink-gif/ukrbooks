@@ -3,7 +3,7 @@
   "slug": "zapizno-32626",
   "title": "Запізно",
   "author": "Unknown Author",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Сер Джон Чік (також Чик; 16 червня 1514(15140616) – 13 вересня 1557) – англійський учений-антикознавець і державний діяч. Один із найвидатніших викладачів своєї епохи та перший Королівський професор грецької мови в Кембриджському університеті, він відіграв значну роль у відродженні вивчення грецької мови в Англії.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

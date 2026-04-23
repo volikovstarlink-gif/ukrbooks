@@ -3,7 +3,7 @@
   "slug": "diasp-21211",
   "title": "Андерзен Г.Х. Свинопаc-князенко. Білавка",
   "author": "Ганс Христіян Андерзен",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1940,
   "description": "Три казки Андерсена в українському перекладі: «Свинопас» про принца, який завойовує серце принцеси не золотом, а простотою; «Князенко» про сміливого хлопчика та його фантастичні пригоди; «Білавка» про дівчину з білим волоссям та її чарівну долю.",
@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "fairytales",
+  "translatedFrom": "da",
+  "translator": null,
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

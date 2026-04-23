@@ -4,7 +4,7 @@
   "title": "How April Went to Visit March and other Ukrainian ...",
   "author": "Retold by Danny Evanishen",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 1962,
   "description": "Збірка українських народних казок для дітей, перекладена англійською мовою. Видана в Канаді на хвилі збереження українського культурного надбання в діаспорі 1960-х років.",
   "shortDescription": "Збірка українських народних казок для дітей, перекладена англійською мовою.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

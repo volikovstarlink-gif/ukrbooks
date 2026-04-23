@@ -3,7 +3,7 @@
   "slug": "diasp-23708",
   "title": "Федчук Б. Хто це? Що це? Загадки",
   "author": "Богдан Федчук",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1963,
   "description": "Збірка дитячих загадок про навколишній світ. Федчук пропонує юним читачам відгадувати предмети, явища і живі істоти через образні описи. Класичний варіант радянської дитячої книги з розважальною та освітньою метою.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

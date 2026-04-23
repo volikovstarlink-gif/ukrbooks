@@ -3,7 +3,7 @@
   "slug": "vbij-istot-25686",
   "title": "Вбий істот",
   "author": "Рорі Пауер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романізоване дослідження історії розселення людства в Австралії та винищення корінних мешканців. Повість про європейських колоністів, які стикаються з невідомою землею та її народом, показує трагедію геноциду крізь призму персональних конфліктів і моральних дилем.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

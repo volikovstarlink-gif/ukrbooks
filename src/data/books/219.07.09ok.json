@@ -3,8 +3,8 @@
   "slug": "219.07.09ok",
   "title": "Стаття 2 ( 19.07.09) OK",
   "author": "Bezverkhniy Volodymyr Dmytrovych",
-  "category": "other",
-  "language": "uk",
+  "category": "business-science",
+  "language": "en",
   "year": 2009,
   "description": "It is easy to show, that relation multiplicity = f(L) and Е = f(L), where multiplicity is multiplicity of bond, L – length of bond in Å, Е – energy of bond in kj/mole will be described by function y = a + b/x + c/x² for any types of bond (C-C, C-N, C-O, C-S, N-N, N-O, O-O, C-P).",
   "shortDescription": "It is easy to show, that relation multiplicity = f(L) and Е = f(L), where multiplicity is multiplicity of bond, L – length of bond in Å, Е – energy of bond in kj/mole will be described by function y =…",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "science-tech",
+  "categoryConfidence": "medium"
 }

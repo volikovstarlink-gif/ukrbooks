@@ -3,7 +3,7 @@
   "slug": "viklyuchno-tvoya-27970",
   "title": "Виключно твоя",
   "author": "Олівія Т. Тернер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це видання \"Виключно твоя\" не є виданням українського автора, а переводом іноземної книги. Я генерую описи саме українських творів. Якщо у вас є українська книга, яку потрібно описати — поділіться назвою і автором.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

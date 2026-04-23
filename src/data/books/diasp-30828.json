@@ -3,7 +3,7 @@
   "slug": "diasp-30828",
   "title": "Програма на Тарасове Свято",
   "author": "Упоряд. Василь Буряник",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 1937,
   "description": "Програма святкування на честь Тараса Шевченка, упорядкована у 1937 році. Документ відображає культурний опір українців в умовах радянської русифікації та репресій 1930-х років.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "ukraine",
+  "categoryConfidence": "high"
 }

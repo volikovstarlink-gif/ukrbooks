@@ -3,7 +3,7 @@
   "slug": "ostroh1581",
   "title": "Arch ostroh1581",
   "author": "",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "Archivo Ostrogski z Архіву Острозького — документальні матеріали з острозької колекції XVI століття. Охоплює листування, господарські записи та богослужбові тексти часів князя Василя-Костянтина Острозького. Цінна пам'ятка давньої книжної культури України.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "documents",
+  "categoryConfidence": "high"
 }

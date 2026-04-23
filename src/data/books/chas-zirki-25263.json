@@ -3,7 +3,7 @@
   "slug": "chas-zirki-25263",
   "title": "Час зірки",
   "author": "Кларісе Ліспектор",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Хлоя Пінхасівна Ліспектор, відома як Кларісе (Клариса) Ліспектор (порт. Clarice Lispector; 10 грудня 1920, Чечельник, Україна — 9 грудня 1977, Ріо-де-Жанейро, Бразилія) — бразильська письменниця українсько-єврейського походження.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

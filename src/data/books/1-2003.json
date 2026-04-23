@@ -3,7 +3,7 @@
   "slug": "1-2003",
   "title": "Arch 1 2003",
   "author": "",
-  "category": "other",
+  "category": "business-science",
   "language": "uk",
   "year": 0,
   "description": "Arch Linux (або просто Arch; вимовляється [ɑːrtʃ]) — мінімалістичний, гнучкий дистрибутив Linux, оптимізований для архітектури x86-64. Використовує останні стабільні версії програм і доповнюється AUR-репозиторієм (який підтримується користувачами).",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "science-tech",
+  "categoryConfidence": "medium"
 }

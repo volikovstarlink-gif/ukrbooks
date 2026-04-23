@@ -3,7 +3,7 @@
   "slug": "diasp-27963",
   "title": "Зачарована ялинка / The Enchanted Christmas Tree",
   "author": "Зачарована ялинка / The Enchanted Christmas Tree",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1988,
   "description": "Різномовна збірка святкових оповідань, виданих в 1988 році. Змішує українські й англійські тексти про різдвяні традиції та чарівні історії новорічної ночі. Типове видання української діаспори цього періоду, призначене для збереження мовної спадщини в багатомовному оточенні.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "fairytales",
+  "categoryConfidence": "medium"
 }

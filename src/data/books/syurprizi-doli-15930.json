@@ -3,7 +3,7 @@
   "slug": "syurprizi-doli-15930",
   "title": "Сюрпризи долі",
   "author": "Ева Гата",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Життя час від часу полюбляє дарувати нам сюрпризи. Добре, якщо вони приємні, проте частенько буває навпаки. Вже скоро полудень віку, кожний наступний день подібний до попереднього. І раптом зрада. Усе, що будувалося впродовж багатьох років, руйнується. Попереду прірва. Як її переступити? Як потрапити на інший бік?",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "sentimental"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

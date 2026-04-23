@@ -3,7 +3,7 @@
   "slug": "nich-u-lisaboni-19248",
   "title": "Nich u Lisaboni",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "\"Ніч у Лісабоні\" — твір невідомого авторства, що належить до дослідницької та архівної періодики. Без встановлених дати публікації та авторства важко визначити жанрову належність та культурний контекст твору.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

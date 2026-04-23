@@ -3,7 +3,7 @@
   "slug": "znak-bidi-2647",
   "title": "Знак біди",
   "author": "Биков Володимирович Василь",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": 1983,
   "description": "На сторінках цієї повісті відомого білоруського письменника по-новому розкрить тему війни, глибоко психологічно показано трагедію людини, що опинилася між молотом фашизму і ковадлом сталінізму.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

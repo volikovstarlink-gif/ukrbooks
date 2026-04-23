@@ -3,7 +3,7 @@
   "slug": "diasp-28049",
   "title": "Івасик-орлик. Оповідання й вірші",
   "author": "Упоряд. Ївга Шугай",
-  "category": "classics",
+  "category": "children",
   "language": "uk",
   "year": 1952,
   "description": "Збірка дитячої літератури, упорядкована Ївгою Шугаєм у повоєнний період. Містить оповідання й вірші, серед яких знаменита казка про хлопця-птицю, що стала класикою українського дитячого фольклору.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "ukrainian"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

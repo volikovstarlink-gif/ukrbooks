@@ -3,7 +3,7 @@
   "slug": "tovaristvo-nedoslidzhenih-ob-yektiv-32643",
   "title": "Товариство Недосліджених Об'єктів",
   "author": "Unknown",
-  "category": "other",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Містична повість про таємничу організацію, яка вивчає незвичайні явища й артефакти. Розповідь поєднує елементи детективу й фентезі, розгортаючись в атмосфері невизначеності та загадковості.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "mystery-horror",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "dovge-temne-peredvechir-ya-dushi-33689",
   "title": "Довге темне передвечір'я душі",
   "author": "Дуґлас Адамс",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Друга книга про Дірка Джентлі, в якій пригоди холістичного детектива набувають божественного характеру.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

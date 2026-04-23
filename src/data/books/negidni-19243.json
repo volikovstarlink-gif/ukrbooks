@@ -3,7 +3,7 @@
   "slug": "negidni-19243",
   "title": "Негідні",
   "author": "Агустіна Базтерріка",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Агусти́́на Марі́я Бастеррі́́ка (ісп. Agustina María Bazterrica; нар. 1974, Буенос-Айрес, Аргентина) — аргентинська письменниця. Авторка оповідань та романів, лауреатка багатьох літературних премій.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

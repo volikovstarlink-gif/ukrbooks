@@ -3,7 +3,7 @@
   "slug": "snig-prikriye-35707",
   "title": "Snig prikriye 35707",
   "author": "Roman Oliynuk",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 0,
   "description": "Романтична драма про млодого хлопця, що переховується від переслідування в незвичайних обставинах. Твір досліджує мотиви виживання та духовного опору в тяжкий час. Напружена атмосфера та глибокі психологічні портрети персонажів.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "medium"
 }

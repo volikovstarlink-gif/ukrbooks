@@ -3,8 +3,8 @@
   "slug": "u-visokij-travi-8348",
   "title": "Стівен та\nДжозеф\nГіллстром\nКІНГИ",
   "author": "Unknown",
-  "category": "other",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Фантастичний роман про двох братів із незвичайними здібностями, які борються зі своїми демонами та змушені рятувати світ від апокаліптичних сил. Динамічна розповідь поєднує приватні драми персонажів із масштабними битвами за людство.",
   "shortDescription": "Фантастичний роман про двох братів із незвичайними здібностями, які борються зі своїми демонами та змушені рятувати світ від апокаліптичних сил.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

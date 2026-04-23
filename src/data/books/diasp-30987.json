@@ -3,7 +3,7 @@
   "slug": "diasp-30987",
   "title": "\"Три-бір\" Таборовий підручник-3",
   "author": "\"Три-бір\" Таборовий підручник-3",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1983,
   "description": "Практичний посібник для учасників таборів організації \"Три-бір\", виданий у 1983 році. Містить інструкції щодо організації таборового життя, виховної роботи та дисципліни в умовах закордонних таборів українських скаутів.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

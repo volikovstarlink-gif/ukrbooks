@@ -3,7 +3,7 @@
   "slug": "mij-susid-vampir-22633",
   "title": "Мій сусід вампір",
   "author": "Дженна Левін",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Американська авторка дослідила історію вампірських переказів у світовій культурі, від античних джерел до сучасної поп-культури. Книга розглядає, як страх перед смертю й епідеміями трансформувався в архетип нежиті, що жив через сторіччя.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

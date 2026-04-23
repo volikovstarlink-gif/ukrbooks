@@ -3,7 +3,7 @@
   "slug": "diki-ochi-31707",
   "title": "Дикі очі",
   "author": "Елсі Сілвер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Історичний нарис про індіанські спільноти північноамериканського континенту та їхні взаємини з європейськими поселенцями. Сілвер досліджує традиції, верування та змину способу життя корінних народів під тиском колонізації.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

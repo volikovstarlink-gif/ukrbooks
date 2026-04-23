@@ -3,7 +3,7 @@
   "slug": "faktor-svitu-30516",
   "title": "Фактор Світу",
   "author": "Ігор Сілівра",
-  "category": "history",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "У праці Ігор Сілівра досліджує геополітичні процеси та місце України в світовій системі міжнародних відносин. Аналізує історичні чинники, що формують позицію держави на глобальній арені та впливають на її стратегічні рішення.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

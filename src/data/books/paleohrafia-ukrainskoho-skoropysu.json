@@ -3,7 +3,7 @@
   "slug": "paleohrafia-ukrainskoho-skoropysu",
   "title": "Arch paleohrafia ukrainskoho skoropysu",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Дослідження про графіку українського скоропису — системи письма, яка розвивалася під впливом церковнослов'янської традиції та латинських форм. Праця розглядає еволюцію написання букв, засади скорописної графіки та її відмінності від книжного письма.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "essays",
+  "categoryConfidence": "high"
 }

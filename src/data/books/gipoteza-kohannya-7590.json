@@ -3,7 +3,7 @@
   "slug": "gipoteza-kohannya-7590",
   "title": "Гіпотеза Кохання",
   "author": "Елі Хейзелвуд",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Елі Хейзелвуд досліджує історію кохання крізь призму соціальних норм, психології та культури. Книга простежує, як уявлення про любов трансформувалися від античності до сучасності під впливом релігії, економіки й суспільних змін.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

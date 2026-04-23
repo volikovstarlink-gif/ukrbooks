@@ -3,7 +3,7 @@
   "slug": "zhmenya-prahu-28013",
   "title": "Жменя праху",
   "author": "Івлін Во",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Роман відомого англійського письменника Івліна Во (1903—1966) з великою сатиричною гостротою викриває моральну порожнечу буржуазного суспільства. Егоїзм і бездушність світу, в якому живе герой роману — чесний, благородний Тоні Ласт,— приводять його до загибелі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

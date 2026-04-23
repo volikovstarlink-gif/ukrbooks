@@ -3,7 +3,7 @@
   "slug": "zatmarena-imperiya-26408",
   "title": "Затьмарена Імперія",
   "author": "Тесса Хейл",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Дослідження британської імперії крізь призму її темних сторін — колоніальної експлуатації, расизму й насильства. Хейл розбирає, як офіційна історія приховувала злочини проти покорених народів, формуючи європейський миф про «цивілізаторську місію».",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

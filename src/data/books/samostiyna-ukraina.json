@@ -3,7 +3,7 @@
   "slug": "samostiyna-ukraina",
   "title": "Arch Samostiyna Ukraina",
   "author": "",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "\"Arch\" — діаспорний часопис українців у Канаді, присвячений питанням незалежності й національного відродження. Видання відстоювало ідею суверенної України в період, коли вона була радянською республікою.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "documents",
+  "categoryConfidence": "medium"
 }

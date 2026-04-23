@@ -3,7 +3,7 @@
   "slug": "brajchevskyj",
   "title": "Arch brajchevskyj",
   "author": "",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "Архів Брайчевського містить листування, матеріали про археологічні розкопки та дослідження історії України, здебільшого першої половини ХХ століття. Документи проливають світло на роботу українських науковців у період суспільних перетворень та міждержавних конфліктів.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "documents",
+  "categoryConfidence": "medium"
 }

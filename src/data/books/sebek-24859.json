@@ -3,7 +3,7 @@
   "slug": "sebek-24859",
   "title": "Sebek",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Давньоєгипетський твір, що дійшов до нас у фрагментарному вигляді. Текст присвячений божеству Себеку — крокодилю, якому поклонялися в Стародавньому Єгипті, і містить магічні формули та обрядові invocations. Цікавий зразок релігійної практики давніх цивілізацій.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

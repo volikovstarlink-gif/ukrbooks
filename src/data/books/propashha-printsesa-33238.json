@@ -3,7 +3,7 @@
   "slug": "propashha-printsesa-33238",
   "title": "Мона Кастен - Пропаща принцеса 1",
   "author": "Неизвестный автор",
-  "category": "history",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "У першій книзі серії розповідається історія дочки французького короля, яка загинула під час революції. Через таємничі обставини дівчина вижила, і тепер їй доводиться приховуватися, шукаючи безпеки вдалеч від палаців і переслідувачів.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

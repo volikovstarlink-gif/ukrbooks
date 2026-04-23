@@ -3,7 +3,7 @@
   "slug": "dari-volhviv-17913",
   "title": "Дари волхвів",
   "author": "О. Генрі",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Молода подружня пара в передвиліллі Різдва жертвує один одному найдорожчішим надбанням, щоб купити подарунки. Простий сюжет розповідає про справжню цінність любові й самопожертви, яка перевищує матеріальне багатство.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

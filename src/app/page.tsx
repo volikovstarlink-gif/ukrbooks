@@ -1,5 +1,10 @@
 import type { Metadata } from 'next';
-import { getAllCategories, getFeaturedBooks, getNewArrivals, getTotalBooks } from '@/lib/books';
+import {
+  getAllCategories,
+  getFeaturedBooks,
+  getNewArrivals,
+  getTotalBooks,
+} from '@/lib/books';
 import { websiteJsonLd, organizationJsonLd } from '@/lib/jsonld';
 import HeroSection from '@/components/home/HeroSection';
 import StatsBanner from '@/components/home/StatsBanner';

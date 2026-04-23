@@ -3,7 +3,7 @@
   "slug": "aktova1914",
   "title": "Arch aktova1914",
   "author": "",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "Архітектурна документація зі збірки 1914 року, яка зберігає сліди австро-угорського періоду розвитку українських земель. Матеріали відображають будівельні практики, стилістику та градостроїтельні рішення того часу на територіях під габсбурзькою владою.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "documents",
+  "categoryConfidence": "medium"
 }

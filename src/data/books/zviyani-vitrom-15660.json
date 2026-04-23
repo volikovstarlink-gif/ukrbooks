@@ -3,7 +3,7 @@
   "slug": "zviyani-vitrom-15660",
   "title": "Zviiani vitrom",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Збірка українських народних казок та легенд, записаних усною традицією. Тексти віддзеркалюють архаїчні вірування й міфологічні мотиви слов'янських племен. Видання зберігає мовний колорит і фольклорну специфіку оригіналів.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

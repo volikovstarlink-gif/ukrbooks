@@ -3,8 +3,8 @@
   "slug": "pokoyivka-18353",
   "title": "c0703b97-abc4-49cd-8985-0bacb4d88430",
   "author": "Unknown",
-  "category": "other",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Я не можу створити опис без інформації про назву та автора книги. Будь ласка, надайте:\n- Назву твору\n- ПІБ автора\n- Період написання",
   "shortDescription": "Я не можу створити опис без інформації про назву та автора книги. Будь ласка, надайте:\n- Назву твору\n- ПІБ автора\n- Період написання",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

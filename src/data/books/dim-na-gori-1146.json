@@ -3,7 +3,7 @@
   "slug": "dim-na-gori-1146",
   "title": "Дім на горі",
   "author": "Валерій Шевчук",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2011,
   "description": "Нове (повне) видання роману видатного сучасного українського письменника.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,8 +3,8 @@
   "slug": "pislya-doshhu-31263",
   "title": "PisljaDoschuBlock.indd",
   "author": "sashkoshe",
-  "category": "history",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Без додаткових відомостей про конкретну книгу неможливо написати достовірний опис. Файл має технічне ім'я (InDesign-макет), а автор указаний якUsername. \n\nНадайте:\n- Повну назву українською\n- Прізвище та ім'я автора\n- Рік видання\n- Коротко — про що книга",
   "shortDescription": "Без додаткових відомостей про конкретну книгу неможливо написати достовірний опис. Файл має технічне ім'я (InDesign-макет), а автор указаний якUsername.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

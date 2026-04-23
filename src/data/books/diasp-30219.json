@@ -4,7 +4,7 @@
   "title": "Kuzych-Berezovsky I. Color It Ukrainian",
   "author": "Ingert Kuzych-Berezovsky",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 1980,
   "description": "Розмальовка для дітей, видана в США на початку 1980-х діаспорною громадою. Сторінки присвячені українським традиціям, національним символам та культурним мотивам. Поєднує навчання кольорів з виховною функцією для молодого покоління українців за кордоном.",
   "shortDescription": "Розмальовка для дітей, видана в США на початку 1980-х діаспорною громадою.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

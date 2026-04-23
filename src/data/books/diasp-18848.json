@@ -3,7 +3,7 @@
   "slug": "diasp-18848",
   "title": "Василишин С. Дивись-слухай-говори. Ч. 1: Осінь",
   "author": "Софія Василишин",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1973,
   "description": "Навчальна серія для дітей на матеріалі українських сезонних образів. Збірка поєднує завдання для розвитку мовлення, слухання та спостереження природи осені через малюнки, описи та усні вправи.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

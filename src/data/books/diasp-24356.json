@@ -3,7 +3,7 @@
   "slug": "diasp-24356",
   "title": "Федчук Б. Загадки. Одинадцята збірка загадок",
   "author": "Богдан Федчук",
-  "category": "literature-ukr",
+  "category": "children",
   "language": "uk",
   "year": 1967,
   "description": "Одинадцята за числом збірка загадок Богдана Федчука, укладена в 1967 році. Федчук систематично збирав і публікував українські народні загадки, зберігаючи мовний колорит та автентичність.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "novels"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

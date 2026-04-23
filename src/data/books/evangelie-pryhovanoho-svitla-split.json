@@ -3,7 +3,7 @@
   "slug": "evangelie-pryhovanoho-svitla-split",
   "title": "Євангеліє Прихованого Світла",
   "author": "Феодот Пустельник (апокриф)",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Апокрифічне євангеліє, приписуване давньому пустельнику Феодоту. Текст розповідає про містичні вчення про прихований світ, що стоїть за завісою матеріальної реальності. Памʼятка гностичного впливу на середньовічну українську релігійну думку.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "religion-philosophy",
+  "categoryConfidence": "high"
 }

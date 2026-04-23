@@ -3,7 +3,7 @@
   "slug": "20200417-20200417-1035",
   "title": "Церковні Пісні З Нотами",
   "author": "Дніпропетровська обласна наукова бібліотека імені Первоучителів слов'янських Кирила і Мефодія. www.libr.dp.ua",
-  "category": "other",
+  "category": "poetry",
   "language": "uk",
   "year": 0,
   "description": "Видання містить духовні пісні та піснеспіви українською мовою з нотами. Репертуар складають пісні до головних церковних свят, воскресні, страстні , молебні та інші пісні.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "folk-songs",
+  "categoryConfidence": "medium"
 }

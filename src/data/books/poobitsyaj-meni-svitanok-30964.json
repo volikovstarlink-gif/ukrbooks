@@ -3,7 +3,7 @@
   "slug": "poobitsyaj-meni-svitanok-30964",
   "title": "Пообіцяй мені світанок",
   "author": "Кара Бастон",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Історичний роман про жінку, яка переживає Голокост і знаходить надію на порівні з історичними подіями. Твір поєднує особисту драму з масштабною трагедією XX століття, показуючи людську стійкість перед лицем нечуваного страху.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

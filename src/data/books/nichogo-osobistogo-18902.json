@@ -3,7 +3,7 @@
   "slug": "nichogo-osobistogo-18902",
   "title": "Нічого особистого",
   "author": "Настя Байдаченко",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2010,
   "description": "Чотири жіночки на межі нервового зриву опиняються на курсі психологічної реабілітації відомого професора. Вони щойно змінили божевільню київських офісів на карпатську глухомань. Вони сподівалися, що тут їм допоможуть. Вони були певні, що гірше ніж є, бути не може…А марно…",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "humor",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "flash-28445",
   "title": "Флаш",
   "author": "Вірджинія Вулф",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "\"Флаш\" — биография спанієльки Елизабет Барет Браунінг, написана як пародія на кон­вен­ціональні біографії. Вулф розповідає історію письменниці крізь сприйняття її собаки, змішуючи вимислену археологію пустого розуму тварини з автентичними деталями життя поетеси.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "ukrainian",
+  "categoryConfidence": "high"
 }

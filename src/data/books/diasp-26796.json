@@ -3,7 +3,7 @@
   "slug": "diasp-26796",
   "title": "Бейден-Пауел. Скавтінґ для хлопців ч. 1",
   "author": "Перкл. Євген Кульчицький",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1950,
   "description": "Перший переклад культового путівника британського скаутмейстера українською мовою. Видання розповідає про принципи організації молодіжних груп, тактику походів, навички виживання й морального виховання.",
@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "translatedFrom": "en",
+  "translator": "Євген Кульчицький",
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

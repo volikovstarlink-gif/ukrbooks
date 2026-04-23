@@ -3,7 +3,7 @@
   "slug": "poza-sumnivom-22523",
   "title": "Поза Сумнівом",
   "author": "Маріана Запата",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Поза Сумнівом» розповідає про ключові моменти української історії, де факти переважають легенди. Маріана Запата аналізує події, які формували нашу державність, відкидаючи популярні міфи та переказування.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

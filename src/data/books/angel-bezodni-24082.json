@@ -3,7 +3,7 @@
   "slug": "angel-bezodni-24082",
   "title": "Василь Головецький_Ангел безодні",
   "author": "Невідомий автор",
-  "category": "business-science",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "У фантастичному романі розповідається про контакт людства з невідомою істотою з глибин космосу, яка нещо змінює уявлення про природу розуму та існування. Головне питання твору — чи є можливість діалогу між цивілізаціями з принципово різною природою?",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "science-tech"
+  "subcategory": "stories",
+  "categoryConfidence": "high"
 }

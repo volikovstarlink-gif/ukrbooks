@@ -3,7 +3,7 @@
   "slug": "try-tovstuny",
   "title": "Try Tovstuny",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Не можу створити опис для цієї позиції. \"Try Tovstuny\" не визнана як українська книга — ні назва, ні автор не мають верифікованих даних. Якщо у вас є додаткові відомості про цю працю (справжня назва, період видання, жанр), подайте їх для уточнення.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

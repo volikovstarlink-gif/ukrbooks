@@ -3,7 +3,7 @@
   "slug": "taras-shevchenko--perebuvannja-v-moskvi",
   "title": "Arch Taras Shevchenko Perebuvannja v Moskvi",
   "author": "",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "У цьому архівному матеріалі зібрані документи про період перебування Тараса Шевченка в Москві. Джерела розкривають обставини його проживання, контакти з российськими діячами культури та творчу діяльність під час цього важливого етапу біографії поета.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "documents",
+  "categoryConfidence": "medium"
 }

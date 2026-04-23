@@ -3,7 +3,7 @@
   "slug": "dika-karta-31703",
   "title": "Дика карта",
   "author": "Елсі Сілвер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Дика карта» — це дослідження історії географічних відкриттів та картографії, де розкривається, як європейці уявляли світ через призму неправдивих і легендарних карт.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

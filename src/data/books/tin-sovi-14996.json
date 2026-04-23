@@ -3,7 +3,7 @@
   "slug": "tin-sovi-14996",
   "title": "Тінь сови",
   "author": "Василь Шкляр",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2014,
   "description": "Це історія кохання двох людей, Катерини та Степана. Кохання, яке бореться, долає труднощі, допомагає вистояти і врешті-решт перетворюється на легенду, що дає надію тим, до кого воно ще не прийшло.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "eva-spit-20322",
   "title": "Eva spyt",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Давня українська письмова пам'ятка, переважно релігійно-дидактичного характеру, що розповідає про Єву й міст через історію людства. Твір належить до катехітичної традиції середньовічної України.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

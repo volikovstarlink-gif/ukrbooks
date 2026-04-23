@@ -3,7 +3,7 @@
   "slug": "spadkoyemitsya-2-25194",
   "title": "4. Спадкоємиця",
   "author": "Кіра Касс",
-  "category": "history",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Пригодницька історія про дівчину, яка розслідує таємниці свого роду в умовах династичних конфліктів. Переплетення особистої долі з великою політикою розкриває, як приватні рішення впливають на ход історії.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

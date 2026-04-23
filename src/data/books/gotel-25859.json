@@ -3,7 +3,7 @@
   "slug": "gotel-25859",
   "title": "Готель",
   "author": "Артур Хейлі",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Відомий англійський прозаїк Артур Хейлі написав роман «Готель» в 1965 році. У цьому творі автор спробував оголити гострі соціальні проблеми, які назрівали в суспільстві того часу. З англійської переклав Мар ПІНЧЕВСЬКИЙ Всесвіт, 1972, № 8–9.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

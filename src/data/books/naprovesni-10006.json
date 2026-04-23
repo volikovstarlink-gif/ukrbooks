@@ -4,7 +4,7 @@
   "title": "Напровесні",
   "author": "Сьюзен Гілл",
   "category": "literature-foreign",
-  "language": "en",
+  "language": "uk",
   "year": 2020,
   "description": "Переклад з англійської Взято з журналу \"Всесвіт\", №11-12 за 1979 р.",
   "shortDescription": "Переклад з англійської Взято з журналу \"Всесвіт\", №11-12 за 1979 р.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "detectives"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

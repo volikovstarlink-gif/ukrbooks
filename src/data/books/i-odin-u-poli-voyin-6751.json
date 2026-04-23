@@ -3,7 +3,7 @@
   "slug": "i-odin-u-poli-voyin-6751",
   "title": "І один у полі воїн",
   "author": "Юрий Петрович Дольд-Михайлик",
-  "category": "fantasy",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2011,
   "description": "У гостросюжетному пригодницькому романі українського радянського письменника розповідається про мужнього розвідника Григорія Гончаренка, який у роки Великої Вітчизняної війни діяв у глибокому ворожому тилу.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

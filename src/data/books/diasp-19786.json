@@ -4,7 +4,7 @@
   "title": "Tresselt A. The Mitten, an old Ukrainian folktale",
   "author": "Alvin Tresselt",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 1968,
   "description": "Alvin Tresselt (September 30, 1916, in Passaic, New Jersey – July 24, 2000) was a graphic designer and American children's book author. His picture book White Snow, Bright Snow (illustrated by Roger Duvoisin) received the Caldecott Medal. One of his most popular books was his retelling of the Ukrainian folktale The Mitten, illustrated by Yaroslava Mills.",
   "shortDescription": "Alvin Tresselt (September 30, 1916, in Passaic, New Jersey – July 24, 2000) was a graphic designer and American children's book author.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-24877",
   "title": "Коннел Р. Найнебезпечніший звір",
   "author": "Річард Коннел",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 1956,
   "description": "Американський писаний твір про мисливця, якому доводиться самому стати здобиччю на секретному острові. Екранізація класичного оповідання \"The Most Dangerous Game\" українським видавництвом. Напружена охота людини за людиною без чітких правил виживання.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "stories",
+  "categoryConfidence": "high"
 }

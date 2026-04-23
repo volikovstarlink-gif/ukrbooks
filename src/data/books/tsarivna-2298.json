@@ -3,7 +3,7 @@
   "slug": "tsarivna-2298",
   "title": "Царівна",
   "author": "Oльга Юліанівна Кобилянська",
-  "category": "literature-ukr",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Вашему вниманию предлагается сборник избранных произведений О.Кобылянской, выдающейся украинской писательницы-реалистки.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "ukrainian",
+  "categoryConfidence": "high"
 }

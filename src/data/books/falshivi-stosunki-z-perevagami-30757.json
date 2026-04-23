@@ -3,7 +3,7 @@
   "slug": "falshivi-stosunki-z-perevagami-30757",
   "title": "Фальшиві стосунки з перевагами",
   "author": "Лілі Ґолд",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Романтична комедія про двох людей, що розіграють закоханих у стосунках, аби уникнути небажаних залицянь. Їхня \"гра\" ускладнюється справжніми почуттями, які важко приховати. Легкий, гумористичний погляд на сучасні стосунки та щирість.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

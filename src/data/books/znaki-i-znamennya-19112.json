@@ -3,7 +3,7 @@
   "slug": "znaki-i-znamennya-19112",
   "title": "1. Знаки і знамення - Мара Вульф",
   "author": "Мара Вульф",
-  "category": "history",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "Мара Вульф розглядає українську історію крізь призму символів та знакових подій, що формували національну свідомість.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

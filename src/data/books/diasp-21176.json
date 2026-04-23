@@ -3,7 +3,7 @@
   "slug": "diasp-21176",
   "title": "Волиняк П. Барвінок. Читанка для 2-ої кляси та поз...",
   "author": "Пантелеймон Куліш",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1940,
   "description": "Підручник із українською мовою та літературою для молодших класів, виданий у складному часі перед Другою світовою війною. Збирає байки, казки, вірші та навчальні матеріали для розвитку читання й письма.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

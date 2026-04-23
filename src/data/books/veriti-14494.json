@@ -3,8 +3,8 @@
   "slug": "veriti-14494",
   "title": "Тайный дневник Верити",
   "author": "Колин Гувер",
-  "category": "history",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Я не можу описати цю книгу, оскільки вона написана російською мовою (це переклад англійської книги Колін Гувер \"It Ends with Us\"). Мою систему налаштовано на описання українських книг.",
   "shortDescription": "Я не можу описати цю книгу, оскільки вона написана російською мовою (це переклад англійської книги Колін Гувер \"It Ends with Us\").",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-24558",
   "title": "Третя читанка",
   "author": "Третя читанка",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1966,
   "description": "Чи́танка Ху́торного — читанка, видана 1883 року в Києві під псевдонімом Т. Хуторний. Дослідники[які?] вказують на приналежність цього псевдоніма педагогу Тимофієві Лубенцю.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

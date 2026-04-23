@@ -3,8 +3,8 @@
   "slug": "sim-nepravd-29830",
   "title": "Елізабет Кей_Сім неправд",
   "author": "Невідомий автор",
-  "category": "other",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Это не украинская книга. \"Seven Lies\" (або її переклади) — англомовний твір Елізабет Кей про героїню, яка розповідає сім неправд і спричиняє ланцюг непередбачених наслідків.",
   "shortDescription": "Это не украинская книга.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

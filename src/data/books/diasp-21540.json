@@ -3,7 +3,7 @@
   "slug": "diasp-21540",
   "title": "Буш В. Співомовки",
   "author": "Перекл. Ярослава Вільшенка",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1952,
   "description": "Вільям Буш, американський художник і гуморист, у цій книзі поєднує малюнки з коротким віршованим текстом, створюючи комічні сценки з життя. Видання 1952 року переклав Ярослав Вільшенко для українського читача.",
@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "poems",
+  "translatedFrom": "en",
+  "translator": "Ярослав Вільшенко",
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

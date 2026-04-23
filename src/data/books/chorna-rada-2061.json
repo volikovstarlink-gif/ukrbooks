@@ -3,7 +3,7 @@
   "slug": "chorna-rada-2061",
   "title": "Чорна рада",
   "author": "Пантелеймон Олександрович Куліш",
-  "category": "literature-ukr",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Пантелеймо́н Олекса́ндрович Кулі́ш (26 липня (7 серпня) 1819(18190807), Вороніж, Глухівський повіт, Чернігівська губернія — 2 (14) лютого 1897, хутір Мотронівка, нині село Оленівка, Ніжинського району Чернігівської області, Україна) — видатний діяч українського національного відродження, письменник, фольклорист, етнограф, мовознавець, перекладач, критик, редактор, видавець, філософ історії.",
@@ -28,5 +28,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "ukrainian",
+  "translatedFrom": null,
+  "translator": null,
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

@@ -3,8 +3,8 @@
   "slug": "mozhe-kolis-30755",
   "title": "Unknown",
   "author": "Василий Кононюк",
-  "category": "history",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Я не можу скласти описання без названи й року публікації. Будь ласка, уточніть назву книги Василія Кононюка та рік видання.",
   "shortDescription": "Я не можу скласти описання без названи й року публікації. Будь ласка, уточніть назву книги Василія Кононюка та рік видання.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

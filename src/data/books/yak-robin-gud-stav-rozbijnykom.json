@@ -3,7 +3,7 @@
   "slug": "yak-robin-gud-stav-rozbijnykom",
   "title": "Yak Robin Hud stav rozbiinykom",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": null,
   "description": "Українська переказка англійської легенди про Робіна Гуда, що розповідає про лісового розбійника, який грабував багатих і допомагав бідним. Твір популяризував мотив соціальної справедливості, адаптуючи західний сюжет до українських літературних традицій.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

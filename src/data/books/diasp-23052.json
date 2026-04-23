@@ -3,7 +3,7 @@
   "slug": "diasp-23052",
   "title": "Федчук Б. Ким я буду. Мрії молодих",
   "author": "Богдан Федчук",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1987,
   "description": "Збірка есеїв радянської молоді 1980-х, у яких підлітки та молоді люди розмірковують про своє майбутнє, кар'єру й місце в суспільстві. Федчук фіксує мрії покоління, яке росло за умов застою та згодом пережило крах СРСР.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "prose",
+  "categoryConfidence": "medium"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-21921",
   "title": "Летунське пластування. Організаційні й діяльнносте...",
   "author": "Мати-коза",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1919,
   "description": "Практичний посібник про організацію та методи роботи з дітьми у скаутській організації. Виданий у складі українського державного будівництва 1919 року, коли пластування формувалося як інституція національного виховання.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "medium"
 }

@@ -3,7 +3,7 @@
   "slug": "holistichne-detektivne-agentstvo-dirka-dzhentli-33690",
   "title": "Холістичне детективне агентство Дірка Джетлі",
   "author": "Дуґлас Адамс",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Перша книга про Дірка Джентлі, з якої можна дізнатися, хто він такий і в чому полягає його холістичний метод.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

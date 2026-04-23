@@ -3,7 +3,7 @@
   "slug": "diasp-28055",
   "title": "Франко І. Ріпка",
   "author": "Адаптація Галі Дмитришин",
-  "category": "literature-foreign",
+  "category": "children",
   "language": "uk",
   "year": 1990,
   "description": "Класична казка Франка про хлопчика і дивовижну ріпку, адаптована для дитячого читання. Видання виходить в Канаді в період відродження українського видавництва в діаспорі. Чарівна історія про працю та чудеса для юних читачів.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "novels"
+  "subcategory": "fairytales",
+  "categoryConfidence": "high"
 }

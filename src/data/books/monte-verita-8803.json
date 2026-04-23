@@ -3,7 +3,7 @@
   "slug": "monte-verita-8803",
   "title": "Монте Веріта",
   "author": "Дафна дю Мор'є",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2017,
   "description": "Три оповідання відомої британської письменниці. «Монте Веріта», «Птахи», «Старий». Перший (неофіційний) переклад українською мовою.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "stories",
+  "categoryConfidence": "high"
 }

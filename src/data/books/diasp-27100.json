@@ -3,7 +3,7 @@
   "slug": "diasp-27100",
   "title": "Денисенко Т., Макогон В. Перші кроки. Книжка вправ...",
   "author": "Олександра Копач",
-  "category": "other",
+  "category": "business-science",
   "language": "uk",
   "year": 1982,
   "description": "Практичний посібник для навчання англійської мови початкового рівня. Містить систематизовані вправи для розвитку основних навичок — читання, письма, аудіювання та говоріння. Розраховано на дорослих та підлітків, які починають вивчати мову.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "reference",
+  "categoryConfidence": "high"
 }

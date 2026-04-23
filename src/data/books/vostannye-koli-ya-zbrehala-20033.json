@@ -3,8 +3,8 @@
   "slug": "vostannye-koli-ya-zbrehala-20033",
   "title": "b41a888d-a749-43a1-a0ff-bec75264f320",
   "author": "Unknown",
-  "category": "other",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Вибачте, але я не можу генерувати опис без інформації про назву та автора книги. Будь ласка, надайте назву книги та автора, щоб я міг скласти короткий фактичний опис українською мовою.",
   "shortDescription": "Вибачте, але я не можу генерувати опис без інформації про назву та автора книги.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

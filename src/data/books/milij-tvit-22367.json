@@ -3,7 +3,7 @@
   "slug": "milij-tvit-22367",
   "title": "Война и мир в твиттере",
   "author": "Эмма Лорд",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Молодіжна антиутопія про дівчину, що перенеслась у 1865 рік і має можливість твітити про історичні події. Змішує сатиру на соціальні мережі з пригодами в часі громадянської війни. Гра зі словами на Толстого — це легкий, іронічний погляд на те, як сучасна молодь споживає історію.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-18858",
   "title": "Завадович Р. Переполох",
   "author": "Роман Завадович",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 1951,
   "description": "Роман Завадовича про розгубленість простої людини в складних обставинах життя. Герой опиняється в паніці перед неминучими змінами, шукаючи опору в традиціях та людських зв'язках. Видання 1951 року —часу відбудови та переосмислення цінностей.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "stories",
+  "categoryConfidence": "medium"
 }

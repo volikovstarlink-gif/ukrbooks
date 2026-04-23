@@ -3,7 +3,7 @@
   "slug": "paperovij-zvirinets-5685",
   "title": "Паперовий звіринець",
   "author": "Кен Лю",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Сьогодні до вашої уваги оповідання Кена Лю, чайна-американця, програміста і письменника. Особливе це оповідання тим, що стало першим твором, який зміг отримати премії Г'юго, Неб'юла і Всесвітню премію фентезі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "stories",
+  "categoryConfidence": "high"
 }

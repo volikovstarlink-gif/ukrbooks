@@ -3,7 +3,7 @@
   "slug": "diasp-20682",
   "title": "Андерсен Г.Х. Дикі лебеді",
   "author": "Ганс Христіян Андерзен",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1940,
   "description": "Казка про одинадцять братів, яких чаклунка перетворила на лебедів, а сестра Еліза мусила розплутати магію мовчанням, працею та любов'ю. Класична романтична історія про жертвовність, розум і віру в добро серед жорстокого світу.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "fairytales",
+  "categoryConfidence": "high"
 }

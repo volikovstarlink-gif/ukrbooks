@@ -3,7 +3,7 @@
   "slug": "glibinka-7022",
   "title": "Глибинка",
   "author": "Олександр Шевченко",
-  "category": "fantasy",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2003,
   "description": "У пошуках втраченого натхнення письменник Стефан Хошкевич вирішує змінити метушню міста на принади сільської глибинки. Але доля підкидає йому небезпечні випробовування в обличчі таємничих прадавніх істот, що потребують людської крові — вампірів…",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

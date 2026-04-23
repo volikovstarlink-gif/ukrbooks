@@ -4,7 +4,7 @@
   "title": "Tusya and the pot of gold, from an old Ukrainian f...",
   "author": "Yaroslava, pseud",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 1971,
   "description": "Дитяча казка про дівчинку Тусю, яка шукає золотий горщик, написана англійською мовою українською авторкою Ярославою.",
   "shortDescription": "Дитяча казка про дівчинку Тусю, яка шукає золотий горщик, написана англійською мовою українською авторкою Ярославою.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

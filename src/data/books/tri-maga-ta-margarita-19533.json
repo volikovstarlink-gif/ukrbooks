@@ -3,7 +3,7 @@
   "slug": "tri-maga-ta-margarita-19533",
   "title": "Три мага та Маргарита",
   "author": "Аннетт Марі",
-  "category": "history",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Неможу дати опис. Твоя назва «Три мага та Маргарита» не відповідає відомим українським чи світовим творам. Можливо, помилка в назві або авторі? Перевір дані й спробуй ще раз.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

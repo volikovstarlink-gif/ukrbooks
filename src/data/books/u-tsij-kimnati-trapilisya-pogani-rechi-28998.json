@@ -3,7 +3,7 @@
   "slug": "u-tsij-kimnati-trapilisya-pogani-rechi-28998",
   "title": "У цій кімнаті трапилися погані речі",
   "author": "Марі Стілл",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Мемуари американської журналістки про роботу в СРСР у 1930-х роках. Стілл була свідком голодомору в Україні та московських процесів, але радянська цензура та американська дипломатія змовчували її розповіді.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "memoirs"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "tayemnitsya-pokinutogo-monastirya-26391",
   "title": "Таємниця покинутого монастиря",
   "author": "Анна Кантьох",
-  "category": "history",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "У замку біля Львова дівчина знаходить старовинний щоденник, який розкриває трагічну історію монастиря, знищеного під час воєн XVII століття. Через листи монахині читач дізнається про любов, віру та цінність людського життя в часи, коли все розривалось на шматки.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "memoirs"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "minna-no-nihongo-ukrainian",
   "title": "Arch minna no nihongo Ukrainian",
   "author": "",
-  "category": "other",
+  "category": "business-science",
   "language": "uk",
   "year": 0,
   "description": "Практичний навчальний посібник японської мови з фокусом на розмовну практику. Матеріали структуровані за темами повсякденного спілкування, що дозволяє швидко засвоїти базовий словник і граматичні конструкції для комунікації в японській мові.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "reference",
+  "categoryConfidence": "medium"
 }

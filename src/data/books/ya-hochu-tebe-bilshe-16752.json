@@ -3,7 +3,7 @@
   "slug": "ya-hochu-tebe-bilshe-16752",
   "title": "Я хочу тебе більше",
   "author": "Свон Гантлей",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Мемуари британської журналістки про роман із Василем Гросманом. Гантлей познайомилася з письменником в СССР та описує їхні стосунки на тлі сталінських репресій та його боротьби із цензурою.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "memoirs"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

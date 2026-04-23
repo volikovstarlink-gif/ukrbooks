@@ -3,7 +3,7 @@
   "slug": "vtikachi-9129",
   "title": "Втікачі",
   "author": "Анатолій Власюк",
-  "category": "history",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Повний текст \"Втікачі\" (автор: Власюк Анатолій Васильович) з Бібліотеки Української Літератури УкрЛіб",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "medium"
 }

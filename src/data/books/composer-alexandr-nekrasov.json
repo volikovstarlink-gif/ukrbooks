@@ -3,7 +3,7 @@
   "slug": "composer-alexandr-nekrasov",
   "title": "КОМПОЗИТОР ОЛЕКСАНДР НЕКРАСОВ",
   "author": "Т. В. Тукова",
-  "category": "literature-ukr",
+  "category": "nonfiction",
   "language": "uk",
   "year": 2007,
   "description": "КОМПОЗИТОР ОЛЕКСАНДР НЕКРАСОВ Збірка статей Донецьк: ТОВ \" Юго-Восток, Лтд\", 2007. - 198 с. ІSВМ 966-7271-22-6",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "novels"
+  "subcategory": "culture",
+  "categoryConfidence": "high"
 }

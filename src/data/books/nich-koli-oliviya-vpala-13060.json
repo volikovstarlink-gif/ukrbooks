@@ -3,7 +3,7 @@
   "slug": "nich-koli-oliviya-vpala-13060",
   "title": "Nich koly Oliviia vpala",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Фольклорна драма невідомого авторства про трагічну долю дівчини Олівії. Твір поєднує елементи народної театральної традиції та романтичних мотивів, відбиваючи духовні конфлікти українського суспільства. Збережений як пам'ятка усної драматургії давніших століть.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

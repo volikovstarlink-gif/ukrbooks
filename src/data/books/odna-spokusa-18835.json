@@ -3,7 +3,7 @@
   "slug": "odna-spokusa-18835",
   "title": "Одна Спокуса",
   "author": "Роксі Слоун",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "\"Одна спокуса\" розповідає про складні стосунки та морально-етичні дилеми, в яких опиняються люди під впливом спокуси. Роксі Слоун через інтригуючий наратив досліджує, як людська натура реагує на випробування та як одна миттєва слабкість може змінити все життя.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

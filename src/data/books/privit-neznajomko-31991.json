@@ -3,7 +3,7 @@
   "slug": "privit-neznajomko-31991",
   "title": "Привіт, незнайомко!",
   "author": "Неизвестный автор",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Збірка листів та записок невідомого походження, що відображають повсякденне життя українців у період глибоких суспільних змін. Текст поєднує особисту кореспонденцію з історичними свідченнями, розкриваючи людські долі крізь призму епохи.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

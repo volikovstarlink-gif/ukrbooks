@@ -3,7 +3,7 @@
   "slug": "vbivstvo-v-korolivskomu-rubini-30945",
   "title": "Вбивство в «Королівському рубіні»",
   "author": "Ніта Проуз",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Детективна розповідь про загадкове вбивство в лондонському клубі \"Королевський рубін\". Розслідування ведуть детективи, які стикаються з мережею брехні та темних секретів. Класичний британський детектив з несподіваною розв'язкою.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

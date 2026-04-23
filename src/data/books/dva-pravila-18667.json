@@ -3,7 +3,7 @@
   "slug": "dva-pravila-18667",
   "title": "Два Правила",
   "author": "Роксі Слоун",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Роксі Слоун досліджує історію України через призму двох протиборчих політичних систем — радянської та західної — і те, як вони формували українську ідентичність протягом XX століття.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

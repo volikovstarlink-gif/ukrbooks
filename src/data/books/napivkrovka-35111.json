@@ -3,7 +3,7 @@
   "slug": "napivkrovka-35111",
   "title": "Напівкровка",
   "author": "Unknown",
-  "category": "other",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Лон Чейні (англ. Lon Chaney, ім'я при народженні — Леонідас Френк Чейні, 1 квітня 1883 — 26 серпня 1930) — видатний американський актор німого кіно, який прославився здатністю до невпізнання змінювати свою зовнішність і навіть отримав прізвисько «Людина з тисяччю облич».",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

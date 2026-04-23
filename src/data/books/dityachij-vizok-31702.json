@@ -3,7 +3,7 @@
   "slug": "dityachij-vizok-31702",
   "title": "Дитячий візок",
   "author": "Джо Гілл",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Джо Гілл розповідає історію про звичайний дитячий візок, який стає причиною гострого конфлікту між сусідами. Твір досліджує, як дрібниці можуть розтравлювати відносини та призводити до непередбачених наслідків у невеликому громадському середовищі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

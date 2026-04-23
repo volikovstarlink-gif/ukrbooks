@@ -3,7 +3,7 @@
   "slug": "spadkoyemitsya-23378",
   "title": "Спадкоємиця",
   "author": "Кейті Роберт",
-  "category": "literature-foreign",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "«Стріла» (англ. Arrow) — американський пригодницько-супергеройський телесеріал з елементами драми, створений Грегом Берланті, Марком Гуггенхаймом і Ендрю Крайсбергом і оснований на коміксах про супергероя DC Comics Зелена стріла.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "sentimental"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

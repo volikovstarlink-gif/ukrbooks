@@ -3,8 +3,8 @@
   "slug": "retrit-14357",
   "title": "Ретрит",
   "author": "Сара Пірс",
-  "category": "history",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Сара Пірс досліджує історію духовних практик відсторонення від світу, які постійно переживають відродження в західній культурі. Від монастирів до сучасних wellness-центрів простежує еволюцію ідеї про необхідність усамітнення для самопізнання.",
   "shortDescription": "Сара Пірс досліджує історію духовних практик відсторонення від світу, які постійно переживають відродження в західній культурі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

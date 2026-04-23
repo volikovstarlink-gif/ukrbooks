@@ -3,7 +3,7 @@
   "slug": "efekt-hvili-22761",
   "title": "Ефект хвилі",
   "author": "Кай Стівенс",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Майлз Дьюї Девіс III (англ. Miles Dewey Davis III; 26 травня 1926, Олтон — 28 вересня 1991) — американський джазовий трубач, бенд-лідер і композитор. Він є однією з найвпливовіших і найвідоміших постатей в історії джазу та музики XX століття. За свою майже п'ятдесятирічну кар'єру Девіс змінив безліч музичних напрямків, що дозволило йому бути в авангарді багатьох основних стилістичних змін у джазі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

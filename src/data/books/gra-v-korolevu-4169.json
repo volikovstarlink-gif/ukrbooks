@@ -3,7 +3,7 @@
   "slug": "gra-v-korolevu-4169",
   "title": "Гра в королеву",
   "author": "Тетяна Пишнюк",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2012,
   "description": "Класичний жіночий роман захоплює увагу читача з перших сторінок. Події наростають швидко й динамічно. Головна героїня — жінка з непростою долею та вольовим характером — нe піддається жорстоким обставинам і рішуче стає на прю зі всіма недругами. Що з того вийшло, дізнаємося на сторінках даної книги…",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

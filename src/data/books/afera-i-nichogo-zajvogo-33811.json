@@ -3,7 +3,7 @@
   "slug": "afera-i-nichogo-zajvogo-33811",
   "title": "Афера і нічого зайвого",
   "author": "Альона Рязанцева",
-  "category": "history",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Афера і нічого зайвого",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

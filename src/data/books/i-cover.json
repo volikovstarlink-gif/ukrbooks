@@ -3,7 +3,7 @@
   "slug": "i-cover",
   "title": "Вiрменська Читанка",
   "author": "Аветик Исаакян",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 2021,
   "description": "Первая хрестоматия армянской литературы на украинском языке для упрочения взаимопонимания между двумя великими народами.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-19932",
   "title": "Бирчак В. Руська читанка для 4 кляси гімназійної і...",
   "author": "Перекл. Василь Королів-Старий",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1920,
   "description": "Збірка текстів для навчання російської мови у гімназіях 1920-х років. Перекладена і адаптована Василем Королівим-Старим у період становлення українського шкільництва після революції. Відображає методичні підходи міжвійної доби до викладання іноземних мов.",
@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "translatedFrom": "ru",
+  "translator": "Василь Королів-Старий",
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

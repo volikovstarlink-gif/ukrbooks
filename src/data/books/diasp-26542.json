@@ -4,7 +4,7 @@
   "title": "Tusya and the pot of gold, from an old Ukrainian f...",
   "author": "Дитячий словик Ukrainian Heritage Dictionary",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 1989,
   "description": "Дитячий словник з українськими казками для англомовних дітей, виданий в діаспорі на честь збереження культурної спадщини. Та й горщик з золотом — класичний мотив з українського фольклору, адаптований для юних читачів.",
   "shortDescription": "Дитячий словник з українськими казками для англомовних дітей, виданий в діаспорі на честь збереження культурної спадщини.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "medium"
 }

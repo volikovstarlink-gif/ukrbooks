@@ -3,7 +3,7 @@
   "slug": "mislivtsi-dyuni-32170",
   "title": "Myslyvtsi Diuny",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Середньовічна українська поема про мисливців Дунаю. Твір поєднує фольклорні мотиви з лицарською романтикою, зберігаючи відгомін древніх переказів про дунайські землі. Текст дійшов до нас у фрагментарному вигляді з невизначеним авторством.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "sci-fi",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-22581",
   "title": "Смолій І. Сонцебори",
   "author": "Іван Смолій",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 1970,
   "description": "Іван Смолій (*14 серпня 1915(19150814), Михновиць — †1984) — український письменник і журналіст (фейлетони під псевд. Клим Булька), редактор, член ОУП «Слово».",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "stories",
+  "categoryConfidence": "medium"
 }

@@ -3,7 +3,7 @@
   "slug": "vazhko-buti-bogom-8132",
   "title": "HTBG_edit",
   "author": "Unknown",
-  "category": "other",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Не можу створити опис без основної інформації про книгу. Вкажи будь ласка:\n- реальну назву\n- автора (хоча б прізвище)\n- приблизний рік видання або період\n- жанр або про що книга",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

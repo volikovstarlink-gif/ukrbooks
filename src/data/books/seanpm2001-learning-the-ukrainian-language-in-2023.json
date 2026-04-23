@@ -3,7 +3,7 @@
   "slug": "seanpm2001-learning-the-ukrainian-language-in-2023",
   "title": "Seanpm2001: Learn Ukrainian language 2023",
   "author": "Seanpm2001",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 2023,
   "description": "My documentation regarding 30 days of trying to learn the Ukrainian language in 2023.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "essays",
+  "categoryConfidence": "medium"
 }

@@ -4,7 +4,7 @@
   "title": "Boris Treeson and other Ukrainian Folk Tales Retol...",
   "author": "Retold by Danny Evanishen",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 2003,
   "description": "Збірка українських народних казок у трансляції для англомовної аудиторії. Включає історії, як \"Борис Лісоман\", що передають традиційні мотиви слов'янського фольклору. Видання 2003 року документує зусилля діаспори у збереженні культурної спадщини наступним поколінням.",
   "shortDescription": "Збірка українських народних казок у трансляції для англомовної аудиторії.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

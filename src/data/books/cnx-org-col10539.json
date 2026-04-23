@@ -3,7 +3,7 @@
   "slug": "cnx-org-col10539",
   "title": "Курс «Сучасні медіасистеми і політичні комунікації»",
   "author": "Видавництво Наука",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "«Суча́сні медіасисте́ми: три моде́лі відно́син ЗМІ та полі́тики» — книга про дослідження сучасних ЗМІ та їхнього функціонування в суспільстві Comparing Media Systems: Three Models of Media and Politics (Communication, Society and Politics). Бібліографічні дані українського видання: Галлін Деніел С., Манчіні Паоло. Сучасні медіасистеми: три моделі відносин ЗМІ та політики / Переклад з англ. О.",
@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "politics",
+  "translatedFrom": "en",
+  "translator": "О.",
+  "translationConfidence": "high",
+  "categoryConfidence": "medium"
 }

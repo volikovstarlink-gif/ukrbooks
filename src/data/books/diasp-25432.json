@@ -3,7 +3,7 @@
   "slug": "diasp-25432",
   "title": "Соняшні дні",
   "author": "Упоряд. Марія Юркевич",
-  "category": "other",
+  "category": "poetry",
   "language": "uk",
   "year": 1952,
   "description": "Антологія українських поетичних творів, упорядкована в еміграції 1952 року. Збірка відбиває творчість авторів діаспори, котрі зберігали українську літературну традицію в умовах розсіяння після Другої світової війни.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "ukrainian-modern",
+  "categoryConfidence": "high"
 }

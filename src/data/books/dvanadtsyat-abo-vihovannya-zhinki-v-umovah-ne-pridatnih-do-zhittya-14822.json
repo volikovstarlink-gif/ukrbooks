@@ -3,7 +3,7 @@
   "slug": "dvanadtsyat-abo-vihovannya-zhinki-v-umovah-ne-pridatnih-do-zhittya-14822",
   "title": "Дванадцять, або виховання жінки в умовах, не придатних до життя",
   "author": "Ірен Роздобудько",
-  "category": "literature-ukr",
+  "category": "other",
   "language": "en",
   "year": null,
   "description": "Іре́н Віта́ліївна Роздобу́дько (нар. 3 листопада 1962, Донецьк) — українська письменниця, ілюстраторка та сценаристка, викладачка кінодраматургії. До початку письменницької та сценарної кар'єри видала кілька російськомовних збірок поезій та працювала журналісткою.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

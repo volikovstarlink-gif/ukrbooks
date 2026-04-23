@@ -3,7 +3,7 @@
   "slug": "velika-glushina-16750",
   "title": "Велика Глушина",
   "author": "Анна Манжай",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Художній хроніка про село Велика Глушина й доль його мешканців протягом XX століття. Манжай простежує, як великі історичні потрясіння — колективізація, голодомор, война, радянізація — перетворювали життя звичайних людей. Книга поєднує документальність з літературною образністю.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

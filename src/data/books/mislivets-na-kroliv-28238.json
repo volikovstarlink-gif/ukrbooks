@@ -3,7 +3,7 @@
   "slug": "mislivets-na-kroliv-28238",
   "title": "Myslyvets na kroliv",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Невідомої авторства казка про мисливця, який полює на кролів. Твір віддзеркалює традиційні мотиви українського фольклору з характерною для казкової прози грою розуму й спритності. Точна дата створення невстановлена, однак видання належить до усної оповідної традиції.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

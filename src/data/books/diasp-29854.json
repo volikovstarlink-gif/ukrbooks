@@ -3,7 +3,7 @@
   "slug": "diasp-29854",
   "title": "Завадович Р. Медовий телесик",
   "author": "Роман Завадович",
-  "category": "other",
+  "category": "poetry",
   "language": "uk",
   "year": 1953,
   "description": "Поетична збірка Романа Завадовича, видана в еміграції. Ліричні вірші проникнуті спогадами про рідну землю й розмисліннями над смислом буття в умовах вимушеної розлуки. Тонка, нюансована мова твору відбиває духовні шукання митця в період холодної війни.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "ukrainian-modern",
+  "categoryConfidence": "high"
 }

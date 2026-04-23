@@ -3,7 +3,7 @@
   "slug": "misteriyi-32283",
   "title": "Містерії",
   "author": "Кнут Гамсун",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Кнут Га́мсун (норв. Knut Hamsun; 4 серпня 1859 — 19 лютого 1952, Нергольм) — норвезький письменник (справжнє ім'я — Кнут Пе́дерсен), лавреат Нобелівської премії з літератури за 1920 рік.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

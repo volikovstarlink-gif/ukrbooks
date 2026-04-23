@@ -3,7 +3,7 @@
   "slug": "timchasova-susidka-18678",
   "title": "2. Тимчасова Сусідка - Сара Адамс",
   "author": "Сара Адамс",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Другий сезон американського серіалу «Венздей» був офіційно анонсований 6 січня 2023 року. Його зйомки розпочалися у 2023 році, реліз відбувся на Netflix у серпні 2025 року. Прем'єра серіалу відбулась у двох частинах: перші чотири серії вийшли 6 серпня 2025 року, фінальні чотири серії — 3 вересня 2025 року.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

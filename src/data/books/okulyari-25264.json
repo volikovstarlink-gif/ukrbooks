@@ -3,7 +3,7 @@
   "slug": "okulyari-25264",
   "title": "Окуляри",
   "author": "Едґар Аллан По",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Він закохався в неї з першого ж погляду. Вона відповіла йому взаємністю. І вони швидко обвінчалися. А розв'язка цієї швидкоплинної історії кохання виявилася надзвичайно дивною та неймовірною.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

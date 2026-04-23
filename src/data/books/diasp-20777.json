@@ -3,7 +3,7 @@
   "slug": "diasp-20777",
   "title": "Роляник. Гості з-за хмар",
   "author": "Роляник (Роман Завадович)",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1940,
   "description": "Казкові оповідання про чудесні істоти, які спускаються на землю, щоб спілкуватися з людьми. Роляник створює світ, де межа між звичайним та надприродним розмивається, а кожна зустріч несе глибший смисл.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "fairytales",
+  "categoryConfidence": "high"
 }

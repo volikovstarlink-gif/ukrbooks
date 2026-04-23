@@ -3,8 +3,8 @@
   "slug": "tut-usi-breshut-32171",
   "title": "cbc140c4-76ae-4ca5-8310-7a53c1307e8c",
   "author": "Unknown",
-  "category": "other",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Вибачте, але я не можу повернути опис без базової інформації про книгу. Напишіть, будь ласка:\n\n- Назву книги (українською)\n- Автора\n- Рік видання\n- Коротко, про що книга\n\nТоді створю точний опис.",
   "shortDescription": "Вибачте, але я не можу повернути опис без базової інформації про книгу.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

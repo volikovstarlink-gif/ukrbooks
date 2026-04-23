@@ -3,7 +3,7 @@
   "slug": "na-bilyx-ostrovax",
   "title": "На білих островах (Na bilyx ostrovax)",
   "author": "Рильський, Максим (Ryl'śkyj, Maksym)",
-  "category": "other",
+  "category": "poetry",
   "language": "uk",
   "year": 1910,
   "description": "69 сторінок.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "ukrainian-modern",
+  "categoryConfidence": "medium"
 }

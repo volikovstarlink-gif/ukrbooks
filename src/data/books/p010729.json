@@ -3,7 +3,7 @@
   "slug": "p010729",
   "title": "Ювілейна книга Парохії св. О. Николая у Вінніпеґу",
   "author": "St. Nicholas Ukrainian Catholic Church (Winnipeg, Man.):",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "Історичний документ українсько-католицької громади в канадському Вінніпезі, що фіксує розвиток парохії св. Миколи. Видання українськими діаспорними мистецтвом і віруючими середини XX століття як свідчення організованого церковного життя за межами батьківщини.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "documents",
+  "categoryConfidence": "high"
 }

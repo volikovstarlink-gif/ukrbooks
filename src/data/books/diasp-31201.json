@@ -3,7 +3,7 @@
   "slug": "diasp-31201",
   "title": "Новацький співаник",
   "author": "Упоряд. Надя Кулинич",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1967,
   "description": "Збірка українських піснень, упорядкована в діаспорі під час холодної війни. Містить народні пісні та твори українських композиторів, збережені еміграцією. Важлива спроба зберегти музичну спадщину поза радянською цензурою.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "poems",
+  "categoryConfidence": "high"
 }

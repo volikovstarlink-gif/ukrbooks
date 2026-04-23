@@ -3,7 +3,7 @@
   "slug": "buduarna-filosofiya-26571",
   "title": "Будуарна філософія",
   "author": "Маркіз де Сад",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": 1795,
   "description": "...де Сад змальовує куртуазних «маркізів» і вишуканих аристократок такими, якими вони є в дійсності, за лаштунками благопристойних салонів. Журнальний варіант («Лель» (1992, № 4,5; 1993, № 1-3, 7-8) З французької переклав Віктор АНДРІЄЦЬ",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "sentimental"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

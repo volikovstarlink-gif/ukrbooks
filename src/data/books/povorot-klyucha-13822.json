@@ -3,7 +3,7 @@
   "slug": "povorot-klyucha-13822",
   "title": "Поворот ключа",
   "author": "Анна Манжай",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Документальне розслідування про українські визвольні змагання початку XX століття. Манжай збирає свідчення очевидців та архівні матеріали, розкриваючи малознані сторінки боротьби за незалежність у період revolucій та громадянської війни.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

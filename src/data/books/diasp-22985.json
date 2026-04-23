@@ -3,7 +3,7 @@
   "slug": "diasp-22985",
   "title": "Із зьвірячого царства. Перша сотня найкращих казок",
   "author": "Упоряд. Володимира Держируки",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1915,
   "description": "Збірка казок для дітей, упорядкована на початку XX століття. Містить народні та письменницькі оповідання про тварин, призначені для розвитку дитячої уяви. Видання репрезентує традицію українського казкарства ранньої moderna.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "fairytales",
+  "categoryConfidence": "high"
 }

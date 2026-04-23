@@ -3,7 +3,7 @@
   "slug": "gorobets-21334",
   "title": "Л.Дж.Шен Горобець",
   "author": "Unknown",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Розповідь про звичайного горобця, що став символом великих змін у житті людини. Проста історія з глибоким смислом про те, як малі істоти бачать світ інакше, ніж ми. Класична байка про природу й людство.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

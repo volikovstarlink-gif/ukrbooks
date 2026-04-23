@@ -3,7 +3,7 @@
   "slug": "turist-mimovoli-25267",
   "title": "Турист мимоволі",
   "author": "Unknown",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Гумористичний твір про пригоди випадкового мандрівника, який потрапляє в забавні ситуації через власну неумілість та невдачу. Сатира на туристичні звичаї та соціальні хиби викривається через призму комічних недоразумінь.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "uncategorized"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

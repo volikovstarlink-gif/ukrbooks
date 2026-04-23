@@ -28,5 +28,8 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "world",
+  "translatedFrom": "de",
+  "translator": null,
+  "translationConfidence": "high"
 }

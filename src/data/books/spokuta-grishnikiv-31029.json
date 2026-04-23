@@ -3,7 +3,7 @@
   "slug": "spokuta-grishnikiv-31029",
   "title": "Спокута грішників",
   "author": "Сомма Скетчер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Історичний нарис про покаяння та духовне очищення в середньовічній Європі. Розглядає обряди замолення гріхів, практики монастирів та еволюцію церковної дисципліни від античності до Реформації.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

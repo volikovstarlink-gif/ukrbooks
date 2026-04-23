@@ -3,7 +3,7 @@
   "slug": "diasp-24362",
   "title": "Миролюбний П. Українська мова (письмо)",
   "author": "Панас Миролюбний",
-  "category": "other",
+  "category": "business-science",
   "language": "uk",
   "year": 1954,
   "description": "Панас Миролюбний розглядає питання правильного написання та орфографії української мови. Посібник призначений для того, щоб допомогти читачам засвоїти правила письма. Видання вийшло у 1954 році й зберігає традиції українського мовознавства.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "reference",
+  "categoryConfidence": "high"
 }

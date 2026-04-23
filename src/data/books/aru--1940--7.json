@@ -3,7 +3,7 @@
   "slug": "aru--1940--7",
   "title": "Архітектура Радянської України — 1940 — № 7",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 1940,
   "description": "49 сторінок.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "culture",
+  "categoryConfidence": "medium"
 }

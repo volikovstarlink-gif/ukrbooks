@@ -3,7 +3,7 @@
   "slug": "tretya-divchina-26177",
   "title": "Tretia divchyna",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "\"Третя дівчина\" — невідоме творення, де переплітаються жіночі долі в складні часи. Твір торкається тем кохання, жертвенності та вибору в умовах соціальних обмежень.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "moya-vbivcha-vidpustka-14983",
   "title": "Моя вбивча відпустка",
   "author": "Тесса Бейлі",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це не українська книга — автор англійськомовна. Я генерую описи саме українських книг. Якщо у вас є українське видання цієї книги, назва іншої творчої роботи українського автора або переклад українською — надайте, будь ласка, деталі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

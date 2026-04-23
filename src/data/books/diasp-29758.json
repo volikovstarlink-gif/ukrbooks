@@ -3,7 +3,7 @@
   "slug": "diasp-29758",
   "title": "Пеленський Є. Рідне слово. Вибір з українського пи...",
   "author": "Д. Третяк",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1958,
   "description": "Антологія українських текстів, укладена діаспорним педагогом для збереження мови серед молоді у вигнанні.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

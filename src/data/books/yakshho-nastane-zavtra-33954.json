@@ -3,7 +3,7 @@
   "slug": "yakshho-nastane-zavtra-33954",
   "title": "Якщо настане завтра",
   "author": "Сідні Шелдон",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Якщо настане завтра» Сідні Шелдона — американський телевізійний мінісеріал 1986 року, оснований на однойменному романі Сідні Шелдона 1985 року, у головних ролях Медолін Сміт, Том Беренджер та Девід Кіт. Його зняв режисер Джеррі Лондон, а сценарій написала Кармен Калвер.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

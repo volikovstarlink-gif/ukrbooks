@@ -3,7 +3,7 @@
   "slug": "zlo-8805",
   "title": "Зло",
   "author": "Людмила Баграт",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2002,
   "description": "Містична мелодрама, героїня якої отримує подарунок долі - справжнє ідеальне кохання, але лише у снах… У світі ж реальному вона підпадає під владу людини, яка сіє зло, не зупиняючись навіть перед убивством власних дітей.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "sentimental"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

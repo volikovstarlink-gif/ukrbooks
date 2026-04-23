@@ -3,7 +3,7 @@
   "slug": "paperovi-mista-17007",
   "title": "Паперові міста",
   "author": "Джон Майкл Грін",
-  "category": "history",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "Повний текст \"Паперові міста\" (автор: Грін Джон Майкл) з Бібліотеки Української Літератури УкрЛіб",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "pil-32391",
   "title": "Пил",
   "author": "Г'ю Гоуї",
-  "category": "history",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Бункер (англ. Silo) — серія пост-апокаліптичних науково-фантастичних книг американського письменника Г'ю Гоуї. Серія розпочалася у 2011 році коротким оповіданням «Wool», яке згодом було опубліковано разом із чотирма повістями-продовженнями як однойменний роман. Окрім «Wool», серія складається з «Shift», «Dust», трьох коротких оповідань та «Wool: The Graphic Novel».",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

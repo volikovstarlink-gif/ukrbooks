@@ -3,7 +3,7 @@
   "slug": "pani-tisha-32515",
   "title": "Начерки сталі: Пані Тиша",
   "author": "Аркадій Саульський",
-  "category": "history",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Художня реконструкція життя панелvstку Тиші в період українських визвольних змагань. Саульський змальовує долю жінки, що стала свідком і учасницею подій революції та громадянської війни. Твір поєднує інтимне і масштабне, особисту трагедію з історичним контекстом.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

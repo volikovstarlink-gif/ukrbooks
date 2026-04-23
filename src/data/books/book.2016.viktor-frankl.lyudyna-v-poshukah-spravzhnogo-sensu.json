@@ -3,7 +3,7 @@
   "slug": "book.2016.viktor-frankl.lyudyna-v-poshukah-spravzhnogo-sensu",
   "title": "Arch book.2016.viktor frankl.lyudyna v poshukah spravzhnogo sensu",
   "author": "",
-  "category": "other",
+  "category": "self-help",
   "language": "uk",
   "year": 0,
   "description": "Переклад класичного твору Віктора Франкла про психологію вижи­вання в нацистських концтаборах. Франкл обґрунтовує, що навіть в екстремальних умовах людина зберігає волю вибирати своє ставлення до страждання і розуміння сенсу життя.",
@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "psychology",
+  "translatedFrom": "de",
+  "translator": null,
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

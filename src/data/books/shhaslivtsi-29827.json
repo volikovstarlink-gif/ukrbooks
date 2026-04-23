@@ -3,7 +3,7 @@
   "slug": "shhaslivtsi-29827",
   "title": "Марк Едвардз_Щасливці",
   "author": "Невідомий автор",
-  "category": "business-science",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Науково-фантастичний роман про групу людей, які виживають після катастрофи і змушені переосмислити уявлення про щастя та людське суспільство. У пошуках нового світу герої стикаються з моральними дилемами й невідворотною реальністю вибору между своїми принципами й виживанням.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "science-tech"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

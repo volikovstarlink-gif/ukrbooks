@@ -3,8 +3,8 @@
   "slug": "nardepka-4438",
   "title": "Нардепка",
   "author": "Василь Врублевський",
-  "category": "history",
-  "language": "en",
+  "category": "literature-ukr",
+  "language": "uk",
   "year": null,
   "description": "Василь Марцельович Врублевський (нар. 9 квітня 1963, с. Карвинівка, Романівський район, Житомирська область) — український письменник, журналіст, видавець, громадський діяч. Директор Житомирської обласної універсальної наукової бібліотеки імені Олега Ольжича.",
   "shortDescription": "Василь Марцельович Врублевський (нар. 9 квітня 1963, с.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

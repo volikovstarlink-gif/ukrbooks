@@ -3,7 +3,7 @@
   "slug": "spasinnya-grishnikiv-31028",
   "title": "Спасіння грішників",
   "author": "Сомма Скетчер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Скетчер досліджує історичні механізми отпущення гріхів у християнстві — від апостольських часів до Реформації. Книга розглядає, як теологічні концепції спасіння формували суспільні структури й особисту мораль. Це скоріше історія влади і віри, ніж релігійна наука.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,8 +3,8 @@
   "slug": "povilne-zhittya-34218",
   "title": "Майкл СВОНВІК",
   "author": "Vitaliy",
-  "category": "history",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Романізована біографія американського вченого Майкла Свонвіка, який розробляв методи глибокого охолодження організму. Твір поєднує наукові досягнення з особистою драмою дослідника, що працював на межі етики й необхідності.",
   "shortDescription": "Романізована біографія американського вченого Майкла Свонвіка, який розробляв методи глибокого охолодження організму.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "biographies"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

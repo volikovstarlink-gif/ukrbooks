@@ -3,7 +3,7 @@
   "slug": "borbasvitiv00well-0",
   "title": "Istorii͡a Ukrainy-Rusy",
   "author": "Barvinsʹkyĭ, Oleksandr, 1847-1926",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 1916,
   "description": "125 p. :",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "ukraine",
+  "categoryConfidence": "medium"
 }

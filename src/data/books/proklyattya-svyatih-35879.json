@@ -3,7 +3,7 @@
   "slug": "proklyattya-svyatih-35879",
   "title": "Кейт Дреміс_Прокляття святих. Книга 1",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "fantasy",
   "language": "uk",
   "year": 0,
   "description": "Не можу скласти опис твору, оскільки наведені дані неповні. Невідомий автор, невизначений рік видання та неясна категорія (інше) не дають достатньої інформації про зміст книги. Прошу уточнити авторство, дату публікації та жанр твору.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "fantasy",
+  "categoryConfidence": "medium"
 }

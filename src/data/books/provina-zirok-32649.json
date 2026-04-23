@@ -3,7 +3,7 @@
   "slug": "provina-zirok-32649",
   "title": "Провина зірок",
   "author": "Джон Майкл Грін",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Повний текст \"Провина зірок\" (автор: Грін Джон Майкл) з Бібліотеки Української Літератури УкрЛіб",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

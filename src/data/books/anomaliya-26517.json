@@ -3,7 +3,7 @@
   "slug": "anomaliya-26517",
   "title": "Андрій Новік_Аномалія",
   "author": "Невідомий автор",
-  "category": "business-science",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "На незвичайній планеті виникає дивна аномалія, що загрожує існуванню всього живого. Група учених і авантюристів має розгадати природу феномену та знайти спосіб його зупинити. Фантастичний сюжет переплітається з філософськими роздумами про межі людського розуму.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "science-tech"
+  "subcategory": "sci-fi",
+  "categoryConfidence": "high"
 }

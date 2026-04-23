@@ -3,7 +3,7 @@
   "slug": "diasp-25355",
   "title": "Франко І. Абу Касимові капці",
   "author": "Іван Франко",
-  "category": "classics",
+  "category": "children",
   "language": "uk",
   "year": 1955,
   "description": "«Абу-Касимові капці» — поетична казка українського письменника Івана Франка, в основі якої східний (арабський) сюжет. Вперше казка побачила світ у Львові 1895 року під назвою «Абу-Каземові капці» і мала великий успіх у читачів.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "ukrainian"
+  "subcategory": "fairytales",
+  "categoryConfidence": "high"
 }

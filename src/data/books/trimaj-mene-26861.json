@@ -3,7 +3,7 @@
   "slug": "trimaj-mene-26861",
   "title": "Trymai mene",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "\"Trymai mene\" — стародавня українська пісня, записана в рукописних збірниках XVI–XVII століть. Відображає народні мотиви кохання та розлуки, характерні для усної традиції тієї епохи.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "diasp-26944",
   "title": "Козицький Д. Як таборувати",
   "author": "Дмитро Козицький",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1934,
   "description": "Практичний посібник для скаутів і туристів про організацію табору: від вибору місця й будівництва укриттів до приготування їжі та безпеки в лісі. Видано в міжвоєнній Україні, коли скаутський рух активно розвивався.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

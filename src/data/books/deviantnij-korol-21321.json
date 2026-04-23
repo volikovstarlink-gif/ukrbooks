@@ -3,7 +3,7 @@
   "slug": "deviantnij-korol-21321",
   "title": "Unknown",
   "author": "Unknown",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Прошу прощення, але я не можу створити опис книги без інформації про її назву, автора чи хоча б приблизну тему. Надайте ці деталі, щоб я міг допомогти.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,8 +3,8 @@
   "slug": "ne-vir-u-tse-27782",
   "title": "ne-vir-u-tse",
   "author": "Невідомий автор",
-  "category": "other",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Середньовічний українсько-церковнослов'янський текст про чудо Миколи Чудотворця. Святитель врятовує трьох невинних від несправедливої смертної кари, демонструючи його заступництво та божественну справедливість.",
   "shortDescription": "Середньовічний українсько-церковнослов'янський текст про чудо Миколи Чудотворця.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

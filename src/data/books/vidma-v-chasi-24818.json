@@ -3,8 +3,8 @@
   "slug": "vidma-v-chasi-24818",
   "title": "Unknown",
   "author": "Андрей Коломиец",
-  "category": "history",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "The Central Committee of the 22nd Congress of the Communist Party of the Soviet Union was in session from 1961 until 1966. It elected, at its 1st Plenary Session, the 22nd Presidium, the 22nd Secretariat and the 22nd Party Control Committee of the Communist Party of the Soviet Union.",
   "shortDescription": "The Central Committee of the 22nd Congress of the Communist Party of the Soviet Union was in session from 1961 until 1966.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "stvoreni-odne-dlya-odnogo-27362",
   "title": "Створені одне для одного",
   "author": "Лінн Пейнтер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Повсталий з пекла 3: Пекло на Землі» (англ. Hellraiser III: Hell on Earth) — американсько-канадський фільм жахів 1992 року. Молодий чоловік Джей купує скульптуру, створену демонами сенобітами. Виниклий звідти демон Пінгед спокушає Джея обіцянкою слави, за що вимагає людських жертв. Тим часом журналістка Джої, розслідуючи незвичайний злочин, виходить на слід Джея.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

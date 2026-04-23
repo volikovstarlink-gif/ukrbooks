@@ -28,5 +28,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "sentimental"
+  "subcategory": "novels",
+  "translatedFrom": "fr",
+  "translator": null,
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

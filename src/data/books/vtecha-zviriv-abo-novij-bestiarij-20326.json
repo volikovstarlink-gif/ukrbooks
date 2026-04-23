@@ -3,7 +3,7 @@
   "slug": "vtecha-zviriv-abo-novij-bestiarij-20326",
   "title": "Втеча звірів або новий бестіарій",
   "author": "Галина Пагутяк",
-  "category": "literature-ukr",
+  "category": "children",
   "language": "uk",
   "year": null,
   "description": "Чому звірі покидають людей і відпливають на чарівному кораблі? Адже наша Земля така велика… Одна з найталановитіших сучасних українських письменниць Галина Пагутяк намагається зупинити їх у своїй казковій пригодницькій повісті. Цю книгу можуть читати й дорослі, і діти. Можна спробувати її прочитати також звірятам.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

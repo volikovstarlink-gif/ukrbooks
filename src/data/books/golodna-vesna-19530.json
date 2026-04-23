@@ -3,7 +3,7 @@
   "slug": "golodna-vesna-19530",
   "title": "Голодна весна",
   "author": "Іван Кирій",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Автор книжки, відомий український письменник, у новій повісті розповідає про трагічні події 1933 року, які він хлоп'ям пережив сам, коли здійснювався геноцид проти народу України. На сторінках твору перед читачем постануть жахливі картини голоду і все, що з ним пов'язано: людоїдство, смерть, моральний занепад людини.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

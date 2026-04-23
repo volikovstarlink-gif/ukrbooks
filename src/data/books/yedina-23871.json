@@ -3,7 +3,7 @@
   "slug": "yedina-23871",
   "title": "3. Єдина",
   "author": "Кіра Касс",
-  "category": "history",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "«Відбі́р» (англ. The Selection, правильно «Обрання́») — це антиутопічний роман Кіри Касс. Книгу вперше опублікувало 24 квітня 2012 року видавництв Harperteen. У 2013 році вийшло продовження трилогії під назвою «Еліта», а також книга «Принц» — роман, в якій про ті ж події розповідається від імені принца Максона.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

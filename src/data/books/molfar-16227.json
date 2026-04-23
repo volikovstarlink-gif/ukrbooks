@@ -3,7 +3,7 @@
   "slug": "molfar-16227",
   "title": "Мольфар",
   "author": "Марія Чумарна",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "«Мольфар» — це книжка, яка крізь призму сучасного життя кидає погляд читача в потаємні глибини людської душі. Любов і свобода вибору, сила думки і слова, потаємне і явне в людській долі — ці глибинні проблеми автор розкриває легко, ненав’язливо, акцентуючи на вагомості простих і звичайних цінностей життя.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

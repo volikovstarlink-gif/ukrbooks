@@ -3,7 +3,7 @@
   "slug": "mriya-metelika-4098",
   "title": "Мрія метелика",
   "author": "Лія Щеглова",
-  "category": "history",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Щеглова розповідає про долі українців, які шукали свободу й нові можливості за межами батьківщини. Через біографічні замальовки та історичні факти вона відтворює атмосферу емігрантського життя й боротьби за національну ідентичність у XX столітті.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "biographies"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

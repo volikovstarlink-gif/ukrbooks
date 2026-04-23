@@ -3,7 +3,7 @@
   "slug": "yarmarok-suyeti-34427",
   "title": "Ярмарок суєти",
   "author": "Вільям Мейкпіс Теккерей",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Ві́льям Ме́йкпіс Те́керей (англ. William Makepeace Thackeray, *18 липня 1811 — †24 грудня 1863) — англійський письменник-сатирик.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

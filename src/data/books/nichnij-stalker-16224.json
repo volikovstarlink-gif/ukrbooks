@@ -3,7 +3,7 @@
   "slug": "nichnij-stalker-16224",
   "title": "Нічний сталкер",
   "author": "Роберт Бриндза",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Відзначити помилку в класифікації. \"Нічний сталкер\" Роберта Бринцзи — це детективний трилер із циклу про детектива Крофа, не історична книга. Головний герой розслідує жорстокі вбивства у Лондоні, намагаючись розпутати складну криміналістичну справу.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

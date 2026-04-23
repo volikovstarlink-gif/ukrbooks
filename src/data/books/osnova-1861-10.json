@@ -3,7 +3,7 @@
   "slug": "osnova-1861-10",
   "title": "Arch osnova 1861 10",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "The Ukrainian National Revival (Ukrainian: Українське національне відродження, romanized: Ukrainske natsionalne vidrodzhennia) took place during a period when the territory of modern Ukraine was divided between the Austrian Empire, the Kingdom of Hungary, and the Russian Empire after the partitions of Poland at the end of the 18th century.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "culture",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "p0lissia",
   "title": "Arch p0lissia",
   "author": "",
-  "category": "other",
+  "category": "nonfiction",
   "language": "uk",
   "year": 0,
   "description": "Експериментальний проект, що досліджує традиційну архітектуру Полісся крізь сучасний візуальний та концептуальний підхід. Поєднує документування історичних конструкцій з аналізом їхніх структурних принципів та культурного значення для регіону.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "culture",
+  "categoryConfidence": "high"
 }

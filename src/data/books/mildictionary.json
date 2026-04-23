@@ -3,7 +3,7 @@
   "slug": "mildictionary",
   "title": "Arch mildictionary",
   "author": "",
-  "category": "other",
+  "category": "business-science",
   "language": "uk",
   "year": 0,
   "description": "Архітектурний словник з мінімаліст дизайном, що пояснює терміни в галузі архітектури та будівництва. Поєднує фахові визначення з наочними ілюстраціями для швидкого розуміння. Зручний довідник для студентів, архітекторів та будівельників.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "reference",
+  "categoryConfidence": "medium"
 }

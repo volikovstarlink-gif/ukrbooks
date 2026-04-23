@@ -3,7 +3,7 @@
   "slug": "diasp-23078",
   "title": "Сірий Ю. До гір! До моря!",
   "author": "Юрій Сірий (Юрій Тищенко)",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1922,
   "description": "Чо́рне мо́ре (лат. Rucenum mare; болг. Черно море, груз. შავი ზღვა, абх. Амшын Еиқәа, рос. Чёрное море, рум. Marea Neagră, кримс. Qara deñiz, тур. Karadeniz) — море між Європою та Західною Азією (проходить водна межа між Європою і Малою Азією). Сполучене протокою Босфор із Мармуровим морем. Площа 422 тис. км², найбільша глибина до 2 245 м (на південь від Ялти), солоність 17—18 ‰.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "adventures",
+  "categoryConfidence": "medium"
 }

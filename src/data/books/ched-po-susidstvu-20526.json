@@ -3,7 +3,7 @@
   "slug": "ched-po-susidstvu-20526",
   "title": "Чед по сусідству",
   "author": "Дана Лешемінант",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Художне дослідження повсякденного життя кельтів і германців у римську епоху крізь призму архаїчного матеріалу й легенд. Лешемінант розкриває, як прикордонні спільноти адаптувалися до римської влади, зберігаючи власну культуру та ідентичність.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "medium"
 }

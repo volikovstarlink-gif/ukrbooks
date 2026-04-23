@@ -3,7 +3,7 @@
   "slug": "v-tini-yangola-smerti-5411",
   "title": "В тіні янгола смерті",
   "author": "Тарас Завітайло",
-  "category": "fantasy",
+  "category": "literature-ukr",
   "language": "uk",
   "year": 2007,
   "description": "На тебе чекає захоплива подорож у минуле, під час якої ти дізнаєшся про історію знайомства козаків-характерників і білої нечисті — героїв попередніх творів автора. І, звісно ж, — пригоди, відвага, щира дружба і прекрасні почуття…",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "historical",
+  "categoryConfidence": "high"
 }

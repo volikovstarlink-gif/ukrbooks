@@ -3,7 +3,7 @@
   "slug": "tepli-istoriyi-do-shokoladu-1477",
   "title": "Tepli istorii do shokoladu",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Збірка малих прозових творів, де звичайні моменти життя — від дитячих спогадів до зустрічей із друзями — розкриваються через образ шоколаду як символу тепла й затишку. Кожен текст — це дрібниця щастя, яка залишається в пам'яті й серці.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

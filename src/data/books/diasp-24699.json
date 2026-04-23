@@ -3,7 +3,7 @@
   "slug": "diasp-24699",
   "title": "Щербак М. Абетка",
   "author": "Микола Щербак",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1960,
   "description": "Щербак Микола (Мішалов Микола Іванович) (*13 (26) листопада 1914(19141126) — 7 червня 2010) — український поет, літературознавець, журналіст.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "bronzovij-chort-6798",
   "title": "Бронзовий чорт",
   "author": "Ростистав Феодосьевич Самбук",
-  "category": "literature-foreign",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Это роман украинского советского писателя в двух частях (\"Бронзовый черт\" и \"Марафон длиной в неделю\") о попытке гитлеровской разведки организовать покушение на Верховного Главнокомандующего Красной Армии, а также о работниках контрразведки СМЕРШ, своевременно обезвредивших фашистских диверсантов.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "detectives"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

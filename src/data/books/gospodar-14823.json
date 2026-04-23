@@ -3,7 +3,7 @@
   "slug": "gospodar-14823",
   "title": "Господар",
   "author": "Галина Пагутяк",
-  "category": "fantasy",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Фантастичний роман української радянської письменниці, яка живе і працює на Львівщині, піднімає складні моральні і соціальні проблеми. Через незвичний сюжет автор показує зіткнення добра і зла, правди і кривди, любові і ненависті.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

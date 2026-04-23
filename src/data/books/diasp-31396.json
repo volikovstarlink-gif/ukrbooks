@@ -3,7 +3,7 @@
   "slug": "diasp-31396",
   "title": "Федчук Б. Загадки зб. 19",
   "author": "Богдан Федчук",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1979,
   "description": "Збірка загадок Богдана Федчука, виданих в українській діаспорі 1979 року. Містить традиційні та авторські загадки, зібрані для збереження фольклорної спадщини. Матеріал охоплює різноманітні теми: природу, побут, звичаї українського народу.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

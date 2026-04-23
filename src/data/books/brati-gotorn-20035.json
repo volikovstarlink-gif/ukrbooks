@@ -3,7 +3,7 @@
   "slug": "brati-gotorn-20035",
   "title": "Unknown",
   "author": "Unknown",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "The Unknown Soldier (укр. Невідомий солдат) — пісня каліфорнійського гурту «The Doors». Пісня була написана, як реакція Джима Моррісона на війну у В'єтнамі і також на те — як конфлікт був зображений в американських ЗМІ у той час.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "sentimental",
+  "categoryConfidence": "medium"
 }

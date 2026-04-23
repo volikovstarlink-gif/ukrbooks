@@ -3,7 +3,7 @@
   "slug": "nizhno-viddanij-dekster-32276",
   "title": "Ніжно відданий Декстер",
   "author": "Джефф Ліндсі",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це не українська книга — це твір американського письменника Джеффа Ліндсі про серійного вбивцю Декстера Моргана. Я генерую описи саме українських книг.\n\nЯкщо у тебе є українська книга для опису, поділись її назвою та автором.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

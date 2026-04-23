@@ -3,7 +3,7 @@
   "slug": "miloserdya-zmij-35273",
   "title": "Милосердя Змій (done)",
   "author": "Дін Кунц",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Дін Кунц описує світ, де надприродна істота намагається врятувати дівчину від безжального серійного вбивці. Напружений психологічний трилер поєднує містику та глибокий аналіз людського добра й зла, змушуючи задуматися про природу милосердя в беззаконному світі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

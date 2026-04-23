@@ -3,7 +3,7 @@
   "slug": "bogun-35471",
   "title": "Богун",
   "author": "Яцек Комуда",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": 2006,
   "description": "Яцек Лех Комуда (пол. Jacek Lech Komuda, 23 червня 1972) — польський письменник-фантаст та автор історичних творів. Дія більшості творів письменника відбувається в шляхетську епоху Польщі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "historical",
+  "categoryConfidence": "medium"
 }

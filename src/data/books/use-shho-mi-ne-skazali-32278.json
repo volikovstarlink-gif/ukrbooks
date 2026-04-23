@@ -3,7 +3,7 @@
   "slug": "use-shho-mi-ne-skazali-32278",
   "title": "Усе,що ми не сказали!",
   "author": "Unknown Author",
-  "category": "history",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "На́тан Е́двін Брілл (англ. Nathan Edwin Brill; 3 січня 1860, Нью-Йорк, США — 13 грудня 1925, Нью-Йорк) — американський лікар, доктор медицини, професор, відомий відкриттям пізнього рецидиву при епідемічному висипному тифі, а також деяких форм лімфоми і гемолітичної анемії.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

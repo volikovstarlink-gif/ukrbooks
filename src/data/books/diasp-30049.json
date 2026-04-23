@@ -3,7 +3,7 @@
   "slug": "diasp-30049",
   "title": "Цегельська О. Тайни гір (повість для молоді)",
   "author": "Олена Цегельська",
-  "category": "classics",
+  "category": "teen",
   "language": "uk",
   "year": 1952,
   "description": "Оле́на Цеге́льська, до шлюбу Кизима (1887 — 1971) — український педагог, дитяча письменниця і громадська діячка. Псевдонім: Галя.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "ukrainian"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

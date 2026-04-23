@@ -3,7 +3,7 @@
   "slug": "metod-15-33-28869",
   "title": "Шеннон Кьорк_Метод 15-33",
   "author": "Невідомий автор",
-  "category": "business-science",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Невідомий автор описує науковий метод, який поєднує кількісні та якісні підходи до дослідження складних систем. Техніка ґрунтується на принципах теорії інформації та дозволяє структурувати дані для глибшого розуміння закономірностей.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "science-tech"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

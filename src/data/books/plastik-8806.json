@@ -3,7 +3,7 @@
   "slug": "plastik-8806",
   "title": "Пластик",
   "author": "Артем Чех",
-  "category": "literature-foreign",
+  "category": "teen",
   "language": "uk",
   "year": null,
   "description": "Пластик — це матеріал, з якого зроблені декорації цієї книги. Щоправда, люди, емоції, навіть мрії — теж пластик. І головний герой, чотирнадцятирічний хлопець, який не має навіть імені, намагається пробитися крізь товщу сірого мертвого матеріалу заради… чого? Саундтреком до цієї повісті найкраще слугуватиме «Fake Plastic Trees» Radiohead.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "prose",
+  "categoryConfidence": "high"
 }

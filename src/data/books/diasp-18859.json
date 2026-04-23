@@ -4,7 +4,7 @@
   "title": "Ukrainian Alphabet to Color",
   "author": "By Luciow, Loretta; Southwick, Susan",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 1986,
   "description": "Розмальовка для дітей з українськими літерами та словами. Кожна сторінка присвячена одній букві алфавіту з рисунками на українську тематику. Видання 1986 року випущене в діаспорній спільноті для збереження мови й культури.",
   "shortDescription": "Розмальовка для дітей з українськими літерами та словами. Кожна сторінка присвячена одній букві алфавіту з рисунками на українську тематику.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

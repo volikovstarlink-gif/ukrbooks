@@ -3,7 +3,7 @@
   "slug": "diasp-17503",
   "title": "Подорож у небувалі світи. Антолоrія перекладів фа...",
   "author": "Ред. Рома Чумак-Горбач",
-  "category": "other",
+  "category": "fantasy",
   "language": "uk",
   "year": 1997,
   "description": "Збірка перекладів фантастичної прози з різних мов, упорядкована Ромою Чумак-Горбач. Включає твори класиків жанру, адаптовані українськими перекладачами для розширення читацької аудиторії.",
@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "sci-fi",
+  "translatedFrom": "other",
+  "translator": null,
+  "translationConfidence": "low",
+  "categoryConfidence": "high"
 }

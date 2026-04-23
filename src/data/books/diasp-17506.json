@@ -3,7 +3,7 @@
   "slug": "diasp-17506",
   "title": "Співучі Скарби. Songs and Verses in Ukrainian and ...",
   "author": "Lena Hryhor Gulutsan",
-  "category": "other",
+  "category": "poetry",
   "language": "uk",
   "year": 1989,
   "description": "Збірка пісень і віршів українською мовою, виданої 1989 року в діаспорі. Розраховує на збереження культурної спадщини для українців за межами батьківщини в умовах холодної війни. Поєднує фольклорні мотиви з сучасними текстами.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "folk-songs",
+  "categoryConfidence": "high"
 }

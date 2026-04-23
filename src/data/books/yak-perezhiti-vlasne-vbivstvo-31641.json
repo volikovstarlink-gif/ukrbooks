@@ -3,8 +3,8 @@
   "slug": "yak-perezhiti-vlasne-vbivstvo-31641",
   "title": "Unknown",
   "author": "xXx",
-  "category": "history",
-  "language": "en",
+  "category": "literature-foreign",
+  "language": "uk",
   "year": null,
   "description": "Автокореля́ція (англ. autocorrelation), іноді відома як послідо́вна кореля́ція (англ. serial correlation), у випадку дискретного часу — це кореляція сигналу із затриманою копією самого себе як функція від затримки. Неформально — це схожість між спостереженнями як функція від відставання в часі (англ. time lag) між ними.",
   "shortDescription": "Автокореля́ція (англ. autocorrelation), іноді відома як послідо́вна кореля́ція (англ.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

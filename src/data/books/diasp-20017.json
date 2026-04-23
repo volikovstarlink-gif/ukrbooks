@@ -4,7 +4,7 @@
   "title": "Skrypuch Forchuk M. Silver threads",
   "author": "Marsha Forchuk Skrypuch",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 1996,
   "description": "Автобіографічна розповідь канадської письменниці українського походження про долю своєї матері — жінки, яка пережила Голодомор і II світову війну. Книга документує травматичний досвід виживання та адаптації української родини в діаспорі після евакуації до Канади.",
   "shortDescription": "Автобіографічна розповідь канадської письменниці українського походження про долю своєї матері — жінки, яка пережила Голодомор і II світову війну.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

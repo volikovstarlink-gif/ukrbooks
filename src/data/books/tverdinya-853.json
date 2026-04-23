@@ -3,7 +3,7 @@
   "slug": "tverdinya-853",
   "title": "Tverdynia",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-ukr",
   "language": "uk",
   "year": null,
   "description": "Стародавня українська фортеця Твердиня була важливим оборонним укріпленням, що захищало населені пункти від нападів. Її назва походить від слова \"твердий\" і символізує міцність та надійність оборони. Про точне розташування та архітектуру залишилося мало достовірних відомостей.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

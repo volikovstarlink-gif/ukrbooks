@@ -3,7 +3,7 @@
   "slug": "mertvi-dushi-4367",
   "title": "Мертві душі",
   "author": "Николай Ввсильевич Гоголь",
-  "category": "literature-ukr",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "Епічна сатира на бюрократичну Російську імперію, де авантюрист Чичиков скупує документи про мертвих кріпаків заради фінансових махінацій. Гоголь малює портрети провінційних дворян, розкриваючи їхню духовну спустошеність та корумпованість влади.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

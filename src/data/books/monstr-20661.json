@@ -3,7 +3,7 @@
   "slug": "monstr-20661",
   "title": "Монстр",
   "author": "Л. Дж. Шен",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "«Великий переполох у малому Китаї» (англ. Big Trouble in Little China) — американський пригодницький фентезійний бойовик 1986 року режисера Джона Карпентера. За сюжетом далекобійник Джек Бертон одного разу вирішив допомогти другові з китайського кварталу Сан-Франциско Ванг Чі забрати з аеропорту його дівчину Мяо Інь, яка прилетіла з Китаю.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

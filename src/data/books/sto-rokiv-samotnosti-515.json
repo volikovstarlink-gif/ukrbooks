@@ -3,7 +3,7 @@
   "slug": "sto-rokiv-samotnosti-515",
   "title": "Сто років самотності",
   "author": "Ґабріель Ґарсіа Маркес",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": 1967,
   "description": "Багатопоколінна сага про род Буендіа в вигаданому містечку Макондо, де реальність переплітається з магією і химерою. Сім поколінь повторюють одні й ті ж помилки, прагнення та імена, остаточно занурюючись у самотню й забуття.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "ukrainian",
+  "categoryConfidence": "high"
 }

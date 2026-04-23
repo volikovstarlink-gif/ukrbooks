@@ -3,7 +3,7 @@
   "slug": "spisok-dlya-chitannya-28995",
   "title": "Сара Ніша Адамс_Список для читання",
   "author": "Невідомий автор",
-  "category": "business-science",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Список рекомендацій на основі творчості Сари Ніші Адамс, американської письменниці, яка пишеться у жанрі романтики та драми. Збірка охоплює добірку творів для тих, хто цікавиться як класичними, так і сучасними творами художної літератури.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "science-tech"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

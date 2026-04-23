@@ -3,7 +3,7 @@
   "slug": "horoshi-susidi-26572",
   "title": "Хороші сусіди",
   "author": "Чед Цункер",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "\"Хороші сусіди\" розповідає про історію американо-канадських взаємин та як географічна близькість формувала політику обох країн.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

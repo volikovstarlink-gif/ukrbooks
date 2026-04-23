@@ -3,7 +3,7 @@
   "slug": "diasp-23591",
   "title": "Федчук Б. Загадки. Читай, думай відгадуй. Сімнадця...",
   "author": "Богдан Федчук",
-  "category": "other",
+  "category": "children",
   "language": "uk",
   "year": 1978,
   "description": "Збірка загадок для дітей, складена в традиції українського фольклору. Кожна загадка спонукає до роздумів і розвиває кмітливість малюка. Видання 1978 року — добра основа для родинного дозвілля та навчання.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "uncategorized"
+  "subcategory": "educational",
+  "categoryConfidence": "high"
 }

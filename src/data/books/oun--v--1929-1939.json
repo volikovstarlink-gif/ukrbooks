@@ -3,7 +3,7 @@
   "slug": "oun--v--1929-1939",
   "title": "Arch oun v 1929 1939",
   "author": "",
-  "category": "other",
+  "category": "history",
   "language": "uk",
   "year": 0,
   "description": "The Organisation of Ukrainian Nationalists (OUN; Ukrainian: Організація українських націоналістів, romanized: Orhanizatsiia ukrainskykh natsionalistiv) was a Ukrainian nationalist organization established on February 2, 1929 in Vienna, uniting the Ukrainian Military Organization with smaller, mainly youth, radical nationalist right-wing groups.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "documents",
+  "categoryConfidence": "high"
 }

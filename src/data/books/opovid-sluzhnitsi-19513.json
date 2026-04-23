@@ -3,7 +3,7 @@
   "slug": "opovid-sluzhnitsi-19513",
   "title": "Opovid Sluzhnytsi",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Анонімна повість про служницю, твір невідомого походження та датування. Текст належить до старої української літератури й зберігся в рукописних або ранніх друкованих джерелах, де розповідається про долю жінки з низького соціального стану.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "dystopia",
+  "categoryConfidence": "high"
 }

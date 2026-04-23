@@ -3,7 +3,7 @@
   "slug": "virnopiddanij-35105",
   "title": "Вірнопідданий",
   "author": "Генріх Манн",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": 2015,
   "description": "«Вірнопідданий» — перша частина трилогії «Імперія», наступні томи якої, «Бідні» та «Голова», були створені в 1917–1925 рр. Але це водночас і цілком завершений, самостійний роман, до того ж, безумовно, найкращий у трилогії, а можливо, і найкраща книга Генріха Манна взагалі.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

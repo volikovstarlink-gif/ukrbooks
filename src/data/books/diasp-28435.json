@@ -4,7 +4,7 @@
   "title": "Yalynka and other Ukrainian Folk Tales Retold in E...",
   "author": "Retold by Danny Evanishen",
   "category": "other",
-  "language": "uk",
+  "language": "en",
   "year": 2002,
   "description": "The Prince and the Gypsy Woman (Ukrainian: «Царевич і циганка», romanized: Tsarevich i Zyhanka) is a Ukrainian fairy tale, first collected and published by Ukrainian writer and folklorist Panteleimon Kulish in 1847. The tale is a local form of tale type ATU 408, \"The Love for Three Oranges\", of the international Aarne-Thompson-Uther Index.",
   "shortDescription": "The Prince and the Gypsy Woman (Ukrainian: «Царевич і циганка», romanized: Tsarevich i Zyhanka) is a Ukrainian fairy tale, first collected and published by...",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "foreign-language",
+  "categoryConfidence": "high"
 }

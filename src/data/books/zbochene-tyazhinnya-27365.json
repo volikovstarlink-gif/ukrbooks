@@ -3,7 +3,7 @@
   "slug": "zbochene-tyazhinnya-27365",
   "title": "Збочене тяжіння",
   "author": "Рейлі Кора",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Історія американської експансії та геополітичних амбіцій у контексті теорій про природне володарювання світом. Дослідження показує, як політичні еліти виправдовували колоніальну політику псевдонауковими концепціями та ідеологічною риторикою.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "odne-za-odnim-18125",
   "title": "Unknown",
   "author": "Пользователь",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Dvach (Russian: Двач, from dva \"two\" and \"chan\"), also known as 2ch, is the largest Russian anonymous imageboard. It is a successor to an older Russian imageboard with the same name that was launched in 2006 but shut down three years later in 2009. As of 2024 the imageboard can be accessed via the 2ch.hk domain name. It is owned and run by Russian-born Azerbaijani Nariman Namazov, nicknamed Abu.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

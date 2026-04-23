@@ -3,7 +3,7 @@
   "slug": "sekret-30578",
   "title": "Секрет",
   "author": "Джиана Дарлінг",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Джиана Дарлінг розповідає про замовчувані сторінки історії — те, що залишалося в тіні офіційних наративів. Книга поєднує архівні матеріали й спогади, розкриваючи приховані факти та їх вплив на формування подій. Це дослідження того, як секрети змінювали перебіг історії.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "memoirs"
+  "subcategory": "sentimental",
+  "categoryConfidence": "high"
 }

@@ -3,7 +3,7 @@
   "slug": "pisochnij-cholovik-28022",
   "title": "Pisochnyi cholovik",
   "author": "Невідомий автор",
-  "category": "other",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Невідомі твір, ймовірно фольклорного походження, про людину з піску — персонажа, що міг символізувати марність, тимчасовість або магічні трансформації в українській традиційній культурі. Твір зберігся в усній формі та відображає архаїчні міфологічні уявлення.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "foreign-language"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

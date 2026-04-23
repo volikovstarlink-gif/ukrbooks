@@ -4,7 +4,7 @@
   "title": "Unknown",
   "author": "Кора Рейлі",
   "category": "literature-foreign",
-  "language": "en",
+  "language": "uk",
   "year": null,
   "description": "Без назви та року видання складно дати коректний опис. Можеш уточнити:\n- Точну українську або оригінальну назву?\n- Рік публікації?\n- Видавництво або інші деталі про книгу?",
   "shortDescription": "Без назви та року видання складно дати коректний опис. Можеш уточнити:\n- Точну українську або оригінальну назву?\n- Рік публікації?",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "sentimental"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

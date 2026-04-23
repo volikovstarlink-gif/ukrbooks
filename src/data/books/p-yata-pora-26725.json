@@ -3,7 +3,7 @@
   "slug": "p-yata-pora-26725",
   "title": "The Fifth Season",
   "author": "Nora Kate Jemisin",
-  "category": "history",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Nora Keita Jemisin (born September 19, 1972) is an American science fiction and fantasy writer. Her fiction includes a wide range of themes, notably cultural conflict and oppression. Her debut novel, The Hundred Thousand Kingdoms (2010), and the subsequent books in her Inheritance Trilogy received critical acclaim.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

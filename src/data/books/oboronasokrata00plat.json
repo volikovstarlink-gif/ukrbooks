@@ -3,7 +3,7 @@
   "slug": "oboronasokrata00plat",
   "title": "Arch oboronasokrata00plat",
   "author": "",
-  "category": "other",
+  "category": "classics",
   "language": "uk",
   "year": 0,
   "description": "Архівний документ про оборону Сократом власної позиції. Текст з давньогрецької філософської традиції, що зберігся в українському архіві. Важливий матеріал для вивчення рецепції класичної думки в україністиці.",
@@ -22,5 +22,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "foreign-language"
+  "subcategory": "antique",
+  "categoryConfidence": "high"
 }

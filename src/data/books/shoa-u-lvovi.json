@@ -22,5 +22,9 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2026-04-22",
-  "subcategory": "memoirs"
+  "subcategory": "memoirs",
+  "translatedFrom": null,
+  "translator": null,
+  "translationConfidence": "high",
+  "categoryConfidence": "high"
 }

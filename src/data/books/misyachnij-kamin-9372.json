@@ -3,7 +3,7 @@
   "slug": "misyachnij-kamin-9372",
   "title": "Місячний камінь",
   "author": "Уїлкі Коллінз",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": null,
   "description": "В основу насиченого пригодами твору покладене таємничу історію зникнення з індійського храму коштовного Місячного каменя та його розшуків. Долі героїв роману химерно переплітаються з історією Місячного каменя, творячи складну захоплюючу інтригу.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "detectives"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

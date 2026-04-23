@@ -3,7 +3,7 @@
   "slug": "dobri-duhi-29751",
   "title": "Добрі духи",
   "author": "Б. К. Борісон",
-  "category": "history",
+  "category": "fantasy",
   "language": "uk",
   "year": null,
   "description": "Історичне дослідження про духовні традиції та релігійні вірування українського народу. Борісон аналізує роль добрих сил у традиційній українській культурі та їх вплив на суспільне життя різних епох.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "fantasy",
+  "categoryConfidence": "high"
 }

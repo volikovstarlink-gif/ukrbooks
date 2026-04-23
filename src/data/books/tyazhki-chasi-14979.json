@@ -3,7 +3,7 @@
   "slug": "tyazhki-chasi-14979",
   "title": "Тяжкі часи",
   "author": "Чарльз Діккенс",
-  "category": "literature-foreign",
+  "category": "classics",
   "language": "uk",
   "year": 2015,
   "description": "У «Тяжких часах» — одному з найгостріших соціальних романів 50-х років XIX сторіччя, Ч. Діккенс виступає вже не глядачем і навіть не актором, а грізним суддею, що карає безжальним гротеском англійську буржуазію й породжені нею потворні форми життя.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "novels"
+  "subcategory": "foreign",
+  "categoryConfidence": "high"
 }

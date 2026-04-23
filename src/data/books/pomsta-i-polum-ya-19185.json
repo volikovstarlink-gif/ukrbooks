@@ -3,7 +3,7 @@
   "slug": "pomsta-i-polum-ya-19185",
   "title": "3. Помста і полум'я - Мара Вульф",
   "author": "Мара Вульф",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Історичний роман про український спротив під час російської окупації. Розповідь переплітає особисті драми персонажів із масштабними подіями національної боротьби. Твір відображає сповнене страждань минуле, яке формувало сучасну українську ідентичність.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "ukraine"
+  "subcategory": "novels",
+  "categoryConfidence": "high"
 }

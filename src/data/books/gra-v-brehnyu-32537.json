@@ -3,7 +3,7 @@
   "slug": "gra-v-brehnyu-32537",
   "title": "Гра в брехню",
   "author": "Анна Манжай",
-  "category": "history",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Розповідь про життя sovjetського шпигуна, який працював на СССР в США. У центрі інтриги — моральні компроміси людини, яка змушена брехати для держави, та її спроба знайти істину серед пропаганди й контрпропаганди часів холодної війни.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "world"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }

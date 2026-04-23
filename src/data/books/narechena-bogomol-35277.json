@@ -3,7 +3,7 @@
   "slug": "narechena-bogomol-35277",
   "title": "Наречена Богомол (done)",
   "author": "Дін Кунц",
-  "category": "fantasy",
+  "category": "literature-foreign",
   "language": "uk",
   "year": null,
   "description": "Це не українська книга, а переклад англійського письменника Діна Кунца. Психологічний трилер про жінку, яка опиняється в небезпечній грі виживання з таємничим противником. Напружена атмосфера і несподівані повороти утримують читача в напруженні до кінця.",
@@ -28,5 +28,6 @@
   "downloadCount": 0,
   "rating": 0,
   "addedAt": "2024-01-01",
-  "subcategory": "fantasy"
+  "subcategory": "detectives",
+  "categoryConfidence": "high"
 }
