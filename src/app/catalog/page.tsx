@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
-import { getAllBooksSummary, getAllCategories, getTotalBooks } from '@/lib/books';
+import Link from 'next/link';
+import { getAllBooksSummary, getAllCategories, getPublicDomainBookSlugs, getTotalBooks } from '@/lib/books';
 import { breadcrumbListJsonLd, collectionPageJsonLd } from '@/lib/jsonld';
 import CatalogClient from './CatalogClient';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
+const CATALOG_PAGE_SIZE = 24;
 
 export const metadata: Metadata = {
   title: 'Каталог книг — EPUB та FB2 завантажити',
@@ -43,6 +45,12 @@ export default function CatalogPage() {
     numberOfItems: total,
   });
 
+  // Crawlable archive — gives Googlebot a real <a href> to every paginated
+  // SSG page. Hidden visually so the SPA UX is unchanged for users.
+  const totalPDPages = Math.ceil(getPublicDomainBookSlugs().length / CATALOG_PAGE_SIZE);
+  const archiveLinks: number[] = [];
+  for (let p = 2; p <= totalPDPages; p++) archiveLinks.push(p);
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
@@ -50,6 +58,16 @@ export default function CatalogPage() {
       <Suspense fallback={<CatalogFallback />}>
         <CatalogClient books={books} categories={categories} />
       </Suspense>
+      <nav aria-label="Архів каталогу" className="sr-only">
+        <h2>Архів каталогу — сторінки публічного домену</h2>
+        <ul>
+          {archiveLinks.map((p) => (
+            <li key={p}>
+              <Link href={`/catalog/page/${p}`}>Сторінка {p}</Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </>
   );
 }

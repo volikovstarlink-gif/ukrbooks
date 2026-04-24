@@ -44,6 +44,8 @@ const nextConfig: NextConfig = {
       { source: '/category/business', destination: '/category/business-science', permanent: true },
       { source: '/category/psychology', destination: '/category/self-help', permanent: true },
       { source: '/category/science', destination: '/category/business-science', permanent: true },
+      // Page 1 of paginated catalog uses the canonical /catalog URL.
+      { source: '/catalog/page/1', destination: '/catalog', permanent: true },
     ];
   },
 

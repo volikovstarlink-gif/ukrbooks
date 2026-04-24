@@ -367,7 +367,9 @@ def generate_book_json(
     clean_desc = strip_html(raw_desc) if raw_desc else ""
 
     if clean_desc:
-        description = f"<p>{clean_desc[:1000]}</p>"
+        # Plain text — book/[slug] renders this through JSX (no
+        # dangerouslySetInnerHTML), so HTML wrappers must not leak in.
+        description = clean_desc[:1000]
         # Short description: first ~150 chars at sentence boundary
         short = clean_desc[:200]
         dot_pos = short.rfind(".")

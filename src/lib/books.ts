@@ -221,5 +221,14 @@ export const getPublicDomainBookSlugs = cache((): string[] =>
   index.books.filter((b) => b.isPublicDomain !== false).map((b) => b.slug)
 );
 
+/** Full Book records (sans description) for the indexable subset.
+ *  Used by /catalog/page/[N] SSG route — Google sees these books as
+ *  crawlable links, while non-PD books reach users only via /catalog. */
+export const getPublicDomainBooks = cache((): Omit<Book, 'description'>[] =>
+  index.books
+    .filter((b) => b.isPublicDomain !== false)
+    .map(({ description: _d, ...rest }) => rest)
+);
+
 // Translations feature was canceled 2026-04-24; helpers removed. If someone
 // needs them back, restore from `scripts/classify-translations.py` era commits.

@@ -1,9 +1,11 @@
 import { renderUrlSet, sitemapHeaders, type SitemapEntry } from '@/lib/sitemap-xml';
+import { getPublicDomainBookSlugs } from '@/lib/books';
 
 export const dynamic = 'force-static';
 export const revalidate = 3600;
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
+const CATALOG_PAGE_SIZE = 24;
 
 export async function GET() {
   const now = new Date().toISOString();
@@ -21,5 +23,18 @@ export async function GET() {
     { url: `${BASE}/transparency`,lastmod: now, changefreq: 'weekly',  priority: 0.5 },
     { url: `${BASE}/changelog`,   lastmod: now, changefreq: 'weekly',  priority: 0.4 },
   ];
+
+  // Crawlable paginated catalog (PD-only). Page 1 redirects to /catalog so
+  // it's omitted; pages 2..N are dedicated SSG routes that Google can index.
+  const totalPDPages = Math.ceil(getPublicDomainBookSlugs().length / CATALOG_PAGE_SIZE);
+  for (let p = 2; p <= totalPDPages; p++) {
+    entries.push({
+      url: `${BASE}/catalog/page/${p}`,
+      lastmod: now,
+      changefreq: 'weekly',
+      priority: 0.5,
+    });
+  }
+
   return new Response(renderUrlSet(entries), { headers: sitemapHeaders });
 }

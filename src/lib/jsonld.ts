@@ -40,7 +40,7 @@ export function bookJsonLd(book: {
     },
     inLanguage: langMap[book.language] || book.language,
     description: book.description
-      ? book.description.replace(/<[^>]*>/g, '').slice(0, 500)
+      ? book.description.slice(0, 500)
       : book.shortDescription,
     url: `${BASE}/book/${book.slug}`,
     image: book.coverImage.startsWith('http')

@@ -222,10 +222,14 @@ export default async function BookPage({ params }: Props) {
             {book.description ? (
               <div className="rounded-xl p-6" style={{ background: '#fff', border: '1px solid var(--color-border)' }}>
                 <h2 className="font-display text-xl font-semibold mb-4">Про книгу</h2>
-                <div
-                  className="prose prose-sm max-w-none text-gray-700 leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: book.description }}
-                />
+                <div className="prose prose-sm max-w-none text-gray-700 leading-relaxed">
+                  {book.description
+                    .split(/\n+/)
+                    .map((para, i) => {
+                      const t = para.trim();
+                      return t ? <p key={i}>{t}</p> : null;
+                    })}
+                </div>
               </div>
             ) : (
               <div className="rounded-xl p-6 text-center text-gray-400" style={{ background: '#fff', border: '1px solid var(--color-border)' }}>
