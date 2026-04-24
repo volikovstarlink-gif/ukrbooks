@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { BookOpen, Download } from 'lucide-react';
 import VideoAdGate from '@/components/ads/VideoAdGate';
 import { formatFileSize } from '@/lib/utils';
-import { trackAdsConversion, trackBookDownload, trackReadOnline } from '@/lib/analytics';
+import { trackBookDownload } from '@/lib/analytics';
 
 export interface DownloadItem {
   format: string;
@@ -32,21 +32,9 @@ export default function DownloadSection({
   const [selectedItem, setSelectedItem] = useState<DownloadItem | null>(null);
 
   const handleDownloadClick = (item: DownloadItem) => {
-    trackBookDownload(bookTitle, bookAuthor, item.format, bookSlug);
-    trackAdsConversion({
-      value: 1,
-      transactionId: `dl-${bookSlug}-${item.format}-${Date.now()}`,
-    });
+    trackBookDownload(bookTitle, bookAuthor, item.format);
     setSelectedItem(item);
     setGateOpen(true);
-  };
-
-  const handleReadOnlineClick = () => {
-    trackReadOnline(bookTitle, bookAuthor, bookSlug);
-    trackAdsConversion({
-      value: 1,
-      transactionId: `read-${bookSlug}-${Date.now()}`,
-    });
   };
 
   const canReadOnline = items.some((i) => i.format === 'epub' || i.format === 'pdf');
@@ -55,11 +43,7 @@ export default function DownloadSection({
     <>
       <div className="flex flex-wrap gap-3">
         {canReadOnline && (
-          <Link
-            href={`/read/${bookSlug}`}
-            onClick={handleReadOnlineClick}
-            className="btn btn-primary btn-lg"
-          >
+          <Link href={`/read/${bookSlug}`} className="btn btn-primary btn-lg">
             <BookOpen size={18} />
             Читати онлайн
           </Link>
