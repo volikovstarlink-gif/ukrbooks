@@ -191,7 +191,10 @@ export const getAllAuthors = cache((): AuthorSummary[] => {
  *  itself stays reachable via direct URL for links from book cards.
  *  Also excludes authors whose entire catalog is non-public-domain —
  *  their page emits noindex so listing them in sitemap/authors grid
- *  creates a soft-404 signal. */
+ *  creates a soft-404 signal. Load-bearing legal+SEO decision per operator
+ *  directive 2026-04-24: "СЕО рішеня … які захищають сайт від пренензій і
+ *  блокування залишай без змін"; copyrighted-only authors stay hidden
+ *  from the human-facing listing too. */
 export const getPublicAuthors = cache((): AuthorSummary[] =>
   getAllAuthors().filter((a) => {
     if (a.name === UNKNOWN_AUTHOR) return false;

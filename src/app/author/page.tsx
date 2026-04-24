@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Home, ChevronRight, Users } from 'lucide-react';
-import { getPublicAuthors } from '@/lib/books';
+import { getPublicAuthors, type AuthorSummary } from '@/lib/books';
 import { pluralizeBooks } from '@/lib/utils';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -19,8 +19,41 @@ export const metadata: Metadata = {
   },
 };
 
+function AuthorCard({ author }: { author: AuthorSummary }) {
+  return (
+    <Link
+      key={author.slug}
+      href={`/author/${author.slug}`}
+      className="group flex items-center gap-3 p-4 rounded-xl transition-all hover:shadow-md"
+      style={{ background: '#fff', border: '1px solid var(--color-border)' }}
+    >
+      <div
+        className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-colors"
+        style={{ background: 'rgba(201,168,76,0.1)', border: '1.5px solid rgba(201,168,76,0.3)' }}
+      >
+        <span className="font-display font-bold text-sm" style={{ color: 'var(--color-gold)' }}>
+          {author.name.charAt(0).toUpperCase()}
+        </span>
+      </div>
+      <div className="min-w-0">
+        <p
+          className="font-medium text-sm truncate group-hover:underline"
+          style={{ color: 'var(--color-ink)' }}
+        >
+          {author.name}
+        </p>
+        <p className="text-xs" style={{ color: 'var(--color-muted)' }}>
+          {pluralizeBooks(author.bookCount)}
+        </p>
+      </div>
+    </Link>
+  );
+}
+
 export default function AuthorsIndexPage() {
-  const authors = getPublicAuthors();
+  const authors = [...getPublicAuthors()].sort((a, b) =>
+    a.name.localeCompare(b.name, 'uk'),
+  );
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -68,31 +101,11 @@ export default function AuthorsIndexPage() {
         </div>
       </div>
 
-      {/* Grid */}
+      {/* All authors, alphabetical, displayed in 2 columns on wide screens. */}
       <div className="container-site py-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {authors.map((author) => (
-            <Link
-              key={author.slug}
-              href={`/author/${author.slug}`}
-              className="group flex items-center gap-3 p-4 rounded-xl transition-all hover:shadow-md"
-              style={{ background: '#fff', border: '1px solid var(--color-border)' }}
-            >
-              <div className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-colors"
-                style={{ background: 'rgba(201,168,76,0.1)', border: '1.5px solid rgba(201,168,76,0.3)' }}>
-                <span className="font-display font-bold text-sm" style={{ color: 'var(--color-gold)' }}>
-                  {author.name.charAt(0).toUpperCase()}
-                </span>
-              </div>
-              <div className="min-w-0">
-                <p className="font-medium text-sm truncate group-hover:underline" style={{ color: 'var(--color-ink)' }}>
-                  {author.name}
-                </p>
-                <p className="text-xs" style={{ color: 'var(--color-muted)' }}>
-                  {pluralizeBooks(author.bookCount)}
-                </p>
-              </div>
-            </Link>
+            <AuthorCard key={author.slug} author={author} />
           ))}
         </div>
       </div>
