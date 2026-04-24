@@ -1,25 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { requireAdmin } from '@/lib/admin-api';
-import { getAdDaily, getAdNetworks, getRecent, isConfigured } from '@/lib/redis';
-
-const PERIOD_DAYS: Record<string, number> = { '1d': 1, '7d': 7, '30d': 30 };
+import { getAdDailyRange, getAdNetworks, getRecent, isConfigured } from '@/lib/redis';
+import { parseRangeFromSearchParams, rangeErrorResponse } from '@/lib/admin-range';
 
 export async function GET(req: NextRequest) {
   const denied = await requireAdmin(req, { bucket: 'analytics-ads', perMinute: 60 });
   if (denied) return denied;
 
-  const period = req.nextUrl.searchParams.get('period') || '7d';
-  const days = PERIOD_DAYS[period] ?? 7;
+  const parsed = parseRangeFromSearchParams(req.nextUrl.searchParams);
+  if ('error' in parsed) return rangeErrorResponse(parsed.error);
+  const { preset, since, until } = parsed;
 
   const networks = await getAdNetworks();
 
   const [impressions, clicks, errors, nofill, gateOpens, completed, errorList] = await Promise.all([
-    getAdDaily('impressions', networks, days),
-    getAdDaily('clicks', networks, days),
-    getAdDaily('errors', networks, days),
-    getAdDaily('nofill', networks, days),
-    getAdDaily('gate_open', networks, days),
-    getAdDaily('download_completed', networks, days),
+    getAdDailyRange('impressions', networks, since, until),
+    getAdDailyRange('clicks', networks, since, until),
+    getAdDailyRange('errors', networks, since, until),
+    getAdDailyRange('nofill', networks, since, until),
+    getAdDailyRange('gate_open', networks, since, until),
+    getAdDailyRange('download_completed', networks, since, until),
     getRecent('errors:ads', 50),
   ]);
 
@@ -42,8 +42,9 @@ export async function GET(req: NextRequest) {
   }
 
   return NextResponse.json({
-    period,
-    days,
+    preset,
+    since,
+    until,
     configured: isConfigured(),
     networks,
     totals: {

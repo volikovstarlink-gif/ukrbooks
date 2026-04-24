@@ -54,6 +54,15 @@ export default function ReportsPage() {
     load();
   }, []);
 
+  useEffect(() => {
+    if (!selected) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [selected]);
+
   async function updateStatus(caseId: string, status: 'open' | 'resolved' | 'rejected') {
     const res = await fetch(`/api/admin/reports/${caseId}`, {
       method: 'PATCH',
@@ -74,34 +83,32 @@ export default function ReportsPage() {
   };
 
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
+    <div className="space-y-5 sm:space-y-6">
+      <div className="flex items-start justify-between gap-3">
         <div>
-          <h1 className="text-2xl font-bold">🚩 Скарги</h1>
-          <p className="text-slate-400 text-sm">Звернення від користувачів та правовласників</p>
+          <h1 className="text-xl sm:text-2xl font-bold">🚩 Скарги</h1>
+          <p className="text-slate-400 text-xs sm:text-sm">Звернення від користувачів та правовласників</p>
         </div>
         <button
           onClick={load}
-          className="px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg text-sm text-slate-300"
+          className="px-3 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg text-xs sm:text-sm text-slate-300 shrink-0"
         >
           ↻ Оновити
         </button>
       </div>
 
       {!configured && (
-        <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-4 text-sm text-yellow-300">
-          ⚠️ Upstash Redis не налаштовано — скарги не зберігаються. Додайте
-          <code className="bg-yellow-500/20 px-1 rounded mx-1">UPSTASH_REDIS_REST_URL</code> та
-          <code className="bg-yellow-500/20 px-1 rounded">UPSTASH_REDIS_REST_TOKEN</code>.
+        <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-3 sm:p-4 text-xs sm:text-sm text-yellow-300">
+          ⚠️ Upstash Redis не налаштовано — скарги не зберігаються.
         </div>
       )}
 
-      <div className="flex items-center gap-2 flex-wrap">
+      <div className="flex items-center gap-1.5 flex-wrap">
         {(['open', 'resolved', 'rejected', 'all'] as const).map((f) => (
           <button
             key={f}
             onClick={() => setFilter(f)}
-            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
+            className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
               filter === f ? 'bg-blue-600/30 text-blue-200 border border-blue-500/50' : 'bg-white/5 text-slate-400 border border-white/10 hover:bg-white/10'
             }`}
           >
@@ -125,7 +132,7 @@ export default function ReportsPage() {
       )}
 
       {!loading && filtered.length === 0 && (
-        <div className="bg-[#1e293b] border border-white/10 rounded-2xl p-10 text-center text-slate-400">
+        <div className="bg-[#1e293b] border border-white/10 rounded-2xl p-8 sm:p-10 text-center text-slate-400">
           <div className="text-4xl mb-3 opacity-50">📭</div>
           <p className="text-sm">Немає скарг у цій категорії</p>
         </div>
@@ -140,49 +147,44 @@ export default function ReportsPage() {
               <button
                 key={r.caseId}
                 onClick={() => setSelected(r)}
-                className="w-full text-left bg-[#1e293b] hover:bg-[#243247] border border-white/10 rounded-xl p-4 transition-colors"
+                className="w-full text-left bg-[#1e293b] hover:bg-[#243247] border border-white/10 rounded-xl p-3 sm:p-4 transition-colors"
               >
-                <div className="flex items-start justify-between gap-3 flex-wrap">
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-2 mb-1 flex-wrap">
-                      <code className="font-mono text-xs text-slate-400">{r.caseId}</code>
-                      <span className={`inline-block px-2 py-0.5 rounded-md text-[10px] font-semibold border ${typeInfo.color}`}>
-                        {typeInfo.label}
-                      </span>
-                      <span className={`inline-block px-2 py-0.5 rounded-md text-[10px] font-semibold border ${statusInfo.color}`}>
-                        {statusInfo.label}
-                      </span>
-                    </div>
-                    <p className="text-sm text-white truncate mb-0.5">
-                      {r.bookTitle || r.url}
-                    </p>
-                    <p className="text-xs text-slate-400 truncate">
-                      {r.email} · {new Date(r.ts).toLocaleString('uk-UA')}
-                    </p>
-                  </div>
+                <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+                  <code className="font-mono text-[10px] sm:text-xs text-slate-400">{r.caseId}</code>
+                  <span className={`inline-block px-1.5 py-0.5 rounded-md text-[10px] font-semibold border ${typeInfo.color}`}>
+                    {typeInfo.label}
+                  </span>
+                  <span className={`inline-block px-1.5 py-0.5 rounded-md text-[10px] font-semibold border ${statusInfo.color}`}>
+                    {statusInfo.label}
+                  </span>
                 </div>
+                <p className="text-sm text-white line-clamp-2 mb-0.5">
+                  {r.bookTitle || r.url}
+                </p>
+                <p className="text-[11px] sm:text-xs text-slate-400 truncate">
+                  {r.email} · {new Date(r.ts).toLocaleString('uk-UA')}
+                </p>
               </button>
             );
           })}
         </div>
       )}
 
-      {/* Detail dialog */}
       {selected && (
         <div
-          className="fixed inset-0 bg-black/70 flex items-start justify-center p-6 overflow-y-auto z-50"
+          className="fixed inset-0 bg-black/70 flex items-start justify-center p-3 sm:p-6 overflow-y-auto z-50"
           onClick={() => setSelected(null)}
         >
           <div
-            className="bg-[#1e293b] border border-white/10 rounded-2xl max-w-2xl w-full p-6 space-y-5"
+            className="bg-[#1e293b] border border-white/10 rounded-2xl w-full max-w-2xl p-4 sm:p-6 space-y-4 sm:space-y-5 my-4"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-start justify-between gap-3">
-              <div>
-                <code className="font-mono text-sm text-slate-400">{selected.caseId}</code>
-                <h2 className="text-lg font-bold text-white mt-1">{selected.bookTitle || 'Без назви'}</h2>
+              <div className="min-w-0">
+                <code className="font-mono text-xs sm:text-sm text-slate-400">{selected.caseId}</code>
+                <h2 className="text-base sm:text-lg font-bold text-white mt-1 break-words">{selected.bookTitle || 'Без назви'}</h2>
               </div>
-              <button onClick={() => setSelected(null)} className="text-slate-400 hover:text-white text-xl">×</button>
+              <button onClick={() => setSelected(null)} className="text-slate-400 hover:text-white text-2xl leading-none shrink-0">×</button>
             </div>
 
             <div className="flex flex-wrap gap-2">
@@ -197,8 +199,8 @@ export default function ReportsPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
               <div>
                 <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Від</div>
-                <div className="text-white">{selected.name || '—'}</div>
-                <a href={`mailto:${selected.email}`} className="text-blue-400 hover:underline text-xs">{selected.email}</a>
+                <div className="text-white break-words">{selected.name || '—'}</div>
+                <a href={`mailto:${selected.email}`} className="text-blue-400 hover:underline text-xs break-all">{selected.email}</a>
               </div>
               <div>
                 <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Коли</div>
@@ -209,14 +211,14 @@ export default function ReportsPage() {
 
             <div>
               <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Сторінка</div>
-              <Link href={selected.url} target="_blank" className="text-blue-400 hover:underline text-sm break-all">
+              <Link href={selected.url} target="_blank" className="text-blue-400 hover:underline text-xs sm:text-sm break-all">
                 {selected.url} ↗
               </Link>
             </div>
 
             <div>
               <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">Опис</div>
-              <div className="bg-black/30 border border-white/10 rounded-lg p-3 text-sm text-slate-200 whitespace-pre-wrap">
+              <div className="bg-black/30 border border-white/10 rounded-lg p-3 text-sm text-slate-200 whitespace-pre-wrap break-words">
                 {selected.description}
               </div>
             </div>
@@ -224,38 +226,38 @@ export default function ReportsPage() {
             {selected.ua && (
               <div>
                 <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">User-Agent</div>
-                <code className="text-[11px] text-slate-400 font-mono break-all">{selected.ua}</code>
+                <code className="text-[10px] sm:text-[11px] text-slate-400 font-mono break-all">{selected.ua}</code>
               </div>
             )}
 
-            <div className="flex items-center gap-2 pt-2 border-t border-white/10 flex-wrap">
+            <div className="flex items-center gap-2 pt-3 border-t border-white/10 flex-wrap">
               <button
                 onClick={() => updateStatus(selected.caseId, 'resolved')}
                 disabled={selected.status === 'resolved'}
-                className="px-4 py-2 bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/30 text-emerald-300 rounded-lg text-sm font-semibold disabled:opacity-50"
+                className="px-3 py-2 bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/30 text-emerald-300 rounded-lg text-xs sm:text-sm font-semibold disabled:opacity-50"
               >
-                ✓ Позначити як вирішену
+                ✓ Вирішено
               </button>
               <button
                 onClick={() => updateStatus(selected.caseId, 'rejected')}
                 disabled={selected.status === 'rejected'}
-                className="px-4 py-2 bg-slate-600/20 hover:bg-slate-600/30 border border-slate-500/30 text-slate-300 rounded-lg text-sm font-semibold disabled:opacity-50"
+                className="px-3 py-2 bg-slate-600/20 hover:bg-slate-600/30 border border-slate-500/30 text-slate-300 rounded-lg text-xs sm:text-sm font-semibold disabled:opacity-50"
               >
                 ✕ Відхилити
               </button>
               {selected.status !== 'open' && (
                 <button
                   onClick={() => updateStatus(selected.caseId, 'open')}
-                  className="px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 rounded-lg text-sm"
+                  className="px-3 py-2 bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 rounded-lg text-xs sm:text-sm"
                 >
-                  ↶ Повернути у відкриті
+                  ↶ Відкрити
                 </button>
               )}
               <a
                 href={`mailto:${selected.email}?subject=Re: ${selected.caseId}`}
-                className="ml-auto px-4 py-2 bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/30 text-blue-300 rounded-lg text-sm font-semibold"
+                className="sm:ml-auto px-3 py-2 bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/30 text-blue-300 rounded-lg text-xs sm:text-sm font-semibold"
               >
-                ✉ Написати заявнику
+                ✉ Написати
               </a>
             </div>
           </div>

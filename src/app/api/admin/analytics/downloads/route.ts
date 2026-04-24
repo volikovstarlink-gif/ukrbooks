@@ -1,18 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { requireAdmin } from '@/lib/admin-api';
-import { getDaily, getRecent, getTopBooks, isConfigured } from '@/lib/redis';
-
-const PERIOD_DAYS: Record<string, number> = { '1d': 1, '7d': 7, '30d': 30 };
+import { getDailyRange, getRecent, getTopBooks, isConfigured } from '@/lib/redis';
+import { parseRangeFromSearchParams, rangeErrorResponse } from '@/lib/admin-range';
 
 export async function GET(req: NextRequest) {
   const denied = await requireAdmin(req, { bucket: 'analytics-downloads', perMinute: 60 });
   if (denied) return denied;
 
-  const period = req.nextUrl.searchParams.get('period') || '7d';
-  const days = PERIOD_DAYS[period] ?? 7;
+  const parsed = parseRangeFromSearchParams(req.nextUrl.searchParams);
+  if ('error' in parsed) return rangeErrorResponse(parsed.error);
+  const { preset, since, until } = parsed;
 
   const [byDay, topBooks, recent, errors] = await Promise.all([
-    getDaily('downloads', days),
+    getDailyRange('downloads', since, until),
     getTopBooks(20),
     getRecent('downloads:recent', 50),
     getRecent('errors:downloads', 50),
@@ -21,8 +21,9 @@ export async function GET(req: NextRequest) {
   const total = byDay.reduce((s, x) => s + x.value, 0);
 
   return NextResponse.json({
-    period,
-    days,
+    preset,
+    since,
+    until,
     configured: isConfigured(),
     total,
     byDay,

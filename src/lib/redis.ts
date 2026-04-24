@@ -33,6 +33,20 @@ export function lastNDates(n: number): string[] {
   return out;
 }
 
+export function datesInRange(since: string, until: string): string[] {
+  const start = new Date(`${since}T00:00:00Z`);
+  const end = new Date(`${until}T00:00:00Z`);
+  if (!Number.isFinite(start.getTime()) || !Number.isFinite(end.getTime())) return [];
+  if (end < start) return [];
+  const out: string[] = [];
+  const cur = new Date(start);
+  while (cur <= end) {
+    out.push(isoDate(cur));
+    cur.setUTCDate(cur.getUTCDate() + 1);
+  }
+  return out;
+}
+
 export async function incrDaily(metric: string, by = 1): Promise<void> {
   const r = getRedis();
   if (!r) return;
@@ -96,10 +110,9 @@ export async function recordError(category: ErrorCategory, ctx: Record<string, u
   await pushRecent(`errors:${category}`, { ts: Date.now(), ...ctx }, 200);
 }
 
-export async function getDaily(metric: string, days: number): Promise<Array<{ date: string; value: number }>> {
+async function getDailyForDates(metric: string, dates: string[]): Promise<Array<{ date: string; value: number }>> {
   const r = getRedis();
-  const dates = lastNDates(days);
-  if (!r) return dates.map(date => ({ date, value: 0 }));
+  if (!r || dates.length === 0) return dates.map(date => ({ date, value: 0 }));
   const keys = dates.map(d => `${metric}:${d}`);
   const raw = await r.mget<(string | number | null)[]>(...keys);
   return dates.map((date, i) => {
@@ -109,22 +122,20 @@ export async function getDaily(metric: string, days: number): Promise<Array<{ da
   });
 }
 
-export async function getUniqueDaily(days: number): Promise<Array<{ date: string; value: number }>> {
+async function getUniqueForDates(dates: string[]): Promise<Array<{ date: string; value: number }>> {
   const r = getRedis();
-  const dates = lastNDates(days);
-  if (!r) return dates.map(date => ({ date, value: 0 }));
+  if (!r || dates.length === 0) return dates.map(date => ({ date, value: 0 }));
   const counts = await Promise.all(dates.map(d => r.scard(`visits:unique:${d}`)));
   return dates.map((date, i) => ({ date, value: Number(counts[i] ?? 0) }));
 }
 
-export async function getAdDaily(
+async function getAdForDates(
   kind: 'impressions' | 'clicks' | 'errors' | 'nofill' | 'quartile' | 'gate_open' | 'download_completed',
   networks: string[],
-  days: number,
+  dates: string[],
 ): Promise<Array<{ date: string; byNetwork: Record<string, number>; total: number }>> {
   const r = getRedis();
-  const dates = lastNDates(days);
-  if (!r) return dates.map(date => ({ date, byNetwork: {}, total: 0 }));
+  if (!r || dates.length === 0) return dates.map(date => ({ date, byNetwork: {}, total: 0 }));
   const keys: string[] = [];
   for (const d of dates) for (const n of networks) keys.push(`ads:${kind}:${n}:${d}`);
   const raw = keys.length ? await r.mget<(string | number | null)[]>(...keys) : [];
@@ -140,6 +151,39 @@ export async function getAdDaily(
     });
     return { date, byNetwork, total };
   });
+}
+
+export function getDaily(metric: string, days: number) {
+  return getDailyForDates(metric, lastNDates(days));
+}
+
+export function getDailyRange(metric: string, since: string, until: string) {
+  return getDailyForDates(metric, datesInRange(since, until));
+}
+
+export function getUniqueDaily(days: number) {
+  return getUniqueForDates(lastNDates(days));
+}
+
+export function getUniqueDailyRange(since: string, until: string) {
+  return getUniqueForDates(datesInRange(since, until));
+}
+
+export function getAdDaily(
+  kind: 'impressions' | 'clicks' | 'errors' | 'nofill' | 'quartile' | 'gate_open' | 'download_completed',
+  networks: string[],
+  days: number,
+) {
+  return getAdForDates(kind, networks, lastNDates(days));
+}
+
+export function getAdDailyRange(
+  kind: 'impressions' | 'clicks' | 'errors' | 'nofill' | 'quartile' | 'gate_open' | 'download_completed',
+  networks: string[],
+  since: string,
+  until: string,
+) {
+  return getAdForDates(kind, networks, datesInRange(since, until));
 }
 
 export async function getTopBooks(limit = 20): Promise<Array<{ slug: string; title: string; count: number }>> {

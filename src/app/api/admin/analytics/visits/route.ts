@@ -1,19 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { requireAdmin } from '@/lib/admin-api';
-import { getDaily, getRecent, getUniqueDaily, isConfigured } from '@/lib/redis';
-
-const PERIOD_DAYS: Record<string, number> = { '1d': 1, '7d': 7, '30d': 30 };
+import { getDailyRange, getRecent, getUniqueDailyRange, isConfigured } from '@/lib/redis';
+import { parseRangeFromSearchParams, rangeErrorResponse } from '@/lib/admin-range';
 
 export async function GET(req: NextRequest) {
   const denied = await requireAdmin(req, { bucket: 'analytics-visits', perMinute: 60 });
   if (denied) return denied;
 
-  const period = req.nextUrl.searchParams.get('period') || '7d';
-  const days = PERIOD_DAYS[period] ?? 7;
+  const parsed = parseRangeFromSearchParams(req.nextUrl.searchParams);
+  if ('error' in parsed) return rangeErrorResponse(parsed.error);
+  const { preset, since, until } = parsed;
 
   const [visits, unique, errors] = await Promise.all([
-    getDaily('visits', days),
-    getUniqueDaily(days),
+    getDailyRange('visits', since, until),
+    getUniqueDailyRange(since, until),
     getRecent('errors:visits', 50),
   ]);
 
@@ -27,8 +27,9 @@ export async function GET(req: NextRequest) {
   }));
 
   return NextResponse.json({
-    period,
-    days,
+    preset,
+    since,
+    until,
     configured: isConfigured(),
     totals: { visits: totalVisits, unique: totalUnique },
     byDay,

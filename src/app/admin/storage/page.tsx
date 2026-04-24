@@ -44,41 +44,43 @@ export default function StoragePage() {
   }, []);
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5 sm:space-y-6">
       <div>
-        <h1 className="text-2xl font-bold">☁️ Сховище</h1>
-        <p className="text-slate-400 text-sm">Cloudflare R2 — моніторинг використаного місця та ліміту</p>
+        <h1 className="text-xl sm:text-2xl font-bold">☁️ Сховище</h1>
+        <p className="text-slate-400 text-xs sm:text-sm">Cloudflare R2 — моніторинг використаного місця та ліміту</p>
       </div>
 
-      {loading && <div className="bg-[#1e293b] rounded-2xl p-6 h-32 animate-pulse border border-white/10" />}
-      {error && <p className="text-red-400 bg-red-500/10 rounded-xl p-4">{error}</p>}
+      {loading && <div className="bg-[#1e293b] rounded-2xl p-4 h-32 animate-pulse border border-white/10" />}
+      {error && <p className="text-red-400 bg-red-500/10 rounded-xl p-3 sm:p-4 text-sm">{error}</p>}
 
       {data && !loading && (
         <>
           {data.severity === 'critical' && (
-            <div className="bg-red-500/15 border border-red-500/40 rounded-xl p-5 text-red-200">
-              <h3 className="font-bold text-base mb-1">🚨 Перевищено ліміт сховища!</h3>
-              <p className="text-sm opacity-90">
-                Зайнято {data.totalGB} ГБ з {data.limitGB} ГБ ({data.percent}%). Нові скачування/аплоади можуть перестати працювати.
+            <div className="bg-red-500/15 border border-red-500/40 rounded-xl p-4 sm:p-5 text-red-200">
+              <h3 className="font-bold text-sm sm:text-base mb-1">🚨 Перевищено ліміт сховища!</h3>
+              <p className="text-xs sm:text-sm opacity-90">
+                Зайнято {data.totalGB} ГБ з {data.limitGB} ГБ ({data.percent}%). Нові аплоади можуть перестати працювати.
                 Терміново видаліть старі файли або підвищте тариф.
               </p>
             </div>
           )}
           {data.severity === 'warn' && (
-            <div className="bg-yellow-500/15 border border-yellow-500/40 rounded-xl p-5 text-yellow-200">
-              <h3 className="font-bold text-base mb-1">⚠️ Наближаємось до ліміту</h3>
-              <p className="text-sm opacity-90">
-                Зайнято {data.totalGB} ГБ з {data.limitGB} ГБ ({data.percent}%). Плануйте чистку сховища або перехід на платний тариф.
+            <div className="bg-yellow-500/15 border border-yellow-500/40 rounded-xl p-4 sm:p-5 text-yellow-200">
+              <h3 className="font-bold text-sm sm:text-base mb-1">⚠️ Наближаємось до ліміту</h3>
+              <p className="text-xs sm:text-sm opacity-90">
+                Зайнято {data.totalGB} ГБ з {data.limitGB} ГБ ({data.percent}%). Плануйте чистку сховища.
               </p>
             </div>
           )}
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <StatCard
               label="Зайнято"
               value={`${data.totalGB} GB`}
               color={data.severity === 'critical' ? 'text-red-400' : data.severity === 'warn' ? 'text-yellow-400' : 'text-emerald-400'}
               icon="💾"
+              size="lg"
+              sub={`${data.percent.toFixed(1)}%`}
             />
             <StatCard
               label="Ліміт"
@@ -95,25 +97,25 @@ export default function StoragePage() {
             />
           </div>
 
-          <div className="bg-[#1e293b] rounded-2xl p-6 border border-white/10 space-y-4">
-            <h3 className="font-semibold text-slate-200">Використання сховища</h3>
+          <div className="bg-[#1e293b] rounded-2xl p-4 sm:p-6 border border-white/10 space-y-4">
+            <h3 className="font-semibold text-slate-200 text-sm sm:text-base">Використання сховища</h3>
             <UsageBar used={data.totalGB} max={data.limitGB} label="R2 storage" unit=" GB" />
-            <div className="grid grid-cols-2 gap-4 text-sm pt-2">
-              <div className="flex justify-between">
-                <span className="text-slate-400">Джерело даних</span>
-                <span className="text-slate-200">{SOURCE_LABEL[data.source] ?? data.source}</span>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm pt-2">
+              <div className="flex flex-col gap-0.5">
+                <span className="text-slate-500 text-xs">Джерело даних</span>
+                <span className="text-slate-200 text-sm">{SOURCE_LABEL[data.source] ?? data.source}</span>
               </div>
-              <div className="flex justify-between">
-                <span className="text-slate-400">Поріг попередження</span>
-                <span className="text-slate-200">{data.warnThresholdGB} GB</span>
+              <div className="flex flex-col gap-0.5">
+                <span className="text-slate-500 text-xs">Поріг попередження</span>
+                <span className="text-slate-200 text-sm">{data.warnThresholdGB} GB</span>
               </div>
-              <div className="flex justify-between">
-                <span className="text-slate-400">Reads / місяць (Free)</span>
-                <span className="text-slate-200">10&nbsp;000&nbsp;000</span>
+              <div className="flex flex-col gap-0.5">
+                <span className="text-slate-500 text-xs">Reads / місяць (Free)</span>
+                <span className="text-slate-200 text-sm">10&nbsp;000&nbsp;000</span>
               </div>
-              <div className="flex justify-between">
-                <span className="text-slate-400">Writes / місяць (Free)</span>
-                <span className="text-slate-200">1&nbsp;000&nbsp;000</span>
+              <div className="flex flex-col gap-0.5">
+                <span className="text-slate-500 text-xs">Writes / місяць (Free)</span>
+                <span className="text-slate-200 text-sm">1&nbsp;000&nbsp;000</span>
               </div>
             </div>
             {data.note && <p className="text-yellow-400/70 text-xs">{data.note}</p>}

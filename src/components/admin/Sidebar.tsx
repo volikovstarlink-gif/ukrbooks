@@ -2,17 +2,14 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { ADMIN_NAV } from './nav';
 
-const NAV = [
-  { href: '/admin/overview', label: 'Огляд', icon: '📊' },
-  { href: '/admin/visits', label: 'Відвідування', icon: '👥' },
-  { href: '/admin/downloads', label: 'Скачування', icon: '📥' },
-  { href: '/admin/ads', label: 'Реклама', icon: '💰' },
-  { href: '/admin/storage', label: 'Сховище', icon: '☁️' },
-  { href: '/admin/reports', label: 'Скарги', icon: '🚩' },
-];
+interface SidebarProps {
+  open: boolean;
+  onClose: () => void;
+}
 
-export default function Sidebar() {
+export default function Sidebar({ open, onClose }: SidebarProps) {
   const pathname = usePathname();
   const router = useRouter();
   const [loggingOut, setLoggingOut] = useState(false);
@@ -29,25 +26,40 @@ export default function Sidebar() {
   }
 
   return (
-    <aside className="w-60 bg-[#111827] border-r border-white/10 flex flex-col">
-      <div className="px-5 py-5 border-b border-white/10">
-        <div className="flex items-center gap-2">
-          <span className="text-2xl">📚</span>
-          <div>
-            <h1 className="font-bold text-white text-sm">UkrBooks Admin</h1>
-            <p className="text-slate-500 text-[11px]">ukrbooks.ink</p>
+    <aside
+      className={`fixed inset-y-0 left-0 z-40 w-64 bg-[#111827] border-r border-white/10 flex flex-col transform transition-transform duration-200 ease-out ${
+        open ? 'translate-x-0' : '-translate-x-full'
+      } lg:translate-x-0`}
+      aria-hidden={!open}
+    >
+      <div className="px-5 py-4 border-b border-white/10 flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2 min-w-0">
+          <span className="text-2xl shrink-0">📚</span>
+          <div className="min-w-0">
+            <h1 className="font-bold text-white text-sm truncate">UkrBooks Admin</h1>
+            <p className="text-slate-500 text-[11px] truncate">ukrbooks.ink</p>
           </div>
         </div>
+        <button
+          onClick={onClose}
+          className="lg:hidden text-slate-400 hover:text-white text-xl px-2 -mr-2"
+          aria-label="Закрити меню"
+        >
+          ×
+        </button>
       </div>
-      <nav className="flex-1 py-3 space-y-1 px-2">
-        {NAV.map(item => {
-          const active = pathname === item.href || (item.href !== '/admin' && pathname?.startsWith(item.href));
+      <nav className="flex-1 py-3 space-y-1 px-2 overflow-y-auto">
+        {ADMIN_NAV.map(item => {
+          const active = pathname === item.href || (pathname !== null && pathname.startsWith(`${item.href}/`));
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors ${
-                active ? 'bg-blue-600/20 text-blue-300 border border-blue-500/30' : 'text-slate-300 hover:bg-white/5 hover:text-white'
+              onClick={onClose}
+              className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors ${
+                active
+                  ? 'bg-blue-600/20 text-blue-300 border border-blue-500/30'
+                  : 'text-slate-300 hover:bg-white/5 hover:text-white'
               }`}
             >
               <span className="text-base">{item.icon}</span>
