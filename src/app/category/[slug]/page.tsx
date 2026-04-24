@@ -129,7 +129,7 @@ export default async function CategoryPage({ params }: Props) {
                     className="inline-block px-5 py-2.5 rounded-lg font-semibold transition-colors"
                     style={{ background: 'var(--color-ink)', color: '#fff' }}
                   >
-                    Переглянути всі {pluralizeBooks(books.length)} →
+                    Переглянути всі {books.length.toLocaleString('uk-UA')} книги →
                   </Link>
                 </div>
               )}
