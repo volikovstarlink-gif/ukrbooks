@@ -8,7 +8,7 @@
   "year": null,
   "description": "Не можу створити опис без основної інформації про книгу. Вкажи будь ласка:\n- реальну назву\n- автора (хоча б прізвище)\n- приблизний рік видання або період\n- жанр або про що книга",
   "shortDescription": "Не можу створити опис без основної інформації про книгу.",
-  "coverImage": "/covers/placeholder.jpg",
+  "coverImage": "/covers/vazhko-buti-bogom-8132.jpg",
   "files": [
     {
       "format": "epub",
