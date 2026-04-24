@@ -106,13 +106,13 @@
         "slug": "ukrainian",
         "name": "Українська класика",
         "description": "Твори класиків української літератури",
-        "bookCount": 575
+        "bookCount": 558
       },
       {
         "slug": "foreign",
         "name": "Зарубіжна класика",
         "description": "Світова класична проза та драматургія",
-        "bookCount": 180
+        "bookCount": 197
       },
       {
         "slug": "antique",
