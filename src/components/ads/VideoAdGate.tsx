@@ -18,30 +18,8 @@ import {
 } from '@/lib/ads-analytics';
 import HouseAd from './HouseAd';
 
-const AD_POD_SIZE = 1;
+const AD_POD_SIZE = 2;
 const VIGNETTE_DURATION_SEC = 15;
-/** sessionStorage key — set after the user watches one preroll per browser
- *  session. Subsequent downloads/reader-opens skip the gate and go straight
- *  to the file. User directive 2026-04-24: "видео юзеру показувати один раз". */
-const SESSION_PREROLL_FLAG = 'ukr_preroll_done';
-
-/** Read the session flag safely (SSR-safe — returns false on the server). */
-function hasSeenPrerollThisSession(): boolean {
-  try {
-    if (typeof window === 'undefined' || !window.sessionStorage) return false;
-    return window.sessionStorage.getItem(SESSION_PREROLL_FLAG) === '1';
-  } catch {
-    return false;
-  }
-}
-
-function markPrerollSeen(): void {
-  try {
-    if (typeof window !== 'undefined' && window.sessionStorage) {
-      window.sessionStorage.setItem(SESSION_PREROLL_FLAG, '1');
-    }
-  } catch {}
-}
 
 type Phase =
   | 'intro'
@@ -67,42 +45,7 @@ interface VideoAdGateProps {
 
 export default function VideoAdGate(props: VideoAdGateProps) {
   if (!props.isOpen) return null;
-  // If the user already watched one preroll this session, skip straight to
-  // download / reader-open. Prevents the gate from appearing on every single
-  // download — first one funds the session, later ones are frictionless.
-  if (hasSeenPrerollThisSession()) {
-    return <SkipShim {...props} />;
-  }
   return <Inner {...props} />;
-}
-
-/** Fires the download / onComplete callback on mount without rendering a gate.
- *  Used when the session has already seen its one preroll. */
-function SkipShim({
-  downloadUrl,
-  fileName,
-  bookSlug,
-  onClose,
-  onComplete,
-}: Omit<VideoAdGateProps, 'isOpen'>) {
-  useEffect(() => {
-    if (onComplete) {
-      onComplete();
-      return;
-    }
-    const link = document.createElement('a');
-    link.href = downloadUrl;
-    link.download = fileName;
-    link.rel = 'noopener';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    trackDownloadCompleted(bookSlug, 0, 0);
-    const t = setTimeout(onClose, 200);
-    return () => clearTimeout(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-  return null;
 }
 
 function Inner({
@@ -141,11 +84,6 @@ function Inner({
   }, [bookSlug, format]);
 
   const triggerDownload = useCallback(() => {
-    // Mark the preroll as seen for this browser session — next download /
-    // reader-open will skip the gate. Set here (not on VAST complete) so that
-    // fallback-countdown paths also count as "user waited through an ad".
-    markPrerollSeen();
-
     // Reader flow: parent handles what "complete" means (e.g. render
     // BookReader). Don't touch files, don't fire download telemetry.
     if (onComplete) {
@@ -486,7 +424,7 @@ function Inner({
         <div className="px-6 pb-6">
           {phase === 'intro' && (
             <div className="text-center">
-              <p className="text-white font-bold text-xl mb-2">Перегляньте коротке оголошення</p>
+              <p className="text-white font-bold text-xl mb-2">Перегляньте два коротких оголошення</p>
               <p className="text-slate-300 text-base mb-1">
                 Реклама підтримує безкоштовну бібліотеку
               </p>
