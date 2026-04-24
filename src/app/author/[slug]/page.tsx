@@ -14,12 +14,15 @@ const SAMEAS_MAP = authorSameAs as unknown as Record<string, string[]>;
 
 interface Props { params: Promise<{ slug: string }>; }
 
-// All author pages SSG on-demand — avoids Vercel file-count limits at 3k+
-// authors. First visit generates + caches; subsequent visits are fast.
-export const dynamicParams = true;
-export async function generateStaticParams() {
-  return [];
-}
+// Author pages render on every request (no SSG cache). Previous setup —
+// `dynamicParams=true` + `generateStaticParams=[]` — 500'd on Vercel for
+// Cyrillic-slug authors because the on-demand SSG cache write of paths
+// containing characters like `ґ` `ї` `є` failed at the filesystem layer
+// (works locally on Next dev, fails on Vercel serverless). Forcing dynamic
+// keeps the original file-count goal (no prerender) without touching the
+// broken cache path. Per-request cost is a few hundred ms — acceptable
+// for a low-traffic author page.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug: rawSlug } = await params;
