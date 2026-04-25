@@ -6,6 +6,9 @@ export interface BookFile {
   filename: string;
   fileDir: string;
   sizeMb: number;
+  /** R2 object existence flag, set by scripts/check-r2-availability.mjs.
+   *  undefined = not yet checked (assume available); false = HEAD returned 404. */
+  available?: boolean;
 }
 
 export interface Book {
@@ -35,6 +38,12 @@ export interface Book {
   authorDeathYear?: number | null;
   /** AI-classification confidence: high = body-text match, medium = metadata-only, low = guessed fallback */
   categoryConfidence?: 'high' | 'medium' | 'low';
+  /** ISO 639-1 code of original language if this is a translation; null = original Ukrainian */
+  translatedFrom?: string | null;
+  /** Translator name(s), when credited */
+  translator?: string | null;
+  /** Classifier confidence: high = explicit marker, medium = clearly foreign author, low = guess */
+  translationConfidence?: 'high' | 'medium' | 'low';
 }
 
 export interface Subcategory {

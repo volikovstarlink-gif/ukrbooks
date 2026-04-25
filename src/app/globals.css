@@ -93,6 +93,14 @@ body {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
 }
+.book-card--unavailable {
+  opacity: 0.55;
+  filter: grayscale(0.4);
+}
+.book-card--unavailable:hover {
+  opacity: 0.78;
+  filter: grayscale(0.2);
+}
 
 /* ── Buttons ── */
 .btn {

@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
 
-type BadgeVariant = 'category' | 'format' | 'new' | 'featured' | 'language';
+type BadgeVariant = 'category' | 'format' | 'new' | 'featured' | 'language' | 'muted';
 
 interface BadgeProps {
   variant?: BadgeVariant;
@@ -14,6 +14,7 @@ const STYLES: Record<BadgeVariant, string> = {
   new: 'bg-green-100 text-green-800 border border-green-200',
   featured: 'bg-gold text-ink border border-gold',
   language: 'bg-gray-100 text-gray-700 border border-gray-200',
+  muted: 'bg-gray-700/85 text-white border border-gray-700',
 };
 
 export default function Badge({ variant = 'category', children, className }: BadgeProps) {

@@ -205,6 +205,7 @@ export default async function BookPage({ params }: Props) {
                   filename: getDownloadDisplayName(book.title, file.format),
                   sizeMb: file.sizeMb,
                   downloadUrl: getDownloadUrl(file.filename, file.fileDir),
+                  available: file.available,
                 }))}
                 bookTitle={book.title}
                 bookAuthor={book.author}

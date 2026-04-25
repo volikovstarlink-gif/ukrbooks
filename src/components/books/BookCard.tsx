@@ -13,9 +13,13 @@ const FORMAT_LABEL: Record<string, string> = { epub: 'EPUB', fb2: 'FB2', pdf: 'P
 
 export default function BookCard({ book, priority = false }: BookCardProps) {
   const formats = book.files.map((f) => f.format);
+  const allFilesUnavailable = book.files.length > 0 && book.files.every((f) => f.available === false);
 
   return (
-    <Link href={`/book/${book.slug}`} className="block book-card group">
+    <Link
+      href={`/book/${book.slug}`}
+      className={`block book-card group${allFilesUnavailable ? ' book-card--unavailable' : ''}`}
+    >
       {/* Cover */}
       <div className="relative aspect-[2/3] bg-gray-100 overflow-hidden">
         <Image
@@ -26,9 +30,14 @@ export default function BookCard({ book, priority = false }: BookCardProps) {
           className="object-cover group-hover:scale-105 transition-transform duration-300"
           priority={priority}
         />
-        {book.isNewArrival && (
+        {book.isNewArrival && !allFilesUnavailable && (
           <div className="absolute top-2 left-2">
             <Badge variant="new">Нове</Badge>
+          </div>
+        )}
+        {allFilesUnavailable && (
+          <div className="absolute top-2 right-2">
+            <Badge variant="muted">Тимчасово недоступна</Badge>
           </div>
         )}
       </div>

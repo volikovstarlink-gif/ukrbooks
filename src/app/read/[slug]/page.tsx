@@ -24,9 +24,10 @@ export default async function ReaderPage({ params }: Props) {
   if (!book) notFound();
 
   // Prefer EPUB (paginated reflow); fall back to PDF (fixed layout) so
-  // books that only ship a PDF can still be read online.
-  const epubFile = book.files.find((f) => f.format === 'epub');
-  const pdfFile = book.files.find((f) => f.format === 'pdf');
+  // books that only ship a PDF can still be read online. Skip files
+  // marked unavailable on R2 — we'd otherwise hand the reader a 404.
+  const epubFile = book.files.find((f) => f.format === 'epub' && f.available !== false);
+  const pdfFile = book.files.find((f) => f.format === 'pdf' && f.available !== false);
   const chosen = epubFile ?? pdfFile;
   if (!chosen) notFound();
 
