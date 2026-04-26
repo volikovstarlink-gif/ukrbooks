@@ -18,7 +18,7 @@ import {
 } from '@/lib/ads-analytics';
 import HouseAd from './HouseAd';
 
-const AD_POD_SIZE = 1;
+const AD_POD_SIZE = 2;
 const VIGNETTE_DURATION_SEC = 15;
 
 type Phase =
