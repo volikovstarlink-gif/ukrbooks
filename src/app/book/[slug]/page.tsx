@@ -13,7 +13,6 @@ import type { DownloadItem } from '@/components/download/DownloadSection';
 import DisplayBanner from '@/components/ads/DisplayBanner';
 import HilltopBanner from '@/components/ads/HilltopBanner';
 import InlineVideoAd from '@/components/ads/InlineVideoAd';
-import MgidWidget from '@/components/ads/MgidWidget';
 import BookReportButton from '@/components/contact/BookReportButton';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://ukrbooks.ink';
@@ -294,8 +293,6 @@ export default async function BookPage({ params }: Props) {
             {/* Feedback CTA — placed above all ad banners so users see it
                 before scrolling past sponsored content. */}
             <BookReportButton bookTitle={book.title} variant="sidebar" />
-
-            <MgidWidget placement="book-sidebar" />
 
             {/* Desktop-only 300x250 sponsor banner — right sidebar.
                 Hidden on mobile (<lg) where the same zone renders under
