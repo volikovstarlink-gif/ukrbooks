@@ -33,8 +33,8 @@ export default function BarChartCard({
     <div className="bg-[#1e293b] rounded-2xl p-4 sm:p-6 border border-white/10">
       <h3 className="font-semibold mb-4 text-slate-200 text-sm sm:text-base">{title}</h3>
       {hasData ? (
-        <div style={{ height: resolvedHeight }} className="w-full">
-          <ResponsiveContainer width="100%" height="100%">
+        <div style={{ height: resolvedHeight, minWidth: 0 }} className="w-full">
+          <ResponsiveContainer width="100%" height="100%" minWidth={0}>
             <BarChart
               data={displayData}
               layout={isVertical ? 'vertical' : 'horizontal'}

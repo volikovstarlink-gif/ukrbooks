@@ -21,8 +21,8 @@ export default function LineChartCard({ title, data, xKey, series, empty }: Line
     <div className="bg-[#1e293b] rounded-2xl p-4 sm:p-6 border border-white/10">
       <h3 className="font-semibold mb-4 text-slate-200 text-sm sm:text-base">{title}</h3>
       {hasData ? (
-        <div className="h-[220px] sm:h-[280px] -ml-2 sm:ml-0">
-          <ResponsiveContainer width="100%" height="100%">
+        <div className="h-[220px] sm:h-[280px] -ml-2 sm:ml-0" style={{ minWidth: 0 }}>
+          <ResponsiveContainer width="100%" height="100%" minWidth={0}>
             <LineChart data={data} margin={{ top: 5, right: 8, left: -10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
               <XAxis dataKey={xKey} stroke="#94a3b8" tick={{ fontSize: 10 }} minTickGap={20} />
