@@ -33,6 +33,38 @@ interface OverviewData {
 export default function OverviewPage() {
   const [data, setData] = useState<OverviewData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [resetting, setResetting] = useState(false);
+  const [resetMsg, setResetMsg] = useState<string | null>(null);
+  const [reloadKey, setReloadKey] = useState(0);
+
+  async function handleReset() {
+    const confirmed = window.confirm(
+      'Скинути всю статистику в адмінці?\n\n' +
+        'Буде очищено:\n' +
+        '• відвідування (всі дати)\n' +
+        '• скачування (лічильники, топ-книги, останні події)\n' +
+        '• реклама (всі мережі, покази, кліки, помилки)\n' +
+        '• журнал помилок\n\n' +
+        'Дію не можна скасувати — рахунки підуть з нуля від сьогодні.',
+    );
+    if (!confirmed) return;
+    setResetting(true);
+    setResetMsg(null);
+    try {
+      const res = await fetch('/api/admin/analytics/reset', { method: 'POST' });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        setResetMsg(`❌ Помилка: ${body.error ?? res.status}`);
+      } else {
+        setResetMsg(`✅ Скинуто ${body.total ?? 0} ключів. Рахунок з ${new Date().toLocaleDateString('uk-UA')}.`);
+        setReloadKey((k) => k + 1);
+      }
+    } catch (e) {
+      setResetMsg(`❌ Помилка мережі: ${String(e)}`);
+    } finally {
+      setResetting(false);
+    }
+  }
 
   useEffect(() => {
     async function load() {
@@ -74,7 +106,7 @@ export default function OverviewPage() {
       }
     }
     load();
-  }, []);
+  }, [reloadKey]);
 
   const chartData = data
     ? data.byDay.map((d, i) => ({
@@ -224,6 +256,28 @@ export default function OverviewPage() {
               />
             </div>
           )}
+
+          <div className="bg-red-500/5 border border-red-500/20 rounded-2xl p-4 sm:p-5">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              <div>
+                <h3 className="font-semibold text-red-300 text-sm sm:text-base">⚠️ Скинути статистику</h3>
+                <p className="text-xs text-slate-400 mt-1 max-w-xl">
+                  Очистити всі історичні дані (візити, скачування, реклама, помилки). Дію не можна скасувати — рахунок піде з нуля від сьогодні.
+                </p>
+                {resetMsg && (
+                  <p className="text-xs mt-2 text-slate-300">{resetMsg}</p>
+                )}
+              </div>
+              <button
+                type="button"
+                onClick={handleReset}
+                disabled={resetting}
+                className="px-4 py-2.5 rounded-xl text-sm font-semibold bg-red-600 hover:bg-red-700 disabled:bg-red-900 disabled:cursor-not-allowed text-white transition-colors whitespace-nowrap"
+              >
+                {resetting ? 'Скидаю…' : 'Скинути всю статистику'}
+              </button>
+            </div>
+          </div>
 
           <div className="bg-[#1e293b] rounded-2xl p-4 sm:p-6 border border-white/10">
             <h3 className="font-semibold mb-3 text-slate-200 text-sm sm:text-base">🔗 Зовнішні сервіси</h3>

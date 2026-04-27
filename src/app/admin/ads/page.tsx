@@ -23,26 +23,27 @@ type GroupRow = {
   placements: PlacementRow[];
 };
 
+// Label map for ad-network groupings. We only surface SSPs the site
+// actually uses. Adsterra was removed from the codebase (commit e037b674);
+// Monetag's service-worker-push flow was dropped too (kill-monetag-sw…).
+// Any stray legacy events from those networks fall through to 'other' now
+// so old metadata can't disguise itself as a live revenue channel.
 const GROUP_LABELS: Record<string, string> = {
-  adsterra: 'Adsterra',
   hilltopads: 'HilltopAds',
   medianet: 'Media.net',
   house: 'House ads (власні)',
   vast: 'VAST (відео)',
   gate: 'Ad Gate',
-  monetag: 'Monetag',
   other: 'Інше',
 };
 
 function groupKey(network: string): string {
   const n = network.toLowerCase();
-  if (n.startsWith('adsterra')) return 'adsterra';
   if (n.startsWith('hilltopads') || n === 'hilltopads' || n.startsWith('hilltop')) return 'hilltopads';
   if (n.startsWith('medianet')) return 'medianet';
   if (n.startsWith('house_') || n.startsWith('house-')) return 'house';
   if (n.startsWith('vast') || n.includes('_vast')) return 'vast';
   if (n === 'gate') return 'gate';
-  if (n === 'monetag') return 'monetag';
   return 'other';
 }
 

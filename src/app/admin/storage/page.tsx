@@ -20,6 +20,7 @@ const SOURCE_LABEL: Record<string, string> = {
   'r2-api': 'Cloudflare R2 API',
   'local-fs': 'Локальна файлова система (dev)',
   'fallback': 'Резервні дані',
+  'unavailable': 'Недоступно — перевірте налаштування',
 };
 
 export default function StoragePage() {

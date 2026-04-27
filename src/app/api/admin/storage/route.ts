@@ -87,10 +87,11 @@ export async function GET(req: NextRequest) {
   if (denied) return denied;
 
   const result = (await fetchR2()) ?? (await fetchLocalFS()) ?? {
-    totalGB: 9.746,
-    fileCount: 8401,
-    source: 'fallback',
-    note: 'R2 API недоступний і BOOKS_DIR не знайдено — показано приблизні значення',
+    totalGB: 0,
+    fileCount: 0,
+    source: 'unavailable',
+    note:
+      'Дані про сховище зараз недоступні — R2 API не відповідає і локальна папка BOOKS_DIR не налаштована. Реальний обсяг перевірте в Cloudflare Dashboard → R2.',
   };
 
   const percent = (result.totalGB / STORAGE_LIMIT_GB) * 100;
