@@ -73,6 +73,8 @@ export default function AdsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+  const [cleaning, setCleaning] = useState(false);
+  const [cleanMsg, setCleanMsg] = useState<string | null>(null);
 
   const groups = useMemo<GroupRow[]>(() => {
     if (!data) return [];
@@ -120,6 +122,26 @@ export default function AdsPage() {
       setLoading(false);
     }
   }, [range]);
+
+  async function handleCleanStale() {
+    if (!confirm('Видалити старі рекламні мережі (Adsterra, MGID, обрізані імена)? Реальні лічильники HilltopAds/house залишаться.')) return;
+    setCleaning(true);
+    setCleanMsg(null);
+    try {
+      const res = await fetch('/api/admin/analytics/reset?scope=ads-networks-stale', { method: 'POST' });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        setCleanMsg(`❌ Помилка: ${body.error ?? res.status}`);
+      } else {
+        setCleanMsg(`✅ Видалено ${body.removed ?? 0} мереж, ${body.keysDeleted ?? 0} лічильників`);
+        fetchData();
+      }
+    } catch (e) {
+      setCleanMsg(`❌ Мережа: ${String(e)}`);
+    } finally {
+      setCleaning(false);
+    }
+  }
 
   useEffect(() => {
     fetchData();
@@ -213,10 +235,22 @@ export default function AdsPage() {
           <div className="bg-[#1e293b] rounded-2xl p-4 sm:p-6 border border-white/10">
             <div className="flex items-baseline justify-between mb-3 flex-wrap gap-2">
               <h3 className="font-semibold text-slate-200 text-sm sm:text-base">📊 По мережах</h3>
-              <p className="text-[11px] text-slate-500">
-                Кліки по iframe-банерах — приблизно (евристика blur).
-              </p>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={handleCleanStale}
+                  disabled={cleaning}
+                  className="px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 disabled:opacity-50"
+                  title="Видалити Adsterra, MGID, обрізані імена з історії"
+                >
+                  {cleaning ? 'Чищу…' : '🧹 Очистити старі'}
+                </button>
+                <p className="text-[11px] text-slate-500">
+                  Кліки по iframe-банерах — приблизно (blur евристика).
+                </p>
+              </div>
             </div>
+            {cleanMsg && <p className="text-[11px] text-slate-300 mb-2">{cleanMsg}</p>}
             {groups.length === 0 ? (
               <p className="text-slate-500 text-sm py-4 text-center">Немає даних про рекламні мережі</p>
             ) : (
