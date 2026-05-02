@@ -4,6 +4,7 @@ import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import MaintenanceOverlay from '@/components/layout/MaintenanceOverlay';
 import VisitTracker from '@/components/analytics/VisitTracker';
 import ConsentBanner from '@/components/analytics/ConsentBanner';
 
@@ -98,6 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <VisitTracker />
         <ConsentBanner />
+        <MaintenanceOverlay />
         {/* Consent Mode v2: default-deny BEFORE any ad/analytics script loads.
             ConsentBanner flips to granted based on user choice. Runs even without
             GA_ID because AdSense and other loaders also respect dataLayer consent. */}
